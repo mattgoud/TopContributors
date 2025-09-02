@@ -10,7 +10,7 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 9482,
+        "contributions": 9494,
         "repositories": {
             "PrestaShop": 1025,
             "PrestaShop-modules": 2,
@@ -567,7 +567,7 @@
         "email_domain": "",
         "contributions": 6899,
         "repositories": {
-            "PrestaShop": 664,
+            "PrestaShop": 665,
             "dashproducts": 1,
             "blockwishlist": 3,
             "productcomments": 10,
@@ -616,9 +616,9 @@
         },
         "categories": {
             "core": {
-                "total": 700,
+                "total": 701,
                 "repositories": {
-                    "PrestaShop": 664,
+                    "PrestaShop": 665,
                     "prestashop-ui-kit": 10,
                     "TranslationToolsBundle": 3,
                     "TranslationFiles": 12,
@@ -706,7 +706,7 @@
                 }
             }
         },
-        "mergedPullRequests": 1025
+        "mergedPullRequests": 1026
     },
     "Quetzacoalt91": {
         "login": "Quetzacoalt91",
@@ -719,14 +719,14 @@
         "location": "London",
         "bio": null,
         "email_domain": "",
-        "contributions": 4675,
+        "contributions": 4678,
         "repositories": {
             "PrestaShop": 393,
             "PrestaShop-modules": 14,
             "graphnvd3": 3,
             "statscheckup": 1,
             "blockwishlist": 17,
-            "autoupgrade": 222,
+            "autoupgrade": 223,
             "gsitemap": 2,
             "prestashop.github.io": 6,
             "docker": 86,
@@ -807,13 +807,13 @@
                 }
             },
             "modules": {
-                "total": 322,
+                "total": 323,
                 "repositories": {
                     "PrestaShop-modules": 14,
                     "graphnvd3": 3,
                     "statscheckup": 1,
                     "blockwishlist": 17,
-                    "autoupgrade": 222,
+                    "autoupgrade": 223,
                     "gsitemap": 2,
                     "contactform": 1,
                     "pstagger": 1,
@@ -878,7 +878,7 @@
                 }
             }
         },
-        "mergedPullRequests": 1011
+        "mergedPullRequests": 1012
     },
     "PierreRambaud": {
         "login": "PierreRambaud",
@@ -3157,7 +3157,7 @@
         "email_domain": "protonmail.com",
         "contributions": 2331,
         "repositories": {
-            "PrestaShop": 206,
+            "PrestaShop": 207,
             "PrestaShop-modules": 2,
             "dashactivity": 1,
             "dashproducts": 1,
@@ -3195,9 +3195,9 @@
         },
         "categories": {
             "core": {
-                "total": 211,
+                "total": 212,
                 "repositories": {
-                    "PrestaShop": 206,
+                    "PrestaShop": 207,
                     "prestashop-ui-kit": 1,
                     "TranslationFiles": 1,
                     "jquery.live-polyfill": 3
@@ -3274,7 +3274,7 @@
                 }
             }
         },
-        "mergedPullRequests": 303
+        "mergedPullRequests": 304
     },
     "gRoussac": {
         "login": "gRoussac",
@@ -4327,7 +4327,7 @@
         "email_domain": "",
         "contributions": 1270,
         "repositories": {
-            "PrestaShop": 108,
+            "PrestaShop": 109,
             "blockwishlist": 6,
             "autoupgrade": 1,
             "gsitemap": 1,
@@ -4358,9 +4358,9 @@
         },
         "categories": {
             "core": {
-                "total": 110,
+                "total": 111,
                 "repositories": {
-                    "PrestaShop": 108,
+                    "PrestaShop": 109,
                     "LocalizationFiles": 2
                 }
             },
@@ -4430,7 +4430,7 @@
                 }
             }
         },
-        "mergedPullRequests": 173
+        "mergedPullRequests": 174
     },
     "MathiasReker": {
         "login": "MathiasReker",
