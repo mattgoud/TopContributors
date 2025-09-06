@@ -10,9 +10,9 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 9522,
+        "contributions": 9525,
         "repositories": {
-            "PrestaShop": 1028,
+            "PrestaShop": 1029,
             "PrestaShop-modules": 2,
             "PrestaShop-webservice-lib": 1,
             "dashactivity": 4,
@@ -121,9 +121,9 @@
         },
         "categories": {
             "core": {
-                "total": 1042,
+                "total": 1043,
                 "repositories": {
-                    "PrestaShop": 1028,
+                    "PrestaShop": 1029,
                     "prestashop-ui-kit": 1,
                     "TranslationToolsBundle": 2,
                     "TranslationFiles": 3,
@@ -272,7 +272,7 @@
                 }
             }
         },
-        "mergedPullRequests": 2058
+        "mergedPullRequests": 2059
     },
     "matks": {
         "login": "matks",
@@ -719,7 +719,7 @@
         "location": "London",
         "bio": null,
         "email_domain": "",
-        "contributions": 4683,
+        "contributions": 4685,
         "repositories": {
             "PrestaShop": 393,
             "PrestaShop-modules": 14,
@@ -2649,7 +2649,7 @@
         "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/9074610?v=4",
         "html_url": "https:\/\/github.com\/aleeks",
         "name": "Alex Sampaio",
-        "company": "@campings-group",
+        "company": "@sezane",
         "blog": "",
         "location": "Paris",
         "bio": null,
@@ -3155,7 +3155,7 @@
         "location": "Lille, France",
         "bio": null,
         "email_domain": "protonmail.com",
-        "contributions": 2335,
+        "contributions": 2336,
         "repositories": {
             "PrestaShop": 207,
             "PrestaShop-modules": 2,
@@ -3164,7 +3164,7 @@
             "productcomments": 1,
             "autoupgrade": 16,
             "prestashop.github.io": 5,
-            "docker": 12,
+            "docker": 13,
             "contactform": 1,
             "prestashop-ui-kit": 1,
             "blockreassurance": 3,
@@ -3247,9 +3247,9 @@
                 }
             },
             "tools": {
-                "total": 22,
+                "total": 23,
                 "repositories": {
-                    "docker": 12,
+                    "docker": 13,
                     "traces": 1,
                     "issuebot": 8,
                     "mjml-theme-converter": 1
@@ -3274,7 +3274,7 @@
                 }
             }
         },
-        "mergedPullRequests": 305
+        "mergedPullRequests": 306
     },
     "gRoussac": {
         "login": "gRoussac",
@@ -5201,7 +5201,7 @@
             "ps_searchbar": 1,
             "traces": 1,
             "open-source": 1,
-            "hummingbird": 46,
+            "hummingbird": 47,
             "classic-theme": 1,
             "bootstrap-compatibility-layer": 4,
             "Prestashop-BO-themes-package": 3
@@ -5226,9 +5226,9 @@
                 }
             },
             "themes": {
-                "total": 47,
+                "total": 48,
                 "repositories": {
-                    "hummingbird": 46,
+                    "hummingbird": 47,
                     "classic-theme": 1
                 }
             },
@@ -5265,7 +5265,7 @@
                 }
             }
         },
-        "mergedPullRequests": 136
+        "mergedPullRequests": 137
     },
     "jocel1": {
         "login": "jocel1",
