@@ -2032,7 +2032,7 @@
             "example-modules": 5,
             "ps_qualityassurance": 1,
             "ps-org-theme": 4,
-            "hummingbird": 2,
+            "hummingbird": 3,
             "ps-docs-theme": 11,
             "devdocs-site": 5,
             "ga.tests.ui.pr": 1,
@@ -2067,11 +2067,11 @@
                 }
             },
             "themes": {
-                "total": 14,
+                "total": 15,
                 "repositories": {
                     "StarterTheme": 3,
                     "community-theme-16": 5,
-                    "hummingbird": 2,
+                    "hummingbird": 3,
                     "classic-theme": 4
                 }
             },
@@ -2135,7 +2135,7 @@
                 }
             }
         },
-        "mergedPullRequests": 490
+        "mergedPullRequests": 491
     },
     "atomiix": {
         "login": "atomiix",
@@ -2459,7 +2459,7 @@
         "email_domain": "prestaedit.com",
         "contributions": 627,
         "repositories": {
-            "PrestaShop": 219,
+            "PrestaShop": 220,
             "PrestaShop-modules": 4,
             "PrestaShop-webservice-lib": 1,
             "dashactivity": 1,
@@ -2530,9 +2530,9 @@
         },
         "categories": {
             "core": {
-                "total": 219,
+                "total": 220,
                 "repositories": {
-                    "PrestaShop": 219
+                    "PrestaShop": 220
                 }
             },
             "specs": {
@@ -2641,7 +2641,7 @@
                 "repositories": []
             }
         },
-        "mergedPullRequests": 413
+        "mergedPullRequests": 414
     },
     "aleeks": {
         "login": "aleeks",
@@ -2984,7 +2984,7 @@
         "email_domain": "",
         "contributions": 483,
         "repositories": {
-            "PrestaShop": 97,
+            "PrestaShop": 98,
             "blockwishlist": 1,
             "productcomments": 5,
             "autoupgrade": 130,
@@ -3010,9 +3010,9 @@
         },
         "categories": {
             "core": {
-                "total": 98,
+                "total": 99,
                 "repositories": {
-                    "PrestaShop": 97,
+                    "PrestaShop": 98,
                     "TranslationToolsBundle": 1
                 }
             },
@@ -3074,7 +3074,7 @@
                 }
             }
         },
-        "mergedPullRequests": 325
+        "mergedPullRequests": 326
     },
     "djfm": {
         "login": "djfm",
