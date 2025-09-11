@@ -10,7 +10,7 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 9551,
+        "contributions": 9553,
         "repositories": {
             "PrestaShop": 1031,
             "PrestaShop-modules": 2,
@@ -86,7 +86,7 @@
             "ps_dataprivacy": 5,
             "ps_cashondelivery": 17,
             "ps_viewedproduct": 3,
-            "traces": 33,
+            "traces": 34,
             "core-weekly-generator": 1,
             "TopContributors": 41,
             "TranslationFiles": 3,
@@ -234,7 +234,7 @@
                 }
             },
             "tools": {
-                "total": 195,
+                "total": 196,
                 "repositories": {
                     "PrestaShop-webservice-lib": 1,
                     "docker": 14,
@@ -242,7 +242,7 @@
                     "docker-internal-images": 1,
                     "prestonbot": 1,
                     "TopTranslators": 1,
-                    "traces": 33,
+                    "traces": 34,
                     "core-weekly-generator": 1,
                     "TopContributors": 41,
                     "issuebot": 2,
@@ -272,7 +272,7 @@
                 }
             }
         },
-        "mergedPullRequests": 2063
+        "mergedPullRequests": 2064
     },
     "matks": {
         "login": "matks",
@@ -719,7 +719,7 @@
         "location": "London",
         "bio": null,
         "email_domain": "",
-        "contributions": 4708,
+        "contributions": 4709,
         "repositories": {
             "PrestaShop": 394,
             "PrestaShop-modules": 14,
@@ -6475,6 +6475,85 @@
         },
         "mergedPullRequests": 93
     },
+    "Codencode": {
+        "login": "Codencode",
+        "id": 2463965,
+        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/2463965?v=4",
+        "html_url": "https:\/\/github.com\/Codencode",
+        "name": "Paolo Cunti @codencode",
+        "company": "Codencode",
+        "blog": "https:\/\/www.codencode.it",
+        "location": "Via Giuseppe Saragat, 19 86170 Isernia - ITALIA",
+        "bio": "Siamo un'agenzia di Branding, Comunicazione e Marketing.\r\nRealizziamo progetti di comunicazione visiva brand-oriented, web design e web marketing.",
+        "email_domain": "codencode.it",
+        "contributions": 142,
+        "repositories": {
+            "PrestaShop": 68,
+            "dashactivity": 1,
+            "autoupgrade": 3,
+            "blockreassurance": 1,
+            "ps_emailsubscription": 3,
+            "ps_imageslider": 2,
+            "ps_mainmenu": 1,
+            "ps_facetedsearch": 1,
+            "LocalizationFiles": 1,
+            "hummingbird": 1,
+            "classic-theme": 2
+        },
+        "categories": {
+            "core": {
+                "total": 69,
+                "repositories": {
+                    "PrestaShop": 68,
+                    "LocalizationFiles": 1
+                }
+            },
+            "specs": {
+                "total": 0,
+                "repositories": []
+            },
+            "documentation": {
+                "total": 0,
+                "repositories": []
+            },
+            "themes": {
+                "total": 3,
+                "repositories": {
+                    "hummingbird": 1,
+                    "classic-theme": 2
+                }
+            },
+            "modules": {
+                "total": 12,
+                "repositories": {
+                    "dashactivity": 1,
+                    "autoupgrade": 3,
+                    "blockreassurance": 1,
+                    "ps_emailsubscription": 3,
+                    "ps_imageslider": 2,
+                    "ps_mainmenu": 1,
+                    "ps_facetedsearch": 1
+                }
+            },
+            "tools": {
+                "total": 0,
+                "repositories": []
+            },
+            "tests": {
+                "total": 0,
+                "repositories": []
+            },
+            "blog": {
+                "total": 0,
+                "repositories": []
+            },
+            "others": {
+                "total": 0,
+                "repositories": []
+            }
+        },
+        "mergedPullRequests": 84
+    },
     "cdesiles": {
         "login": "cdesiles",
         "id": 1536672,
@@ -6530,85 +6609,6 @@
                     "prestashop-flashlight": 82,
                     "ws-client": 1
                 }
-            }
-        },
-        "mergedPullRequests": 83
-    },
-    "Codencode": {
-        "login": "Codencode",
-        "id": 2463965,
-        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/2463965?v=4",
-        "html_url": "https:\/\/github.com\/Codencode",
-        "name": "Paolo Cunti @codencode",
-        "company": "Codencode",
-        "blog": "https:\/\/www.codencode.it",
-        "location": "Via Giuseppe Saragat, 19 86170 Isernia - ITALIA",
-        "bio": "Siamo un'agenzia di Branding, Comunicazione e Marketing.\r\nRealizziamo progetti di comunicazione visiva brand-oriented, web design e web marketing.",
-        "email_domain": "codencode.it",
-        "contributions": 142,
-        "repositories": {
-            "PrestaShop": 67,
-            "dashactivity": 1,
-            "autoupgrade": 3,
-            "blockreassurance": 1,
-            "ps_emailsubscription": 3,
-            "ps_imageslider": 2,
-            "ps_mainmenu": 1,
-            "ps_facetedsearch": 1,
-            "LocalizationFiles": 1,
-            "hummingbird": 1,
-            "classic-theme": 2
-        },
-        "categories": {
-            "core": {
-                "total": 68,
-                "repositories": {
-                    "PrestaShop": 67,
-                    "LocalizationFiles": 1
-                }
-            },
-            "specs": {
-                "total": 0,
-                "repositories": []
-            },
-            "documentation": {
-                "total": 0,
-                "repositories": []
-            },
-            "themes": {
-                "total": 3,
-                "repositories": {
-                    "hummingbird": 1,
-                    "classic-theme": 2
-                }
-            },
-            "modules": {
-                "total": 12,
-                "repositories": {
-                    "dashactivity": 1,
-                    "autoupgrade": 3,
-                    "blockreassurance": 1,
-                    "ps_emailsubscription": 3,
-                    "ps_imageslider": 2,
-                    "ps_mainmenu": 1,
-                    "ps_facetedsearch": 1
-                }
-            },
-            "tools": {
-                "total": 0,
-                "repositories": []
-            },
-            "tests": {
-                "total": 0,
-                "repositories": []
-            },
-            "blog": {
-                "total": 0,
-                "repositories": []
-            },
-            "others": {
-                "total": 0,
-                "repositories": []
             }
         },
         "mergedPullRequests": 83
@@ -8623,7 +8623,7 @@
             "prestashop-ui-kit": 1,
             "docker-internal-images": 1,
             "open-source": 1,
-            "hummingbird": 2,
+            "hummingbird": 3,
             "classic-theme": 2,
             "ps_distributionapiclient": 9,
             "zip-archives": 1
@@ -8647,9 +8647,9 @@
                 }
             },
             "themes": {
-                "total": 4,
+                "total": 5,
                 "repositories": {
-                    "hummingbird": 2,
+                    "hummingbird": 3,
                     "classic-theme": 2
                 }
             },
@@ -8682,7 +8682,7 @@
                 }
             }
         },
-        "mergedPullRequests": 35
+        "mergedPullRequests": 36
     },
     "idnovate": {
         "login": "idnovate",
@@ -11631,7 +11631,7 @@
         "email_domain": "gmail.com",
         "contributions": 103,
         "repositories": {
-            "PrestaShop": 15,
+            "PrestaShop": 16,
             "blockwishlist": 1,
             "autoupgrade": 1,
             "docker": 1,
@@ -11639,9 +11639,9 @@
         },
         "categories": {
             "core": {
-                "total": 16,
+                "total": 17,
                 "repositories": {
-                    "PrestaShop": 15,
+                    "PrestaShop": 16,
                     "php-dev-tools": 1
                 }
             },
@@ -11683,7 +11683,7 @@
                 "repositories": []
             }
         },
-        "mergedPullRequests": 19
+        "mergedPullRequests": 20
     },
     "indesign47": {
         "login": "indesign47",
@@ -43953,7 +43953,7 @@
         "id": 61692860,
         "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/61692860?v=4",
         "html_url": "https:\/\/github.com\/micreas",
-        "name": "Mihaal Databaasa",
+        "name": null,
         "company": null,
         "blog": "",
         "location": null,
