@@ -10,7 +10,7 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 9557,
+        "contributions": 9558,
         "repositories": {
             "PrestaShop": 1031,
             "PrestaShop-modules": 2,
@@ -11625,7 +11625,7 @@
         "html_url": "https:\/\/github.com\/PoulainMaxime",
         "name": "Poulinho",
         "company": "PrestaShop",
-        "blog": "",
+        "blog": "https:\/\/www.maxime-poulain.dev\/",
         "location": null,
         "bio": "French fullstack developper (Node \/ Vue)",
         "email_domain": "gmail.com",
@@ -23713,6 +23713,66 @@
                 "total": 1,
                 "repositories": {
                     "PrestaShop-webservice-lib": 1
+                }
+            },
+            "tests": {
+                "total": 0,
+                "repositories": []
+            },
+            "blog": {
+                "total": 0,
+                "repositories": []
+            },
+            "others": {
+                "total": 0,
+                "repositories": []
+            }
+        },
+        "mergedPullRequests": 3
+    },
+    "Jeremie-Kiwik": {
+        "login": "Jeremie-Kiwik",
+        "id": 129875339,
+        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/129875339?v=4",
+        "html_url": "https:\/\/github.com\/Jeremie-Kiwik",
+        "name": "J\u00e9r\u00e9mie LEGRAND",
+        "company": "KIWIK",
+        "blog": "kiwik.com",
+        "location": "Orl\u00e9ans",
+        "bio": null,
+        "email_domain": "",
+        "contributions": 4,
+        "repositories": {
+            "PrestaShop": 2,
+            "traces": 1
+        },
+        "categories": {
+            "core": {
+                "total": 2,
+                "repositories": {
+                    "PrestaShop": 2
+                }
+            },
+            "specs": {
+                "total": 0,
+                "repositories": []
+            },
+            "documentation": {
+                "total": 0,
+                "repositories": []
+            },
+            "themes": {
+                "total": 0,
+                "repositories": []
+            },
+            "modules": {
+                "total": 0,
+                "repositories": []
+            },
+            "tools": {
+                "total": 1,
+                "repositories": {
+                    "traces": 1
                 }
             },
             "tests": {
