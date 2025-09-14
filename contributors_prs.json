@@ -10,7 +10,7 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 9558,
+        "contributions": 9559,
         "repositories": {
             "PrestaShop": 1032,
             "PrestaShop-modules": 2,
@@ -6488,7 +6488,7 @@
         "email_domain": "codencode.it",
         "contributions": 143,
         "repositories": {
-            "PrestaShop": 68,
+            "PrestaShop": 69,
             "dashactivity": 1,
             "autoupgrade": 3,
             "blockreassurance": 1,
@@ -6502,9 +6502,9 @@
         },
         "categories": {
             "core": {
-                "total": 69,
+                "total": 70,
                 "repositories": {
-                    "PrestaShop": 68,
+                    "PrestaShop": 69,
                     "LocalizationFiles": 1
                 }
             },
@@ -6552,7 +6552,7 @@
                 "repositories": []
             }
         },
-        "mergedPullRequests": 84
+        "mergedPullRequests": 85
     },
     "cdesiles": {
         "login": "cdesiles",
