@@ -10,7 +10,7 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 9559,
+        "contributions": 9562,
         "repositories": {
             "PrestaShop": 1032,
             "PrestaShop-modules": 2,
@@ -4249,7 +4249,7 @@
         "location": null,
         "bio": "Founder of @wallabag. ",
         "email_domain": "",
-        "contributions": 1294,
+        "contributions": 1297,
         "repositories": {
             "PrestaShop": 113,
             "blockwishlist": 6,
@@ -5418,7 +5418,7 @@
         "location": "74100 Annemasse, France",
         "bio": null,
         "email_domain": "",
-        "contributions": 978,
+        "contributions": 980,
         "repositories": {
             "PrestaShop": 3,
             "autoupgrade": 95,
@@ -5427,7 +5427,7 @@
             "ps_wirepayment": 1,
             "traces": 1,
             "hummingbird": 8,
-            "distribution-api": 9,
+            "distribution-api": 10,
             "bootstrap-compatibility-layer": 6
         },
         "categories": {
@@ -5478,13 +5478,13 @@
                 }
             },
             "others": {
-                "total": 9,
+                "total": 10,
                 "repositories": {
-                    "distribution-api": 9
+                    "distribution-api": 10
                 }
             }
         },
-        "mergedPullRequests": 130
+        "mergedPullRequests": 131
     },
     "Julievrz": {
         "login": "Julievrz",
