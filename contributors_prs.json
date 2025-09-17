@@ -10,7 +10,7 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 9570,
+        "contributions": 9574,
         "repositories": {
             "PrestaShop": 1034,
             "PrestaShop-modules": 2,
@@ -86,7 +86,7 @@
             "ps_dataprivacy": 5,
             "ps_cashondelivery": 17,
             "ps_viewedproduct": 3,
-            "traces": 34,
+            "traces": 35,
             "core-weekly-generator": 1,
             "TopContributors": 41,
             "TranslationFiles": 3,
@@ -234,7 +234,7 @@
                 }
             },
             "tools": {
-                "total": 196,
+                "total": 197,
                 "repositories": {
                     "PrestaShop-webservice-lib": 1,
                     "docker": 14,
@@ -242,7 +242,7 @@
                     "docker-internal-images": 1,
                     "prestonbot": 1,
                     "TopTranslators": 1,
-                    "traces": 34,
+                    "traces": 35,
                     "core-weekly-generator": 1,
                     "TopContributors": 41,
                     "issuebot": 2,
@@ -272,7 +272,7 @@
                 }
             }
         },
-        "mergedPullRequests": 2068
+        "mergedPullRequests": 2069
     },
     "matks": {
         "login": "matks",

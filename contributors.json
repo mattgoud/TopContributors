@@ -10,7 +10,7 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 9570,
+        "contributions": 9574,
         "repositories": {
             "PrestaShop": 4195,
             "PrestaShop-modules": 31,
@@ -92,7 +92,7 @@
             "ps_carriercomparison": 3,
             "ps_viewedproduct": 15,
             "ps_feeder": 1,
-            "traces": 136,
+            "traces": 138,
             "core-weekly-generator": 6,
             "TopContributors": 94,
             "TranslationFiles": 3,
@@ -114,11 +114,11 @@
             "php-dev-tools": 4,
             "QANightlyResults": 329,
             "LocalizationFiles": 9,
-            "presthubot": 439,
+            "presthubot": 440,
             "stylelint-config": 7,
             "example-modules": 6,
             "ps_qualityassurance": 1,
-            "test-scenarios": 869,
+            "test-scenarios": 870,
             "user-documentation-it": 2,
             "user-documentation-landing": 3,
             "user-documentation-en": 1,
@@ -160,7 +160,7 @@
                 }
             },
             "documentation": {
-                "total": 1086,
+                "total": 1087,
                 "repositories": {
                     "docs": 144,
                     "user-documentation-landing": 3,
@@ -168,7 +168,7 @@
                     "user-documentation-it": 2,
                     "user-documentation-v8-en": 1,
                     "functional-documentation": 2,
-                    "test-scenarios": 869,
+                    "test-scenarios": 870,
                     "example-modules": 6,
                     "open-source": 31,
                     "example_module_mailtheme": 4,
@@ -269,7 +269,7 @@
                 }
             },
             "tools": {
-                "total": 1125,
+                "total": 1128,
                 "repositories": {
                     "core-weekly-generator": 6,
                     "docker": 41,
@@ -279,12 +279,12 @@
                     "mjml-theme-converter": 1,
                     "nightly-board": 46,
                     "PrestaShop-webservice-lib": 4,
-                    "presthubot": 439,
+                    "presthubot": 440,
                     "prestonbot": 10,
                     "QANightlyResults": 329,
                     "TopContributors": 94,
                     "TopTranslators": 1,
-                    "traces": 136,
+                    "traces": 138,
                     "ps-project-metrics": 4
                 }
             },
@@ -49189,5 +49189,5 @@
             }
         }
     },
-    "updatedAt": "2025-09-17 06:10:51"
+    "updatedAt": "2025-09-17 09:23:38"
 }
