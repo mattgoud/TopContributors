@@ -719,9 +719,9 @@
         "location": "London",
         "bio": null,
         "email_domain": "",
-        "contributions": 4712,
+        "contributions": 4714,
         "repositories": {
-            "PrestaShop": 394,
+            "PrestaShop": 395,
             "PrestaShop-modules": 14,
             "graphnvd3": 3,
             "statscheckup": 1,
@@ -779,9 +779,9 @@
         },
         "categories": {
             "core": {
-                "total": 428,
+                "total": 429,
                 "repositories": {
-                    "PrestaShop": 394,
+                    "PrestaShop": 395,
                     "prestashop-ui-kit": 3,
                     "TranslationToolsBundle": 3,
                     "eslint-config": 1,
@@ -878,7 +878,7 @@
                 }
             }
         },
-        "mergedPullRequests": 1018
+        "mergedPullRequests": 1019
     },
     "PierreRambaud": {
         "login": "PierreRambaud",
@@ -5342,6 +5342,85 @@
         },
         "mergedPullRequests": 134
     },
+    "ga-devfront": {
+        "login": "ga-devfront",
+        "id": 52718717,
+        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/52718717?v=4",
+        "html_url": "https:\/\/github.com\/ga-devfront",
+        "name": "Guyomar Alexis",
+        "company": "@PrestaShopCorp",
+        "blog": "ag-dev.fr",
+        "location": "74100 Annemasse, France",
+        "bio": null,
+        "email_domain": "",
+        "contributions": 985,
+        "repositories": {
+            "PrestaShop": 3,
+            "autoupgrade": 95,
+            "prestashop.github.io": 2,
+            "docs": 5,
+            "ps_wirepayment": 1,
+            "traces": 1,
+            "hummingbird": 10,
+            "distribution-api": 10,
+            "bootstrap-compatibility-layer": 6
+        },
+        "categories": {
+            "core": {
+                "total": 3,
+                "repositories": {
+                    "PrestaShop": 3
+                }
+            },
+            "specs": {
+                "total": 0,
+                "repositories": []
+            },
+            "documentation": {
+                "total": 5,
+                "repositories": {
+                    "docs": 5
+                }
+            },
+            "themes": {
+                "total": 10,
+                "repositories": {
+                    "hummingbird": 10
+                }
+            },
+            "modules": {
+                "total": 96,
+                "repositories": {
+                    "autoupgrade": 95,
+                    "ps_wirepayment": 1
+                }
+            },
+            "tools": {
+                "total": 7,
+                "repositories": {
+                    "traces": 1,
+                    "bootstrap-compatibility-layer": 6
+                }
+            },
+            "tests": {
+                "total": 0,
+                "repositories": []
+            },
+            "blog": {
+                "total": 2,
+                "repositories": {
+                    "prestashop.github.io": 2
+                }
+            },
+            "others": {
+                "total": 10,
+                "repositories": {
+                    "distribution-api": 10
+                }
+            }
+        },
+        "mergedPullRequests": 133
+    },
     "nihco2": {
         "login": "nihco2",
         "id": 206733,
@@ -5406,85 +5485,6 @@
             }
         },
         "mergedPullRequests": 133
-    },
-    "ga-devfront": {
-        "login": "ga-devfront",
-        "id": 52718717,
-        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/52718717?v=4",
-        "html_url": "https:\/\/github.com\/ga-devfront",
-        "name": "Guyomar Alexis",
-        "company": "@PrestaShopCorp",
-        "blog": "ag-dev.fr",
-        "location": "74100 Annemasse, France",
-        "bio": null,
-        "email_domain": "",
-        "contributions": 985,
-        "repositories": {
-            "PrestaShop": 3,
-            "autoupgrade": 95,
-            "prestashop.github.io": 2,
-            "docs": 5,
-            "ps_wirepayment": 1,
-            "traces": 1,
-            "hummingbird": 9,
-            "distribution-api": 10,
-            "bootstrap-compatibility-layer": 6
-        },
-        "categories": {
-            "core": {
-                "total": 3,
-                "repositories": {
-                    "PrestaShop": 3
-                }
-            },
-            "specs": {
-                "total": 0,
-                "repositories": []
-            },
-            "documentation": {
-                "total": 5,
-                "repositories": {
-                    "docs": 5
-                }
-            },
-            "themes": {
-                "total": 9,
-                "repositories": {
-                    "hummingbird": 9
-                }
-            },
-            "modules": {
-                "total": 96,
-                "repositories": {
-                    "autoupgrade": 95,
-                    "ps_wirepayment": 1
-                }
-            },
-            "tools": {
-                "total": 7,
-                "repositories": {
-                    "traces": 1,
-                    "bootstrap-compatibility-layer": 6
-                }
-            },
-            "tests": {
-                "total": 0,
-                "repositories": []
-            },
-            "blog": {
-                "total": 2,
-                "repositories": {
-                    "prestashop.github.io": 2
-                }
-            },
-            "others": {
-                "total": 10,
-                "repositories": {
-                    "distribution-api": 10
-                }
-            }
-        },
-        "mergedPullRequests": 132
     },
     "Julievrz": {
         "login": "Julievrz",
@@ -6230,9 +6230,9 @@
         "location": null,
         "bio": null,
         "email_domain": "",
-        "contributions": 161,
+        "contributions": 163,
         "repositories": {
-            "PrestaShop": 73,
+            "PrestaShop": 75,
             "productcomments": 2,
             "autoupgrade": 3,
             "docker": 3,
@@ -6251,9 +6251,9 @@
         },
         "categories": {
             "core": {
-                "total": 73,
+                "total": 75,
                 "repositories": {
-                    "PrestaShop": 73
+                    "PrestaShop": 75
                 }
             },
             "specs": {
@@ -6309,7 +6309,7 @@
                 }
             }
         },
-        "mergedPullRequests": 105
+        "mergedPullRequests": 107
     },
     "FabienPapet": {
         "login": "FabienPapet",
@@ -6489,7 +6489,7 @@
         "location": "Via Giuseppe Saragat, 19 86170 Isernia - ITALIA",
         "bio": "Siamo un'agenzia di Branding, Comunicazione e Marketing.\r\nRealizziamo progetti di comunicazione visiva brand-oriented, web design e web marketing.",
         "email_domain": "codencode.it",
-        "contributions": 143,
+        "contributions": 144,
         "repositories": {
             "PrestaShop": 70,
             "dashactivity": 1,
@@ -18059,6 +18059,66 @@
         },
         "mergedPullRequests": 6
     },
+    "Markus-Gurkcity": {
+        "login": "Markus-Gurkcity",
+        "id": 63096826,
+        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/63096826?v=4",
+        "html_url": "https:\/\/github.com\/Markus-Gurkcity",
+        "name": null,
+        "company": null,
+        "blog": "",
+        "location": null,
+        "bio": null,
+        "email_domain": "",
+        "contributions": 10,
+        "repositories": {
+            "PrestaShop": 4,
+            "psgdpr": 2
+        },
+        "categories": {
+            "core": {
+                "total": 4,
+                "repositories": {
+                    "PrestaShop": 4
+                }
+            },
+            "specs": {
+                "total": 0,
+                "repositories": []
+            },
+            "documentation": {
+                "total": 0,
+                "repositories": []
+            },
+            "themes": {
+                "total": 0,
+                "repositories": []
+            },
+            "modules": {
+                "total": 2,
+                "repositories": {
+                    "psgdpr": 2
+                }
+            },
+            "tools": {
+                "total": 0,
+                "repositories": []
+            },
+            "tests": {
+                "total": 0,
+                "repositories": []
+            },
+            "blog": {
+                "total": 0,
+                "repositories": []
+            },
+            "others": {
+                "total": 0,
+                "repositories": []
+            }
+        },
+        "mergedPullRequests": 6
+    },
     "rsoulard-prolaser": {
         "login": "rsoulard-prolaser",
         "id": 78790947,
@@ -20037,66 +20097,6 @@
             "modules": {
                 "total": 0,
                 "repositories": []
-            },
-            "tools": {
-                "total": 0,
-                "repositories": []
-            },
-            "tests": {
-                "total": 0,
-                "repositories": []
-            },
-            "blog": {
-                "total": 0,
-                "repositories": []
-            },
-            "others": {
-                "total": 0,
-                "repositories": []
-            }
-        },
-        "mergedPullRequests": 5
-    },
-    "Markus-Gurkcity": {
-        "login": "Markus-Gurkcity",
-        "id": 63096826,
-        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/63096826?v=4",
-        "html_url": "https:\/\/github.com\/Markus-Gurkcity",
-        "name": null,
-        "company": null,
-        "blog": "",
-        "location": null,
-        "bio": null,
-        "email_domain": "",
-        "contributions": 4,
-        "repositories": {
-            "PrestaShop": 3,
-            "psgdpr": 2
-        },
-        "categories": {
-            "core": {
-                "total": 3,
-                "repositories": {
-                    "PrestaShop": 3
-                }
-            },
-            "specs": {
-                "total": 0,
-                "repositories": []
-            },
-            "documentation": {
-                "total": 0,
-                "repositories": []
-            },
-            "themes": {
-                "total": 0,
-                "repositories": []
-            },
-            "modules": {
-                "total": 2,
-                "repositories": {
-                    "psgdpr": 2
-                }
             },
             "tools": {
                 "total": 0,
@@ -23265,17 +23265,17 @@
         },
         "mergedPullRequests": 3
     },
-    "urecheatu007": {
-        "login": "urecheatu007",
-        "id": 386229,
-        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/386229?v=4",
-        "html_url": "https:\/\/github.com\/urecheatu007",
-        "name": "Cosmin Hutanu",
-        "company": "Flexi Marketing Consult SRL",
-        "blog": "www.flexi-design.ro",
-        "location": "Bucuresti, Romania",
+    "marcoscv-work": {
+        "login": "marcoscv-work",
+        "id": 7963804,
+        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/7963804?v=4",
+        "html_url": "https:\/\/github.com\/marcoscv-work",
+        "name": "Marcos Castro",
+        "company": "Liferay",
+        "blog": "https:\/\/dribbble.com\/marcoscv",
+        "location": "Madrid (Spain)",
         "bio": null,
-        "email_domain": "flexi-design.ro",
+        "email_domain": "liferay.com",
         "contributions": 6,
         "repositories": {
             "PrestaShop": 3
@@ -23379,17 +23379,17 @@
         },
         "mergedPullRequests": 3
     },
-    "marcoscv-work": {
-        "login": "marcoscv-work",
-        "id": 7963804,
-        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/7963804?v=4",
-        "html_url": "https:\/\/github.com\/marcoscv-work",
-        "name": "Marcos Castro",
-        "company": "Liferay",
-        "blog": "https:\/\/dribbble.com\/marcoscv",
-        "location": "Madrid (Spain)",
+    "urecheatu007": {
+        "login": "urecheatu007",
+        "id": 386229,
+        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/386229?v=4",
+        "html_url": "https:\/\/github.com\/urecheatu007",
+        "name": "Cosmin Hutanu",
+        "company": "Flexi Marketing Consult SRL",
+        "blog": "www.flexi-design.ro",
+        "location": "Bucuresti, Romania",
         "bio": null,
-        "email_domain": "liferay.com",
+        "email_domain": "flexi-design.ro",
         "contributions": 6,
         "repositories": {
             "PrestaShop": 3
@@ -26470,66 +26470,6 @@
             "modules": {
                 "total": 0,
                 "repositories": []
-            },
-            "tools": {
-                "total": 0,
-                "repositories": []
-            },
-            "tests": {
-                "total": 0,
-                "repositories": []
-            },
-            "blog": {
-                "total": 0,
-                "repositories": []
-            },
-            "others": {
-                "total": 0,
-                "repositories": []
-            }
-        },
-        "mergedPullRequests": 2
-    },
-    "jbenezech": {
-        "login": "jbenezech",
-        "id": 7961792,
-        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/7961792?v=4",
-        "html_url": "https:\/\/github.com\/jbenezech",
-        "name": null,
-        "company": null,
-        "blog": "",
-        "location": null,
-        "bio": null,
-        "email_domain": "",
-        "contributions": 6,
-        "repositories": {
-            "PrestaShop": 1,
-            "ps_facetedsearch": 1
-        },
-        "categories": {
-            "core": {
-                "total": 1,
-                "repositories": {
-                    "PrestaShop": 1
-                }
-            },
-            "specs": {
-                "total": 0,
-                "repositories": []
-            },
-            "documentation": {
-                "total": 0,
-                "repositories": []
-            },
-            "themes": {
-                "total": 0,
-                "repositories": []
-            },
-            "modules": {
-                "total": 1,
-                "repositories": {
-                    "ps_facetedsearch": 1
-                }
             },
             "tools": {
                 "total": 0,
@@ -30836,6 +30776,66 @@
         "id": 2196792,
         "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/2196792?v=4",
         "html_url": "https:\/\/github.com\/Perfecticus",
+        "name": null,
+        "company": null,
+        "blog": "",
+        "location": null,
+        "bio": null,
+        "email_domain": "",
+        "contributions": 1,
+        "repositories": {
+            "PrestaShop": 1,
+            "ps_facetedsearch": 1
+        },
+        "categories": {
+            "core": {
+                "total": 1,
+                "repositories": {
+                    "PrestaShop": 1
+                }
+            },
+            "specs": {
+                "total": 0,
+                "repositories": []
+            },
+            "documentation": {
+                "total": 0,
+                "repositories": []
+            },
+            "themes": {
+                "total": 0,
+                "repositories": []
+            },
+            "modules": {
+                "total": 1,
+                "repositories": {
+                    "ps_facetedsearch": 1
+                }
+            },
+            "tools": {
+                "total": 0,
+                "repositories": []
+            },
+            "tests": {
+                "total": 0,
+                "repositories": []
+            },
+            "blog": {
+                "total": 0,
+                "repositories": []
+            },
+            "others": {
+                "total": 0,
+                "repositories": []
+            }
+        },
+        "mergedPullRequests": 2
+    },
+    "jbenezech": {
+        "login": "jbenezech",
+        "id": 7961792,
+        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/7961792?v=4",
+        "html_url": "https:\/\/github.com\/jbenezech",
         "name": null,
         "company": null,
         "blog": "",
