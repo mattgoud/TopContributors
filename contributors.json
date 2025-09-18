@@ -10,7 +10,7 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 9574,
+        "contributions": 9575,
         "repositories": {
             "PrestaShop": 4195,
             "PrestaShop-modules": 31,
@@ -114,7 +114,7 @@
             "php-dev-tools": 4,
             "QANightlyResults": 329,
             "LocalizationFiles": 9,
-            "presthubot": 440,
+            "presthubot": 441,
             "stylelint-config": 7,
             "example-modules": 6,
             "ps_qualityassurance": 1,
@@ -269,7 +269,7 @@
                 }
             },
             "tools": {
-                "total": 1128,
+                "total": 1129,
                 "repositories": {
                     "core-weekly-generator": 6,
                     "docker": 41,
@@ -279,7 +279,7 @@
                     "mjml-theme-converter": 1,
                     "nightly-board": 46,
                     "PrestaShop-webservice-lib": 4,
-                    "presthubot": 440,
+                    "presthubot": 441,
                     "prestonbot": 10,
                     "QANightlyResults": 329,
                     "TopContributors": 94,
@@ -320,7 +320,7 @@
         "location": null,
         "bio": null,
         "email_domain": "",
-        "contributions": 6908,
+        "contributions": 6909,
         "repositories": {
             "PrestaShop": 5624,
             "dashgoals": 1,
@@ -332,7 +332,7 @@
             "statspersonalinfos": 1,
             "blockwishlist": 8,
             "productcomments": 82,
-            "autoupgrade": 50,
+            "autoupgrade": 51,
             "prestashop.github.io": 20,
             "docker": 79,
             "prestashop-ui-kit": 16,
@@ -435,7 +435,7 @@
                 }
             },
             "modules": {
-                "total": 469,
+                "total": 470,
                 "repositories": {
                     "dashgoals": 1,
                     "dashproducts": 3,
@@ -446,7 +446,7 @@
                     "statspersonalinfos": 1,
                     "blockwishlist": 8,
                     "productcomments": 82,
-                    "autoupgrade": 50,
+                    "autoupgrade": 51,
                     "blockreassurance": 1,
                     "ps_sharebuttons": 1,
                     "ps_linklist": 104,
@@ -973,7 +973,7 @@
         "location": "London",
         "bio": null,
         "email_domain": "",
-        "contributions": 4714,
+        "contributions": 4715,
         "repositories": {
             "PrestaShop": 1702,
             "PrestaShop-modules": 349,
@@ -1006,7 +1006,7 @@
             "blockwishlist": 38,
             "pscleaner": 3,
             "themeinstallator": 3,
-            "autoupgrade": 1221,
+            "autoupgrade": 1222,
             "gsitemap": 6,
             "prestafraud": 1,
             "prestashop.github.io": 17,
@@ -1103,7 +1103,7 @@
                 }
             },
             "modules": {
-                "total": 2018,
+                "total": 2019,
                 "repositories": {
                     "PrestaShop-modules": 349,
                     "dashactivity": 1,
@@ -1133,7 +1133,7 @@
                     "statsstock": 2,
                     "blockwishlist": 38,
                     "pscleaner": 3,
-                    "autoupgrade": 1221,
+                    "autoupgrade": 1222,
                     "gsitemap": 6,
                     "prestafraud": 1,
                     "contactform": 1,
@@ -1784,7 +1784,7 @@
         "location": "Bydgoszcz, Poland",
         "bio": "I'm a web developer from Poland, specializing in working with PrestaShop e-commerce",
         "email_domain": "",
-        "contributions": 3019,
+        "contributions": 3026,
         "repositories": {
             "PrestaShop": 737,
             "PrestaShop-modules": 4,
@@ -1818,7 +1818,7 @@
             "productcomments": 24,
             "autoupgrade": 45,
             "gsitemap": 3,
-            "prestashop.github.io": 783,
+            "prestashop.github.io": 788,
             "StarterTheme": 3,
             "contactform": 8,
             "paymentexample": 7,
@@ -1837,7 +1837,7 @@
             "ps_mainmenu": 2,
             "ps_customersignin": 4,
             "ps_categorytree": 5,
-            "docs": 438,
+            "docs": 440,
             "ps_wirepayment": 1,
             "ps_shoppingcart": 4,
             "ps_currencyselector": 7,
@@ -1913,10 +1913,10 @@
                 }
             },
             "documentation": {
-                "total": 739,
+                "total": 741,
                 "repositories": {
                     "paymentexample": 7,
-                    "docs": 438,
+                    "docs": 440,
                     "user-documentation-en": 1,
                     "ADR": 6,
                     "example-modules": 73,
@@ -2033,9 +2033,9 @@
                 }
             },
             "blog": {
-                "total": 783,
+                "total": 788,
                 "repositories": {
-                    "prestashop.github.io": 783
+                    "prestashop.github.io": 788
                 }
             },
             "others": {
@@ -12016,13 +12016,13 @@
         "location": "Sweden",
         "bio": null,
         "email_domain": "",
-        "contributions": 85,
+        "contributions": 86,
         "repositories": {
             "PrestaShop": 66,
             "autoupgrade": 6,
             "ps_linklist": 1,
             "ps_imageslider": 1,
-            "docs": 3,
+            "docs": 4,
             "ps_facetedsearch": 1,
             "ps_googleanalytics": 6,
             "classic-theme": 1
@@ -12039,9 +12039,9 @@
                 "repositories": []
             },
             "documentation": {
-                "total": 3,
+                "total": 4,
                 "repositories": {
-                    "docs": 3
+                    "docs": 4
                 }
             },
             "themes": {
@@ -18254,16 +18254,16 @@
             }
         }
     },
-    "dariusakafest": {
-        "login": "dariusakafest",
+    "fest73": {
+        "login": "fest73",
         "id": 3224820,
         "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/3224820?v=4",
-        "html_url": "https:\/\/github.com\/dariusakafest",
-        "name": "Dmitry",
+        "html_url": "https:\/\/github.com\/fest73",
+        "name": "Fest",
         "company": null,
-        "blog": "presta.info",
+        "blog": "",
         "location": "Germany",
-        "bio": "Developer on PHP, JS",
+        "bio": "Any Software Developer",
         "email_domain": "",
         "contributions": 20,
         "repositories": {
@@ -32941,6 +32941,62 @@
             }
         }
     },
+    "MaximeMichaud": {
+        "login": "MaximeMichaud",
+        "id": 14856114,
+        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/14856114?v=4",
+        "html_url": "https:\/\/github.com\/MaximeMichaud",
+        "name": "Maxime Michaud",
+        "company": null,
+        "blog": "",
+        "location": "Qu\u00e9bec, Canada",
+        "bio": "\r\n    CEO&CTO SysAdmin  \r\n                      \r\n\r\n",
+        "email_domain": "",
+        "contributions": 2,
+        "repositories": {
+            "docs": 2
+        },
+        "categories": {
+            "core": {
+                "total": 0,
+                "repositories": []
+            },
+            "specs": {
+                "total": 0,
+                "repositories": []
+            },
+            "documentation": {
+                "total": 2,
+                "repositories": {
+                    "docs": 2
+                }
+            },
+            "themes": {
+                "total": 0,
+                "repositories": []
+            },
+            "modules": {
+                "total": 0,
+                "repositories": []
+            },
+            "tools": {
+                "total": 0,
+                "repositories": []
+            },
+            "tests": {
+                "total": 0,
+                "repositories": []
+            },
+            "blog": {
+                "total": 0,
+                "repositories": []
+            },
+            "others": {
+                "total": 0,
+                "repositories": []
+            }
+        }
+    },
     "Rho-bur": {
         "login": "Rho-bur",
         "id": 3008909,
@@ -33725,6 +33781,62 @@
             }
         }
     },
+    "MattKelvin": {
+        "login": "MattKelvin",
+        "id": 6407640,
+        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/6407640?v=4",
+        "html_url": "https:\/\/github.com\/MattKelvin",
+        "name": null,
+        "company": "Mademoiselle bio",
+        "blog": "https:\/\/mkdaous.fr",
+        "location": "Paris",
+        "bio": "Web developer ",
+        "email_domain": "",
+        "contributions": 2,
+        "repositories": {
+            "docs": 2
+        },
+        "categories": {
+            "core": {
+                "total": 0,
+                "repositories": []
+            },
+            "specs": {
+                "total": 0,
+                "repositories": []
+            },
+            "documentation": {
+                "total": 2,
+                "repositories": {
+                    "docs": 2
+                }
+            },
+            "themes": {
+                "total": 0,
+                "repositories": []
+            },
+            "modules": {
+                "total": 0,
+                "repositories": []
+            },
+            "tools": {
+                "total": 0,
+                "repositories": []
+            },
+            "tests": {
+                "total": 0,
+                "repositories": []
+            },
+            "blog": {
+                "total": 0,
+                "repositories": []
+            },
+            "others": {
+                "total": 0,
+                "repositories": []
+            }
+        }
+    },
     "muyncky": {
         "login": "muyncky",
         "id": 17008327,
@@ -33791,62 +33903,6 @@
         "blog": "",
         "location": null,
         "bio": null,
-        "email_domain": "",
-        "contributions": 2,
-        "repositories": {
-            "docs": 2
-        },
-        "categories": {
-            "core": {
-                "total": 0,
-                "repositories": []
-            },
-            "specs": {
-                "total": 0,
-                "repositories": []
-            },
-            "documentation": {
-                "total": 2,
-                "repositories": {
-                    "docs": 2
-                }
-            },
-            "themes": {
-                "total": 0,
-                "repositories": []
-            },
-            "modules": {
-                "total": 0,
-                "repositories": []
-            },
-            "tools": {
-                "total": 0,
-                "repositories": []
-            },
-            "tests": {
-                "total": 0,
-                "repositories": []
-            },
-            "blog": {
-                "total": 0,
-                "repositories": []
-            },
-            "others": {
-                "total": 0,
-                "repositories": []
-            }
-        }
-    },
-    "MaximeMichaud": {
-        "login": "MaximeMichaud",
-        "id": 14856114,
-        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/14856114?v=4",
-        "html_url": "https:\/\/github.com\/MaximeMichaud",
-        "name": "Maxime Michaud",
-        "company": null,
-        "blog": "",
-        "location": "Qu\u00e9bec, Canada",
-        "bio": "\r\n    CEO&CTO SysAdmin  \r\n                      \r\n\r\n",
         "email_domain": "",
         "contributions": 2,
         "repositories": {
@@ -36318,7 +36374,7 @@
         "company": "Restate.dev",
         "blog": "slinkydeveloper.com",
         "location": "Berlin, Germany",
-        "bio": "Rust, Java, Kotlin, Golang. @eclipse-vertx committer",
+        "bio": "Rust, Java, Kotlin, Typescript, Golang. @eclipse-vertx committer",
         "email_domain": "slinkydeveloper.com",
         "contributions": 1,
         "repositories": {
@@ -42749,62 +42805,6 @@
             }
         }
     },
-    "Paddimir": {
-        "login": "Paddimir",
-        "id": 9449749,
-        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/9449749?v=4",
-        "html_url": "https:\/\/github.com\/Paddimir",
-        "name": "Patrik Kopeck\u00fd",
-        "company": null,
-        "blog": "",
-        "location": "Czech Republic",
-        "bio": "I read docs and write code. Sometimes, I even enjoy it.",
-        "email_domain": "",
-        "contributions": 1,
-        "repositories": {
-            "docs": 1
-        },
-        "categories": {
-            "core": {
-                "total": 0,
-                "repositories": []
-            },
-            "specs": {
-                "total": 0,
-                "repositories": []
-            },
-            "documentation": {
-                "total": 1,
-                "repositories": {
-                    "docs": 1
-                }
-            },
-            "themes": {
-                "total": 0,
-                "repositories": []
-            },
-            "modules": {
-                "total": 0,
-                "repositories": []
-            },
-            "tools": {
-                "total": 0,
-                "repositories": []
-            },
-            "tests": {
-                "total": 0,
-                "repositories": []
-            },
-            "blog": {
-                "total": 0,
-                "repositories": []
-            },
-            "others": {
-                "total": 0,
-                "repositories": []
-            }
-        }
-    },
     "Farelion": {
         "login": "Farelion",
         "id": 16526340,
@@ -43981,6 +43981,62 @@
             }
         }
     },
+    "Paddimir": {
+        "login": "Paddimir",
+        "id": 9449749,
+        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/9449749?v=4",
+        "html_url": "https:\/\/github.com\/Paddimir",
+        "name": "Patrik Kopeck\u00fd",
+        "company": null,
+        "blog": "",
+        "location": "Czech Republic",
+        "bio": "I read docs and write code. Sometimes, I even enjoy it.",
+        "email_domain": "",
+        "contributions": 1,
+        "repositories": {
+            "docs": 1
+        },
+        "categories": {
+            "core": {
+                "total": 0,
+                "repositories": []
+            },
+            "specs": {
+                "total": 0,
+                "repositories": []
+            },
+            "documentation": {
+                "total": 1,
+                "repositories": {
+                    "docs": 1
+                }
+            },
+            "themes": {
+                "total": 0,
+                "repositories": []
+            },
+            "modules": {
+                "total": 0,
+                "repositories": []
+            },
+            "tools": {
+                "total": 0,
+                "repositories": []
+            },
+            "tests": {
+                "total": 0,
+                "repositories": []
+            },
+            "blog": {
+                "total": 0,
+                "repositories": []
+            },
+            "others": {
+                "total": 0,
+                "repositories": []
+            }
+        }
+    },
     "npankaj365": {
         "login": "npankaj365",
         "id": 22147066,
@@ -44271,62 +44327,6 @@
         "blog": "",
         "location": "Beaumontel, France",
         "bio": null,
-        "email_domain": "",
-        "contributions": 1,
-        "repositories": {
-            "docs": 1
-        },
-        "categories": {
-            "core": {
-                "total": 0,
-                "repositories": []
-            },
-            "specs": {
-                "total": 0,
-                "repositories": []
-            },
-            "documentation": {
-                "total": 1,
-                "repositories": {
-                    "docs": 1
-                }
-            },
-            "themes": {
-                "total": 0,
-                "repositories": []
-            },
-            "modules": {
-                "total": 0,
-                "repositories": []
-            },
-            "tools": {
-                "total": 0,
-                "repositories": []
-            },
-            "tests": {
-                "total": 0,
-                "repositories": []
-            },
-            "blog": {
-                "total": 0,
-                "repositories": []
-            },
-            "others": {
-                "total": 0,
-                "repositories": []
-            }
-        }
-    },
-    "MattKelvin": {
-        "login": "MattKelvin",
-        "id": 6407640,
-        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/6407640?v=4",
-        "html_url": "https:\/\/github.com\/MattKelvin",
-        "name": null,
-        "company": "Mademoiselle bio",
-        "blog": "https:\/\/mkdaous.fr",
-        "location": "Paris",
-        "bio": "Web developer ",
         "email_domain": "",
         "contributions": 1,
         "repositories": {
@@ -49189,5 +49189,5 @@
             }
         }
     },
-    "updatedAt": "2025-09-17 09:23:38"
+    "updatedAt": "2025-09-18 06:18:36"
 }
