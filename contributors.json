@@ -10,7 +10,7 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 9575,
+        "contributions": 9576,
         "repositories": {
             "PrestaShop": 4195,
             "PrestaShop-modules": 31,
@@ -118,7 +118,7 @@
             "stylelint-config": 7,
             "example-modules": 6,
             "ps_qualityassurance": 1,
-            "test-scenarios": 870,
+            "test-scenarios": 871,
             "user-documentation-it": 2,
             "user-documentation-landing": 3,
             "user-documentation-en": 1,
@@ -160,7 +160,7 @@
                 }
             },
             "documentation": {
-                "total": 1087,
+                "total": 1088,
                 "repositories": {
                     "docs": 144,
                     "user-documentation-landing": 3,
@@ -168,7 +168,7 @@
                     "user-documentation-it": 2,
                     "user-documentation-v8-en": 1,
                     "functional-documentation": 2,
-                    "test-scenarios": 870,
+                    "test-scenarios": 871,
                     "example-modules": 6,
                     "open-source": 31,
                     "example_module_mailtheme": 4,
@@ -31123,7 +31123,7 @@
         "company": "@sezane",
         "blog": "",
         "location": "Paris, France",
-        "bio": "Retired Gladiator \/ Web3 Enthusiast \/ PHP & Symfony expert \/ Powered by Caffeine \/ SSE @sezane ",
+        "bio": "Retired Gladiator \/ AI Enthusiast \/ PHP & Symfony expert \/ Powered by Caffeine \/ SSE @sezane ",
         "email_domain": "",
         "contributions": 2,
         "repositories": {
@@ -37550,7 +37550,7 @@
         "company": null,
         "blog": "",
         "location": "Open Space",
-        "bio": null,
+        "bio": "Frontend developer",
         "email_domain": "",
         "contributions": 1,
         "repositories": {
@@ -49189,5 +49189,5 @@
             }
         }
     },
-    "updatedAt": "2025-09-18 06:18:36"
+    "updatedAt": "2025-09-19 06:19:27"
 }
