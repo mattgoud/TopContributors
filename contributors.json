@@ -10,7 +10,7 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 9577,
+        "contributions": 9579,
         "repositories": {
             "PrestaShop": 4195,
             "PrestaShop-modules": 31,
@@ -112,7 +112,7 @@
             "open-source": 31,
             "mjml-theme-converter": 1,
             "php-dev-tools": 4,
-            "QANightlyResults": 329,
+            "QANightlyResults": 330,
             "LocalizationFiles": 9,
             "presthubot": 441,
             "stylelint-config": 7,
@@ -135,7 +135,7 @@
             "ps_fixturescreator": 11,
             "ws-client": 25,
             "ps_apiresources": 3,
-            "ui-testing-library": 989
+            "ui-testing-library": 990
         },
         "categories": {
             "core": {
@@ -269,7 +269,7 @@
                 }
             },
             "tools": {
-                "total": 1129,
+                "total": 1130,
                 "repositories": {
                     "core-weekly-generator": 6,
                     "docker": 41,
@@ -281,7 +281,7 @@
                     "PrestaShop-webservice-lib": 4,
                     "presthubot": 441,
                     "prestonbot": 10,
-                    "QANightlyResults": 329,
+                    "QANightlyResults": 330,
                     "TopContributors": 94,
                     "TopTranslators": 1,
                     "traces": 138,
@@ -289,9 +289,9 @@
                 }
             },
             "tests": {
-                "total": 1077,
+                "total": 1078,
                 "repositories": {
-                    "ui-testing-library": 989,
+                    "ui-testing-library": 990,
                     "ga.tests.ui.pr": 88
                 }
             },
@@ -524,7 +524,7 @@
         "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/3830050?v=4",
         "html_url": "https:\/\/github.com\/matks",
         "name": "Mathieu Ferment",
-        "company": "@PrestaShop",
+        "company": "@PrestaShopCorp",
         "blog": "https:\/\/www.mathieu-ferment.com",
         "location": "Amiens - France",
         "bio": "Senior engineering manager",
@@ -1784,7 +1784,7 @@
         "location": "Bydgoszcz, Poland",
         "bio": "I'm a web developer from Poland, specializing in working with PrestaShop e-commerce",
         "email_domain": "",
-        "contributions": 3028,
+        "contributions": 3029,
         "repositories": {
             "PrestaShop": 737,
             "PrestaShop-modules": 4,
@@ -1892,6 +1892,7 @@
             "ps-monitor-module-releases": 4,
             "ps_fixturescreator": 6,
             "webservice-postman-examples": 6,
+            "ps_apiresources": 1,
             "ui-testing-library": 1
         },
         "categories": {
@@ -1937,7 +1938,7 @@
                 }
             },
             "modules": {
-                "total": 577,
+                "total": 578,
                 "repositories": {
                     "PrestaShop-modules": 4,
                     "dashactivity": 1,
@@ -2005,6 +2006,7 @@
                     "ps_qualityassurance": 4,
                     "ps_googleanalytics": 5,
                     "psgdpr": 15,
+                    "ps_apiresources": 1,
                     "ps_distributionapiclient": 1,
                     "ps_fixturescreator": 6
                 }
@@ -4041,7 +4043,7 @@
         "location": null,
         "bio": "Founder of @wallabag. ",
         "email_domain": "",
-        "contributions": 1298,
+        "contributions": 1299,
         "repositories": {
             "PrestaShop": 707,
             "PrestaShop-webservice-lib": 1,
@@ -4097,7 +4099,7 @@
             "open-source": 23,
             "mjml-theme-converter": 1,
             "php-dev-tools": 2,
-            "QANightlyResults": 83,
+            "QANightlyResults": 84,
             "LocalizationFiles": 8,
             "presthubot": 60,
             "example-modules": 7,
@@ -4200,7 +4202,7 @@
                 }
             },
             "tools": {
-                "total": 185,
+                "total": 186,
                 "repositories": {
                     "bootstrap-compatibility-layer": 1,
                     "docker": 6,
@@ -4211,7 +4213,7 @@
                     "PrestaShop-webservice-lib": 1,
                     "presthubot": 60,
                     "prestonbot": 1,
-                    "QANightlyResults": 83,
+                    "QANightlyResults": 84,
                     "TopContributors": 7,
                     "TopTranslators": 1,
                     "traces": 7,
@@ -5923,9 +5925,9 @@
         "location": "France",
         "bio": "Developper from father to son with +12 years experience, and commiter for @PrestaShop!",
         "email_domain": "",
-        "contributions": 562,
+        "contributions": 563,
         "repositories": {
-            "PrestaShop": 363,
+            "PrestaShop": 364,
             "PrestaShop-webservice-lib": 1,
             "dashtrends": 2,
             "autoupgrade": 10,
@@ -5958,9 +5960,9 @@
         },
         "categories": {
             "core": {
-                "total": 370,
+                "total": 371,
                 "repositories": {
-                    "PrestaShop": 363,
+                    "PrestaShop": 364,
                     "circuit-breaker": 7
                 }
             },
@@ -6134,9 +6136,9 @@
         "location": null,
         "bio": null,
         "email_domain": "",
-        "contributions": 517,
+        "contributions": 518,
         "repositories": {
-            "PrestaShop": 259,
+            "PrestaShop": 260,
             "dashactivity": 4,
             "dashgoals": 2,
             "dashtrends": 1,
@@ -6193,9 +6195,9 @@
         },
         "categories": {
             "core": {
-                "total": 260,
+                "total": 261,
                 "repositories": {
-                    "PrestaShop": 259,
+                    "PrestaShop": 260,
                     "php-dev-tools": 1
                 }
             },
@@ -17464,6 +17466,62 @@
             }
         }
     },
+    "Alexandre-Lematre": {
+        "login": "Alexandre-Lematre",
+        "id": 107846409,
+        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/107846409?v=4",
+        "html_url": "https:\/\/github.com\/Alexandre-Lematre",
+        "name": "Alexandre Lematre",
+        "company": "Prestashop",
+        "blog": "",
+        "location": "Nantes",
+        "bio": null,
+        "email_domain": "",
+        "contributions": 25,
+        "repositories": {
+            "prestashop-flashlight": 25
+        },
+        "categories": {
+            "core": {
+                "total": 0,
+                "repositories": []
+            },
+            "specs": {
+                "total": 0,
+                "repositories": []
+            },
+            "documentation": {
+                "total": 0,
+                "repositories": []
+            },
+            "themes": {
+                "total": 0,
+                "repositories": []
+            },
+            "modules": {
+                "total": 0,
+                "repositories": []
+            },
+            "tools": {
+                "total": 0,
+                "repositories": []
+            },
+            "tests": {
+                "total": 0,
+                "repositories": []
+            },
+            "blog": {
+                "total": 0,
+                "repositories": []
+            },
+            "others": {
+                "total": 25,
+                "repositories": {
+                    "prestashop-flashlight": 25
+                }
+            }
+        }
+    },
     "hadjedjvincent": {
         "login": "hadjedjvincent",
         "id": 3198580,
@@ -17707,62 +17765,6 @@
             "others": {
                 "total": 0,
                 "repositories": []
-            }
-        }
-    },
-    "Alexandre-Lematre": {
-        "login": "Alexandre-Lematre",
-        "id": 107846409,
-        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/107846409?v=4",
-        "html_url": "https:\/\/github.com\/Alexandre-Lematre",
-        "name": "Alexandre Lematre",
-        "company": "Prestashop",
-        "blog": "",
-        "location": "Nantes",
-        "bio": null,
-        "email_domain": "",
-        "contributions": 24,
-        "repositories": {
-            "prestashop-flashlight": 24
-        },
-        "categories": {
-            "core": {
-                "total": 0,
-                "repositories": []
-            },
-            "specs": {
-                "total": 0,
-                "repositories": []
-            },
-            "documentation": {
-                "total": 0,
-                "repositories": []
-            },
-            "themes": {
-                "total": 0,
-                "repositories": []
-            },
-            "modules": {
-                "total": 0,
-                "repositories": []
-            },
-            "tools": {
-                "total": 0,
-                "repositories": []
-            },
-            "tests": {
-                "total": 0,
-                "repositories": []
-            },
-            "blog": {
-                "total": 0,
-                "repositories": []
-            },
-            "others": {
-                "total": 24,
-                "repositories": {
-                    "prestashop-flashlight": 24
-                }
             }
         }
     },
@@ -49189,5 +49191,5 @@
             }
         }
     },
-    "updatedAt": "2025-09-21 06:09:17"
+    "updatedAt": "2025-09-22 09:10:36"
 }
