@@ -10,7 +10,7 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 9582,
+        "contributions": 9592,
         "repositories": {
             "PrestaShop": 1037,
             "PrestaShop-modules": 2,
@@ -719,7 +719,7 @@
         "location": "London",
         "bio": null,
         "email_domain": "",
-        "contributions": 4718,
+        "contributions": 4720,
         "repositories": {
             "PrestaShop": 395,
             "PrestaShop-modules": 14,
@@ -1129,7 +1129,7 @@
         "email_domain": "",
         "contributions": 2076,
         "repositories": {
-            "PrestaShop": 339,
+            "PrestaShop": 341,
             "dashactivity": 4,
             "dashgoals": 4,
             "dashproducts": 6,
@@ -1211,9 +1211,9 @@
         },
         "categories": {
             "core": {
-                "total": 344,
+                "total": 346,
                 "repositories": {
-                    "PrestaShop": 339,
+                    "PrestaShop": 341,
                     "prestashop-ui-kit": 3,
                     "circuit-breaker": 1,
                     "LocalizationFiles": 1
@@ -1334,7 +1334,7 @@
                 }
             }
         },
-        "mergedPullRequests": 822
+        "mergedPullRequests": 824
     },
     "nesrineabdmouleh": {
         "login": "nesrineabdmouleh",
@@ -1991,7 +1991,7 @@
         "location": "Bydgoszcz, Poland",
         "bio": "I'm a web developer from Poland, specializing in working with PrestaShop e-commerce",
         "email_domain": "",
-        "contributions": 3030,
+        "contributions": 3032,
         "repositories": {
             "PrestaShop": 154,
             "PrestaShop-modules": 3,
@@ -4070,9 +4070,9 @@
         "location": "France",
         "bio": "Developper from father to son with +12 years experience, and commiter for @PrestaShop!",
         "email_domain": "",
-        "contributions": 566,
+        "contributions": 568,
         "repositories": {
-            "PrestaShop": 113,
+            "PrestaShop": 114,
             "productcomments": 1,
             "autoupgrade": 5,
             "ps_emailsubscription": 1,
@@ -4093,9 +4093,9 @@
         },
         "categories": {
             "core": {
-                "total": 116,
+                "total": 117,
                 "repositories": {
-                    "PrestaShop": 113,
+                    "PrestaShop": 114,
                     "circuit-breaker": 3
                 }
             },
@@ -4152,7 +4152,7 @@
                 "repositories": []
             }
         },
-        "mergedPullRequests": 190
+        "mergedPullRequests": 191
     },
     "thierrymarianne": {
         "login": "thierrymarianne",
@@ -4249,7 +4249,7 @@
         "location": null,
         "bio": "Founder of @wallabag. ",
         "email_domain": "",
-        "contributions": 1300,
+        "contributions": 1302,
         "repositories": {
             "PrestaShop": 113,
             "blockwishlist": 6,
@@ -6230,7 +6230,7 @@
         "location": null,
         "bio": null,
         "email_domain": "",
-        "contributions": 163,
+        "contributions": 169,
         "repositories": {
             "PrestaShop": 75,
             "productcomments": 2,
@@ -6489,7 +6489,7 @@
         "location": "Via Giuseppe Saragat, 19 86170 Isernia - ITALIA",
         "bio": "Siamo un'agenzia di Branding, Comunicazione e Marketing.\r\nRealizziamo progetti di comunicazione visiva brand-oriented, web design e web marketing.",
         "email_domain": "codencode.it",
-        "contributions": 148,
+        "contributions": 155,
         "repositories": {
             "PrestaShop": 71,
             "dashactivity": 1,
@@ -6997,7 +6997,7 @@
         "email_domain": "gmail.com",
         "contributions": 143,
         "repositories": {
-            "PrestaShop": 51,
+            "PrestaShop": 52,
             "autoupgrade": 3,
             "gsitemap": 1,
             "prestashop.github.io": 3,
@@ -7007,9 +7007,9 @@
         },
         "categories": {
             "core": {
-                "total": 53,
+                "total": 54,
                 "repositories": {
-                    "PrestaShop": 51,
+                    "PrestaShop": 52,
                     "LocalizationFiles": 2
                 }
             },
@@ -7054,7 +7054,7 @@
                 "repositories": []
             }
         },
-        "mergedPullRequests": 62
+        "mergedPullRequests": 63
     },
     "tomlev": {
         "login": "tomlev",
@@ -8187,7 +8187,7 @@
         "location": null,
         "bio": null,
         "email_domain": "",
-        "contributions": 519,
+        "contributions": 523,
         "repositories": {
             "PrestaShop": 7,
             "dashactivity": 1,
@@ -16619,6 +16619,73 @@
         },
         "mergedPullRequests": 8
     },
+    "bibips": {
+        "login": "bibips",
+        "id": 6272184,
+        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/6272184?v=4",
+        "html_url": "https:\/\/github.com\/bibips",
+        "name": null,
+        "company": "Eurofins",
+        "blog": "",
+        "location": "Alsace",
+        "bio": null,
+        "email_domain": "",
+        "contributions": 7,
+        "repositories": {
+            "PrestaShop": 4,
+            "autoupgrade": 1,
+            "ps_mainmenu": 1,
+            "ps_facetedsearch": 1,
+            "hummingbird": 1
+        },
+        "categories": {
+            "core": {
+                "total": 4,
+                "repositories": {
+                    "PrestaShop": 4
+                }
+            },
+            "specs": {
+                "total": 0,
+                "repositories": []
+            },
+            "documentation": {
+                "total": 0,
+                "repositories": []
+            },
+            "themes": {
+                "total": 1,
+                "repositories": {
+                    "hummingbird": 1
+                }
+            },
+            "modules": {
+                "total": 3,
+                "repositories": {
+                    "autoupgrade": 1,
+                    "ps_mainmenu": 1,
+                    "ps_facetedsearch": 1
+                }
+            },
+            "tools": {
+                "total": 0,
+                "repositories": []
+            },
+            "tests": {
+                "total": 0,
+                "repositories": []
+            },
+            "blog": {
+                "total": 0,
+                "repositories": []
+            },
+            "others": {
+                "total": 0,
+                "repositories": []
+            }
+        },
+        "mergedPullRequests": 8
+    },
     "bellini13": {
         "login": "bellini13",
         "id": 5391548,
@@ -17259,73 +17326,6 @@
                 "total": 1,
                 "repositories": {
                     "ps_linklist": 1
-                }
-            },
-            "tools": {
-                "total": 0,
-                "repositories": []
-            },
-            "tests": {
-                "total": 0,
-                "repositories": []
-            },
-            "blog": {
-                "total": 0,
-                "repositories": []
-            },
-            "others": {
-                "total": 0,
-                "repositories": []
-            }
-        },
-        "mergedPullRequests": 7
-    },
-    "bibips": {
-        "login": "bibips",
-        "id": 6272184,
-        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/6272184?v=4",
-        "html_url": "https:\/\/github.com\/bibips",
-        "name": null,
-        "company": "Eurofins",
-        "blog": "",
-        "location": "Alsace",
-        "bio": null,
-        "email_domain": "",
-        "contributions": 7,
-        "repositories": {
-            "PrestaShop": 3,
-            "autoupgrade": 1,
-            "ps_mainmenu": 1,
-            "ps_facetedsearch": 1,
-            "hummingbird": 1
-        },
-        "categories": {
-            "core": {
-                "total": 3,
-                "repositories": {
-                    "PrestaShop": 3
-                }
-            },
-            "specs": {
-                "total": 0,
-                "repositories": []
-            },
-            "documentation": {
-                "total": 0,
-                "repositories": []
-            },
-            "themes": {
-                "total": 1,
-                "repositories": {
-                    "hummingbird": 1
-                }
-            },
-            "modules": {
-                "total": 3,
-                "repositories": {
-                    "autoupgrade": 1,
-                    "ps_mainmenu": 1,
-                    "ps_facetedsearch": 1
                 }
             },
             "tools": {
