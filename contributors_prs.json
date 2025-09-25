@@ -10,7 +10,7 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 9592,
+        "contributions": 9596,
         "repositories": {
             "PrestaShop": 1037,
             "PrestaShop-modules": 2,
@@ -1347,14 +1347,14 @@
         "location": "Paris, France",
         "bio": "QA Automation Engineer",
         "email_domain": "gmail.com",
-        "contributions": 3263,
+        "contributions": 3268,
         "repositories": {
             "PrestaShop": 655,
             "autoupgrade": 34,
             "PSFunctionalTests": 5,
             "traces": 2,
             "QANightlyResults": 1,
-            "ui-testing-library": 73
+            "ui-testing-library": 74
         },
         "categories": {
             "core": {
@@ -1389,10 +1389,10 @@
                 }
             },
             "tests": {
-                "total": 78,
+                "total": 79,
                 "repositories": {
                     "PSFunctionalTests": 5,
-                    "ui-testing-library": 73
+                    "ui-testing-library": 74
                 }
             },
             "blog": {
@@ -1404,7 +1404,7 @@
                 "repositories": []
             }
         },
-        "mergedPullRequests": 770
+        "mergedPullRequests": 771
     },
     "NeOMakinG": {
         "login": "NeOMakinG",
@@ -1993,7 +1993,7 @@
         "email_domain": "",
         "contributions": 3032,
         "repositories": {
-            "PrestaShop": 154,
+            "PrestaShop": 155,
             "PrestaShop-modules": 3,
             "pagesnotfound": 1,
             "statsdata": 1,
@@ -2043,9 +2043,9 @@
         },
         "categories": {
             "core": {
-                "total": 154,
+                "total": 155,
                 "repositories": {
-                    "PrestaShop": 154
+                    "PrestaShop": 155
                 }
             },
             "specs": {
@@ -2135,7 +2135,7 @@
                 }
             }
         },
-        "mergedPullRequests": 493
+        "mergedPullRequests": 494
     },
     "atomiix": {
         "login": "atomiix",
@@ -2982,12 +2982,12 @@
         "location": null,
         "bio": null,
         "email_domain": "",
-        "contributions": 495,
+        "contributions": 498,
         "repositories": {
             "PrestaShop": 98,
             "blockwishlist": 1,
             "productcomments": 5,
-            "autoupgrade": 132,
+            "autoupgrade": 133,
             "ps_linklist": 6,
             "ps_banner": 1,
             "docs": 31,
@@ -3036,11 +3036,11 @@
                 "repositories": []
             },
             "modules": {
-                "total": 156,
+                "total": 157,
                 "repositories": {
                     "blockwishlist": 1,
                     "productcomments": 5,
-                    "autoupgrade": 132,
+                    "autoupgrade": 133,
                     "ps_linklist": 6,
                     "ps_banner": 1,
                     "psgdpr": 4,
@@ -3074,7 +3074,7 @@
                 }
             }
         },
-        "mergedPullRequests": 329
+        "mergedPullRequests": 330
     },
     "djfm": {
         "login": "djfm",
@@ -4249,7 +4249,7 @@
         "location": null,
         "bio": "Founder of @wallabag. ",
         "email_domain": "",
-        "contributions": 1302,
+        "contributions": 1304,
         "repositories": {
             "PrestaShop": 113,
             "blockwishlist": 6,
@@ -6489,7 +6489,7 @@
         "location": "Via Giuseppe Saragat, 19 86170 Isernia - ITALIA",
         "bio": "Siamo un'agenzia di Branding, Comunicazione e Marketing.\r\nRealizziamo progetti di comunicazione visiva brand-oriented, web design e web marketing.",
         "email_domain": "codencode.it",
-        "contributions": 155,
+        "contributions": 157,
         "repositories": {
             "PrestaShop": 71,
             "dashactivity": 1,
@@ -6498,7 +6498,7 @@
             "ps_emailsubscription": 3,
             "ps_imageslider": 2,
             "ps_mainmenu": 1,
-            "ps_facetedsearch": 1,
+            "ps_facetedsearch": 2,
             "LocalizationFiles": 1,
             "hummingbird": 1,
             "classic-theme": 2,
@@ -6528,7 +6528,7 @@
                 }
             },
             "modules": {
-                "total": 13,
+                "total": 14,
                 "repositories": {
                     "dashactivity": 1,
                     "autoupgrade": 3,
@@ -6536,7 +6536,7 @@
                     "ps_emailsubscription": 3,
                     "ps_imageslider": 2,
                     "ps_mainmenu": 1,
-                    "ps_facetedsearch": 1,
+                    "ps_facetedsearch": 2,
                     "ps_apiresources": 1
                 }
             },
@@ -6557,7 +6557,7 @@
                 "repositories": []
             }
         },
-        "mergedPullRequests": 88
+        "mergedPullRequests": 89
     },
     "cdesiles": {
         "login": "cdesiles",
@@ -8187,7 +8187,7 @@
         "location": null,
         "bio": null,
         "email_domain": "",
-        "contributions": 523,
+        "contributions": 524,
         "repositories": {
             "PrestaShop": 7,
             "dashactivity": 1,
@@ -18920,6 +18920,66 @@
         },
         "mergedPullRequests": 6
     },
+    "MattKelvin": {
+        "login": "MattKelvin",
+        "id": 6407640,
+        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/6407640?v=4",
+        "html_url": "https:\/\/github.com\/MattKelvin",
+        "name": null,
+        "company": "Mademoiselle bio",
+        "blog": "https:\/\/mkdaous.fr",
+        "location": "Paris",
+        "bio": "Web developer ",
+        "email_domain": "",
+        "contributions": 2,
+        "repositories": {
+            "PrestaShop": 4,
+            "docs": 2
+        },
+        "categories": {
+            "core": {
+                "total": 4,
+                "repositories": {
+                    "PrestaShop": 4
+                }
+            },
+            "specs": {
+                "total": 0,
+                "repositories": []
+            },
+            "documentation": {
+                "total": 2,
+                "repositories": {
+                    "docs": 2
+                }
+            },
+            "themes": {
+                "total": 0,
+                "repositories": []
+            },
+            "modules": {
+                "total": 0,
+                "repositories": []
+            },
+            "tools": {
+                "total": 0,
+                "repositories": []
+            },
+            "tests": {
+                "total": 0,
+                "repositories": []
+            },
+            "blog": {
+                "total": 0,
+                "repositories": []
+            },
+            "others": {
+                "total": 0,
+                "repositories": []
+            }
+        },
+        "mergedPullRequests": 6
+    },
     "Uebix": {
         "login": "Uebix",
         "id": 3381177,
@@ -20346,66 +20406,6 @@
                 "repositories": {
                     "classic-theme": 2
                 }
-            },
-            "modules": {
-                "total": 0,
-                "repositories": []
-            },
-            "tools": {
-                "total": 0,
-                "repositories": []
-            },
-            "tests": {
-                "total": 0,
-                "repositories": []
-            },
-            "blog": {
-                "total": 0,
-                "repositories": []
-            },
-            "others": {
-                "total": 0,
-                "repositories": []
-            }
-        },
-        "mergedPullRequests": 5
-    },
-    "MattKelvin": {
-        "login": "MattKelvin",
-        "id": 6407640,
-        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/6407640?v=4",
-        "html_url": "https:\/\/github.com\/MattKelvin",
-        "name": null,
-        "company": "Mademoiselle bio",
-        "blog": "https:\/\/mkdaous.fr",
-        "location": "Paris",
-        "bio": "Web developer ",
-        "email_domain": "",
-        "contributions": 2,
-        "repositories": {
-            "PrestaShop": 3,
-            "docs": 2
-        },
-        "categories": {
-            "core": {
-                "total": 3,
-                "repositories": {
-                    "PrestaShop": 3
-                }
-            },
-            "specs": {
-                "total": 0,
-                "repositories": []
-            },
-            "documentation": {
-                "total": 2,
-                "repositories": {
-                    "docs": 2
-                }
-            },
-            "themes": {
-                "total": 0,
-                "repositories": []
             },
             "modules": {
                 "total": 0,
@@ -42930,63 +42930,6 @@
         },
         "mergedPullRequests": 1
     },
-    "PeNov": {
-        "login": "PeNov",
-        "id": 38213520,
-        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/38213520?v=4",
-        "html_url": "https:\/\/github.com\/PeNov",
-        "name": null,
-        "company": null,
-        "blog": "",
-        "location": null,
-        "bio": null,
-        "email_domain": "",
-        "contributions": 1,
-        "repositories": {
-            "ps_facetedsearch": 1
-        },
-        "categories": {
-            "core": {
-                "total": 0,
-                "repositories": []
-            },
-            "specs": {
-                "total": 0,
-                "repositories": []
-            },
-            "documentation": {
-                "total": 0,
-                "repositories": []
-            },
-            "themes": {
-                "total": 0,
-                "repositories": []
-            },
-            "modules": {
-                "total": 1,
-                "repositories": {
-                    "ps_facetedsearch": 1
-                }
-            },
-            "tools": {
-                "total": 0,
-                "repositories": []
-            },
-            "tests": {
-                "total": 0,
-                "repositories": []
-            },
-            "blog": {
-                "total": 0,
-                "repositories": []
-            },
-            "others": {
-                "total": 0,
-                "repositories": []
-            }
-        },
-        "mergedPullRequests": 1
-    },
     "Stomp9": {
         "login": "Stomp9",
         "id": 3840427,
@@ -43106,6 +43049,63 @@
         "id": 44570209,
         "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/44570209?v=4",
         "html_url": "https:\/\/github.com\/bogdan202",
+        "name": null,
+        "company": null,
+        "blog": "",
+        "location": null,
+        "bio": null,
+        "email_domain": "",
+        "contributions": 1,
+        "repositories": {
+            "ps_facetedsearch": 1
+        },
+        "categories": {
+            "core": {
+                "total": 0,
+                "repositories": []
+            },
+            "specs": {
+                "total": 0,
+                "repositories": []
+            },
+            "documentation": {
+                "total": 0,
+                "repositories": []
+            },
+            "themes": {
+                "total": 0,
+                "repositories": []
+            },
+            "modules": {
+                "total": 1,
+                "repositories": {
+                    "ps_facetedsearch": 1
+                }
+            },
+            "tools": {
+                "total": 0,
+                "repositories": []
+            },
+            "tests": {
+                "total": 0,
+                "repositories": []
+            },
+            "blog": {
+                "total": 0,
+                "repositories": []
+            },
+            "others": {
+                "total": 0,
+                "repositories": []
+            }
+        },
+        "mergedPullRequests": 1
+    },
+    "PeNov": {
+        "login": "PeNov",
+        "id": 38213520,
+        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/38213520?v=4",
+        "html_url": "https:\/\/github.com\/PeNov",
         "name": null,
         "company": null,
         "blog": "",
