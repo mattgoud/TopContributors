@@ -1784,9 +1784,9 @@
         "location": "Bydgoszcz, Poland",
         "bio": "I'm a web developer from Poland, specializing in working with PrestaShop e-commerce",
         "email_domain": "",
-        "contributions": 3032,
+        "contributions": 3035,
         "repositories": {
-            "PrestaShop": 739,
+            "PrestaShop": 741,
             "PrestaShop-modules": 4,
             "PrestaShop-webservice-lib": 1,
             "dashactivity": 1,
@@ -1837,7 +1837,7 @@
             "ps_mainmenu": 2,
             "ps_customersignin": 4,
             "ps_categorytree": 5,
-            "docs": 442,
+            "docs": 443,
             "ps_wirepayment": 1,
             "ps_shoppingcart": 4,
             "ps_currencyselector": 7,
@@ -1897,9 +1897,9 @@
         },
         "categories": {
             "core": {
-                "total": 765,
+                "total": 767,
                 "repositories": {
-                    "PrestaShop": 739,
+                    "PrestaShop": 741,
                     "prestashop-ui-kit": 4,
                     "LocalizationFiles": 19,
                     "stylelint-browser-compatibility": 1,
@@ -1914,10 +1914,10 @@
                 }
             },
             "documentation": {
-                "total": 743,
+                "total": 744,
                 "repositories": {
                     "paymentexample": 7,
-                    "docs": 442,
+                    "docs": 443,
                     "user-documentation-en": 1,
                     "ADR": 6,
                     "example-modules": 73,
@@ -5573,7 +5573,7 @@
         "location": "Belgium",
         "bio": "D\u00e9veloppeur #PrestaShop",
         "email_domain": "prestaedit.com",
-        "contributions": 628,
+        "contributions": 634,
         "repositories": {
             "PrestaShop": 410,
             "PrestaShop-modules": 5,
@@ -5617,7 +5617,7 @@
             "ps_mainmenu": 1,
             "ps_customersignin": 1,
             "ps_legalcompliance": 2,
-            "docs": 53,
+            "docs": 59,
             "ps_wirepayment": 1,
             "ps_currencyselector": 1,
             "ps_languageselector": 1,
@@ -5660,9 +5660,9 @@
                 }
             },
             "documentation": {
-                "total": 56,
+                "total": 62,
                 "repositories": {
-                    "docs": 53,
+                    "docs": 59,
                     "example-modules": 2,
                     "open-source": 1
                 }
@@ -6044,7 +6044,7 @@
         "location": null,
         "bio": null,
         "email_domain": "",
-        "contributions": 524,
+        "contributions": 525,
         "repositories": {
             "PrestaShop": 266,
             "dashactivity": 4,
@@ -6072,7 +6072,7 @@
             "ps_mainmenu": 3,
             "ps_customersignin": 8,
             "ps_categorytree": 5,
-            "docs": 39,
+            "docs": 40,
             "ps_wirepayment": 3,
             "ps_facetedsearch": 2,
             "ps_checkpayment": 5,
@@ -6116,9 +6116,9 @@
                 }
             },
             "documentation": {
-                "total": 56,
+                "total": 57,
                 "repositories": {
-                    "docs": 39,
+                    "docs": 40,
                     "user-documentation-en": 2,
                     "example-modules": 1,
                     "open-source": 13,
@@ -9779,9 +9779,9 @@
         "location": "Via Giuseppe Saragat, 19 86170 Isernia - ITALIA",
         "bio": "Siamo un'agenzia di Branding, Comunicazione e Marketing.\r\nRealizziamo progetti di comunicazione visiva brand-oriented, web design e web marketing.",
         "email_domain": "codencode.it",
-        "contributions": 157,
+        "contributions": 158,
         "repositories": {
-            "PrestaShop": 113,
+            "PrestaShop": 114,
             "dashactivity": 2,
             "autoupgrade": 3,
             "blockreassurance": 2,
@@ -9796,9 +9796,9 @@
         },
         "categories": {
             "core": {
-                "total": 114,
+                "total": 115,
                 "repositories": {
-                    "PrestaShop": 113,
+                    "PrestaShop": 114,
                     "LocalizationFiles": 1
                 }
             },
@@ -47854,7 +47854,7 @@
         "id": 61692860,
         "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/61692860?v=4",
         "html_url": "https:\/\/github.com\/micreas",
-        "name": null,
+        "name": "Green 700",
         "company": null,
         "blog": "",
         "location": null,
@@ -49193,5 +49193,5 @@
             }
         }
     },
-    "updatedAt": "2025-09-25 06:09:10"
+    "updatedAt": "2025-09-26 06:17:03"
 }

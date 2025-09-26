@@ -1991,9 +1991,9 @@
         "location": "Bydgoszcz, Poland",
         "bio": "I'm a web developer from Poland, specializing in working with PrestaShop e-commerce",
         "email_domain": "",
-        "contributions": 3032,
+        "contributions": 3035,
         "repositories": {
-            "PrestaShop": 155,
+            "PrestaShop": 156,
             "PrestaShop-modules": 3,
             "pagesnotfound": 1,
             "statsdata": 1,
@@ -2043,9 +2043,9 @@
         },
         "categories": {
             "core": {
-                "total": 155,
+                "total": 156,
                 "repositories": {
-                    "PrestaShop": 155
+                    "PrestaShop": 156
                 }
             },
             "specs": {
@@ -2135,7 +2135,7 @@
                 }
             }
         },
-        "mergedPullRequests": 494
+        "mergedPullRequests": 495
     },
     "atomiix": {
         "login": "atomiix",
@@ -2457,7 +2457,7 @@
         "location": "Belgium",
         "bio": "D\u00e9veloppeur #PrestaShop",
         "email_domain": "prestaedit.com",
-        "contributions": 628,
+        "contributions": 634,
         "repositories": {
             "PrestaShop": 220,
             "PrestaShop-modules": 4,
@@ -2500,7 +2500,7 @@
             "ps_imageslider": 1,
             "ps_customersignin": 1,
             "ps_legalcompliance": 1,
-            "docs": 65,
+            "docs": 67,
             "ps_currencyselector": 1,
             "ps_languageselector": 1,
             "ps_customeraccountlinks": 1,
@@ -2542,9 +2542,9 @@
                 }
             },
             "documentation": {
-                "total": 68,
+                "total": 70,
                 "repositories": {
-                    "docs": 65,
+                    "docs": 67,
                     "open-source": 1,
                     "example-modules": 2
                 }
@@ -2641,7 +2641,7 @@
                 "repositories": []
             }
         },
-        "mergedPullRequests": 414
+        "mergedPullRequests": 416
     },
     "aleeks": {
         "login": "aleeks",
@@ -5129,7 +5129,7 @@
             "ps_searchbar": 1,
             "traces": 1,
             "open-source": 1,
-            "hummingbird": 51,
+            "hummingbird": 52,
             "classic-theme": 1,
             "bootstrap-compatibility-layer": 4,
             "Prestashop-BO-themes-package": 3
@@ -5154,9 +5154,9 @@
                 }
             },
             "themes": {
-                "total": 52,
+                "total": 53,
                 "repositories": {
-                    "hummingbird": 51,
+                    "hummingbird": 52,
                     "classic-theme": 1
                 }
             },
@@ -5193,7 +5193,7 @@
                 }
             }
         },
-        "mergedPullRequests": 141
+        "mergedPullRequests": 142
     },
     "jnadaud": {
         "login": "jnadaud",
@@ -6489,7 +6489,7 @@
         "location": "Via Giuseppe Saragat, 19 86170 Isernia - ITALIA",
         "bio": "Siamo un'agenzia di Branding, Comunicazione e Marketing.\r\nRealizziamo progetti di comunicazione visiva brand-oriented, web design e web marketing.",
         "email_domain": "codencode.it",
-        "contributions": 157,
+        "contributions": 158,
         "repositories": {
             "PrestaShop": 71,
             "dashactivity": 1,
@@ -8187,7 +8187,7 @@
         "location": null,
         "bio": null,
         "email_domain": "",
-        "contributions": 524,
+        "contributions": 525,
         "repositories": {
             "PrestaShop": 7,
             "dashactivity": 1,
@@ -10208,6 +10208,63 @@
         },
         "mergedPullRequests": 26
     },
+    "iNem0o": {
+        "login": "iNem0o",
+        "id": 1144755,
+        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/1144755?v=4",
+        "html_url": "https:\/\/github.com\/iNem0o",
+        "name": "L\u00e9o",
+        "company": "e-Frogg",
+        "blog": "http:\/\/leo.cuneaz.fr",
+        "location": "France",
+        "bio": null,
+        "email_domain": "",
+        "contributions": 14,
+        "repositories": {
+            "PrestaShop": 26
+        },
+        "categories": {
+            "core": {
+                "total": 26,
+                "repositories": {
+                    "PrestaShop": 26
+                }
+            },
+            "specs": {
+                "total": 0,
+                "repositories": []
+            },
+            "documentation": {
+                "total": 0,
+                "repositories": []
+            },
+            "themes": {
+                "total": 0,
+                "repositories": []
+            },
+            "modules": {
+                "total": 0,
+                "repositories": []
+            },
+            "tools": {
+                "total": 0,
+                "repositories": []
+            },
+            "tests": {
+                "total": 0,
+                "repositories": []
+            },
+            "blog": {
+                "total": 0,
+                "repositories": []
+            },
+            "others": {
+                "total": 0,
+                "repositories": []
+            }
+        },
+        "mergedPullRequests": 26
+    },
     "tdavidsonas88": {
         "login": "tdavidsonas88",
         "id": 32385991,
@@ -10468,63 +10525,6 @@
         "bio": "Developing on the web.",
         "email_domain": "",
         "contributions": 25,
-        "repositories": {
-            "PrestaShop": 25
-        },
-        "categories": {
-            "core": {
-                "total": 25,
-                "repositories": {
-                    "PrestaShop": 25
-                }
-            },
-            "specs": {
-                "total": 0,
-                "repositories": []
-            },
-            "documentation": {
-                "total": 0,
-                "repositories": []
-            },
-            "themes": {
-                "total": 0,
-                "repositories": []
-            },
-            "modules": {
-                "total": 0,
-                "repositories": []
-            },
-            "tools": {
-                "total": 0,
-                "repositories": []
-            },
-            "tests": {
-                "total": 0,
-                "repositories": []
-            },
-            "blog": {
-                "total": 0,
-                "repositories": []
-            },
-            "others": {
-                "total": 0,
-                "repositories": []
-            }
-        },
-        "mergedPullRequests": 25
-    },
-    "iNem0o": {
-        "login": "iNem0o",
-        "id": 1144755,
-        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/1144755?v=4",
-        "html_url": "https:\/\/github.com\/iNem0o",
-        "name": "L\u00e9o",
-        "company": "e-Frogg",
-        "blog": "http:\/\/leo.cuneaz.fr",
-        "location": "France",
-        "bio": null,
-        "email_domain": "",
-        "contributions": 14,
         "repositories": {
             "PrestaShop": 25
         },
@@ -44018,7 +44018,7 @@
         "id": 61692860,
         "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/61692860?v=4",
         "html_url": "https:\/\/github.com\/micreas",
-        "name": null,
+        "name": "Green 700",
         "company": null,
         "blog": "",
         "location": null,
