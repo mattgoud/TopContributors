@@ -10,7 +10,7 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 9596,
+        "contributions": 9597,
         "repositories": {
             "PrestaShop": 4208,
             "PrestaShop-modules": 31,
@@ -114,7 +114,7 @@
             "php-dev-tools": 4,
             "QANightlyResults": 330,
             "LocalizationFiles": 9,
-            "presthubot": 443,
+            "presthubot": 444,
             "stylelint-config": 7,
             "example-modules": 6,
             "ps_qualityassurance": 1,
@@ -269,7 +269,7 @@
                 }
             },
             "tools": {
-                "total": 1133,
+                "total": 1134,
                 "repositories": {
                     "core-weekly-generator": 6,
                     "docker": 41,
@@ -279,7 +279,7 @@
                     "mjml-theme-converter": 1,
                     "nightly-board": 46,
                     "PrestaShop-webservice-lib": 4,
-                    "presthubot": 443,
+                    "presthubot": 444,
                     "prestonbot": 10,
                     "QANightlyResults": 330,
                     "TopContributors": 94,
@@ -529,9 +529,9 @@
         "location": "Amiens - France",
         "bio": "Senior engineering manager",
         "email_domain": "",
-        "contributions": 5481,
+        "contributions": 5482,
         "repositories": {
-            "PrestaShop": 2096,
+            "PrestaShop": 2097,
             "PrestaShop-modules": 3,
             "PrestaShop-webservice-lib": 10,
             "dashactivity": 28,
@@ -657,9 +657,9 @@
         },
         "categories": {
             "core": {
-                "total": 2143,
+                "total": 2144,
                 "repositories": {
-                    "PrestaShop": 2096,
+                    "PrestaShop": 2097,
                     "prestashop-ui-kit": 7,
                     "TranslationToolsBundle": 14,
                     "LocalizationFiles": 4,
@@ -973,7 +973,7 @@
         "location": "London",
         "bio": null,
         "email_domain": "",
-        "contributions": 4720,
+        "contributions": 4721,
         "repositories": {
             "PrestaShop": 1705,
             "PrestaShop-modules": 349,
@@ -1006,7 +1006,7 @@
             "blockwishlist": 38,
             "pscleaner": 3,
             "themeinstallator": 3,
-            "autoupgrade": 1224,
+            "autoupgrade": 1225,
             "gsitemap": 6,
             "prestafraud": 1,
             "prestashop.github.io": 17,
@@ -1103,7 +1103,7 @@
                 }
             },
             "modules": {
-                "total": 2021,
+                "total": 2022,
                 "repositories": {
                     "PrestaShop-modules": 349,
                     "dashactivity": 1,
@@ -1133,7 +1133,7 @@
                     "statsstock": 2,
                     "blockwishlist": 38,
                     "pscleaner": 3,
-                    "autoupgrade": 1224,
+                    "autoupgrade": 1225,
                     "gsitemap": 6,
                     "prestafraud": 1,
                     "contactform": 1,
@@ -9779,9 +9779,9 @@
         "location": "Via Giuseppe Saragat, 19 86170 Isernia - ITALIA",
         "bio": "Siamo un'agenzia di Branding, Comunicazione e Marketing.\r\nRealizziamo progetti di comunicazione visiva brand-oriented, web design e web marketing.",
         "email_domain": "codencode.it",
-        "contributions": 158,
+        "contributions": 159,
         "repositories": {
-            "PrestaShop": 114,
+            "PrestaShop": 115,
             "dashactivity": 2,
             "autoupgrade": 3,
             "blockreassurance": 2,
@@ -9796,9 +9796,9 @@
         },
         "categories": {
             "core": {
-                "total": 115,
+                "total": 116,
                 "repositories": {
-                    "PrestaShop": 114,
+                    "PrestaShop": 115,
                     "LocalizationFiles": 1
                 }
             },
@@ -49193,5 +49193,5 @@
             }
         }
     },
-    "updatedAt": "2025-09-26 06:17:03"
+    "updatedAt": "2025-09-27 06:07:34"
 }
