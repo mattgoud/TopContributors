@@ -13773,17 +13773,17 @@
             }
         }
     },
-    "Tanguy-hthai": {
-        "login": "Tanguy-hthai",
+    "Tanguy-SALMON": {
+        "login": "Tanguy-SALMON",
         "id": 6756795,
         "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/6756795?v=4",
-        "html_url": "https:\/\/github.com\/Tanguy-hthai",
-        "name": "Tanguy SALMON",
-        "company": "@GillCapital",
+        "html_url": "https:\/\/github.com\/Tanguy-SALMON",
+        "name": "Tanguy",
+        "company": "@Thailand-Bangkok",
         "blog": "Lathanao.hahaha",
         "location": "Bangkok",
         "bio": "Constantly looking for better prompts.",
-        "email_domain": "hthai.co.th",
+        "email_domain": "gmail.com",
         "contributions": 49,
         "repositories": {
             "PrestaShop": 49
@@ -34303,7 +34303,7 @@
         "company": "PQShield",
         "blog": "https:\/\/gniot.fr",
         "location": "Paris, France",
-        "bio": "PhD student at PQShield and Universit\u00e9 de Rennes 1.\r\nI love post-quantum cryptography, software security, and privacy projects!",
+        "bio": "PhD student at PQShield and University Rennes 1.\r\nI love post-quantum cryptography, software security, and privacy projects!",
         "email_domain": "",
         "contributions": 2,
         "repositories": {
@@ -49193,5 +49193,5 @@
             }
         }
     },
-    "updatedAt": "2025-09-27 06:07:34"
+    "updatedAt": "2025-09-28 06:07:54"
 }
