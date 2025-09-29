@@ -10,7 +10,7 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 9597,
+        "contributions": 9602,
         "repositories": {
             "PrestaShop": 1037,
             "PrestaShop-modules": 2,
@@ -117,7 +117,7 @@
             "ps_fixturescreator": 4,
             "ws-client": 3,
             "ps_apiresources": 4,
-            "ui-testing-library": 313
+            "ui-testing-library": 314
         },
         "categories": {
             "core": {
@@ -253,10 +253,10 @@
                 }
             },
             "tests": {
-                "total": 343,
+                "total": 344,
                 "repositories": {
                     "ga.tests.ui.pr": 30,
-                    "ui-testing-library": 313
+                    "ui-testing-library": 314
                 }
             },
             "blog": {
@@ -272,7 +272,7 @@
                 }
             }
         },
-        "mergedPullRequests": 2074
+        "mergedPullRequests": 2075
     },
     "matks": {
         "login": "matks",
@@ -719,7 +719,7 @@
         "location": "London",
         "bio": null,
         "email_domain": "",
-        "contributions": 4721,
+        "contributions": 4722,
         "repositories": {
             "PrestaShop": 395,
             "PrestaShop-modules": 14,
@@ -4249,7 +4249,7 @@
         "location": null,
         "bio": "Founder of @wallabag. ",
         "email_domain": "",
-        "contributions": 1304,
+        "contributions": 1311,
         "repositories": {
             "PrestaShop": 113,
             "blockwishlist": 6,
@@ -5267,6 +5267,85 @@
         },
         "mergedPullRequests": 139
     },
+    "ga-devfront": {
+        "login": "ga-devfront",
+        "id": 52718717,
+        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/52718717?v=4",
+        "html_url": "https:\/\/github.com\/ga-devfront",
+        "name": "Guyomar Alexis",
+        "company": "@PrestaShopCorp",
+        "blog": "ag-dev.fr",
+        "location": "74100 Annemasse, France",
+        "bio": null,
+        "email_domain": "",
+        "contributions": 995,
+        "repositories": {
+            "PrestaShop": 3,
+            "autoupgrade": 96,
+            "prestashop.github.io": 2,
+            "docs": 5,
+            "ps_wirepayment": 1,
+            "traces": 1,
+            "hummingbird": 10,
+            "distribution-api": 10,
+            "bootstrap-compatibility-layer": 6
+        },
+        "categories": {
+            "core": {
+                "total": 3,
+                "repositories": {
+                    "PrestaShop": 3
+                }
+            },
+            "specs": {
+                "total": 0,
+                "repositories": []
+            },
+            "documentation": {
+                "total": 5,
+                "repositories": {
+                    "docs": 5
+                }
+            },
+            "themes": {
+                "total": 10,
+                "repositories": {
+                    "hummingbird": 10
+                }
+            },
+            "modules": {
+                "total": 97,
+                "repositories": {
+                    "autoupgrade": 96,
+                    "ps_wirepayment": 1
+                }
+            },
+            "tools": {
+                "total": 7,
+                "repositories": {
+                    "traces": 1,
+                    "bootstrap-compatibility-layer": 6
+                }
+            },
+            "tests": {
+                "total": 0,
+                "repositories": []
+            },
+            "blog": {
+                "total": 2,
+                "repositories": {
+                    "prestashop.github.io": 2
+                }
+            },
+            "others": {
+                "total": 10,
+                "repositories": {
+                    "distribution-api": 10
+                }
+            }
+        },
+        "mergedPullRequests": 134
+    },
     "jocel1": {
         "login": "jocel1",
         "id": 1429072,
@@ -5341,85 +5420,6 @@
             }
         },
         "mergedPullRequests": 134
-    },
-    "ga-devfront": {
-        "login": "ga-devfront",
-        "id": 52718717,
-        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/52718717?v=4",
-        "html_url": "https:\/\/github.com\/ga-devfront",
-        "name": "Guyomar Alexis",
-        "company": "@PrestaShopCorp",
-        "blog": "ag-dev.fr",
-        "location": "74100 Annemasse, France",
-        "bio": null,
-        "email_domain": "",
-        "contributions": 985,
-        "repositories": {
-            "PrestaShop": 3,
-            "autoupgrade": 95,
-            "prestashop.github.io": 2,
-            "docs": 5,
-            "ps_wirepayment": 1,
-            "traces": 1,
-            "hummingbird": 10,
-            "distribution-api": 10,
-            "bootstrap-compatibility-layer": 6
-        },
-        "categories": {
-            "core": {
-                "total": 3,
-                "repositories": {
-                    "PrestaShop": 3
-                }
-            },
-            "specs": {
-                "total": 0,
-                "repositories": []
-            },
-            "documentation": {
-                "total": 5,
-                "repositories": {
-                    "docs": 5
-                }
-            },
-            "themes": {
-                "total": 10,
-                "repositories": {
-                    "hummingbird": 10
-                }
-            },
-            "modules": {
-                "total": 96,
-                "repositories": {
-                    "autoupgrade": 95,
-                    "ps_wirepayment": 1
-                }
-            },
-            "tools": {
-                "total": 7,
-                "repositories": {
-                    "traces": 1,
-                    "bootstrap-compatibility-layer": 6
-                }
-            },
-            "tests": {
-                "total": 0,
-                "repositories": []
-            },
-            "blog": {
-                "total": 2,
-                "repositories": {
-                    "prestashop.github.io": 2
-                }
-            },
-            "others": {
-                "total": 10,
-                "repositories": {
-                    "distribution-api": 10
-                }
-            }
-        },
-        "mergedPullRequests": 133
     },
     "nihco2": {
         "login": "nihco2",
