@@ -83,10 +83,10 @@
             "rank": 1,
             "rank_contributions": 1,
             "rank_pull_requests": 1,
-            "merged_pull_requests": 16023,
+            "merged_pull_requests": 16025,
             "merged_pull_requests_by_version": {
                 "9.1": 87,
-                "9.0": 932,
+                "9.0": 933,
                 "8.2": 31,
                 "8.1": 467,
                 "8.0": 788,
@@ -102,7 +102,7 @@
                 "1.6.1": 358
             },
             "merged_pull_requests_by_year": {
-                "2025": 885,
+                "2025": 887,
                 "2024": 1295,
                 "2023": 1567,
                 "2022": 1558,
@@ -117,10 +117,10 @@
                 "2013": 24
             },
             "pull_requests_percent": 60.17,
-            "contributions": 74332,
+            "contributions": 74335,
             "contributions_by_version": {
                 "9.1": 1680,
-                "9.0": 3867,
+                "9.0": 3868,
                 "8.2": 74,
                 "8.1": 2934,
                 "8.0": 5052,
@@ -136,7 +136,7 @@
                 "1.6.1": 485
             },
             "contributions_by_year": {
-                "2025": 3354,
+                "2025": 3357,
                 "2024": 5080,
                 "2023": 6403,
                 "2022": 10073,
@@ -159,10 +159,10 @@
             "rank": 2,
             "rank_contributions": 2,
             "rank_pull_requests": 2,
-            "merged_pull_requests": 812,
+            "merged_pull_requests": 813,
             "merged_pull_requests_by_version": {
                 "9.1": 1,
-                "9.0": 150,
+                "9.0": 151,
                 "8.2": 9,
                 "8.1": 121,
                 "8.0": 38,
@@ -170,7 +170,7 @@
                 "1.7.7": 5
             },
             "merged_pull_requests_by_year": {
-                "2025": 73,
+                "2025": 74,
                 "2024": 192,
                 "2023": 387,
                 "2022": 72,
@@ -179,10 +179,10 @@
                 "2019": 3
             },
             "pull_requests_percent": 3.05,
-            "contributions": 4211,
+            "contributions": 4212,
             "contributions_by_version": {
                 "9.1": 2,
-                "9.0": 304,
+                "9.0": 305,
                 "8.2": 13,
                 "8.1": 213,
                 "8.0": 88,
@@ -190,7 +190,7 @@
                 "1.7.7": 6
             },
             "contributions_by_year": {
-                "2025": 196,
+                "2025": 197,
                 "2024": 634,
                 "2023": 2222,
                 "2022": 920,
@@ -873,6 +873,30 @@
             "html_url": "https:\/\/www.fintecture.com\/"
         },
         {
+            "name": "Agence Off",
+            "rank": 18,
+            "rank_contributions": 36,
+            "rank_pull_requests": 18,
+            "merged_pull_requests": 3,
+            "merged_pull_requests_by_version": {
+                "9.0": 3
+            },
+            "merged_pull_requests_by_year": {
+                "2025": 3
+            },
+            "pull_requests_percent": 0.01,
+            "contributions": 3,
+            "contributions_by_version": {
+                "9.0": 3
+            },
+            "contributions_by_year": {
+                "2025": 3
+            },
+            "contributions_percent": 0,
+            "avatar_url": "",
+            "html_url": "https:\/\/www.agenceoff.fr"
+        },
+        {
             "name": "Griiv",
             "rank": 18,
             "rank_contributions": 19,
@@ -927,7 +951,7 @@
         {
             "name": "Idnovate",
             "rank": 18,
-            "rank_contributions": 36,
+            "rank_contributions": 37,
             "rank_pull_requests": 18,
             "merged_pull_requests": 3,
             "merged_pull_requests_by_version": {
@@ -957,7 +981,7 @@
         {
             "name": "Profileo",
             "rank": 18,
-            "rank_contributions": 37,
+            "rank_contributions": 38,
             "rank_pull_requests": 18,
             "merged_pull_requests": 3,
             "merged_pull_requests_by_version": {
@@ -1031,30 +1055,6 @@
             "contributions_percent": 0,
             "avatar_url": "",
             "html_url": "https:\/\/www.wepika.com"
-        },
-        {
-            "name": "Agence Off",
-            "rank": 19,
-            "rank_contributions": 40,
-            "rank_pull_requests": 19,
-            "merged_pull_requests": 2,
-            "merged_pull_requests_by_version": {
-                "9.0": 2
-            },
-            "merged_pull_requests_by_year": {
-                "2025": 2
-            },
-            "pull_requests_percent": 0.01,
-            "contributions": 2,
-            "contributions_by_version": {
-                "9.0": 2
-            },
-            "contributions_by_year": {
-                "2025": 2
-            },
-            "contributions_percent": 0,
-            "avatar_url": "",
-            "html_url": "https:\/\/www.agenceoff.fr"
         },
         {
             "name": "Arkonsoft",
@@ -1283,7 +1283,7 @@
         {
             "name": "Waynet",
             "rank": 19,
-            "rank_contributions": 38,
+            "rank_contributions": 39,
             "rank_pull_requests": 19,
             "merged_pull_requests": 2,
             "merged_pull_requests_by_version": {
@@ -1353,7 +1353,7 @@
         {
             "name": "Webimpacto Consulting",
             "rank": 19,
-            "rank_contributions": 39,
+            "rank_contributions": 40,
             "rank_pull_requests": 19,
             "merged_pull_requests": 2,
             "merged_pull_requests_by_version": {
@@ -1681,7 +1681,7 @@
         {
             "name": "Habitium",
             "rank": 20,
-            "rank_contributions": 36,
+            "rank_contributions": 37,
             "rank_pull_requests": 20,
             "merged_pull_requests": 1,
             "merged_pull_requests_by_version": {
@@ -1873,7 +1873,7 @@
         {
             "name": "Mediacom87",
             "rank": 20,
-            "rank_contributions": 37,
+            "rank_contributions": 38,
             "rank_pull_requests": 20,
             "merged_pull_requests": 1,
             "merged_pull_requests_by_version": {

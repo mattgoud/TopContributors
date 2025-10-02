@@ -12,7 +12,7 @@
         "email_domain": "gmail.com",
         "contributions": 9611,
         "repositories": {
-            "PrestaShop": 1038,
+            "PrestaShop": 1039,
             "PrestaShop-modules": 2,
             "PrestaShop-webservice-lib": 1,
             "dashactivity": 4,
@@ -121,9 +121,9 @@
         },
         "categories": {
             "core": {
-                "total": 1052,
+                "total": 1053,
                 "repositories": {
-                    "PrestaShop": 1038,
+                    "PrestaShop": 1039,
                     "prestashop-ui-kit": 1,
                     "TranslationToolsBundle": 2,
                     "TranslationFiles": 3,
@@ -272,7 +272,7 @@
                 }
             }
         },
-        "mergedPullRequests": 2077
+        "mergedPullRequests": 2078
     },
     "matks": {
         "login": "matks",
@@ -1129,7 +1129,7 @@
         "email_domain": "",
         "contributions": 2076,
         "repositories": {
-            "PrestaShop": 341,
+            "PrestaShop": 342,
             "dashactivity": 4,
             "dashgoals": 4,
             "dashproducts": 6,
@@ -1211,9 +1211,9 @@
         },
         "categories": {
             "core": {
-                "total": 346,
+                "total": 347,
                 "repositories": {
-                    "PrestaShop": 341,
+                    "PrestaShop": 342,
                     "prestashop-ui-kit": 3,
                     "circuit-breaker": 1,
                     "LocalizationFiles": 1
@@ -1334,7 +1334,7 @@
                 }
             }
         },
-        "mergedPullRequests": 824
+        "mergedPullRequests": 825
     },
     "nesrineabdmouleh": {
         "login": "nesrineabdmouleh",
@@ -1347,10 +1347,10 @@
         "location": "Paris, France",
         "bio": "QA Automation Engineer",
         "email_domain": "gmail.com",
-        "contributions": 3273,
+        "contributions": 3276,
         "repositories": {
             "PrestaShop": 655,
-            "autoupgrade": 34,
+            "autoupgrade": 35,
             "PSFunctionalTests": 5,
             "traces": 2,
             "QANightlyResults": 1,
@@ -1376,9 +1376,9 @@
                 "repositories": []
             },
             "modules": {
-                "total": 34,
+                "total": 35,
                 "repositories": {
-                    "autoupgrade": 34
+                    "autoupgrade": 35
                 }
             },
             "tools": {
@@ -1404,7 +1404,7 @@
                 "repositories": []
             }
         },
-        "mergedPullRequests": 773
+        "mergedPullRequests": 774
     },
     "NeOMakinG": {
         "login": "NeOMakinG",
