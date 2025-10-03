@@ -38,7 +38,7 @@
             "2013": 527,
             "2012": 32
         },
-        "pull_requests_percent": 31.18,
+        "pull_requests_percent": 31.17,
         "contributions": 34700,
         "contributions_by_version": {
             "9.1": 555,
@@ -73,7 +73,7 @@
             "2013": 1035,
             "2012": 56
         },
-        "contributions_percent": 29.92,
+        "contributions_percent": 29.91,
         "avatar_url": "",
         "html_url": "https:\/\/www.prestashop-project.org"
     },
@@ -83,10 +83,10 @@
             "rank": 1,
             "rank_contributions": 1,
             "rank_pull_requests": 1,
-            "merged_pull_requests": 16025,
+            "merged_pull_requests": 16034,
             "merged_pull_requests_by_version": {
-                "9.1": 87,
-                "9.0": 933,
+                "9.1": 88,
+                "9.0": 935,
                 "8.2": 31,
                 "8.1": 467,
                 "8.0": 788,
@@ -102,7 +102,7 @@
                 "1.6.1": 358
             },
             "merged_pull_requests_by_year": {
-                "2025": 887,
+                "2025": 896,
                 "2024": 1295,
                 "2023": 1567,
                 "2022": 1558,
@@ -116,11 +116,11 @@
                 "2014": 391,
                 "2013": 24
             },
-            "pull_requests_percent": 60.17,
-            "contributions": 74335,
+            "pull_requests_percent": 60.18,
+            "contributions": 74355,
             "contributions_by_version": {
-                "9.1": 1680,
-                "9.0": 3868,
+                "9.1": 1681,
+                "9.0": 3870,
                 "8.2": 74,
                 "8.1": 2934,
                 "8.0": 5052,
@@ -136,7 +136,7 @@
                 "1.6.1": 485
             },
             "contributions_by_year": {
-                "2025": 3357,
+                "2025": 3377,
                 "2024": 5080,
                 "2023": 6403,
                 "2022": 10073,
@@ -391,7 +391,7 @@
             "rank": 6,
             "rank_contributions": 6,
             "rank_pull_requests": 7,
-            "merged_pull_requests": 107,
+            "merged_pull_requests": 108,
             "merged_pull_requests_by_version": {
                 "9.0": 7,
                 "8.2": 2,
@@ -399,14 +399,14 @@
                 "8.0": 9
             },
             "merged_pull_requests_by_year": {
-                "2025": 39,
+                "2025": 40,
                 "2024": 6,
                 "2023": 7,
                 "2022": 38,
                 "2021": 17
             },
-            "pull_requests_percent": 0.4,
-            "contributions": 301,
+            "pull_requests_percent": 0.41,
+            "contributions": 302,
             "contributions_by_version": {
                 "9.0": 13,
                 "8.2": 2,
@@ -414,7 +414,7 @@
                 "8.0": 109
             },
             "contributions_by_year": {
-                "2025": 60,
+                "2025": 61,
                 "2024": 9,
                 "2023": 9,
                 "2022": 177,
