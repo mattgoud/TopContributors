@@ -38,7 +38,7 @@
             "2013": 527,
             "2012": 32
         },
-        "pull_requests_percent": 31.17,
+        "pull_requests_percent": 31.15,
         "contributions": 34700,
         "contributions_by_version": {
             "9.1": 555,
@@ -83,10 +83,10 @@
             "rank": 1,
             "rank_contributions": 1,
             "rank_pull_requests": 1,
-            "merged_pull_requests": 16034,
+            "merged_pull_requests": 16039,
             "merged_pull_requests_by_version": {
                 "9.1": 88,
-                "9.0": 935,
+                "9.0": 938,
                 "8.2": 31,
                 "8.1": 467,
                 "8.0": 788,
@@ -102,7 +102,7 @@
                 "1.6.1": 358
             },
             "merged_pull_requests_by_year": {
-                "2025": 896,
+                "2025": 901,
                 "2024": 1295,
                 "2023": 1567,
                 "2022": 1558,
@@ -116,11 +116,11 @@
                 "2014": 391,
                 "2013": 24
             },
-            "pull_requests_percent": 60.18,
-            "contributions": 74355,
+            "pull_requests_percent": 60.16,
+            "contributions": 74360,
             "contributions_by_version": {
                 "9.1": 1681,
-                "9.0": 3870,
+                "9.0": 3873,
                 "8.2": 74,
                 "8.1": 2934,
                 "8.0": 5052,
@@ -136,7 +136,7 @@
                 "1.6.1": 485
             },
             "contributions_by_year": {
-                "2025": 3377,
+                "2025": 3382,
                 "2024": 5080,
                 "2023": 6403,
                 "2022": 10073,
@@ -150,7 +150,7 @@
                 "2014": 786,
                 "2013": 36
             },
-            "contributions_percent": 64.1,
+            "contributions_percent": 64.09,
             "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/2815696?s=200&v=4",
             "html_url": "https:\/\/www.prestashop.com"
         },
@@ -207,7 +207,7 @@
             "rank": 3,
             "rank_contributions": 3,
             "rank_pull_requests": 3,
-            "merged_pull_requests": 414,
+            "merged_pull_requests": 418,
             "merged_pull_requests_by_version": {
                 "9.0": 21,
                 "8.2": 2,
@@ -218,7 +218,7 @@
                 "1.6.1": 1
             },
             "merged_pull_requests_by_year": {
-                "2025": 43,
+                "2025": 47,
                 "2024": 28,
                 "2023": 14,
                 "2022": 126,
@@ -232,8 +232,8 @@
                 "2013": 52,
                 "2012": 13
             },
-            "pull_requests_percent": 1.55,
-            "contributions": 563,
+            "pull_requests_percent": 1.57,
+            "contributions": 568,
             "contributions_by_version": {
                 "9.0": 27,
                 "8.2": 3,
@@ -244,7 +244,7 @@
                 "1.6.1": 1
             },
             "contributions_by_year": {
-                "2025": 63,
+                "2025": 68,
                 "2024": 31,
                 "2023": 21,
                 "2022": 160,
@@ -635,7 +635,7 @@
         {
             "name": "Franck Lef\u00e8vre",
             "rank": 12,
-            "rank_contributions": 14,
+            "rank_contributions": 15,
             "rank_pull_requests": 12,
             "merged_pull_requests": 30,
             "merged_pull_requests_by_version": {
@@ -739,28 +739,54 @@
             "html_url": "https:\/\/www.kiwik.com\/"
         },
         {
-            "name": "PrestaWorks",
+            "name": "Mademoiselle Bio",
             "rank": 14,
-            "rank_contributions": 20,
+            "rank_contributions": 14,
             "rank_pull_requests": 14,
-            "merged_pull_requests": 12,
+            "merged_pull_requests": 16,
+            "merged_pull_requests_by_version": {
+                "9.1": 4,
+                "9.0": 1
+            },
+            "merged_pull_requests_by_year": {
+                "2025": 16
+            },
+            "pull_requests_percent": 0.06,
+            "contributions": 36,
+            "contributions_by_version": {
+                "9.1": 17,
+                "9.0": 2
+            },
+            "contributions_by_year": {
+                "2025": 36
+            },
+            "contributions_percent": 0.03,
+            "avatar_url": "",
+            "html_url": "https:\/\/www.mademoiselle-bio.com"
+        },
+        {
+            "name": "PrestaWorks",
+            "rank": 15,
+            "rank_contributions": 18,
+            "rank_pull_requests": 15,
+            "merged_pull_requests": 14,
             "merged_pull_requests_by_version": {
                 "9.0": 6,
                 "8.0": 1
             },
             "merged_pull_requests_by_year": {
-                "2025": 2,
+                "2025": 4,
                 "2024": 3,
                 "2023": 7
             },
             "pull_requests_percent": 0.05,
-            "contributions": 12,
+            "contributions": 14,
             "contributions_by_version": {
                 "9.0": 6,
                 "8.0": 1
             },
             "contributions_by_year": {
-                "2025": 2,
+                "2025": 4,
                 "2024": 3,
                 "2023": 7
             },
@@ -769,35 +795,9 @@
             "html_url": "https:\/\/www.prestaworks.se\/"
         },
         {
-            "name": "Mademoiselle Bio",
-            "rank": 15,
-            "rank_contributions": 15,
-            "rank_pull_requests": 15,
-            "merged_pull_requests": 10,
-            "merged_pull_requests_by_version": {
-                "9.1": 4,
-                "9.0": 1
-            },
-            "merged_pull_requests_by_year": {
-                "2025": 10
-            },
-            "pull_requests_percent": 0.04,
-            "contributions": 27,
-            "contributions_by_version": {
-                "9.1": 17,
-                "9.0": 2
-            },
-            "contributions_by_year": {
-                "2025": 27
-            },
-            "contributions_percent": 0.02,
-            "avatar_url": "",
-            "html_url": "https:\/\/www.mademoiselle-bio.com"
-        },
-        {
             "name": "Soci\u00e9t\u00e9 Biblique de Gen\u00e8ve",
             "rank": 16,
-            "rank_contributions": 18,
+            "rank_contributions": 19,
             "rank_pull_requests": 16,
             "merged_pull_requests": 9,
             "merged_pull_requests_by_version": {
@@ -899,7 +899,7 @@
         {
             "name": "Griiv",
             "rank": 18,
-            "rank_contributions": 19,
+            "rank_contributions": 20,
             "rank_pull_requests": 18,
             "merged_pull_requests": 3,
             "merged_pull_requests_by_version": {
