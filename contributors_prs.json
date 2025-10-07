@@ -10,7 +10,7 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 9621,
+        "contributions": 9626,
         "repositories": {
             "PrestaShop": 1043,
             "PrestaShop-modules": 2,
@@ -4251,7 +4251,7 @@
         "email_domain": "",
         "contributions": 1315,
         "repositories": {
-            "PrestaShop": 113,
+            "PrestaShop": 114,
             "blockwishlist": 6,
             "autoupgrade": 1,
             "gsitemap": 1,
@@ -4282,9 +4282,9 @@
         },
         "categories": {
             "core": {
-                "total": 115,
+                "total": 116,
                 "repositories": {
-                    "PrestaShop": 113,
+                    "PrestaShop": 114,
                     "LocalizationFiles": 2
                 }
             },
@@ -4354,7 +4354,7 @@
                 }
             }
         },
-        "mergedPullRequests": 178
+        "mergedPullRequests": 179
     },
     "thomasnares": {
         "login": "thomasnares",
@@ -5129,7 +5129,7 @@
             "ps_searchbar": 1,
             "traces": 1,
             "open-source": 1,
-            "hummingbird": 53,
+            "hummingbird": 54,
             "classic-theme": 1,
             "bootstrap-compatibility-layer": 4,
             "Prestashop-BO-themes-package": 3
@@ -5154,9 +5154,9 @@
                 }
             },
             "themes": {
-                "total": 54,
+                "total": 55,
                 "repositories": {
-                    "hummingbird": 53,
+                    "hummingbird": 54,
                     "classic-theme": 1
                 }
             },
@@ -5193,7 +5193,7 @@
                 }
             }
         },
-        "mergedPullRequests": 143
+        "mergedPullRequests": 144
     },
     "jnadaud": {
         "login": "jnadaud",
@@ -28431,11 +28431,11 @@
         },
         "mergedPullRequests": 2
     },
-    "scheMeZa": {
-        "login": "scheMeZa",
+    "jadonbrownza": {
+        "login": "jadonbrownza",
         "id": 7773361,
         "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/7773361?v=4",
-        "html_url": "https:\/\/github.com\/scheMeZa",
+        "html_url": "https:\/\/github.com\/jadonbrownza",
         "name": "Jadon Brown",
         "company": "Brown Corp",
         "blog": "https:\/\/browncorp.co.za",

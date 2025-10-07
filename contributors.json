@@ -10,9 +10,9 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 9621,
+        "contributions": 9626,
         "repositories": {
-            "PrestaShop": 4212,
+            "PrestaShop": 4214,
             "PrestaShop-modules": 31,
             "PrestaShop-webservice-lib": 4,
             "dashactivity": 14,
@@ -92,7 +92,7 @@
             "ps_carriercomparison": 3,
             "ps_viewedproduct": 15,
             "ps_feeder": 1,
-            "traces": 141,
+            "traces": 142,
             "core-weekly-generator": 6,
             "TopContributors": 94,
             "TranslationFiles": 3,
@@ -135,13 +135,13 @@
             "ps_fixturescreator": 11,
             "ws-client": 25,
             "ps_apiresources": 3,
-            "ui-testing-library": 999
+            "ui-testing-library": 1001
         },
         "categories": {
             "core": {
-                "total": 4315,
+                "total": 4317,
                 "repositories": {
-                    "PrestaShop": 4212,
+                    "PrestaShop": 4214,
                     "prestashop-ui-kit": 50,
                     "TranslationToolsBundle": 9,
                     "LocalizationFiles": 9,
@@ -269,7 +269,7 @@
                 }
             },
             "tools": {
-                "total": 1140,
+                "total": 1141,
                 "repositories": {
                     "core-weekly-generator": 6,
                     "docker": 41,
@@ -284,14 +284,14 @@
                     "QANightlyResults": 332,
                     "TopContributors": 94,
                     "TopTranslators": 1,
-                    "traces": 141,
+                    "traces": 142,
                     "ps-project-metrics": 4
                 }
             },
             "tests": {
-                "total": 1089,
+                "total": 1091,
                 "repositories": {
-                    "ui-testing-library": 999,
+                    "ui-testing-library": 1001,
                     "ga.tests.ui.pr": 90
                 }
             },
@@ -33623,11 +33623,11 @@
             }
         }
     },
-    "scheMeZa": {
-        "login": "scheMeZa",
+    "jadonbrownza": {
+        "login": "jadonbrownza",
         "id": 7773361,
         "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/7773361?v=4",
-        "html_url": "https:\/\/github.com\/scheMeZa",
+        "html_url": "https:\/\/github.com\/jadonbrownza",
         "name": "Jadon Brown",
         "company": "Brown Corp",
         "blog": "https:\/\/browncorp.co.za",
@@ -49199,5 +49199,5 @@
             }
         }
     },
-    "updatedAt": "2025-10-06 09:29:46"
+    "updatedAt": "2025-10-07 06:07:39"
 }
