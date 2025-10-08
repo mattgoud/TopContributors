@@ -10,7 +10,7 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 9626,
+        "contributions": 9627,
         "repositories": {
             "PrestaShop": 1043,
             "PrestaShop-modules": 2,
@@ -719,14 +719,14 @@
         "location": "London",
         "bio": null,
         "email_domain": "",
-        "contributions": 4735,
+        "contributions": 4738,
         "repositories": {
             "PrestaShop": 395,
             "PrestaShop-modules": 14,
             "graphnvd3": 3,
             "statscheckup": 1,
             "blockwishlist": 17,
-            "autoupgrade": 228,
+            "autoupgrade": 230,
             "gsitemap": 2,
             "prestashop.github.io": 6,
             "docker": 89,
@@ -807,13 +807,13 @@
                 }
             },
             "modules": {
-                "total": 328,
+                "total": 330,
                 "repositories": {
                     "PrestaShop-modules": 14,
                     "graphnvd3": 3,
                     "statscheckup": 1,
                     "blockwishlist": 17,
-                    "autoupgrade": 228,
+                    "autoupgrade": 230,
                     "gsitemap": 2,
                     "contactform": 1,
                     "pstagger": 1,
@@ -878,7 +878,7 @@
                 }
             }
         },
-        "mergedPullRequests": 1022
+        "mergedPullRequests": 1024
     },
     "PierreRambaud": {
         "login": "PierreRambaud",
@@ -5278,7 +5278,7 @@
         "location": "74100 Annemasse, France",
         "bio": null,
         "email_domain": "",
-        "contributions": 996,
+        "contributions": 997,
         "repositories": {
             "PrestaShop": 3,
             "autoupgrade": 96,
@@ -11146,6 +11146,73 @@
         },
         "mergedPullRequests": 23
     },
+    "PoulainMaxime": {
+        "login": "PoulainMaxime",
+        "id": 22856724,
+        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/22856724?v=4",
+        "html_url": "https:\/\/github.com\/PoulainMaxime",
+        "name": "Poulinho",
+        "company": "PrestaShop",
+        "blog": "https:\/\/www.maxime-poulain.dev\/",
+        "location": null,
+        "bio": "French fullstack developper (Node \/ Vue)",
+        "email_domain": "gmail.com",
+        "contributions": 131,
+        "repositories": {
+            "PrestaShop": 18,
+            "blockwishlist": 1,
+            "autoupgrade": 1,
+            "docker": 1,
+            "php-dev-tools": 1
+        },
+        "categories": {
+            "core": {
+                "total": 19,
+                "repositories": {
+                    "PrestaShop": 18,
+                    "php-dev-tools": 1
+                }
+            },
+            "specs": {
+                "total": 0,
+                "repositories": []
+            },
+            "documentation": {
+                "total": 0,
+                "repositories": []
+            },
+            "themes": {
+                "total": 0,
+                "repositories": []
+            },
+            "modules": {
+                "total": 2,
+                "repositories": {
+                    "blockwishlist": 1,
+                    "autoupgrade": 1
+                }
+            },
+            "tools": {
+                "total": 1,
+                "repositories": {
+                    "docker": 1
+                }
+            },
+            "tests": {
+                "total": 0,
+                "repositories": []
+            },
+            "blog": {
+                "total": 0,
+                "repositories": []
+            },
+            "others": {
+                "total": 0,
+                "repositories": []
+            }
+        },
+        "mergedPullRequests": 22
+    },
     "LouisAUTHIE": {
         "login": "LouisAUTHIE",
         "id": 65625876,
@@ -11440,73 +11507,6 @@
                 "repositories": {
                     "prestashop.github.io": 21
                 }
-            },
-            "others": {
-                "total": 0,
-                "repositories": []
-            }
-        },
-        "mergedPullRequests": 21
-    },
-    "PoulainMaxime": {
-        "login": "PoulainMaxime",
-        "id": 22856724,
-        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/22856724?v=4",
-        "html_url": "https:\/\/github.com\/PoulainMaxime",
-        "name": "Poulinho",
-        "company": "PrestaShop",
-        "blog": "https:\/\/www.maxime-poulain.dev\/",
-        "location": null,
-        "bio": "French fullstack developper (Node \/ Vue)",
-        "email_domain": "gmail.com",
-        "contributions": 111,
-        "repositories": {
-            "PrestaShop": 17,
-            "blockwishlist": 1,
-            "autoupgrade": 1,
-            "docker": 1,
-            "php-dev-tools": 1
-        },
-        "categories": {
-            "core": {
-                "total": 18,
-                "repositories": {
-                    "PrestaShop": 17,
-                    "php-dev-tools": 1
-                }
-            },
-            "specs": {
-                "total": 0,
-                "repositories": []
-            },
-            "documentation": {
-                "total": 0,
-                "repositories": []
-            },
-            "themes": {
-                "total": 0,
-                "repositories": []
-            },
-            "modules": {
-                "total": 2,
-                "repositories": {
-                    "blockwishlist": 1,
-                    "autoupgrade": 1
-                }
-            },
-            "tools": {
-                "total": 1,
-                "repositories": {
-                    "docker": 1
-                }
-            },
-            "tests": {
-                "total": 0,
-                "repositories": []
-            },
-            "blog": {
-                "total": 0,
-                "repositories": []
             },
             "others": {
                 "total": 0,
