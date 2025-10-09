@@ -10,7 +10,7 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 9627,
+        "contributions": 9645,
         "repositories": {
             "PrestaShop": 1043,
             "PrestaShop-modules": 2,
@@ -565,7 +565,7 @@
         "location": null,
         "bio": null,
         "email_domain": "",
-        "contributions": 6909,
+        "contributions": 6910,
         "repositories": {
             "PrestaShop": 666,
             "dashproducts": 1,
@@ -1127,7 +1127,7 @@
         "location": "Pardubice, Czech Republic",
         "bio": null,
         "email_domain": "",
-        "contributions": 2076,
+        "contributions": 2085,
         "repositories": {
             "PrestaShop": 342,
             "dashactivity": 4,
@@ -1991,7 +1991,7 @@
         "location": "Bydgoszcz, Poland",
         "bio": "I'm a web developer from Poland, specializing in working with PrestaShop e-commerce",
         "email_domain": "",
-        "contributions": 3061,
+        "contributions": 3068,
         "repositories": {
             "PrestaShop": 156,
             "PrestaShop-modules": 3,
@@ -3911,7 +3911,7 @@
         "location": "France",
         "bio": "Developper from father to son with +13 years experience, commiter and member of @PrestaShop Tech Council!",
         "email_domain": "",
-        "contributions": 570,
+        "contributions": 572,
         "repositories": {
             "PrestaShop": 116,
             "productcomments": 1,
@@ -4249,7 +4249,7 @@
         "location": null,
         "bio": "Founder of @wallabag. ",
         "email_domain": "",
-        "contributions": 1315,
+        "contributions": 1317,
         "repositories": {
             "PrestaShop": 114,
             "blockwishlist": 6,
@@ -6039,9 +6039,9 @@
         "location": null,
         "bio": null,
         "email_domain": "",
-        "contributions": 170,
+        "contributions": 171,
         "repositories": {
-            "PrestaShop": 75,
+            "PrestaShop": 76,
             "productcomments": 2,
             "autoupgrade": 4,
             "docker": 3,
@@ -6060,9 +6060,9 @@
         },
         "categories": {
             "core": {
-                "total": 75,
+                "total": 76,
                 "repositories": {
-                    "PrestaShop": 75
+                    "PrestaShop": 76
                 }
             },
             "specs": {
@@ -6118,7 +6118,7 @@
                 }
             }
         },
-        "mergedPullRequests": 108
+        "mergedPullRequests": 109
     },
     "florine2623": {
         "login": "florine2623",
@@ -6489,7 +6489,7 @@
         "location": "Via Giuseppe Saragat, 19 86170 Isernia - ITALIA",
         "bio": "Siamo un'agenzia di Branding, Comunicazione e Marketing.\r\nRealizziamo progetti di comunicazione visiva brand-oriented, web design e web marketing.",
         "email_domain": "codencode.it",
-        "contributions": 160,
+        "contributions": 161,
         "repositories": {
             "PrestaShop": 71,
             "dashactivity": 1,
@@ -8187,7 +8187,7 @@
         "location": null,
         "bio": null,
         "email_domain": "",
-        "contributions": 527,
+        "contributions": 529,
         "repositories": {
             "PrestaShop": 7,
             "dashactivity": 1,
