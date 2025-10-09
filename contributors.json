@@ -10,9 +10,9 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 9645,
+        "contributions": 9650,
         "repositories": {
-            "PrestaShop": 4229,
+            "PrestaShop": 4230,
             "PrestaShop-modules": 31,
             "PrestaShop-webservice-lib": 4,
             "dashactivity": 14,
@@ -92,7 +92,7 @@
             "ps_carriercomparison": 3,
             "ps_viewedproduct": 15,
             "ps_feeder": 1,
-            "traces": 142,
+            "traces": 143,
             "core-weekly-generator": 6,
             "TopContributors": 94,
             "TranslationFiles": 3,
@@ -118,7 +118,7 @@
             "stylelint-config": 7,
             "example-modules": 6,
             "ps_qualityassurance": 1,
-            "test-scenarios": 877,
+            "test-scenarios": 878,
             "user-documentation-it": 2,
             "user-documentation-landing": 3,
             "user-documentation-en": 1,
@@ -135,13 +135,13 @@
             "ps_fixturescreator": 11,
             "ws-client": 25,
             "ps_apiresources": 3,
-            "ui-testing-library": 1004
+            "ui-testing-library": 1006
         },
         "categories": {
             "core": {
-                "total": 4332,
+                "total": 4333,
                 "repositories": {
-                    "PrestaShop": 4229,
+                    "PrestaShop": 4230,
                     "prestashop-ui-kit": 50,
                     "TranslationToolsBundle": 9,
                     "LocalizationFiles": 9,
@@ -160,7 +160,7 @@
                 }
             },
             "documentation": {
-                "total": 1094,
+                "total": 1095,
                 "repositories": {
                     "docs": 144,
                     "user-documentation-landing": 3,
@@ -168,7 +168,7 @@
                     "user-documentation-it": 2,
                     "user-documentation-v8-en": 1,
                     "functional-documentation": 2,
-                    "test-scenarios": 877,
+                    "test-scenarios": 878,
                     "example-modules": 6,
                     "open-source": 31,
                     "example_module_mailtheme": 4,
@@ -269,7 +269,7 @@
                 }
             },
             "tools": {
-                "total": 1141,
+                "total": 1142,
                 "repositories": {
                     "core-weekly-generator": 6,
                     "docker": 41,
@@ -284,14 +284,14 @@
                     "QANightlyResults": 332,
                     "TopContributors": 94,
                     "TopTranslators": 1,
-                    "traces": 142,
+                    "traces": 143,
                     "ps-project-metrics": 4
                 }
             },
             "tests": {
-                "total": 1094,
+                "total": 1096,
                 "repositories": {
-                    "ui-testing-library": 1004,
+                    "ui-testing-library": 1006,
                     "ga.tests.ui.pr": 90
                 }
             },
@@ -6044,7 +6044,7 @@
         "location": null,
         "bio": null,
         "email_domain": "",
-        "contributions": 529,
+        "contributions": 530,
         "repositories": {
             "PrestaShop": 268,
             "dashactivity": 4,
@@ -6080,7 +6080,7 @@
             "ps_specials": 2,
             "ps_supplierlist": 2,
             "ps_cashondelivery": 1,
-            "traces": 8,
+            "traces": 9,
             "TopContributors": 9,
             "ps_googleanalytics": 1,
             "ps_themecusto": 3,
@@ -6173,7 +6173,7 @@
                 }
             },
             "tools": {
-                "total": 38,
+                "total": 39,
                 "repositories": {
                     "docker": 2,
                     "issuebot": 1,
@@ -6181,7 +6181,7 @@
                     "nightly-board": 2,
                     "ps-monitor-module-releases": 13,
                     "TopContributors": 9,
-                    "traces": 8
+                    "traces": 9
                 }
             },
             "tests": {
@@ -49199,5 +49199,5 @@
             }
         }
     },
-    "updatedAt": "2025-10-09 06:08:55"
+    "updatedAt": "2025-10-09 11:44:06"
 }

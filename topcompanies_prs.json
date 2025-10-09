@@ -4,10 +4,10 @@
         "rank": 0,
         "rank_contributions": 0,
         "rank_pull_requests": 0,
-        "merged_pull_requests": 8304,
+        "merged_pull_requests": 8308,
         "merged_pull_requests_by_version": {
             "9.1": 42,
-            "9.0": 415,
+            "9.0": 416,
             "8.2": 26,
             "8.1": 269,
             "8.0": 352,
@@ -23,8 +23,8 @@
             "1.6.1": 273
         },
         "merged_pull_requests_by_year": {
-            "2025": 331,
-            "2024": 539,
+            "2025": 334,
+            "2024": 540,
             "2023": 693,
             "2022": 735,
             "2021": 618,
@@ -38,11 +38,11 @@
             "2013": 527,
             "2012": 32
         },
-        "pull_requests_percent": 31.14,
-        "contributions": 34700,
+        "pull_requests_percent": 31.15,
+        "contributions": 34708,
         "contributions_by_version": {
             "9.1": 555,
-            "9.0": 2989,
+            "9.0": 2990,
             "8.2": 37,
             "8.1": 1490,
             "8.0": 2402,
@@ -58,8 +58,8 @@
             "1.6.1": 337
         },
         "contributions_by_year": {
-            "2025": 1419,
-            "2024": 2672,
+            "2025": 1424,
+            "2024": 2675,
             "2023": 3606,
             "2022": 3515,
             "2021": 3920,
@@ -83,10 +83,10 @@
             "rank": 1,
             "rank_contributions": 1,
             "rank_pull_requests": 1,
-            "merged_pull_requests": 16047,
+            "merged_pull_requests": 16049,
             "merged_pull_requests_by_version": {
                 "9.1": 90,
-                "9.0": 940,
+                "9.0": 941,
                 "8.2": 31,
                 "8.1": 467,
                 "8.0": 788,
@@ -102,7 +102,7 @@
                 "1.6.1": 358
             },
             "merged_pull_requests_by_year": {
-                "2025": 909,
+                "2025": 911,
                 "2024": 1295,
                 "2023": 1567,
                 "2022": 1558,
@@ -117,10 +117,10 @@
                 "2013": 24
             },
             "pull_requests_percent": 60.17,
-            "contributions": 74440,
+            "contributions": 74442,
             "contributions_by_version": {
                 "9.1": 1742,
-                "9.0": 3875,
+                "9.0": 3876,
                 "8.2": 74,
                 "8.1": 2934,
                 "8.0": 5052,
@@ -136,7 +136,7 @@
                 "1.6.1": 485
             },
             "contributions_by_year": {
-                "2025": 3462,
+                "2025": 3464,
                 "2024": 5080,
                 "2023": 6403,
                 "2022": 10073,
@@ -447,7 +447,7 @@
             "rank": 7,
             "rank_contributions": 6,
             "rank_pull_requests": 7,
-            "merged_pull_requests": 108,
+            "merged_pull_requests": 106,
             "merged_pull_requests_by_version": {
                 "9.0": 7,
                 "8.2": 2,
@@ -455,14 +455,14 @@
                 "8.0": 9
             },
             "merged_pull_requests_by_year": {
-                "2025": 40,
-                "2024": 6,
+                "2025": 39,
+                "2024": 5,
                 "2023": 7,
                 "2022": 38,
                 "2021": 17
             },
             "pull_requests_percent": 0.4,
-            "contributions": 302,
+            "contributions": 296,
             "contributions_by_version": {
                 "9.0": 13,
                 "8.2": 2,
@@ -470,13 +470,13 @@
                 "8.0": 109
             },
             "contributions_by_year": {
-                "2025": 61,
-                "2024": 9,
+                "2025": 58,
+                "2024": 6,
                 "2023": 9,
                 "2022": 177,
                 "2021": 46
             },
-            "contributions_percent": 0.26,
+            "contributions_percent": 0.25,
             "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/42359739?s=200&v=4",
             "html_url": "https:\/\/friendsofpresta.org\/"
         },
