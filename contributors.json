@@ -6044,7 +6044,7 @@
         "location": null,
         "bio": null,
         "email_domain": "",
-        "contributions": 530,
+        "contributions": 535,
         "repositories": {
             "PrestaShop": 268,
             "dashactivity": 4,
@@ -6074,6 +6074,7 @@
             "ps_categorytree": 5,
             "docs": 41,
             "ps_wirepayment": 3,
+            "ps_shoppingcart": 5,
             "ps_facetedsearch": 2,
             "ps_checkpayment": 5,
             "ps_emailalerts": 10,
@@ -6134,7 +6135,7 @@
                 }
             },
             "modules": {
-                "total": 126,
+                "total": 131,
                 "repositories": {
                     "dashactivity": 4,
                     "dashgoals": 2,
@@ -6160,6 +6161,7 @@
                     "ps_customersignin": 8,
                     "ps_categorytree": 5,
                     "ps_wirepayment": 3,
+                    "ps_shoppingcart": 5,
                     "ps_facetedsearch": 2,
                     "ps_checkpayment": 5,
                     "ps_emailalerts": 10,
@@ -49199,5 +49201,5 @@
             }
         }
     },
-    "updatedAt": "2025-10-09 11:44:06"
+    "updatedAt": "2025-10-10 06:11:20"
 }
