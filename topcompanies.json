@@ -38,7 +38,7 @@
             "2013": 527,
             "2012": 32
         },
-        "pull_requests_percent": 31.14,
+        "pull_requests_percent": 31.13,
         "contributions": 34708,
         "contributions_by_version": {
             "9.1": 555,
@@ -83,10 +83,10 @@
             "rank": 1,
             "rank_contributions": 1,
             "rank_pull_requests": 1,
-            "merged_pull_requests": 16051,
+            "merged_pull_requests": 16058,
             "merged_pull_requests_by_version": {
                 "9.1": 90,
-                "9.0": 942,
+                "9.0": 946,
                 "8.2": 31,
                 "8.1": 467,
                 "8.0": 788,
@@ -102,7 +102,7 @@
                 "1.6.1": 358
             },
             "merged_pull_requests_by_year": {
-                "2025": 913,
+                "2025": 920,
                 "2024": 1295,
                 "2023": 1567,
                 "2022": 1558,
@@ -117,10 +117,10 @@
                 "2013": 24
             },
             "pull_requests_percent": 60.17,
-            "contributions": 74444,
+            "contributions": 74454,
             "contributions_by_version": {
                 "9.1": 1742,
-                "9.0": 3877,
+                "9.0": 3881,
                 "8.2": 74,
                 "8.1": 2934,
                 "8.0": 5052,
@@ -136,7 +136,7 @@
                 "1.6.1": 485
             },
             "contributions_by_year": {
-                "2025": 3466,
+                "2025": 3476,
                 "2024": 5080,
                 "2023": 6403,
                 "2022": 10073,
@@ -709,24 +709,24 @@
             "rank": 14,
             "rank_contributions": 14,
             "rank_pull_requests": 14,
-            "merged_pull_requests": 16,
+            "merged_pull_requests": 18,
             "merged_pull_requests_by_version": {
                 "9.1": 4,
                 "9.0": 1
             },
             "merged_pull_requests_by_year": {
-                "2025": 16
+                "2025": 18
             },
-            "pull_requests_percent": 0.06,
-            "contributions": 36,
+            "pull_requests_percent": 0.07,
+            "contributions": 41,
             "contributions_by_version": {
                 "9.1": 17,
                 "9.0": 2
             },
             "contributions_by_year": {
-                "2025": 36
+                "2025": 41
             },
-            "contributions_percent": 0.03,
+            "contributions_percent": 0.04,
             "avatar_url": "",
             "html_url": "https:\/\/www.mademoiselle-bio.com"
         },
@@ -735,7 +735,7 @@
             "rank": 15,
             "rank_contributions": 15,
             "rank_pull_requests": 12,
-            "merged_pull_requests": 31,
+            "merged_pull_requests": 32,
             "merged_pull_requests_by_version": {
                 "9.1": 1,
                 "9.0": 19,
@@ -743,12 +743,12 @@
                 "8.1": 1
             },
             "merged_pull_requests_by_year": {
-                "2025": 29,
+                "2025": 30,
                 "2024": 1,
                 "2023": 1
             },
             "pull_requests_percent": 0.12,
-            "contributions": 33,
+            "contributions": 34,
             "contributions_by_version": {
                 "9.1": 1,
                 "9.0": 19,
@@ -756,7 +756,7 @@
                 "8.1": 1
             },
             "contributions_by_year": {
-                "2025": 30,
+                "2025": 31,
                 "2024": 1,
                 "2023": 2
             },
