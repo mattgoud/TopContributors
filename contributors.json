@@ -10,7 +10,7 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 9653,
+        "contributions": 9656,
         "repositories": {
             "PrestaShop": 4230,
             "PrestaShop-modules": 31,
@@ -92,7 +92,7 @@
             "ps_carriercomparison": 3,
             "ps_viewedproduct": 15,
             "ps_feeder": 1,
-            "traces": 143,
+            "traces": 144,
             "core-weekly-generator": 6,
             "TopContributors": 94,
             "TranslationFiles": 3,
@@ -112,7 +112,7 @@
             "open-source": 31,
             "mjml-theme-converter": 1,
             "php-dev-tools": 4,
-            "QANightlyResults": 332,
+            "QANightlyResults": 333,
             "LocalizationFiles": 9,
             "presthubot": 447,
             "stylelint-config": 7,
@@ -135,7 +135,7 @@
             "ps_fixturescreator": 11,
             "ws-client": 25,
             "ps_apiresources": 3,
-            "ui-testing-library": 1006
+            "ui-testing-library": 1007
         },
         "categories": {
             "core": {
@@ -269,7 +269,7 @@
                 }
             },
             "tools": {
-                "total": 1143,
+                "total": 1145,
                 "repositories": {
                     "core-weekly-generator": 6,
                     "docker": 41,
@@ -281,17 +281,17 @@
                     "PrestaShop-webservice-lib": 4,
                     "presthubot": 447,
                     "prestonbot": 10,
-                    "QANightlyResults": 332,
+                    "QANightlyResults": 333,
                     "TopContributors": 94,
                     "TopTranslators": 1,
-                    "traces": 143,
+                    "traces": 144,
                     "ps-project-metrics": 4
                 }
             },
             "tests": {
-                "total": 1096,
+                "total": 1097,
                 "repositories": {
-                    "ui-testing-library": 1006,
+                    "ui-testing-library": 1007,
                     "ga.tests.ui.pr": 90
                 }
             },
@@ -3871,7 +3871,7 @@
         "location": null,
         "bio": "Founder of @wallabag. ",
         "email_domain": "",
-        "contributions": 1320,
+        "contributions": 1324,
         "repositories": {
             "PrestaShop": 712,
             "PrestaShop-webservice-lib": 1,
@@ -3927,9 +3927,9 @@
             "open-source": 23,
             "mjml-theme-converter": 1,
             "php-dev-tools": 2,
-            "QANightlyResults": 90,
+            "QANightlyResults": 92,
             "LocalizationFiles": 8,
-            "presthubot": 65,
+            "presthubot": 67,
             "example-modules": 7,
             "ps_qualityassurance": 3,
             "test-scenarios": 1,
@@ -4030,7 +4030,7 @@
                 }
             },
             "tools": {
-                "total": 198,
+                "total": 202,
                 "repositories": {
                     "bootstrap-compatibility-layer": 1,
                     "docker": 6,
@@ -4039,9 +4039,9 @@
                     "mjml-theme-converter": 1,
                     "nightly-board": 1,
                     "PrestaShop-webservice-lib": 1,
-                    "presthubot": 65,
+                    "presthubot": 67,
                     "prestonbot": 1,
-                    "QANightlyResults": 90,
+                    "QANightlyResults": 92,
                     "TopContributors": 7,
                     "TopTranslators": 1,
                     "traces": 8,
@@ -49201,5 +49201,5 @@
             }
         }
     },
-    "updatedAt": "2025-10-12 06:08:11"
+    "updatedAt": "2025-10-13 08:38:10"
 }
