@@ -10,7 +10,7 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 9661,
+        "contributions": 9662,
         "repositories": {
             "PrestaShop": 1049,
             "PrestaShop-modules": 2,
@@ -116,7 +116,7 @@
             "keycloak_connector_demo": 2,
             "ps_fixturescreator": 4,
             "ws-client": 3,
-            "ps_apiresources": 5,
+            "ps_apiresources": 6,
             "ui-testing-library": 317
         },
         "categories": {
@@ -157,7 +157,7 @@
                 }
             },
             "modules": {
-                "total": 391,
+                "total": 392,
                 "repositories": {
                     "PrestaShop-modules": 2,
                     "dashactivity": 4,
@@ -230,7 +230,7 @@
                     "ps_faviconnotificationbo": 1,
                     "ps_qualityassurance": 1,
                     "ps_fixturescreator": 4,
-                    "ps_apiresources": 5
+                    "ps_apiresources": 6
                 }
             },
             "tools": {
@@ -272,7 +272,7 @@
                 }
             }
         },
-        "mergedPullRequests": 2093
+        "mergedPullRequests": 2094
     },
     "matks": {
         "login": "matks",
@@ -6491,7 +6491,7 @@
         "location": "Via Giuseppe Saragat, 19 86170 Isernia - ITALIA",
         "bio": "Siamo un'agenzia di Branding, Comunicazione e Marketing.\r\nRealizziamo progetti di comunicazione visiva brand-oriented, web design e web marketing.",
         "email_domain": "codencode.it",
-        "contributions": 166,
+        "contributions": 167,
         "repositories": {
             "PrestaShop": 72,
             "dashactivity": 1,

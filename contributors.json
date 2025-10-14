@@ -10,7 +10,7 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 9661,
+        "contributions": 9662,
         "repositories": {
             "PrestaShop": 4231,
             "PrestaShop-modules": 31,
@@ -118,7 +118,7 @@
             "stylelint-config": 7,
             "example-modules": 6,
             "ps_qualityassurance": 1,
-            "test-scenarios": 881,
+            "test-scenarios": 882,
             "user-documentation-it": 2,
             "user-documentation-landing": 3,
             "user-documentation-en": 1,
@@ -160,7 +160,7 @@
                 }
             },
             "documentation": {
-                "total": 1098,
+                "total": 1099,
                 "repositories": {
                     "docs": 144,
                     "user-documentation-landing": 3,
@@ -168,7 +168,7 @@
                     "user-documentation-it": 2,
                     "user-documentation-v8-en": 1,
                     "functional-documentation": 2,
-                    "test-scenarios": 881,
+                    "test-scenarios": 882,
                     "example-modules": 6,
                     "open-source": 31,
                     "example_module_mailtheme": 4,
@@ -9575,7 +9575,7 @@
         "location": "Via Giuseppe Saragat, 19 86170 Isernia - ITALIA",
         "bio": "Siamo un'agenzia di Branding, Comunicazione e Marketing.\r\nRealizziamo progetti di comunicazione visiva brand-oriented, web design e web marketing.",
         "email_domain": "codencode.it",
-        "contributions": 166,
+        "contributions": 167,
         "repositories": {
             "PrestaShop": 116,
             "dashactivity": 2,
@@ -9588,7 +9588,7 @@
             "LocalizationFiles": 1,
             "hummingbird": 2,
             "classic-theme": 3,
-            "ps_apiresources": 9
+            "ps_apiresources": 10
         },
         "categories": {
             "core": {
@@ -9614,7 +9614,7 @@
                 }
             },
             "modules": {
-                "total": 44,
+                "total": 45,
                 "repositories": {
                     "dashactivity": 2,
                     "autoupgrade": 4,
@@ -9623,7 +9623,7 @@
                     "ps_imageslider": 2,
                     "ps_mainmenu": 1,
                     "ps_facetedsearch": 3,
-                    "ps_apiresources": 9
+                    "ps_apiresources": 10
                 }
             },
             "tools": {
@@ -49201,5 +49201,5 @@
             }
         }
     },
-    "updatedAt": "2025-10-14 06:11:20"
+    "updatedAt": "2025-10-14 08:45:25"
 }
