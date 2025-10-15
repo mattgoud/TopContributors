@@ -10,7 +10,7 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 9662,
+        "contributions": 9663,
         "repositories": {
             "PrestaShop": 4231,
             "PrestaShop-modules": 31,
@@ -135,7 +135,7 @@
             "ps_fixturescreator": 11,
             "ws-client": 25,
             "ps_apiresources": 3,
-            "ui-testing-library": 1010
+            "ui-testing-library": 1011
         },
         "categories": {
             "core": {
@@ -289,9 +289,9 @@
                 }
             },
             "tests": {
-                "total": 1100,
+                "total": 1101,
                 "repositories": {
-                    "ui-testing-library": 1010,
+                    "ui-testing-library": 1011,
                     "ga.tests.ui.pr": 90
                 }
             },
@@ -3871,7 +3871,7 @@
         "location": null,
         "bio": "Founder of @wallabag. ",
         "email_domain": "",
-        "contributions": 1325,
+        "contributions": 1326,
         "repositories": {
             "PrestaShop": 713,
             "PrestaShop-webservice-lib": 1,
@@ -3946,7 +3946,7 @@
             "kanbanbot": 13,
             "zip-archives": 6,
             "bootstrap-compatibility-layer": 1,
-            "ps_apiresources": 5,
+            "ps_apiresources": 6,
             "SeamlessUpgradeToolbox": 1
         },
         "categories": {
@@ -3983,7 +3983,7 @@
                 }
             },
             "modules": {
-                "total": 244,
+                "total": 245,
                 "repositories": {
                     "dashactivity": 3,
                     "dashgoals": 1,
@@ -4024,7 +4024,7 @@
                     "ps_googleanalytics": 4,
                     "ps_themecusto": 3,
                     "psgdpr": 10,
-                    "ps_apiresources": 5,
+                    "ps_apiresources": 6,
                     "ps_distributionapiclient": 3,
                     "ps_fixturescreator": 3
                 }
@@ -6044,7 +6044,7 @@
         "location": null,
         "bio": null,
         "email_domain": "",
-        "contributions": 535,
+        "contributions": 536,
         "repositories": {
             "PrestaShop": 268,
             "dashactivity": 4,
@@ -6101,7 +6101,7 @@
             "classic-theme": 19,
             "ps-monitor-module-releases": 13,
             "zip-archives": 1,
-            "ps_apiresources": 2
+            "ps_apiresources": 3
         },
         "categories": {
             "core": {
@@ -6135,7 +6135,7 @@
                 }
             },
             "modules": {
-                "total": 131,
+                "total": 132,
                 "repositories": {
                     "dashactivity": 4,
                     "dashgoals": 2,
@@ -6171,7 +6171,7 @@
                     "ps_googleanalytics": 1,
                     "ps_themecusto": 3,
                     "psgdpr": 6,
-                    "ps_apiresources": 2
+                    "ps_apiresources": 3
                 }
             },
             "tools": {
@@ -9575,7 +9575,7 @@
         "location": "Via Giuseppe Saragat, 19 86170 Isernia - ITALIA",
         "bio": "Siamo un'agenzia di Branding, Comunicazione e Marketing.\r\nRealizziamo progetti di comunicazione visiva brand-oriented, web design e web marketing.",
         "email_domain": "codencode.it",
-        "contributions": 167,
+        "contributions": 168,
         "repositories": {
             "PrestaShop": 116,
             "dashactivity": 2,
@@ -9588,7 +9588,7 @@
             "LocalizationFiles": 1,
             "hummingbird": 2,
             "classic-theme": 3,
-            "ps_apiresources": 10
+            "ps_apiresources": 11
         },
         "categories": {
             "core": {
@@ -9614,7 +9614,7 @@
                 }
             },
             "modules": {
-                "total": 45,
+                "total": 46,
                 "repositories": {
                     "dashactivity": 2,
                     "autoupgrade": 4,
@@ -9623,7 +9623,7 @@
                     "ps_imageslider": 2,
                     "ps_mainmenu": 1,
                     "ps_facetedsearch": 3,
-                    "ps_apiresources": 10
+                    "ps_apiresources": 11
                 }
             },
             "tools": {
@@ -49201,5 +49201,5 @@
             }
         }
     },
-    "updatedAt": "2025-10-14 08:45:25"
+    "updatedAt": "2025-10-15 06:13:01"
 }

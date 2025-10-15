@@ -10,7 +10,7 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 9662,
+        "contributions": 9663,
         "repositories": {
             "PrestaShop": 1049,
             "PrestaShop-modules": 2,
@@ -116,7 +116,7 @@
             "keycloak_connector_demo": 2,
             "ps_fixturescreator": 4,
             "ws-client": 3,
-            "ps_apiresources": 6,
+            "ps_apiresources": 7,
             "ui-testing-library": 317
         },
         "categories": {
@@ -157,7 +157,7 @@
                 }
             },
             "modules": {
-                "total": 392,
+                "total": 393,
                 "repositories": {
                     "PrestaShop-modules": 2,
                     "dashactivity": 4,
@@ -230,7 +230,7 @@
                     "ps_faviconnotificationbo": 1,
                     "ps_qualityassurance": 1,
                     "ps_fixturescreator": 4,
-                    "ps_apiresources": 6
+                    "ps_apiresources": 7
                 }
             },
             "tools": {
@@ -272,7 +272,7 @@
                 }
             }
         },
-        "mergedPullRequests": 2094
+        "mergedPullRequests": 2095
     },
     "matks": {
         "login": "matks",
@@ -4165,7 +4165,7 @@
         "location": null,
         "bio": "Founder of @wallabag. ",
         "email_domain": "",
-        "contributions": 1325,
+        "contributions": 1326,
         "repositories": {
             "PrestaShop": 114,
             "blockwishlist": 6,
@@ -6043,7 +6043,7 @@
         "email_domain": "",
         "contributions": 172,
         "repositories": {
-            "PrestaShop": 78,
+            "PrestaShop": 79,
             "productcomments": 2,
             "autoupgrade": 4,
             "docker": 3,
@@ -6062,9 +6062,9 @@
         },
         "categories": {
             "core": {
-                "total": 78,
+                "total": 79,
                 "repositories": {
-                    "PrestaShop": 78
+                    "PrestaShop": 79
                 }
             },
             "specs": {
@@ -6120,7 +6120,7 @@
                 }
             }
         },
-        "mergedPullRequests": 111
+        "mergedPullRequests": 112
     },
     "florine2623": {
         "login": "florine2623",
@@ -6491,7 +6491,7 @@
         "location": "Via Giuseppe Saragat, 19 86170 Isernia - ITALIA",
         "bio": "Siamo un'agenzia di Branding, Comunicazione e Marketing.\r\nRealizziamo progetti di comunicazione visiva brand-oriented, web design e web marketing.",
         "email_domain": "codencode.it",
-        "contributions": 167,
+        "contributions": 168,
         "repositories": {
             "PrestaShop": 72,
             "dashactivity": 1,
@@ -6504,7 +6504,7 @@
             "LocalizationFiles": 1,
             "hummingbird": 1,
             "classic-theme": 2,
-            "ps_apiresources": 2
+            "ps_apiresources": 3
         },
         "categories": {
             "core": {
@@ -6530,7 +6530,7 @@
                 }
             },
             "modules": {
-                "total": 16,
+                "total": 17,
                 "repositories": {
                     "dashactivity": 1,
                     "autoupgrade": 4,
@@ -6539,7 +6539,7 @@
                     "ps_imageslider": 2,
                     "ps_mainmenu": 1,
                     "ps_facetedsearch": 2,
-                    "ps_apiresources": 2
+                    "ps_apiresources": 3
                 }
             },
             "tools": {
@@ -6559,7 +6559,7 @@
                 "repositories": []
             }
         },
-        "mergedPullRequests": 92
+        "mergedPullRequests": 93
     },
     "cdesiles": {
         "login": "cdesiles",
@@ -7925,7 +7925,7 @@
         "location": null,
         "bio": null,
         "email_domain": "",
-        "contributions": 535,
+        "contributions": 536,
         "repositories": {
             "PrestaShop": 7,
             "dashactivity": 1,
