@@ -1,0 +1,14 @@
+@import "@prestashopcorp/puik-theme/index.css";
+@import "tailwindcss";
+
+@theme {
+  --color-bg: white;
+  --color-text: black;
+}
+
+@layer base {
+  html {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+  }
+}

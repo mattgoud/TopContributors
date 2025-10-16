@@ -1,65 +1,75 @@
-# TopContributors
+# Nuxt Minimal Starter
 
-A website to thank every PrestaShop contributors.
+Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
-## Build Setup
+## Setup
+
+Make sure to install dependencies:
 
 ```bash
-# install dependencies
-$ npm install
+# npm
+npm install
 
-# serve with hot reload at localhost:3000
-$ npm run dev
+# pnpm
+pnpm install
 
-# build for production and launch server
-$ npm run build
-$ npm run start
+# yarn
+yarn install
 
-# generate static project
-$ npm run generate
+# bun
+bun install
 ```
 
-To generate the required `contributors.json` use **traces** project:
+## Development Server
 
-```
-composer create-project prestashop/traces
-./traces/traces -u <GitHubLogin> -p <GitHubPassword> -o PrestaShop --config="./traces/config.dist.yml"
-```
+Start the development server on `http://localhost:3000`:
 
-Then place the file `contributors.json` into the folder named `static`.
+```bash
+# npm
+npm run dev
 
-## Docker
+# pnpm
+pnpm dev
 
-Added to this repository is a Dockerfile easing up the image build.
+# yarn
+yarn dev
 
-It realies heavily on the [docker multi-stage](https://docs.docker.com/develop/develop-images/multistage-build/) feature, in order to provide a clean image for the run.
-
-It also uses the [build arguments](https://docs.docker.com/engine/reference/commandline/build/#set-build-time-variables---build-arg) feature in order to only provide the github credentials during the command line **build**:
-
-```
-docker build --no-cache -t top-contributors --build-arg USER_LOGIN={{GITHUB_USER}} --build-arg USER_PASS={{GITHUB_PASSWORD}} -f Dockerfile .
+# bun
+bun run dev
 ```
 
-Where :
+## Production
 
-- GITHUB_USER: is the user that will be passed to retrieve the repository informations.
+Build the application for production:
 
-- GITHUB_PASSWORD: is either a token or your github user password, to authenticate with github.
+```bash
+# npm
+npm run build
 
-Please advise that with Two Factor Authentication currently being activated, the password authentication method will likely fail and using a token is much preferable.
+# pnpm
+pnpm build
 
-Then, if you want to locally **run** this image:
+# yarn
+yarn build
 
+# bun
+bun run build
 ```
-docker run -p 80:80 top-contributors
+
+Locally preview production build:
+
+```bash
+# npm
+npm run preview
+
+# pnpm
+pnpm preview
+
+# yarn
+yarn preview
+
+# bun
+bun run preview
 ```
 
-## Deployment
-
-The development branch is `develop`. Code changes should be merged inside `develop` using Pull Requests.
-
-When you want to deploy latest changes to production environment contributors.prestashop-project.org ;
-
-
-- open then merge a Pull Request merging branch `develop` inside `main` ([example](https://github.com/PrestaShop/TopContributors/pull/105))
-- then publish a GitHub release to trigger the deployment of the production environment
+Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
