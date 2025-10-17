@@ -10,7 +10,7 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 9667,
+        "contributions": 9668,
         "repositories": {
             "PrestaShop": 4231,
             "PrestaShop-modules": 31,
@@ -118,7 +118,7 @@
             "stylelint-config": 7,
             "example-modules": 6,
             "ps_qualityassurance": 1,
-            "test-scenarios": 883,
+            "test-scenarios": 884,
             "user-documentation-it": 2,
             "user-documentation-landing": 3,
             "user-documentation-en": 1,
@@ -160,7 +160,7 @@
                 }
             },
             "documentation": {
-                "total": 1100,
+                "total": 1101,
                 "repositories": {
                     "docs": 144,
                     "user-documentation-landing": 3,
@@ -168,7 +168,7 @@
                     "user-documentation-it": 2,
                     "user-documentation-v8-en": 1,
                     "functional-documentation": 2,
-                    "test-scenarios": 883,
+                    "test-scenarios": 884,
                     "example-modules": 6,
                     "open-source": 31,
                     "example_module_mailtheme": 4,
@@ -973,7 +973,7 @@
         "location": "London",
         "bio": null,
         "email_domain": "",
-        "contributions": 4749,
+        "contributions": 4754,
         "repositories": {
             "PrestaShop": 1705,
             "PrestaShop-modules": 349,
@@ -1006,7 +1006,7 @@
             "blockwishlist": 38,
             "pscleaner": 3,
             "themeinstallator": 3,
-            "autoupgrade": 1246,
+            "autoupgrade": 1251,
             "gsitemap": 6,
             "prestafraud": 1,
             "prestashop.github.io": 17,
@@ -1103,7 +1103,7 @@
                 }
             },
             "modules": {
-                "total": 2043,
+                "total": 2048,
                 "repositories": {
                     "PrestaShop-modules": 349,
                     "dashactivity": 1,
@@ -1133,7 +1133,7 @@
                     "statsstock": 2,
                     "blockwishlist": 38,
                     "pscleaner": 3,
-                    "autoupgrade": 1246,
+                    "autoupgrade": 1251,
                     "gsitemap": 6,
                     "prestafraud": 1,
                     "contactform": 1,
@@ -1609,7 +1609,7 @@
         "location": "Paris, France",
         "bio": "QA Automation Engineer",
         "email_domain": "gmail.com",
-        "contributions": 3278,
+        "contributions": 3282,
         "repositories": {
             "PrestaShop": 2785,
             "blockwishlist": 1,
@@ -1618,7 +1618,7 @@
             "QANightlyResults": 2,
             "ga.tests.ui.pr": 1,
             "classic-theme": 8,
-            "ui-testing-library": 257
+            "ui-testing-library": 261
         },
         "categories": {
             "core": {
@@ -1656,9 +1656,9 @@
                 }
             },
             "tests": {
-                "total": 258,
+                "total": 262,
                 "repositories": {
-                    "ui-testing-library": 257,
+                    "ui-testing-library": 261,
                     "ga.tests.ui.pr": 1
                 }
             },
@@ -1784,7 +1784,7 @@
         "location": "Bydgoszcz, Poland",
         "bio": "I'm a web developer from Poland, specializing in working with PrestaShop e-commerce",
         "email_domain": "",
-        "contributions": 3074,
+        "contributions": 3075,
         "repositories": {
             "PrestaShop": 749,
             "PrestaShop-modules": 4,
@@ -1837,7 +1837,7 @@
             "ps_mainmenu": 2,
             "ps_customersignin": 4,
             "ps_categorytree": 5,
-            "docs": 464,
+            "docs": 465,
             "ps_wirepayment": 1,
             "ps_shoppingcart": 4,
             "ps_currencyselector": 7,
@@ -1914,10 +1914,10 @@
                 }
             },
             "documentation": {
-                "total": 766,
+                "total": 767,
                 "repositories": {
                     "paymentexample": 7,
-                    "docs": 464,
+                    "docs": 465,
                     "user-documentation-en": 1,
                     "ADR": 6,
                     "example-modules": 73,
@@ -41987,7 +41987,7 @@
         "id": 24292472,
         "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/24292472?v=4",
         "html_url": "https:\/\/github.com\/LorisB",
-        "name": "lor\u00c6S",
+        "name": "Loris",
         "company": null,
         "blog": "",
         "location": null,
@@ -42777,6 +42777,62 @@
         "location": "NJ",
         "bio": null,
         "email_domain": "gmail.com",
+        "contributions": 1,
+        "repositories": {
+            "docs": 1
+        },
+        "categories": {
+            "core": {
+                "total": 0,
+                "repositories": []
+            },
+            "specs": {
+                "total": 0,
+                "repositories": []
+            },
+            "documentation": {
+                "total": 1,
+                "repositories": {
+                    "docs": 1
+                }
+            },
+            "themes": {
+                "total": 0,
+                "repositories": []
+            },
+            "modules": {
+                "total": 0,
+                "repositories": []
+            },
+            "tools": {
+                "total": 0,
+                "repositories": []
+            },
+            "tests": {
+                "total": 0,
+                "repositories": []
+            },
+            "blog": {
+                "total": 0,
+                "repositories": []
+            },
+            "others": {
+                "total": 0,
+                "repositories": []
+            }
+        }
+    },
+    "Paddimir": {
+        "login": "Paddimir",
+        "id": 9449749,
+        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/9449749?v=4",
+        "html_url": "https:\/\/github.com\/Paddimir",
+        "name": "Patrik Kopeck\u00fd",
+        "company": null,
+        "blog": "",
+        "location": "Czech Republic",
+        "bio": "I read docs and write code. Sometimes, I even enjoy it.",
+        "email_domain": "",
         "contributions": 1,
         "repositories": {
             "docs": 1
@@ -43998,62 +44054,6 @@
             }
         }
     },
-    "Paddimir": {
-        "login": "Paddimir",
-        "id": 9449749,
-        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/9449749?v=4",
-        "html_url": "https:\/\/github.com\/Paddimir",
-        "name": "Patrik Kopeck\u00fd",
-        "company": null,
-        "blog": "",
-        "location": "Czech Republic",
-        "bio": "I read docs and write code. Sometimes, I even enjoy it.",
-        "email_domain": "",
-        "contributions": 1,
-        "repositories": {
-            "docs": 1
-        },
-        "categories": {
-            "core": {
-                "total": 0,
-                "repositories": []
-            },
-            "specs": {
-                "total": 0,
-                "repositories": []
-            },
-            "documentation": {
-                "total": 1,
-                "repositories": {
-                    "docs": 1
-                }
-            },
-            "themes": {
-                "total": 0,
-                "repositories": []
-            },
-            "modules": {
-                "total": 0,
-                "repositories": []
-            },
-            "tools": {
-                "total": 0,
-                "repositories": []
-            },
-            "tests": {
-                "total": 0,
-                "repositories": []
-            },
-            "blog": {
-                "total": 0,
-                "repositories": []
-            },
-            "others": {
-                "total": 0,
-                "repositories": []
-            }
-        }
-    },
     "npankaj365": {
         "login": "npankaj365",
         "id": 22147066,
@@ -45127,6 +45127,62 @@
         "company": null,
         "blog": "http:\/\/www.guillaume-roussel.fr",
         "location": "France",
+        "bio": null,
+        "email_domain": "",
+        "contributions": 1,
+        "repositories": {
+            "docs": 1
+        },
+        "categories": {
+            "core": {
+                "total": 0,
+                "repositories": []
+            },
+            "specs": {
+                "total": 0,
+                "repositories": []
+            },
+            "documentation": {
+                "total": 1,
+                "repositories": {
+                    "docs": 1
+                }
+            },
+            "themes": {
+                "total": 0,
+                "repositories": []
+            },
+            "modules": {
+                "total": 0,
+                "repositories": []
+            },
+            "tools": {
+                "total": 0,
+                "repositories": []
+            },
+            "tests": {
+                "total": 0,
+                "repositories": []
+            },
+            "blog": {
+                "total": 0,
+                "repositories": []
+            },
+            "others": {
+                "total": 0,
+                "repositories": []
+            }
+        }
+    },
+    "Giulio-Cappelli": {
+        "login": "Giulio-Cappelli",
+        "id": 45797428,
+        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/45797428?v=4",
+        "html_url": "https:\/\/github.com\/Giulio-Cappelli",
+        "name": "Giulio Cappelli",
+        "company": null,
+        "blog": "",
+        "location": "Trento, Italy",
         "bio": null,
         "email_domain": "",
         "contributions": 1,
@@ -49206,5 +49262,5 @@
             }
         }
     },
-    "updatedAt": "2025-10-16 06:15:00"
+    "updatedAt": "2025-10-17 06:09:53"
 }
