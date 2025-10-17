@@ -52,11 +52,13 @@ const carousel_config = {
     <Carousel v-bind="carousel_config">
       <Slide v-for="(newContributor, index) in newContributors" :key="index">
         <puik-card class="wof-new-contributors-section__card">
-          <img
-            class="wof-new-contributors-section__img"
-            :src="newContributor.avatar_url"
-            :alt="`${newContributor.name ?? newContributor.login} avatar`"
-          />
+          <div class="wof-new-contributors-section__img-container">
+            <img
+              class="wof-new-contributors-section__img"
+              :src="newContributor.avatar_url"
+              :alt="`${newContributor.name ?? newContributor.login} avatar`"
+            />
+          </div>
           <h3 class="puik-h3">{{ newContributor.name ?? newContributor.login}}</h3>
           <p class="puik-body-default">{{ newContributor.login }}</p>
           <p class="puik-body-small">{{ newContributor.contributions }} contribution{{ newContributor.contributions > 1 ? "s" : "" }}</p>
@@ -105,6 +107,11 @@ const carousel_config = {
   margin-bottom: 0;
   padding-right: 96px;
 }
+.wof-new-contributors-section__img-container {
+  width: 100%;
+  overflow: hidden;
+}
+
 .wof-new-contributors-section__img {
   width: 100%;
   object-fit: cover;
@@ -155,5 +162,28 @@ const carousel_config = {
 .wof-carousel__nav-container .carousel__next:hover,
 .wof-carousel__nav-container .carousel__prev:hover {
   color: var(--wof-carousel-nav-hover);
+}
+
+.carousel__slide .wof-new-contributors-section__card{
+  opacity: 0.8;
+  border-width: 2px;
+  border-color: transparent;
+  transition: all .3s ease-in-out;
+}
+
+.carousel__slide--active .wof-new-contributors-section__card {
+  opacity: 1;
+  border-color: #1b8ca6;
+  transition: all .3s ease-in-out;
+}
+
+.carousel__slide .wof-new-contributors-section__card .wof-new-contributors-section__img{
+  transform: scale(1);
+  transition: all .3s ease-in-out;
+}
+
+.carousel__slide--active .wof-new-contributors-section__card .wof-new-contributors-section__img{
+  transform: scale(1.1);
+  transition: all .3s ease-in-out;
 }
 </style>
