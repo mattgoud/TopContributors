@@ -10,9 +10,9 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 9668,
+        "contributions": 9685,
         "repositories": {
-            "PrestaShop": 1053,
+            "PrestaShop": 1054,
             "PrestaShop-modules": 2,
             "PrestaShop-webservice-lib": 1,
             "dashactivity": 4,
@@ -121,9 +121,9 @@
         },
         "categories": {
             "core": {
-                "total": 1067,
+                "total": 1068,
                 "repositories": {
-                    "PrestaShop": 1053,
+                    "PrestaShop": 1054,
                     "prestashop-ui-kit": 1,
                     "TranslationToolsBundle": 2,
                     "TranslationFiles": 3,
@@ -272,7 +272,7 @@
                 }
             }
         },
-        "mergedPullRequests": 2099
+        "mergedPullRequests": 2100
     },
     "matks": {
         "login": "matks",
@@ -285,7 +285,7 @@
         "location": "Amiens - France",
         "bio": "Senior engineering manager",
         "email_domain": "",
-        "contributions": 5482,
+        "contributions": 5483,
         "repositories": {
             "PrestaShop": 494,
             "PrestaShop-modules": 1,
@@ -572,7 +572,7 @@
             "graphnvd3": 3,
             "statscheckup": 1,
             "blockwishlist": 17,
-            "autoupgrade": 240,
+            "autoupgrade": 241,
             "gsitemap": 2,
             "prestashop.github.io": 6,
             "docker": 89,
@@ -653,13 +653,13 @@
                 }
             },
             "modules": {
-                "total": 340,
+                "total": 341,
                 "repositories": {
                     "PrestaShop-modules": 14,
                     "graphnvd3": 3,
                     "statscheckup": 1,
                     "blockwishlist": 17,
-                    "autoupgrade": 240,
+                    "autoupgrade": 241,
                     "gsitemap": 2,
                     "contactform": 1,
                     "pstagger": 1,
@@ -724,7 +724,7 @@
                 }
             }
         },
-        "mergedPullRequests": 1036
+        "mergedPullRequests": 1037
     },
     "jolelievre": {
         "login": "jolelievre",
@@ -1347,9 +1347,9 @@
         "location": "Paris, France",
         "bio": "QA Automation Engineer",
         "email_domain": "gmail.com",
-        "contributions": 3282,
+        "contributions": 3288,
         "repositories": {
-            "PrestaShop": 655,
+            "PrestaShop": 656,
             "autoupgrade": 35,
             "PSFunctionalTests": 5,
             "traces": 2,
@@ -1358,9 +1358,9 @@
         },
         "categories": {
             "core": {
-                "total": 655,
+                "total": 656,
                 "repositories": {
-                    "PrestaShop": 655
+                    "PrestaShop": 656
                 }
             },
             "specs": {
@@ -1404,7 +1404,7 @@
                 "repositories": []
             }
         },
-        "mergedPullRequests": 777
+        "mergedPullRequests": 778
     },
     "NeOMakinG": {
         "login": "NeOMakinG",
@@ -4167,9 +4167,9 @@
         "location": null,
         "bio": "Founder of @wallabag. ",
         "email_domain": "",
-        "contributions": 1326,
+        "contributions": 1336,
         "repositories": {
-            "PrestaShop": 114,
+            "PrestaShop": 116,
             "blockwishlist": 6,
             "autoupgrade": 1,
             "gsitemap": 1,
@@ -4201,9 +4201,9 @@
         },
         "categories": {
             "core": {
-                "total": 116,
+                "total": 118,
                 "repositories": {
-                    "PrestaShop": 114,
+                    "PrestaShop": 116,
                     "LocalizationFiles": 2
                 }
             },
@@ -4274,7 +4274,7 @@
                 }
             }
         },
-        "mergedPullRequests": 180
+        "mergedPullRequests": 182
     },
     "thierrymarianne": {
         "login": "thierrymarianne",
@@ -5976,7 +5976,7 @@
         "location": null,
         "bio": null,
         "email_domain": "",
-        "contributions": 173,
+        "contributions": 176,
         "repositories": {
             "PrestaShop": 79,
             "productcomments": 2,
@@ -6495,7 +6495,7 @@
         "location": "Via Giuseppe Saragat, 19 86170 Isernia - ITALIA",
         "bio": "Siamo un'agenzia di Branding, Comunicazione e Marketing.\r\nRealizziamo progetti di comunicazione visiva brand-oriented, web design e web marketing.",
         "email_domain": "codencode.it",
-        "contributions": 168,
+        "contributions": 169,
         "repositories": {
             "PrestaShop": 72,
             "dashactivity": 1,
@@ -7929,7 +7929,7 @@
         "location": null,
         "bio": null,
         "email_domain": "",
-        "contributions": 537,
+        "contributions": 539,
         "repositories": {
             "PrestaShop": 7,
             "dashactivity": 1,
@@ -8451,7 +8451,7 @@
             "docker-internal-images": 1,
             "open-source": 1,
             "hummingbird": 7,
-            "classic-theme": 2,
+            "classic-theme": 3,
             "ps_distributionapiclient": 9,
             "zip-archives": 1
         },
@@ -8474,10 +8474,10 @@
                 }
             },
             "themes": {
-                "total": 9,
+                "total": 10,
                 "repositories": {
                     "hummingbird": 7,
-                    "classic-theme": 2
+                    "classic-theme": 3
                 }
             },
             "modules": {
@@ -8509,7 +8509,7 @@
                 }
             }
         },
-        "mergedPullRequests": 40
+        "mergedPullRequests": 41
     },
     "TMMeilleur": {
         "login": "TMMeilleur",
@@ -41467,9 +41467,9 @@
         "id": 7813306,
         "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/7813306?v=4",
         "html_url": "https:\/\/github.com\/mehov",
-        "name": "Al",
+        "name": null,
         "company": null,
-        "blog": "",
+        "blog": "example.com",
         "location": "Copenhagen",
         "bio": "Developers,\r\ndevelopers,\r\ndevelopers,\r\ndevelopers!",
         "email_domain": "",
