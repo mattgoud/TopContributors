@@ -973,7 +973,7 @@
         "location": "London",
         "bio": null,
         "email_domain": "",
-        "contributions": 4754,
+        "contributions": 4760,
         "repositories": {
             "PrestaShop": 1705,
             "PrestaShop-modules": 349,
@@ -1006,7 +1006,7 @@
             "blockwishlist": 38,
             "pscleaner": 3,
             "themeinstallator": 3,
-            "autoupgrade": 1251,
+            "autoupgrade": 1257,
             "gsitemap": 6,
             "prestafraud": 1,
             "prestashop.github.io": 17,
@@ -1103,7 +1103,7 @@
                 }
             },
             "modules": {
-                "total": 2048,
+                "total": 2054,
                 "repositories": {
                     "PrestaShop-modules": 349,
                     "dashactivity": 1,
@@ -1133,7 +1133,7 @@
                     "statsstock": 2,
                     "blockwishlist": 38,
                     "pscleaner": 3,
-                    "autoupgrade": 1251,
+                    "autoupgrade": 1257,
                     "gsitemap": 6,
                     "prestafraud": 1,
                     "contactform": 1,
@@ -1784,7 +1784,7 @@
         "location": "Bydgoszcz, Poland",
         "bio": "I'm a web developer from Poland, specializing in working with PrestaShop e-commerce",
         "email_domain": "",
-        "contributions": 3075,
+        "contributions": 3076,
         "repositories": {
             "PrestaShop": 749,
             "PrestaShop-modules": 4,
@@ -1837,7 +1837,7 @@
             "ps_mainmenu": 2,
             "ps_customersignin": 4,
             "ps_categorytree": 5,
-            "docs": 465,
+            "docs": 466,
             "ps_wirepayment": 1,
             "ps_shoppingcart": 4,
             "ps_currencyselector": 7,
@@ -1914,10 +1914,10 @@
                 }
             },
             "documentation": {
-                "total": 767,
+                "total": 768,
                 "repositories": {
                     "paymentexample": 7,
-                    "docs": 465,
+                    "docs": 466,
                     "user-documentation-en": 1,
                     "ADR": 6,
                     "example-modules": 73,
@@ -3871,9 +3871,9 @@
         "location": null,
         "bio": "Founder of @wallabag. ",
         "email_domain": "",
-        "contributions": 1336,
+        "contributions": 1349,
         "repositories": {
-            "PrestaShop": 723,
+            "PrestaShop": 734,
             "PrestaShop-webservice-lib": 1,
             "dashactivity": 3,
             "dashgoals": 1,
@@ -3927,9 +3927,9 @@
             "open-source": 23,
             "mjml-theme-converter": 1,
             "php-dev-tools": 2,
-            "QANightlyResults": 92,
+            "QANightlyResults": 93,
             "LocalizationFiles": 8,
-            "presthubot": 67,
+            "presthubot": 68,
             "example-modules": 7,
             "ps_qualityassurance": 3,
             "test-scenarios": 1,
@@ -3951,9 +3951,9 @@
         },
         "categories": {
             "core": {
-                "total": 734,
+                "total": 745,
                 "repositories": {
-                    "PrestaShop": 723,
+                    "PrestaShop": 734,
                     "prestashop-ui-kit": 1,
                     "LocalizationFiles": 8,
                     "php-dev-tools": 2
@@ -4030,7 +4030,7 @@
                 }
             },
             "tools": {
-                "total": 202,
+                "total": 204,
                 "repositories": {
                     "bootstrap-compatibility-layer": 1,
                     "docker": 6,
@@ -4039,9 +4039,9 @@
                     "mjml-theme-converter": 1,
                     "nightly-board": 1,
                     "PrestaShop-webservice-lib": 1,
-                    "presthubot": 67,
+                    "presthubot": 68,
                     "prestonbot": 1,
-                    "QANightlyResults": 92,
+                    "QANightlyResults": 93,
                     "TopContributors": 7,
                     "TopTranslators": 1,
                     "traces": 8,
@@ -5925,9 +5925,9 @@
         "location": "France",
         "bio": "Developper from father to son with +13 years experience, commiter and member of @PrestaShop Tech Council!",
         "email_domain": "",
-        "contributions": 573,
+        "contributions": 574,
         "repositories": {
-            "PrestaShop": 373,
+            "PrestaShop": 374,
             "PrestaShop-webservice-lib": 1,
             "dashtrends": 2,
             "autoupgrade": 10,
@@ -5960,9 +5960,9 @@
         },
         "categories": {
             "core": {
-                "total": 380,
+                "total": 381,
                 "repositories": {
-                    "PrestaShop": 373,
+                    "PrestaShop": 374,
                     "circuit-breaker": 7
                 }
             },
@@ -9337,13 +9337,13 @@
         "location": null,
         "bio": null,
         "email_domain": "",
-        "contributions": 176,
+        "contributions": 180,
         "repositories": {
-            "PrestaShop": 137,
+            "PrestaShop": 140,
             "productcomments": 2,
             "autoupgrade": 3,
             "docker": 4,
-            "docs": 1,
+            "docs": 2,
             "traces": 1,
             "ps_themecusto": 2,
             "open-source": 2,
@@ -9359,9 +9359,9 @@
         },
         "categories": {
             "core": {
-                "total": 137,
+                "total": 140,
                 "repositories": {
-                    "PrestaShop": 137
+                    "PrestaShop": 140
                 }
             },
             "specs": {
@@ -9369,9 +9369,9 @@
                 "repositories": []
             },
             "documentation": {
-                "total": 7,
+                "total": 8,
                 "repositories": {
-                    "docs": 1,
+                    "docs": 2,
                     "test-scenarios": 1,
                     "example-modules": 2,
                     "open-source": 2,
@@ -35318,62 +35318,6 @@
             }
         }
     },
-    "bunsenstraat": {
-        "login": "bunsenstraat",
-        "id": 2787300,
-        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/2787300?v=4",
-        "html_url": "https:\/\/github.com\/bunsenstraat",
-        "name": null,
-        "company": "Ethereum",
-        "blog": "",
-        "location": "Amsterdam",
-        "bio": null,
-        "email_domain": "",
-        "contributions": 1,
-        "repositories": {
-            "PrestaShop-modules": 1
-        },
-        "categories": {
-            "core": {
-                "total": 0,
-                "repositories": []
-            },
-            "specs": {
-                "total": 0,
-                "repositories": []
-            },
-            "documentation": {
-                "total": 0,
-                "repositories": []
-            },
-            "themes": {
-                "total": 0,
-                "repositories": []
-            },
-            "modules": {
-                "total": 1,
-                "repositories": {
-                    "PrestaShop-modules": 1
-                }
-            },
-            "tools": {
-                "total": 0,
-                "repositories": []
-            },
-            "tests": {
-                "total": 0,
-                "repositories": []
-            },
-            "blog": {
-                "total": 0,
-                "repositories": []
-            },
-            "others": {
-                "total": 0,
-                "repositories": []
-            }
-        }
-    },
     "apaqui": {
         "login": "apaqui",
         "id": 2624565,
@@ -41030,62 +40974,6 @@
             }
         }
     },
-    "Vots1000": {
-        "login": "Vots1000",
-        "id": 120188306,
-        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/120188306?v=4",
-        "html_url": "https:\/\/github.com\/Vots1000",
-        "name": null,
-        "company": null,
-        "blog": "https:\/\/vots.pl",
-        "location": "Poland",
-        "bio": null,
-        "email_domain": "",
-        "contributions": 1,
-        "repositories": {
-            "docs": 1
-        },
-        "categories": {
-            "core": {
-                "total": 0,
-                "repositories": []
-            },
-            "specs": {
-                "total": 0,
-                "repositories": []
-            },
-            "documentation": {
-                "total": 1,
-                "repositories": {
-                    "docs": 1
-                }
-            },
-            "themes": {
-                "total": 0,
-                "repositories": []
-            },
-            "modules": {
-                "total": 0,
-                "repositories": []
-            },
-            "tools": {
-                "total": 0,
-                "repositories": []
-            },
-            "tests": {
-                "total": 0,
-                "repositories": []
-            },
-            "blog": {
-                "total": 0,
-                "repositories": []
-            },
-            "others": {
-                "total": 0,
-                "repositories": []
-            }
-        }
-    },
     "smoucka": {
         "login": "smoucka",
         "id": 4282644,
@@ -41488,6 +41376,62 @@
         "blog": "",
         "location": null,
         "bio": null,
+        "email_domain": "",
+        "contributions": 1,
+        "repositories": {
+            "docs": 1
+        },
+        "categories": {
+            "core": {
+                "total": 0,
+                "repositories": []
+            },
+            "specs": {
+                "total": 0,
+                "repositories": []
+            },
+            "documentation": {
+                "total": 1,
+                "repositories": {
+                    "docs": 1
+                }
+            },
+            "themes": {
+                "total": 0,
+                "repositories": []
+            },
+            "modules": {
+                "total": 0,
+                "repositories": []
+            },
+            "tools": {
+                "total": 0,
+                "repositories": []
+            },
+            "tests": {
+                "total": 0,
+                "repositories": []
+            },
+            "blog": {
+                "total": 0,
+                "repositories": []
+            },
+            "others": {
+                "total": 0,
+                "repositories": []
+            }
+        }
+    },
+    "Paddimir": {
+        "login": "Paddimir",
+        "id": 9449749,
+        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/9449749?v=4",
+        "html_url": "https:\/\/github.com\/Paddimir",
+        "name": "Patrik Kopeck\u00fd",
+        "company": null,
+        "blog": "",
+        "location": "Czech Republic",
+        "bio": "I read docs and write code. Sometimes, I even enjoy it.",
         "email_domain": "",
         "contributions": 1,
         "repositories": {
@@ -42822,16 +42766,16 @@
             }
         }
     },
-    "Paddimir": {
-        "login": "Paddimir",
-        "id": 9449749,
-        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/9449749?v=4",
-        "html_url": "https:\/\/github.com\/Paddimir",
-        "name": "Patrik Kopeck\u00fd",
+    "Vots1000": {
+        "login": "Vots1000",
+        "id": 120188306,
+        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/120188306?v=4",
+        "html_url": "https:\/\/github.com\/Vots1000",
+        "name": null,
         "company": null,
-        "blog": "",
-        "location": "Czech Republic",
-        "bio": "I read docs and write code. Sometimes, I even enjoy it.",
+        "blog": "https:\/\/vots.pl",
+        "location": "Poland",
+        "bio": null,
         "email_domain": "",
         "contributions": 1,
         "repositories": {
@@ -48263,7 +48207,7 @@
         "company": "WND AG",
         "blog": "https:\/\/tiagogalvao.com",
         "location": "Switzerland",
-        "bio": "(JS, Typescript, HTML5, PHP, VUE.JS, CSS3, WORDPRESS)\r\n(started learning to code in 2001 at age 9).",
+        "bio": "Full Stack Developer \u00b1 been coding since 2001. Yes, that long.",
         "email_domain": "",
         "contributions": 1,
         "repositories": {
@@ -49262,5 +49206,5 @@
             }
         }
     },
-    "updatedAt": "2025-10-20 06:42:59"
+    "updatedAt": "2025-10-21 06:10:28"
 }
