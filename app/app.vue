@@ -25,8 +25,8 @@ onMounted(async () => {
     const response = await fetch('https://contributors.prestashop-project.org/topcompanies.json')
     if (!response.ok) throw new Error('Error loading top companies')
     const data = await response.json()
+    
     topCompanies.value = data.companies.slice(0, 5)
-
     const total: number =
       data.companies.reduce((acc: number, company: Company) => acc + company.merged_pull_requests, 0)
       + data.community.merged_pull_requests
@@ -50,6 +50,10 @@ onMounted(async () => {
       (item): item is Contributor =>
         item !== null && typeof item === 'object' && 'contributions' in item,
     )
+    contributorsOnly.map((contributor, index) => {
+      contributor.rank = index + 1
+      return contributor
+    })
     contributorsData.value = contributorsOnly
     topContributors.value = contributorsOnly.slice(0, 5)
 

@@ -70,16 +70,16 @@ const closeModal = () => {
     :full-width="fullWidth"
     @view="openModal"
   >
-    <template #item-rank="{ index }">
+    <template #item-rank="{ item }">
       <div
         :class="[
           'wof-top-section__rank',
-          { 'wof-top-section__rank--first': index === 0 },
-          { 'wof-top-section__rank--second': index === 1 },
-          { 'wof-top-section__rank--third': index === 2 }
+          { 'wof-top-section__rank--first': item.rank === 1 },
+          { 'wof-top-section__rank--second': item.rank === 2 },
+          { 'wof-top-section__rank--third': item.rank === 3 }
         ]"
       >
-        <span class="puik-body-default-bold">{{ index + 1 }}</span>
+        <span class="puik-body-default-bold">{{ item.rank }}</span>
       </div>
     </template>
 
@@ -98,6 +98,7 @@ const closeModal = () => {
       <puik-button
         @click="openModal(item)"
         variant="text"
+        force-legacy-text-variant
         right-icon="visibility"
         aria-label="view profile"
       />

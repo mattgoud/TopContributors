@@ -21,11 +21,11 @@ importers:
         specifier: ^3.19.2
         version: 3.19.2(magicast@0.3.5)(typescript@5.9.3)
       '@prestashopcorp/puik-components':
-        specifier: ^2.6.0
-        version: 2.6.0(vue@3.5.22(typescript@5.9.3))
+        specifier: ^2.7.0
+        version: 2.7.0(vue@3.5.22(typescript@5.9.3))
       '@prestashopcorp/puik-theme':
-        specifier: ^2.6.0
-        version: 2.6.0
+        specifier: ^2.7.0
+        version: 2.7.0
       eslint:
         specifier: ^9.37.0
         version: 9.37.0(jiti@2.6.1)
@@ -43,8 +43,8 @@ importers:
         version: 0.16.0(vue@3.5.22(typescript@5.9.3))
     devDependencies:
       '@prestashopcorp/puik-resolver':
-        specifier: ^7.0.0
-        version: 7.0.0(@prestashopcorp/puik-components@2.6.0(vue@3.5.22(typescript@5.9.3)))(@prestashopcorp/puik-theme@2.6.0)(unplugin-vue-components@29.1.0(@babel/parser@7.28.4)(@nuxt/kit@4.1.3(magicast@0.3.5))(vue@3.5.22(typescript@5.9.3)))(vue@3.5.22(typescript@5.9.3))
+        specifier: ^8.0.0
+        version: 8.0.0(@prestashopcorp/puik-components@2.7.0(vue@3.5.22(typescript@5.9.3)))(@prestashopcorp/puik-theme@2.7.0)(unplugin-vue-components@29.1.0(@babel/parser@7.28.4)(@nuxt/kit@4.1.3(magicast@0.3.5))(vue@3.5.22(typescript@5.9.3)))(vue@3.5.22(typescript@5.9.3))
       '@tailwindcss/vite':
         specifier: ^4.1.14
         version: 4.1.14(vite@7.1.10(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))
@@ -1057,21 +1057,21 @@ packages:
   '@poppinss/exception@1.2.2':
     resolution: {integrity: sha512-m7bpKCD4QMlFCjA/nKTs23fuvoVFoA83brRKmObCUNmi/9tVu8Ve3w4YQAnJu4q3Tjf5fr685HYIC/IA2zHRSg==}
 
-  '@prestashopcorp/puik-components@2.6.0':
-    resolution: {integrity: sha512-jDRwcERKoUFo4F81meIs3toL+6HRumkvOnDB45oJQ2Hy0dOkTKdItiqBQ1tuSrW95tEk5RPiXEKBIWiYrV4+GA==}
+  '@prestashopcorp/puik-components@2.7.0':
+    resolution: {integrity: sha512-EbI3y5agUq+FveUdnBKRoyNtaM5U1a8h/I0QOEiXTLtNCpY63115sR55VGXd8fAVrOI5YwPgEWWDAJui4mx0Iw==}
     peerDependencies:
       vue: ^3.3.7
 
-  '@prestashopcorp/puik-resolver@7.0.0':
-    resolution: {integrity: sha512-zNw3Lkf6rHj3aUky8ydaKs4gfEw2bDozSdKrwrRsNXbrTfhoa3xwkwdMSRzRvseLgGgOLXFSqMA89rgfH9Ueqw==}
+  '@prestashopcorp/puik-resolver@8.0.0':
+    resolution: {integrity: sha512-ExUZJiCZltkev+/fI+4SgwzrZeiC58HB+Ix07mxSTpsZTJW1Fp32gZEyH9Yt/QgidYvunhrTNr48kDnemjm66w==}
     peerDependencies:
-      '@prestashopcorp/puik-components': 2.6.0
-      '@prestashopcorp/puik-theme': 2.6.0
+      '@prestashopcorp/puik-components': 2.7.0
+      '@prestashopcorp/puik-theme': 2.7.0
       unplugin-vue-components: ^28.7.0
       vue: ^3.3.7
 
-  '@prestashopcorp/puik-theme@2.6.0':
-    resolution: {integrity: sha512-OLm88aJ/wlk4h0juqKPQVfw4ssuncf32h1fk5RbNgyZtA56GDJXMuIxjbVO3x7mnuy1bshQfCRcttiM5Aixy5A==}
+  '@prestashopcorp/puik-theme@2.7.0':
+    resolution: {integrity: sha512-hc3w+RUIzHGbzvkMrtQ9wfcXcLnSyrlQob2bAc0Rk3IOZeTrlrltk/y13ARKIRUA8x3qdJJlK/+GHDgdxM58fg==}
 
   '@rolldown/pluginutils@1.0.0-beta.29':
     resolution: {integrity: sha512-NIJgOsMjbxAXvoGq/X0gD7VPMQ8j9g0BiDaNjVNVjvl+iKXxL3Jre0v31RmBYeLEmkbj2s02v8vFTbUXi5XS2Q==}
@@ -3871,8 +3871,8 @@ packages:
   smob@1.5.0:
     resolution: {integrity: sha512-g6T+p7QO8npa+/hNx9ohv1E5pVCmWrVCUzUXJyLdMmftX6ER0oiWY/w9knEonLpnOp6b6FenKnMfR8gqwWdwig==}
 
-  sortablejs-vue3@1.3.0:
-    resolution: {integrity: sha512-71vrhfinoYEOWfpbFJUgYJNXJwMhqGgk4BLustx3WNWR1SoPgd+ZD8fZABacvDJV2e2CZo5RJtfGdnsiZL1blQ==}
+  sortablejs-vue3@1.2.11:
+    resolution: {integrity: sha512-oKOA6N7yu2ktmqYXPHlPTQWbe9G4v16mn5ewogb+Ybc9Bk1Y+MIURrpbgedEv7f9TS5Bptvh81HGjazh5FEyJw==}
     peerDependencies:
       sortablejs: ^1.15.0
       vue: ^3.2.25
@@ -5734,28 +5734,28 @@ snapshots:
 
   '@poppinss/exception@1.2.2': {}
 
-  '@prestashopcorp/puik-components@2.6.0(vue@3.5.22(typescript@5.9.3))':
+  '@prestashopcorp/puik-components@2.7.0(vue@3.5.22(typescript@5.9.3))':
     dependencies:
       '@headlessui/vue': 1.7.23(vue@3.5.22(typescript@5.9.3))
       '@popperjs/core': 2.11.8
-      '@prestashopcorp/puik-theme': 2.6.0
+      '@prestashopcorp/puik-theme': 2.7.0
       '@vueuse/components': 11.3.0(vue@3.5.22(typescript@5.9.3))
       '@vueuse/core': 10.11.1(vue@3.5.22(typescript@5.9.3))
       radix-vue: 1.9.17(vue@3.5.22(typescript@5.9.3))
       sortablejs: 1.15.6
-      sortablejs-vue3: 1.3.0(sortablejs@1.15.6)(vue@3.5.22(typescript@5.9.3))
+      sortablejs-vue3: 1.2.11(sortablejs@1.15.6)(vue@3.5.22(typescript@5.9.3))
       vue: 3.5.22(typescript@5.9.3)
     transitivePeerDependencies:
       - '@vue/composition-api'
 
-  '@prestashopcorp/puik-resolver@7.0.0(@prestashopcorp/puik-components@2.6.0(vue@3.5.22(typescript@5.9.3)))(@prestashopcorp/puik-theme@2.6.0)(unplugin-vue-components@29.1.0(@babel/parser@7.28.4)(@nuxt/kit@4.1.3(magicast@0.3.5))(vue@3.5.22(typescript@5.9.3)))(vue@3.5.22(typescript@5.9.3))':
+  '@prestashopcorp/puik-resolver@8.0.0(@prestashopcorp/puik-components@2.7.0(vue@3.5.22(typescript@5.9.3)))(@prestashopcorp/puik-theme@2.7.0)(unplugin-vue-components@29.1.0(@babel/parser@7.28.4)(@nuxt/kit@4.1.3(magicast@0.3.5))(vue@3.5.22(typescript@5.9.3)))(vue@3.5.22(typescript@5.9.3))':
     dependencies:
-      '@prestashopcorp/puik-components': 2.6.0(vue@3.5.22(typescript@5.9.3))
-      '@prestashopcorp/puik-theme': 2.6.0
+      '@prestashopcorp/puik-components': 2.7.0(vue@3.5.22(typescript@5.9.3))
+      '@prestashopcorp/puik-theme': 2.7.0
       unplugin-vue-components: 29.1.0(@babel/parser@7.28.4)(@nuxt/kit@4.1.3(magicast@0.3.5))(vue@3.5.22(typescript@5.9.3))
       vue: 3.5.22(typescript@5.9.3)
 
-  '@prestashopcorp/puik-theme@2.6.0': {}
+  '@prestashopcorp/puik-theme@2.7.0': {}
 
   '@rolldown/pluginutils@1.0.0-beta.29': {}
 
@@ -8898,7 +8898,7 @@ snapshots:
 
   smob@1.5.0: {}
 
-  sortablejs-vue3@1.3.0(sortablejs@1.15.6)(vue@3.5.22(typescript@5.9.3)):
+  sortablejs-vue3@1.2.11(sortablejs@1.15.6)(vue@3.5.22(typescript@5.9.3)):
     dependencies:
       sortablejs: 1.15.6
       vue: 3.5.22(typescript@5.9.3)

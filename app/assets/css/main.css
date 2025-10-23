@@ -1,4 +1,4 @@
-@import "@prestashopcorp/puik-theme/index.css";
+@import "@prestashopcorp/puik-theme";
 @import "tailwindcss";
 
 @theme {

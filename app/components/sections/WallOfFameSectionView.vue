@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+import { ref, onMounted } from 'vue'
 import type { PuikTableHeader } from '@prestashopcorp/puik-components'
 import type { Contributor } from '@/types'
 
-defineProps<{
+const props = defineProps<{
   contributorsData: Contributor[]
 }>()
 
@@ -24,8 +24,8 @@ const headers: PuikTableHeader[] = [
   },
   {
     text: 'Name',
-    value: 'name',
-    size: 'md',
+    value: 'login',
+    size: 'lg',
     align: 'left',
     searchable: true,
   },
@@ -34,7 +34,7 @@ const headers: PuikTableHeader[] = [
     value: 'mergedPullRequests',
     size: 'sm',
     align: 'center',
-    searchable: false,
+    searchable: true,
   },
   {
     value: 'actions',
@@ -47,6 +47,9 @@ const headers: PuikTableHeader[] = [
 const stickyLastCol = ref(false)
 const fullWidth = ref(true)
 
+const page = ref(1)
+const itemsPerPage = ref(10)
+
 const modalContributorItem = ref()
 const isModalOpen = ref(false)
 const openModal = (contributor: any) => {
@@ -54,8 +57,13 @@ const openModal = (contributor: any) => {
   isModalOpen.value = true
 }
 const closeModal = () => {
-  isModalOpen.value = false
+  isModalOpen.value = false;
 }
+
+onMounted (() => {
+  page.value = 1
+  itemsPerPage.value = 10
+})
 </script>
 
 <template>
@@ -68,20 +76,21 @@ const closeModal = () => {
     <puik-table
       v-if="contributorsData?.length"
       :headers="headers"
-      :items="contributorsData"
+      :search-bar="true"
+      :items="contributorsData.slice((page - 1) * itemsPerPage, page * itemsPerPage)"
       :stickyLastCol="stickyLastCol"
       :fullWidth="fullWidth"
     >
-      <template #item-rank="{ index }">
+      <template #item-rank="{ item }">
         <div
           :class="[
             'wof-top-section__rank',
-            { 'wof-top-section__rank--first': index === 0 },
-            { 'wof-top-section__rank--second': index === 1 },
-            { 'wof-top-section__rank--third': index === 2 }
+            { 'wof-top-section__rank--first': item.rank === 1 },
+            { 'wof-top-section__rank--second': item.rank === 2 },
+            { 'wof-top-section__rank--third': item.rank === 3 }
           ]"
         >
-          <span class="puik-body-default-bold">{{ index + 1 }}</span>
+          <span class="puik-body-default-bold">{{ item.rank }}</span>
         </div>
       </template>
 
@@ -100,11 +109,23 @@ const closeModal = () => {
         <puik-button
           @click="openModal(item)"
           variant="text"
+          force-legacy-text-variant
           right-icon="visibility"
           aria-label="view profile"
         />
       </template>
     </puik-table>
+
+    <puik-pagination
+      id="contributors-pagination"
+      v-model:page="page"
+      v-model:items-per-page="itemsPerPage"
+      variant="large"
+      :total-item="contributorsData.length"
+      @update:page="(event: number) => console.log('Page changed to: ', event)"
+      @update:itemsPerPage="(event: number) => console.log('Items per page changed to: ', event)"
+    ></puik-pagination>
+
     <TopModal
       v-if="modalContributorItem"
       :contributor="modalContributorItem"

@@ -21,7 +21,7 @@ const close = () => emit('close')
     :is-open="isOpen"
     @close="close"
   >
-    <puik-button class="wof-top-modal__close-btn" variant="text" size="sm" @click="close">
+    <puik-button class="wof-top-modal__close-btn" variant="text" force-legacy-text-variant size="sm" @click="close">
       <puik-icon icon="close" font-size="1.25rem"/>
     </puik-button>
     <div class="wof-top-modal__container">

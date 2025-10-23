@@ -1,7 +1,7 @@
 
 export interface Company {
-  name: string
   rank: number
+  name: string
   merged_pull_requests: number
   pull_requests_percent: number
   avatar_url: string
@@ -9,6 +9,7 @@ export interface Company {
 }
 
 export interface Contributor {
+  rank?: number
   login: string
   id: number
   avatar_url: string
