@@ -1,69 +1,91 @@
 <script setup lang="ts">
-import { ref, onMounted } from 'vue'
-import type { PuikTableHeader } from '@prestashopcorp/puik-components'
-import type { Contributor } from '@/types'
+import { ref, watch } from 'vue'
+import type { PuikTableHeader, searchOption, sortOption } from '@prestashopcorp/puik-components'
+import type { Company, Contributor } from '@/types'
 
 const props = defineProps<{
   contributorsData: Contributor[]
+  companiesData: Company[]
 }>()
 
+// -----------------------------------------------------------------------------
+// TABLE CONFIG
+// -----------------------------------------------------------------------------
 const headers: PuikTableHeader[] = [
-  {
-    text: 'Rank',
-    value: 'rank',
-    size: 'sm',
-    align: 'center',
-    searchable: false,
-  },
-  {
-    text: 'Avatar',
-    value: 'avatar',
-    size: 'sm',
-    align: 'center',
-    searchable: false,
-  },
-  {
-    text: 'Name',
-    value: 'login',
-    size: 'lg',
-    align: 'left',
-    searchable: true,
-  },
-  {
-    text: 'Contributions',
-    value: 'mergedPullRequests',
-    size: 'sm',
-    align: 'center',
-    searchable: true,
-  },
-  {
-    value: 'actions',
-    size: 'sm',
-    align: 'center',
-    preventExpand: true,
-    searchSubmit: true,
-  },
+  { text: 'Rank', value: 'rank', size: 'sm', align: 'center', searchable: false, sortable: true },
+  { text: 'Avatar', value: 'avatar', size: 'sm', align: 'center', searchable: false },
+  { text: 'Name', value: 'login', size: 'lg', align: 'left', searchable: true, sortable: true },
+  { text: 'Contributions', value: 'mergedPullRequests', size: 'sm', align: 'center', searchable: true, searchType: 'range', sortable: true },
+  { value: 'actions', size: 'sm', align: 'center', preventExpand: true, searchSubmit: true },
 ]
+
 const stickyLastCol = ref(false)
 const fullWidth = ref(true)
 
+// -----------------------------------------------------------------------------
+// DATA & UI STATE
+// -----------------------------------------------------------------------------
+const contributorsRef = ref<Contributor[]>([...props.contributorsData])
 const page = ref(1)
-const itemsPerPage = ref(10)
+const itemsPerPage = ref(5)
 
 const modalContributorItem = ref()
 const isModalOpen = ref(false)
-const openModal = (contributor: any) => {
-  modalContributorItem.value = contributor
-  isModalOpen.value = true
-}
-const closeModal = () => {
-  isModalOpen.value = false;
+
+const openModal = (contributor: any) => { modalContributorItem.value = contributor; isModalOpen.value = true }
+const closeModal = () => { isModalOpen.value = false }
+
+// -----------------------------------------------------------------------------
+// SEARCH
+// -----------------------------------------------------------------------------
+const handleSearchSubmit = (payload: searchOption[]) => {
+  let filtered = [...props.contributorsData]
+
+  payload.forEach(({ searchBy, inputText, inputRange }) => {
+    if (searchBy === 'login' && inputText) {
+      const search = inputText.toLowerCase()
+      filtered = filtered.filter((c) => c.login.toLowerCase().includes(search))
+    }
+
+    if (searchBy === 'mergedPullRequests' && inputRange) {
+      filtered = filtered.filter((c) => {
+        const value = c.mergedPullRequests
+        if (typeof inputRange.min === 'number' && value < inputRange.min) return false
+        if (typeof inputRange.max === 'number' && value > inputRange.max) return false
+        return true
+      })
+    }
+  })
+
+  contributorsRef.value = payload.length ? filtered : [...props.contributorsData]
+  page.value = 1
 }
 
-onMounted (() => {
+// -----------------------------------------------------------------------------
+// SORT
+// -----------------------------------------------------------------------------
+const handleSort = (payload: sortOption) => {
+  const { sortBy, sortOrder } = payload
+
+  contributorsRef.value = [...contributorsRef.value].sort((a, b) => {
+    const valA = a[sortBy as keyof Contributor]
+    const valB = b[sortBy as keyof Contributor]
+
+    if (typeof valA === 'number' && typeof valB === 'number') {
+      return sortOrder === 'ASC' ? valA - valB : valB - valA
+    }
+
+    return sortOrder === 'ASC'
+      ? String(valA).localeCompare(String(valB))
+      : String(valB).localeCompare(String(valA))
+  })
+
   page.value = 1
-  itemsPerPage.value = 10
-})
+}
+
+watch(() => props.contributorsData, (newVal) => {
+  if (newVal) contributorsRef.value = [...newVal]
+}, { immediate: true })
 </script>
 
 <template>
@@ -74,12 +96,16 @@ onMounted (() => {
     </p>
 
     <puik-table
-      v-if="contributorsData?.length"
+      v-if="contributorsRef"
       :headers="headers"
       :search-bar="true"
-      :items="contributorsData.slice((page - 1) * itemsPerPage, page * itemsPerPage)"
+      :items="contributorsRef.slice((page - 1) * itemsPerPage, page * itemsPerPage)"
       :stickyLastCol="stickyLastCol"
       :fullWidth="fullWidth"
+      :searchFromServer="true"
+      :sortFromServer="true"
+      @searchSubmit="handleSearchSubmit"
+      @sortColumn="handleSort"
     >
       <template #item-rank="{ item }">
         <div
@@ -117,14 +143,12 @@ onMounted (() => {
     </puik-table>
 
     <puik-pagination
-      id="contributors-pagination"
+      id="wof-contributors-pagination"
       v-model:page="page"
       v-model:items-per-page="itemsPerPage"
       variant="large"
-      :total-item="contributorsData.length"
-      @update:page="(event: number) => console.log('Page changed to: ', event)"
-      @update:itemsPerPage="(event: number) => console.log('Items per page changed to: ', event)"
-    ></puik-pagination>
+      :total-item="contributorsRef.length"
+    />
 
     <TopModal
       v-if="modalContributorItem"
@@ -134,3 +158,9 @@ onMounted (() => {
     />
   </section>
 </template>
+
+<style>
+#wof-contributors-pagination {
+  align-self: center;
+}
+</style>

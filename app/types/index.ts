@@ -21,6 +21,7 @@ export interface Contributor {
   bio: string | null
   email_domain: string | null
   contributions: number
+  mergedPullRequests: number
   repositories: Record<string, number>
   categories: Record<string, {
     total: number

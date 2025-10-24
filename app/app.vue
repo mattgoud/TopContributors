@@ -6,8 +6,9 @@ import type { Company, Contributor, NewContributor } from '@/types'
 
 const totalMergedPr = ref<number>(0)
 const prestaMergedPrbyPercent = ref<number>(0)
-const topCompanies = ref<Company[]>([])
+const companiesData = ref<Company[]>([])
 const contributorsData = ref<Contributor[]>([])
+const topCompanies = ref<Company[]>([])
 const topContributors = ref<Contributor[]>([])
 const newContributors = ref<NewContributor[]>([])
 
@@ -26,6 +27,7 @@ onMounted(async () => {
     if (!response.ok) throw new Error('Error loading top companies')
     const data = await response.json()
     
+    companiesData.value = data.companies
     topCompanies.value = data.companies.slice(0, 5)
     const total: number =
       data.companies.reduce((acc: number, company: Company) => acc + company.merged_pull_requests, 0)
@@ -72,7 +74,7 @@ onMounted(async () => {
     <main>
       <TopSectionView :top-contributors="topContributors" :top-companies="topCompanies" />
       <NewContributorsSectionView :new-contributors="newContributors" />
-      <WallOfFameSectionView :contributors-data="contributorsData" />
+      <WallOfFameSectionView :contributors-data="contributorsData" :companies-data="companiesData"/>
       <ContributeSectionView
         contributeLink="https://devdocs.prestashop-project.org/9/contribute/contribute-pull-requests/"
         slackLink="https://www.prestashop-project.org/slack/"
