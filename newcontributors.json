@@ -1,4 +1,12 @@
 {
+    "ChillCode": {
+        "login": "ChillCode",
+        "name": "Chillcode",
+        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/9787055?v=4",
+        "html_url": "https:\/\/github.com\/ChillCode",
+        "contributions": 13,
+        "firstContributionAt": "2025-10-23T06:34:18Z"
+    },
     "Giulio-Cappelli": {
         "login": "Giulio-Cappelli",
         "name": "Giulio Cappelli",
@@ -14,6 +22,14 @@
         "html_url": "https:\/\/github.com\/MattKelvin",
         "contributions": 36,
         "firstContributionAt": "2025-08-21T20:16:50Z"
+    },
+    "tyloo": {
+        "login": "tyloo",
+        "name": "Julien Bonvarlet",
+        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/611035?v=4",
+        "html_url": "https:\/\/github.com\/tyloo",
+        "contributions": 19,
+        "firstContributionAt": "2025-08-15T10:10:33Z"
     },
     "cnavarro-prestashop": {
         "login": "cnavarro-prestashop",
@@ -62,21 +78,5 @@
         "html_url": "https:\/\/github.com\/CedricKiwik",
         "contributions": 8,
         "firstContributionAt": "2025-05-22T08:57:39Z"
-    },
-    "Issomane": {
-        "login": "Issomane",
-        "name": null,
-        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/4606467?v=4",
-        "html_url": "https:\/\/github.com\/Issomane",
-        "contributions": 1,
-        "firstContributionAt": "2025-03-04T08:39:59Z"
-    },
-    "tm8544": {
-        "login": "tm8544",
-        "name": null,
-        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/15167679?v=4",
-        "html_url": "https:\/\/github.com\/tm8544",
-        "contributions": 2,
-        "firstContributionAt": "2024-12-05T18:28:28Z"
     }
 }
