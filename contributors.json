@@ -973,9 +973,9 @@
         "location": "London",
         "bio": null,
         "email_domain": "",
-        "contributions": 4767,
+        "contributions": 4768,
         "repositories": {
-            "PrestaShop": 1705,
+            "PrestaShop": 1706,
             "PrestaShop-modules": 349,
             "PrestaShop-webservice-lib": 1,
             "dashactivity": 1,
@@ -1072,9 +1072,9 @@
         },
         "categories": {
             "core": {
-                "total": 1781,
+                "total": 1782,
                 "repositories": {
-                    "PrestaShop": 1705,
+                    "PrestaShop": 1706,
                     "prestashop-ui-kit": 3,
                     "TranslationToolsBundle": 5,
                     "eslint-config": 1,
@@ -10443,6 +10443,65 @@
             }
         }
     },
+    "PoulainMaxime": {
+        "login": "PoulainMaxime",
+        "id": 22856724,
+        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/22856724?v=4",
+        "html_url": "https:\/\/github.com\/PoulainMaxime",
+        "name": "Poulinho",
+        "company": "PrestaShop",
+        "blog": "https:\/\/www.maxime-poulain.dev\/",
+        "location": null,
+        "bio": "French fullstack developper (Node \/ Vue)",
+        "email_domain": "gmail.com",
+        "contributions": 134,
+        "repositories": {
+            "PrestaShop": 129,
+            "autoupgrade": 5
+        },
+        "categories": {
+            "core": {
+                "total": 129,
+                "repositories": {
+                    "PrestaShop": 129
+                }
+            },
+            "specs": {
+                "total": 0,
+                "repositories": []
+            },
+            "documentation": {
+                "total": 0,
+                "repositories": []
+            },
+            "themes": {
+                "total": 0,
+                "repositories": []
+            },
+            "modules": {
+                "total": 5,
+                "repositories": {
+                    "autoupgrade": 5
+                }
+            },
+            "tools": {
+                "total": 0,
+                "repositories": []
+            },
+            "tests": {
+                "total": 0,
+                "repositories": []
+            },
+            "blog": {
+                "total": 0,
+                "repositories": []
+            },
+            "others": {
+                "total": 0,
+                "repositories": []
+            }
+        }
+    },
     "toutantic": {
         "login": "toutantic",
         "id": 720961,
@@ -10544,65 +10603,6 @@
                 "repositories": {
                     "firebaseauthenticator": 5
                 }
-            }
-        }
-    },
-    "PoulainMaxime": {
-        "login": "PoulainMaxime",
-        "id": 22856724,
-        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/22856724?v=4",
-        "html_url": "https:\/\/github.com\/PoulainMaxime",
-        "name": "Poulinho",
-        "company": "PrestaShop",
-        "blog": "https:\/\/www.maxime-poulain.dev\/",
-        "location": null,
-        "bio": "French fullstack developper (Node \/ Vue)",
-        "email_domain": "gmail.com",
-        "contributions": 131,
-        "repositories": {
-            "PrestaShop": 126,
-            "autoupgrade": 5
-        },
-        "categories": {
-            "core": {
-                "total": 126,
-                "repositories": {
-                    "PrestaShop": 126
-                }
-            },
-            "specs": {
-                "total": 0,
-                "repositories": []
-            },
-            "documentation": {
-                "total": 0,
-                "repositories": []
-            },
-            "themes": {
-                "total": 0,
-                "repositories": []
-            },
-            "modules": {
-                "total": 5,
-                "repositories": {
-                    "autoupgrade": 5
-                }
-            },
-            "tools": {
-                "total": 0,
-                "repositories": []
-            },
-            "tests": {
-                "total": 0,
-                "repositories": []
-            },
-            "blog": {
-                "total": 0,
-                "repositories": []
-            },
-            "others": {
-                "total": 0,
-                "repositories": []
             }
         }
     },
@@ -49331,5 +49331,5 @@
             }
         }
     },
-    "updatedAt": "2025-10-24 15:17:33"
+    "updatedAt": "2025-10-25 06:08:23"
 }
