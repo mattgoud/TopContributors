@@ -165,7 +165,8 @@ const carousel_config = {
 }
 
 .carousel__slide .wof-new-contributors-section__card{
-  opacity: 0.8;
+  gap: 0.5rem;
+  opacity: 0.9;
   border-width: 2px;
   border-color: transparent;
   transition: all .3s ease-in-out;

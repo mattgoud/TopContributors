@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, watch } from 'vue'
+import { ref, watch, computed } from 'vue'
 import type { PuikTableHeader, searchOption, sortOption } from '@prestashopcorp/puik-components'
 import type { Company, Contributor } from '@/types'
 
@@ -25,9 +25,12 @@ const contributorsRef = ref<Contributor[]>([...props.contributorsData])
 const page = ref(1)
 const itemsPerPage = ref(5)
 
+const paginatedItems = computed(() =>
+  contributorsRef.value.slice((page.value - 1) * itemsPerPage.value, page.value * itemsPerPage.value)
+)
+
 const modalContributorItem = ref()
 const isModalOpen = ref(false)
-
 const openModal = (contributor: any) => { modalContributorItem.value = contributor; isModalOpen.value = true }
 const closeModal = () => { isModalOpen.value = false }
 
@@ -36,8 +39,6 @@ const handleSearchSubmit = (payload: searchOption[]) => {
   let filtered = [...props.contributorsData]
 
   payload.forEach(({ searchBy, inputText, inputRange }) => {
-
-    // text search
     if (inputText) {
       const search = inputText.toLowerCase().trim().replace(/\s+/g, ' ')
       filtered = filtered.filter((c) =>
@@ -45,7 +46,6 @@ const handleSearchSubmit = (payload: searchOption[]) => {
       )
     }
 
-    // range search
     if (inputRange) {
       filtered = filtered.filter((c) => {
         const value = c[searchBy as keyof Contributor] as number
@@ -79,9 +79,13 @@ const handleSort = (payload: sortOption) => {
   page.value = 1
 }
 
-watch(() => props.contributorsData, (newVal) => {
-  if (newVal) contributorsRef.value = [...newVal]
-}, { immediate: true })
+watch(
+  () => props.contributorsData,
+  (newVal) => {
+    if (newVal) contributorsRef.value = [...newVal]
+  },
+  { immediate: true }
+)
 </script>
 
 <template>
@@ -92,10 +96,9 @@ watch(() => props.contributorsData, (newVal) => {
     </p>
 
     <puik-table
-      v-if="contributorsRef"
       :headers="headers"
       :search-bar="true"
-      :items="contributorsRef.slice((page - 1) * itemsPerPage, page * itemsPerPage)"
+      :items="paginatedItems"
       :stickyLastCol="stickyLastCol"
       :fullWidth="fullWidth"
       :searchFromServer="true"
@@ -120,9 +123,10 @@ watch(() => props.contributorsData, (newVal) => {
         <puik-avatar size="large" type="photo" :src="item.avatar_url" />
       </template>
 
-      <template #item-name="{ item }">
+      <template #item-login="{ item }">
         <div class="wof-top-contributors__name">
-          <span v-if="item.name" class="puik-body-default">{{ item.name }}</span>
+          <span v-if="item.login" class="puik-body-default">{{ item.login }}</span>
+          <span v-else-if="item.name" class="puik-body-default">{{ item.name }}</span>
           <puik-tag v-if="item.company" :content="item.company" variant="blue" />
         </div>
       </template>
@@ -138,7 +142,7 @@ watch(() => props.contributorsData, (newVal) => {
       </template>
     </puik-table>
 
-    <div v-if="contributorsRef.length === 0">
+    <div class="wof-no-results" v-if="contributorsRef.length === 0">
        No contributors found with your search.
     </div>
 
@@ -162,5 +166,13 @@ watch(() => props.contributorsData, (newVal) => {
 <style>
 #wof-contributors-pagination {
   align-self: center;
+}
+.wof-no-results {
+  padding: 1rem;
+  font-size: 1rem;
+  text-align: center;
+  color: var(--color-primary);
+  background-color: var(--color-blue-50);
+  border: 1px solid var(--color-blue);
 }
 </style>

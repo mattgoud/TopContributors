@@ -130,6 +130,11 @@ const close = () => emit('close')
     flex-direction: row;
   }
 }
+.wof-top-modal__title {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
 .wof-top-modal__title h3 {
   margin-bottom: 0;
 }

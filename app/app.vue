@@ -121,4 +121,9 @@ a.puik-button:hover {
     font-size: var(--wof-h1-size-sm);
   }
 }
+.wof-top-contributors__name {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
 </style>
