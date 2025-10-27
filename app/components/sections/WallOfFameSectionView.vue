@@ -8,11 +8,9 @@ const props = defineProps<{
   companiesData: Company[]
 }>()
 
-// -----------------------------------------------------------------------------
 // TABLE CONFIG
-// -----------------------------------------------------------------------------
 const headers: PuikTableHeader[] = [
-  { text: 'Rank', value: 'rank', size: 'sm', align: 'center', searchable: false, sortable: true },
+  { text: 'Rank', value: 'rank', size: 'sm', align: 'center', searchable: true, searchType: 'range', sortable: true },
   { text: 'Avatar', value: 'avatar', size: 'sm', align: 'center', searchable: false },
   { text: 'Name', value: 'login', size: 'lg', align: 'left', searchable: true, sortable: true },
   { text: 'Contributions', value: 'mergedPullRequests', size: 'sm', align: 'center', searchable: true, searchType: 'range', sortable: true },
@@ -22,9 +20,7 @@ const headers: PuikTableHeader[] = [
 const stickyLastCol = ref(false)
 const fullWidth = ref(true)
 
-// -----------------------------------------------------------------------------
 // DATA & UI STATE
-// -----------------------------------------------------------------------------
 const contributorsRef = ref<Contributor[]>([...props.contributorsData])
 const page = ref(1)
 const itemsPerPage = ref(5)
@@ -35,21 +31,24 @@ const isModalOpen = ref(false)
 const openModal = (contributor: any) => { modalContributorItem.value = contributor; isModalOpen.value = true }
 const closeModal = () => { isModalOpen.value = false }
 
-// -----------------------------------------------------------------------------
 // SEARCH
-// -----------------------------------------------------------------------------
 const handleSearchSubmit = (payload: searchOption[]) => {
   let filtered = [...props.contributorsData]
 
   payload.forEach(({ searchBy, inputText, inputRange }) => {
-    if (searchBy === 'login' && inputText) {
-      const search = inputText.toLowerCase()
-      filtered = filtered.filter((c) => c.login.toLowerCase().includes(search))
+
+    // text search
+    if (inputText) {
+      const search = inputText.toLowerCase().trim().replace(/\s+/g, ' ')
+      filtered = filtered.filter((c) =>
+        String(c[searchBy as keyof Contributor]).toLowerCase().includes(search)
+      )
     }
 
-    if (searchBy === 'mergedPullRequests' && inputRange) {
+    // range search
+    if (inputRange) {
       filtered = filtered.filter((c) => {
-        const value = c.mergedPullRequests
+        const value = c[searchBy as keyof Contributor] as number
         if (typeof inputRange.min === 'number' && value < inputRange.min) return false
         if (typeof inputRange.max === 'number' && value > inputRange.max) return false
         return true
@@ -61,9 +60,7 @@ const handleSearchSubmit = (payload: searchOption[]) => {
   page.value = 1
 }
 
-// -----------------------------------------------------------------------------
 // SORT
-// -----------------------------------------------------------------------------
 const handleSort = (payload: sortOption) => {
   const { sortBy, sortOrder } = payload
 
@@ -74,7 +71,6 @@ const handleSort = (payload: sortOption) => {
     if (typeof valA === 'number' && typeof valB === 'number') {
       return sortOrder === 'ASC' ? valA - valB : valB - valA
     }
-
     return sortOrder === 'ASC'
       ? String(valA).localeCompare(String(valB))
       : String(valB).localeCompare(String(valA))
@@ -141,6 +137,10 @@ watch(() => props.contributorsData, (newVal) => {
         />
       </template>
     </puik-table>
+
+    <div v-if="contributorsRef.length === 0">
+       No contributors found with your search.
+    </div>
 
     <puik-pagination
       id="wof-contributors-pagination"
