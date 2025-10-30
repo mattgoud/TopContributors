@@ -10,9 +10,9 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 9735,
+        "contributions": 9738,
         "repositories": {
-            "PrestaShop": 1062,
+            "PrestaShop": 1065,
             "PrestaShop-modules": 2,
             "PrestaShop-webservice-lib": 1,
             "dashactivity": 4,
@@ -117,13 +117,13 @@
             "ps_fixturescreator": 4,
             "ws-client": 3,
             "ps_apiresources": 8,
-            "ui-testing-library": 319
+            "ui-testing-library": 320
         },
         "categories": {
             "core": {
-                "total": 1076,
+                "total": 1079,
                 "repositories": {
-                    "PrestaShop": 1062,
+                    "PrestaShop": 1065,
                     "prestashop-ui-kit": 1,
                     "TranslationToolsBundle": 2,
                     "TranslationFiles": 3,
@@ -253,10 +253,10 @@
                 }
             },
             "tests": {
-                "total": 352,
+                "total": 353,
                 "repositories": {
                     "ga.tests.ui.pr": 33,
-                    "ui-testing-library": 319
+                    "ui-testing-library": 320
                 }
             },
             "blog": {
@@ -272,7 +272,7 @@
                 }
             }
         },
-        "mergedPullRequests": 2115
+        "mergedPullRequests": 2119
     },
     "matks": {
         "login": "matks",
@@ -1151,7 +1151,7 @@
         "email_domain": "",
         "contributions": 2096,
         "repositories": {
-            "PrestaShop": 342,
+            "PrestaShop": 343,
             "dashactivity": 4,
             "dashgoals": 4,
             "dashproducts": 6,
@@ -1233,9 +1233,9 @@
         },
         "categories": {
             "core": {
-                "total": 347,
+                "total": 348,
                 "repositories": {
-                    "PrestaShop": 342,
+                    "PrestaShop": 343,
                     "prestashop-ui-kit": 3,
                     "circuit-breaker": 1,
                     "LocalizationFiles": 1
@@ -1356,7 +1356,7 @@
                 }
             }
         },
-        "mergedPullRequests": 825
+        "mergedPullRequests": 826
     },
     "nesrineabdmouleh": {
         "login": "nesrineabdmouleh",
@@ -3796,7 +3796,7 @@
         "location": "France",
         "bio": "Developper from father to son with +13 years experience, commiter and member of @PrestaShop Tech Council!",
         "email_domain": "",
-        "contributions": 586,
+        "contributions": 587,
         "repositories": {
             "PrestaShop": 117,
             "productcomments": 1,
@@ -4191,9 +4191,9 @@
         "location": null,
         "bio": "Founder of @wallabag. ",
         "email_domain": "",
-        "contributions": 1366,
+        "contributions": 1370,
         "repositories": {
-            "PrestaShop": 120,
+            "PrestaShop": 121,
             "blockwishlist": 6,
             "autoupgrade": 1,
             "gsitemap": 1,
@@ -4221,13 +4221,13 @@
             "ps_fixturescreator": 3,
             "kanbanbot": 3,
             "zip-archives": 2,
-            "ps_apiresources": 3
+            "ps_apiresources": 4
         },
         "categories": {
             "core": {
-                "total": 122,
+                "total": 123,
                 "repositories": {
-                    "PrestaShop": 120,
+                    "PrestaShop": 121,
                     "LocalizationFiles": 2
                 }
             },
@@ -4253,7 +4253,7 @@
                 }
             },
             "modules": {
-                "total": 24,
+                "total": 25,
                 "repositories": {
                     "blockwishlist": 6,
                     "autoupgrade": 1,
@@ -4265,7 +4265,7 @@
                     "ps_cashondelivery": 1,
                     "ps_distributionapiclient": 2,
                     "ps_fixturescreator": 3,
-                    "ps_apiresources": 3
+                    "ps_apiresources": 4
                 }
             },
             "tools": {
@@ -4298,7 +4298,7 @@
                 }
             }
         },
-        "mergedPullRequests": 187
+        "mergedPullRequests": 189
     },
     "thierrymarianne": {
         "login": "thierrymarianne",
@@ -38082,7 +38082,7 @@
         "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/3270746?v=4",
         "html_url": "https:\/\/github.com\/anhldbk",
         "name": "Anh Le (Andy)",
-        "company": "Nab",
+        "company": "iNexus AI",
         "blog": "https:\/\/bigsonata.com",
         "location": "Saigon",
         "bio": "Engineer that loves big systems, history & entrepreneurship \ud83d\udc68\u200d\ud83c\udfa8",
