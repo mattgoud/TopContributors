@@ -4,9 +4,9 @@
         "rank": 0,
         "rank_contributions": 0,
         "rank_pull_requests": 0,
-        "merged_pull_requests": 8104,
+        "merged_pull_requests": 8110,
         "merged_pull_requests_by_version": {
-            "9.1": 43,
+            "9.1": 45,
             "9.0": 419,
             "8.2": 26,
             "8.1": 269,
@@ -23,7 +23,7 @@
             "1.6.1": 273
         },
         "merged_pull_requests_by_year": {
-            "2025": 345,
+            "2025": 351,
             "2024": 540,
             "2023": 688,
             "2022": 717,
@@ -38,10 +38,10 @@
             "2013": 527,
             "2012": 32
         },
-        "pull_requests_percent": 30.2,
-        "contributions": 32451,
+        "pull_requests_percent": 30.17,
+        "contributions": 32467,
         "contributions_by_version": {
-            "9.1": 556,
+            "9.1": 562,
             "9.0": 3005,
             "8.2": 37,
             "8.1": 1490,
@@ -58,7 +58,7 @@
             "1.6.1": 337
         },
         "contributions_by_year": {
-            "2025": 1456,
+            "2025": 1472,
             "2024": 2675,
             "2023": 3596,
             "2022": 3437,
@@ -73,7 +73,7 @@
             "2013": 1035,
             "2012": 56
         },
-        "contributions_percent": 27.85,
+        "contributions_percent": 27.84,
         "avatar_url": "",
         "html_url": "https:\/\/www.prestashop-project.org"
     },
@@ -83,9 +83,9 @@
             "rank": 1,
             "rank_contributions": 1,
             "rank_pull_requests": 1,
-            "merged_pull_requests": 16386,
+            "merged_pull_requests": 16416,
             "merged_pull_requests_by_version": {
-                "9.1": 108,
+                "9.1": 109,
                 "9.0": 970,
                 "8.2": 32,
                 "8.1": 467,
@@ -102,7 +102,7 @@
                 "1.6.1": 358
             },
             "merged_pull_requests_by_year": {
-                "2025": 1033,
+                "2025": 1063,
                 "2024": 1295,
                 "2023": 1572,
                 "2022": 1576,
@@ -117,9 +117,9 @@
                 "2013": 24
             },
             "pull_requests_percent": 61.06,
-            "contributions": 77052,
+            "contributions": 77086,
             "contributions_by_version": {
-                "9.1": 1878,
+                "9.1": 1879,
                 "9.0": 3933,
                 "8.2": 75,
                 "8.1": 2934,
@@ -136,7 +136,7 @@
                 "1.6.1": 485
             },
             "contributions_by_year": {
-                "2025": 3785,
+                "2025": 3819,
                 "2024": 5080,
                 "2023": 6413,
                 "2022": 10151,
@@ -150,7 +150,7 @@
                 "2014": 786,
                 "2013": 36
             },
-            "contributions_percent": 66.13,
+            "contributions_percent": 66.11,
             "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/2815696?s=200&v=4",
             "html_url": "https:\/\/www.prestashop.com"
         },
@@ -159,7 +159,7 @@
             "rank": 2,
             "rank_contributions": 2,
             "rank_pull_requests": 2,
-            "merged_pull_requests": 815,
+            "merged_pull_requests": 827,
             "merged_pull_requests_by_version": {
                 "9.1": 1,
                 "9.0": 152,
@@ -170,7 +170,7 @@
                 "1.7.7": 5
             },
             "merged_pull_requests_by_year": {
-                "2025": 76,
+                "2025": 88,
                 "2024": 192,
                 "2023": 387,
                 "2022": 72,
@@ -178,8 +178,8 @@
                 "2020": 12,
                 "2019": 3
             },
-            "pull_requests_percent": 3.04,
-            "contributions": 4216,
+            "pull_requests_percent": 3.08,
+            "contributions": 4252,
             "contributions_by_version": {
                 "9.1": 2,
                 "9.0": 306,
@@ -190,7 +190,7 @@
                 "1.7.7": 6
             },
             "contributions_by_year": {
-                "2025": 201,
+                "2025": 237,
                 "2024": 634,
                 "2023": 2222,
                 "2022": 920,
@@ -198,7 +198,7 @@
                 "2020": 35,
                 "2019": 4
             },
-            "contributions_percent": 3.62,
+            "contributions_percent": 3.65,
             "avatar_url": "https:\/\/www.trendo.cz\/img\/logos\/logo_square_400_inverted.png",
             "html_url": "https:\/\/www.trendo.cz"
         },
@@ -233,7 +233,7 @@
                 "2013": 52,
                 "2012": 13
             },
-            "pull_requests_percent": 1.57,
+            "pull_requests_percent": 1.56,
             "contributions": 571,
             "contributions_by_version": {
                 "9.1": 2,
@@ -709,9 +709,43 @@
             "html_url": "https:\/\/www.kiwik.com\/"
         },
         {
-            "name": "Mademoiselle Bio",
+            "name": "Franck Lef\u00e8vre",
             "rank": 14,
             "rank_contributions": 14,
+            "rank_pull_requests": 11,
+            "merged_pull_requests": 40,
+            "merged_pull_requests_by_version": {
+                "9.1": 1,
+                "9.0": 24,
+                "8.2": 2,
+                "8.1": 1
+            },
+            "merged_pull_requests_by_year": {
+                "2025": 38,
+                "2024": 1,
+                "2023": 1
+            },
+            "pull_requests_percent": 0.15,
+            "contributions": 42,
+            "contributions_by_version": {
+                "9.1": 1,
+                "9.0": 24,
+                "8.2": 2,
+                "8.1": 1
+            },
+            "contributions_by_year": {
+                "2025": 39,
+                "2024": 1,
+                "2023": 2
+            },
+            "contributions_percent": 0.04,
+            "avatar_url": "https:\/\/lefevre.dev\/progi1984.png",
+            "html_url": "https:\/\/lefevre.dev\/"
+        },
+        {
+            "name": "Mademoiselle Bio",
+            "rank": 15,
+            "rank_contributions": 15,
             "rank_pull_requests": 15,
             "merged_pull_requests": 19,
             "merged_pull_requests_by_version": {
@@ -733,40 +767,6 @@
             "contributions_percent": 0.04,
             "avatar_url": "",
             "html_url": "https:\/\/www.mademoiselle-bio.com"
-        },
-        {
-            "name": "Franck Lef\u00e8vre",
-            "rank": 15,
-            "rank_contributions": 15,
-            "rank_pull_requests": 11,
-            "merged_pull_requests": 38,
-            "merged_pull_requests_by_version": {
-                "9.1": 1,
-                "9.0": 22,
-                "8.2": 2,
-                "8.1": 1
-            },
-            "merged_pull_requests_by_year": {
-                "2025": 36,
-                "2024": 1,
-                "2023": 1
-            },
-            "pull_requests_percent": 0.14,
-            "contributions": 40,
-            "contributions_by_version": {
-                "9.1": 1,
-                "9.0": 22,
-                "8.2": 2,
-                "8.1": 1
-            },
-            "contributions_by_year": {
-                "2025": 37,
-                "2024": 1,
-                "2023": 2
-            },
-            "contributions_percent": 0.03,
-            "avatar_url": "https:\/\/lefevre.dev\/progi1984.png",
-            "html_url": "https:\/\/lefevre.dev\/"
         },
         {
             "name": "Coquille Consulting",
