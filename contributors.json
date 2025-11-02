@@ -10,7 +10,7 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 9743,
+        "contributions": 9744,
         "repositories": {
             "PrestaShop": 4264,
             "PrestaShop-modules": 31,
@@ -118,7 +118,7 @@
             "stylelint-config": 7,
             "example-modules": 6,
             "ps_qualityassurance": 1,
-            "test-scenarios": 894,
+            "test-scenarios": 895,
             "user-documentation-it": 2,
             "user-documentation-landing": 3,
             "user-documentation-en": 1,
@@ -160,7 +160,7 @@
                 }
             },
             "documentation": {
-                "total": 1111,
+                "total": 1112,
                 "repositories": {
                     "docs": 144,
                     "user-documentation-landing": 3,
@@ -168,7 +168,7 @@
                     "user-documentation-it": 2,
                     "user-documentation-v8-en": 1,
                     "functional-documentation": 2,
-                    "test-scenarios": 894,
+                    "test-scenarios": 895,
                     "example-modules": 6,
                     "open-source": 31,
                     "example_module_mailtheme": 4,
@@ -973,7 +973,7 @@
         "location": "London",
         "bio": null,
         "email_domain": "",
-        "contributions": 4831,
+        "contributions": 4833,
         "repositories": {
             "PrestaShop": 1707,
             "PrestaShop-modules": 349,
@@ -993,10 +993,10 @@
             "statsbestvouchers": 6,
             "statscarrier": 4,
             "statscatalog": 4,
-            "statscheckup": 6,
+            "statscheckup": 7,
             "statsdata": 2,
             "statsforecast": 6,
-            "statsnewsletter": 3,
+            "statsnewsletter": 4,
             "statspersonalinfos": 4,
             "statsproduct": 3,
             "statsregistrations": 3,
@@ -1103,7 +1103,7 @@
                 }
             },
             "modules": {
-                "total": 2121,
+                "total": 2123,
                 "repositories": {
                     "PrestaShop-modules": 349,
                     "dashactivity": 1,
@@ -1121,10 +1121,10 @@
                     "statsbestvouchers": 6,
                     "statscarrier": 4,
                     "statscatalog": 4,
-                    "statscheckup": 6,
+                    "statscheckup": 7,
                     "statsdata": 2,
                     "statsforecast": 6,
-                    "statsnewsletter": 3,
+                    "statsnewsletter": 4,
                     "statspersonalinfos": 4,
                     "statsproduct": 3,
                     "statsregistrations": 3,
@@ -2437,7 +2437,7 @@
         "location": "Pardubice, Czech Republic",
         "bio": null,
         "email_domain": "",
-        "contributions": 2164,
+        "contributions": 2166,
         "repositories": {
             "PrestaShop": 944,
             "PrestaShop-webservice-lib": 1,
@@ -2456,10 +2456,10 @@
             "statsbestvouchers": 6,
             "statscarrier": 3,
             "statscatalog": 13,
-            "statscheckup": 12,
+            "statscheckup": 13,
             "statsdata": 3,
             "statsforecast": 12,
-            "statsnewsletter": 6,
+            "statsnewsletter": 7,
             "statspersonalinfos": 6,
             "statsproduct": 18,
             "statsregistrations": 8,
@@ -2553,7 +2553,7 @@
                 }
             },
             "modules": {
-                "total": 958,
+                "total": 960,
                 "repositories": {
                     "dashactivity": 13,
                     "dashgoals": 3,
@@ -2570,10 +2570,10 @@
                     "statsbestvouchers": 6,
                     "statscarrier": 3,
                     "statscatalog": 13,
-                    "statscheckup": 12,
+                    "statscheckup": 13,
                     "statsdata": 3,
                     "statsforecast": 12,
-                    "statsnewsletter": 6,
+                    "statsnewsletter": 7,
                     "statspersonalinfos": 6,
                     "statsproduct": 18,
                     "statsregistrations": 8,
@@ -13358,7 +13358,7 @@
         "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/13886409?v=4",
         "html_url": "https:\/\/github.com\/michaelKaefer",
         "name": "Michael K\u00e4fer",
-        "company": "unite - Software Development GmbH",
+        "company": "aneon solutions GmbH",
         "blog": "https:\/\/www.michaelkaefer.org\/",
         "location": "Vienna",
         "bio": "PHP, Symfony and JavaScript",
@@ -49375,5 +49375,5 @@
             }
         }
     },
-    "updatedAt": "2025-11-01 06:54:57"
+    "updatedAt": "2025-11-02 06:11:28"
 }

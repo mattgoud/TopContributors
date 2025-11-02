@@ -10,7 +10,7 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 9743,
+        "contributions": 9744,
         "repositories": {
             "PrestaShop": 1069,
             "PrestaShop-modules": 2,
@@ -565,7 +565,7 @@
         "location": "London",
         "bio": null,
         "email_domain": "",
-        "contributions": 4831,
+        "contributions": 4833,
         "repositories": {
             "PrestaShop": 395,
             "PrestaShop-modules": 14,
@@ -580,9 +580,9 @@
             "statsbestvouchers": 3,
             "statscarrier": 2,
             "statscatalog": 2,
-            "statscheckup": 2,
+            "statscheckup": 3,
             "statsforecast": 2,
-            "statsnewsletter": 1,
+            "statsnewsletter": 2,
             "statspersonalinfos": 1,
             "statsproduct": 1,
             "statsregistrations": 1,
@@ -671,7 +671,7 @@
                 }
             },
             "modules": {
-                "total": 384,
+                "total": 386,
                 "repositories": {
                     "PrestaShop-modules": 14,
                     "dashproducts": 1,
@@ -685,9 +685,9 @@
                     "statsbestvouchers": 3,
                     "statscarrier": 2,
                     "statscatalog": 2,
-                    "statscheckup": 2,
+                    "statscheckup": 3,
                     "statsforecast": 2,
-                    "statsnewsletter": 1,
+                    "statsnewsletter": 2,
                     "statspersonalinfos": 1,
                     "statsproduct": 1,
                     "statsregistrations": 1,
@@ -760,7 +760,7 @@
                 }
             }
         },
-        "mergedPullRequests": 1081
+        "mergedPullRequests": 1083
     },
     "jolelievre": {
         "login": "jolelievre",
@@ -927,7 +927,7 @@
         "location": "Pardubice, Czech Republic",
         "bio": null,
         "email_domain": "",
-        "contributions": 2164,
+        "contributions": 2166,
         "repositories": {
             "PrestaShop": 343,
             "dashactivity": 4,
@@ -6469,7 +6469,7 @@
         "email_domain": "codencode.it",
         "contributions": 173,
         "repositories": {
-            "PrestaShop": 73,
+            "PrestaShop": 74,
             "dashactivity": 1,
             "autoupgrade": 4,
             "blockreassurance": 1,
@@ -6484,9 +6484,9 @@
         },
         "categories": {
             "core": {
-                "total": 74,
+                "total": 75,
                 "repositories": {
-                    "PrestaShop": 73,
+                    "PrestaShop": 74,
                     "LocalizationFiles": 1
                 }
             },
@@ -6535,7 +6535,7 @@
                 "repositories": []
             }
         },
-        "mergedPullRequests": 96
+        "mergedPullRequests": 97
     },
     "mflasquin": {
         "login": "mflasquin",
@@ -12490,7 +12490,7 @@
         "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/13886409?v=4",
         "html_url": "https:\/\/github.com\/michaelKaefer",
         "name": "Michael K\u00e4fer",
-        "company": "unite - Software Development GmbH",
+        "company": "aneon solutions GmbH",
         "blog": "https:\/\/www.michaelkaefer.org\/",
         "location": "Vienna",
         "bio": "PHP, Symfony and JavaScript",
