@@ -12,7 +12,7 @@
         "email_domain": "gmail.com",
         "contributions": 9770,
         "repositories": {
-            "PrestaShop": 1069,
+            "PrestaShop": 1070,
             "PrestaShop-modules": 2,
             "PrestaShop-webservice-lib": 1,
             "dashactivity": 4,
@@ -121,9 +121,9 @@
         },
         "categories": {
             "core": {
-                "total": 1083,
+                "total": 1084,
                 "repositories": {
-                    "PrestaShop": 1069,
+                    "PrestaShop": 1070,
                     "prestashop-ui-kit": 1,
                     "TranslationToolsBundle": 2,
                     "TranslationFiles": 3,
@@ -272,7 +272,7 @@
                 }
             }
         },
-        "mergedPullRequests": 2125
+        "mergedPullRequests": 2126
     },
     "matks": {
         "login": "matks",
@@ -929,7 +929,7 @@
         "email_domain": "",
         "contributions": 2168,
         "repositories": {
-            "PrestaShop": 343,
+            "PrestaShop": 344,
             "dashactivity": 4,
             "dashgoals": 4,
             "dashproducts": 7,
@@ -1011,9 +1011,9 @@
         },
         "categories": {
             "core": {
-                "total": 348,
+                "total": 349,
                 "repositories": {
-                    "PrestaShop": 343,
+                    "PrestaShop": 344,
                     "prestashop-ui-kit": 3,
                     "circuit-breaker": 1,
                     "LocalizationFiles": 1
@@ -1134,7 +1134,7 @@
                 }
             }
         },
-        "mergedPullRequests": 839
+        "mergedPullRequests": 840
     },
     "PierreRambaud": {
         "login": "PierreRambaud",
