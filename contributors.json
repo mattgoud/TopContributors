@@ -10,7 +10,7 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 9770,
+        "contributions": 9778,
         "repositories": {
             "PrestaShop": 4283,
             "PrestaShop-modules": 31,
@@ -118,7 +118,7 @@
             "stylelint-config": 7,
             "example-modules": 6,
             "ps_qualityassurance": 1,
-            "test-scenarios": 896,
+            "test-scenarios": 897,
             "user-documentation-it": 2,
             "user-documentation-landing": 3,
             "user-documentation-en": 1,
@@ -135,7 +135,7 @@
             "ps_fixturescreator": 11,
             "ws-client": 25,
             "ps_apiresources": 3,
-            "ui-testing-library": 1026
+            "ui-testing-library": 1033
         },
         "categories": {
             "core": {
@@ -160,7 +160,7 @@
                 }
             },
             "documentation": {
-                "total": 1113,
+                "total": 1114,
                 "repositories": {
                     "docs": 144,
                     "user-documentation-landing": 3,
@@ -168,7 +168,7 @@
                     "user-documentation-it": 2,
                     "user-documentation-v8-en": 1,
                     "functional-documentation": 2,
-                    "test-scenarios": 896,
+                    "test-scenarios": 897,
                     "example-modules": 6,
                     "open-source": 31,
                     "example_module_mailtheme": 4,
@@ -289,9 +289,9 @@
                 }
             },
             "tests": {
-                "total": 1120,
+                "total": 1127,
                 "repositories": {
-                    "ui-testing-library": 1026,
+                    "ui-testing-library": 1033,
                     "ga.tests.ui.pr": 94
                 }
             },
@@ -1609,7 +1609,7 @@
         "location": "Paris, France",
         "bio": "QA Automation Engineer",
         "email_domain": "gmail.com",
-        "contributions": 3310,
+        "contributions": 3313,
         "repositories": {
             "PrestaShop": 2798,
             "blockwishlist": 1,
@@ -1618,7 +1618,7 @@
             "QANightlyResults": 2,
             "ga.tests.ui.pr": 1,
             "classic-theme": 8,
-            "ui-testing-library": 276
+            "ui-testing-library": 279
         },
         "categories": {
             "core": {
@@ -1656,9 +1656,9 @@
                 }
             },
             "tests": {
-                "total": 277,
+                "total": 280,
                 "repositories": {
-                    "ui-testing-library": 276,
+                    "ui-testing-library": 279,
                     "ga.tests.ui.pr": 1
                 }
             },
@@ -3873,7 +3873,7 @@
         "location": null,
         "bio": "Founder of @wallabag. ",
         "email_domain": "",
-        "contributions": 1391,
+        "contributions": 1392,
         "repositories": {
             "PrestaShop": 760,
             "PrestaShop-webservice-lib": 1,
@@ -3948,7 +3948,7 @@
             "kanbanbot": 13,
             "zip-archives": 6,
             "bootstrap-compatibility-layer": 1,
-            "ps_apiresources": 12,
+            "ps_apiresources": 13,
             "SeamlessUpgradeToolbox": 1
         },
         "categories": {
@@ -3985,7 +3985,7 @@
                 }
             },
             "modules": {
-                "total": 251,
+                "total": 252,
                 "repositories": {
                     "dashactivity": 3,
                     "dashgoals": 1,
@@ -4026,7 +4026,7 @@
                     "ps_googleanalytics": 4,
                     "ps_themecusto": 3,
                     "psgdpr": 10,
-                    "ps_apiresources": 12,
+                    "ps_apiresources": 13,
                     "ps_distributionapiclient": 3,
                     "ps_fixturescreator": 3
                 }
@@ -9229,7 +9229,7 @@
         "location": null,
         "bio": null,
         "email_domain": "",
-        "contributions": 191,
+        "contributions": 193,
         "repositories": {
             "PrestaShop": 148,
             "productcomments": 2,
@@ -9248,7 +9248,7 @@
             "distribution-api": 1,
             "ga.tests.ui.pr": 2,
             "kanbanbot": 1,
-            "ps_apiresources": 14
+            "ps_apiresources": 16
         },
         "categories": {
             "core": {
@@ -9276,13 +9276,13 @@
                 "repositories": []
             },
             "modules": {
-                "total": 23,
+                "total": 25,
                 "repositories": {
                     "productcomments": 2,
                     "autoupgrade": 3,
                     "ps_cashondelivery": 2,
                     "ps_themecusto": 2,
-                    "ps_apiresources": 14
+                    "ps_apiresources": 16
                 }
             },
             "tools": {
@@ -9391,7 +9391,7 @@
         "location": "Via Giuseppe Saragat, 19 86170 Isernia - ITALIA",
         "bio": "Siamo un'agenzia di Branding, Comunicazione e Marketing.\r\nRealizziamo progetti di comunicazione visiva brand-oriented, web design e web marketing.",
         "email_domain": "codencode.it",
-        "contributions": 181,
+        "contributions": 184,
         "repositories": {
             "PrestaShop": 121,
             "dashactivity": 2,
@@ -9404,7 +9404,7 @@
             "LocalizationFiles": 1,
             "hummingbird": 2,
             "classic-theme": 3,
-            "ps_apiresources": 19
+            "ps_apiresources": 22
         },
         "categories": {
             "core": {
@@ -9430,7 +9430,7 @@
                 }
             },
             "modules": {
-                "total": 54,
+                "total": 57,
                 "repositories": {
                     "dashactivity": 2,
                     "autoupgrade": 4,
@@ -9439,7 +9439,7 @@
                     "ps_imageslider": 2,
                     "ps_mainmenu": 1,
                     "ps_facetedsearch": 3,
-                    "ps_apiresources": 19
+                    "ps_apiresources": 22
                 }
             },
             "tools": {
@@ -9683,6 +9683,198 @@
             "tests": {
                 "total": 0,
                 "repositories": []
+            },
+            "blog": {
+                "total": 0,
+                "repositories": []
+            },
+            "others": {
+                "total": 0,
+                "repositories": []
+            }
+        }
+    },
+    "florine2623": {
+        "login": "florine2623",
+        "id": 16019289,
+        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/16019289?v=4",
+        "html_url": "https:\/\/github.com\/florine2623",
+        "name": null,
+        "company": null,
+        "blog": "",
+        "location": null,
+        "bio": null,
+        "email_domain": "",
+        "contributions": 165,
+        "repositories": {
+            "PrestaShop": 38,
+            "dashactivity": 2,
+            "dashgoals": 2,
+            "dashproducts": 1,
+            "dashtrends": 1,
+            "pagesnotfound": 1,
+            "statsbestcategories": 1,
+            "statsbestcustomers": 1,
+            "statsbestmanufacturers": 1,
+            "statsbestproducts": 1,
+            "statsbestsuppliers": 1,
+            "statsbestvouchers": 1,
+            "statscarrier": 1,
+            "statscatalog": 1,
+            "statscheckup": 1,
+            "statsdata": 1,
+            "statsforecast": 1,
+            "statsnewsletter": 1,
+            "statspersonalinfos": 1,
+            "statsproduct": 1,
+            "statsregistrations": 1,
+            "statssales": 1,
+            "statssearch": 1,
+            "statsstock": 1,
+            "blockwishlist": 2,
+            "productcomments": 2,
+            "gsitemap": 2,
+            "contactform": 2,
+            "blockreassurance": 1,
+            "ps_sharebuttons": 2,
+            "ps_socialfollow": 2,
+            "ps_linklist": 2,
+            "ps_customtext": 2,
+            "ps_contactinfo": 2,
+            "ps_emailsubscription": 1,
+            "ps_banner": 2,
+            "ps_featuredproducts": 1,
+            "ps_imageslider": 2,
+            "ps_mainmenu": 2,
+            "ps_customersignin": 2,
+            "ps_categorytree": 1,
+            "ps_wirepayment": 2,
+            "ps_shoppingcart": 2,
+            "ps_currencyselector": 2,
+            "ps_languageselector": 1,
+            "ps_facetedsearch": 1,
+            "ps_customeraccountlinks": 2,
+            "ps_searchbar": 2,
+            "ps_checkpayment": 2,
+            "ps_emailalerts": 2,
+            "ps_bestsellers": 2,
+            "ps_brandlist": 2,
+            "ps_categoryproducts": 1,
+            "ps_newproducts": 2,
+            "ps_specials": 2,
+            "ps_supplierlist": 2,
+            "ps_dataprivacy": 2,
+            "ps_cashondelivery": 2,
+            "ps_viewedproduct": 2,
+            "traces": 1,
+            "ps_googleanalytics": 1,
+            "psgdpr": 3,
+            "ps_faviconnotificationbo": 2,
+            "open-source": 2,
+            "ps_distributionapiclient": 1,
+            "functional-documentation": 1,
+            "ui-testing-library": 28
+        },
+        "categories": {
+            "core": {
+                "total": 38,
+                "repositories": {
+                    "PrestaShop": 38
+                }
+            },
+            "specs": {
+                "total": 0,
+                "repositories": []
+            },
+            "documentation": {
+                "total": 3,
+                "repositories": {
+                    "functional-documentation": 1,
+                    "open-source": 2
+                }
+            },
+            "themes": {
+                "total": 0,
+                "repositories": []
+            },
+            "modules": {
+                "total": 95,
+                "repositories": {
+                    "dashactivity": 2,
+                    "dashgoals": 2,
+                    "dashproducts": 1,
+                    "dashtrends": 1,
+                    "pagesnotfound": 1,
+                    "statsbestcategories": 1,
+                    "statsbestcustomers": 1,
+                    "statsbestmanufacturers": 1,
+                    "statsbestproducts": 1,
+                    "statsbestsuppliers": 1,
+                    "statsbestvouchers": 1,
+                    "statscarrier": 1,
+                    "statscatalog": 1,
+                    "statscheckup": 1,
+                    "statsdata": 1,
+                    "statsforecast": 1,
+                    "statsnewsletter": 1,
+                    "statspersonalinfos": 1,
+                    "statsproduct": 1,
+                    "statsregistrations": 1,
+                    "statssales": 1,
+                    "statssearch": 1,
+                    "statsstock": 1,
+                    "blockwishlist": 2,
+                    "productcomments": 2,
+                    "gsitemap": 2,
+                    "contactform": 2,
+                    "blockreassurance": 1,
+                    "ps_sharebuttons": 2,
+                    "ps_socialfollow": 2,
+                    "ps_linklist": 2,
+                    "ps_customtext": 2,
+                    "ps_contactinfo": 2,
+                    "ps_emailsubscription": 1,
+                    "ps_banner": 2,
+                    "ps_featuredproducts": 1,
+                    "ps_imageslider": 2,
+                    "ps_mainmenu": 2,
+                    "ps_customersignin": 2,
+                    "ps_categorytree": 1,
+                    "ps_wirepayment": 2,
+                    "ps_shoppingcart": 2,
+                    "ps_currencyselector": 2,
+                    "ps_languageselector": 1,
+                    "ps_facetedsearch": 1,
+                    "ps_customeraccountlinks": 2,
+                    "ps_searchbar": 2,
+                    "ps_checkpayment": 2,
+                    "ps_emailalerts": 2,
+                    "ps_bestsellers": 2,
+                    "ps_brandlist": 2,
+                    "ps_categoryproducts": 1,
+                    "ps_newproducts": 2,
+                    "ps_specials": 2,
+                    "ps_supplierlist": 2,
+                    "ps_dataprivacy": 2,
+                    "ps_cashondelivery": 2,
+                    "ps_viewedproduct": 2,
+                    "ps_faviconnotificationbo": 2,
+                    "ps_googleanalytics": 1,
+                    "psgdpr": 3,
+                    "ps_distributionapiclient": 1
+                }
+            },
+            "tools": {
+                "total": 1,
+                "repositories": {
+                    "traces": 1
+                }
+            },
+            "tests": {
+                "total": 28,
+                "repositories": {
+                    "ui-testing-library": 28
+                }
             },
             "blog": {
                 "total": 0,
@@ -10068,198 +10260,6 @@
             "tests": {
                 "total": 0,
                 "repositories": []
-            },
-            "blog": {
-                "total": 0,
-                "repositories": []
-            },
-            "others": {
-                "total": 0,
-                "repositories": []
-            }
-        }
-    },
-    "florine2623": {
-        "login": "florine2623",
-        "id": 16019289,
-        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/16019289?v=4",
-        "html_url": "https:\/\/github.com\/florine2623",
-        "name": null,
-        "company": null,
-        "blog": "",
-        "location": null,
-        "bio": null,
-        "email_domain": "",
-        "contributions": 149,
-        "repositories": {
-            "PrestaShop": 38,
-            "dashactivity": 2,
-            "dashgoals": 2,
-            "dashproducts": 1,
-            "dashtrends": 1,
-            "pagesnotfound": 1,
-            "statsbestcategories": 1,
-            "statsbestcustomers": 1,
-            "statsbestmanufacturers": 1,
-            "statsbestproducts": 1,
-            "statsbestsuppliers": 1,
-            "statsbestvouchers": 1,
-            "statscarrier": 1,
-            "statscatalog": 1,
-            "statscheckup": 1,
-            "statsdata": 1,
-            "statsforecast": 1,
-            "statsnewsletter": 1,
-            "statspersonalinfos": 1,
-            "statsproduct": 1,
-            "statsregistrations": 1,
-            "statssales": 1,
-            "statssearch": 1,
-            "statsstock": 1,
-            "blockwishlist": 2,
-            "productcomments": 2,
-            "gsitemap": 2,
-            "contactform": 2,
-            "blockreassurance": 1,
-            "ps_sharebuttons": 2,
-            "ps_socialfollow": 2,
-            "ps_linklist": 2,
-            "ps_customtext": 2,
-            "ps_contactinfo": 2,
-            "ps_emailsubscription": 1,
-            "ps_banner": 2,
-            "ps_featuredproducts": 1,
-            "ps_imageslider": 2,
-            "ps_mainmenu": 2,
-            "ps_customersignin": 2,
-            "ps_categorytree": 1,
-            "ps_wirepayment": 2,
-            "ps_shoppingcart": 2,
-            "ps_currencyselector": 2,
-            "ps_languageselector": 1,
-            "ps_facetedsearch": 1,
-            "ps_customeraccountlinks": 2,
-            "ps_searchbar": 2,
-            "ps_checkpayment": 2,
-            "ps_emailalerts": 2,
-            "ps_bestsellers": 2,
-            "ps_brandlist": 2,
-            "ps_categoryproducts": 1,
-            "ps_newproducts": 2,
-            "ps_specials": 2,
-            "ps_supplierlist": 2,
-            "ps_dataprivacy": 2,
-            "ps_cashondelivery": 2,
-            "ps_viewedproduct": 2,
-            "traces": 1,
-            "ps_googleanalytics": 1,
-            "psgdpr": 3,
-            "ps_faviconnotificationbo": 2,
-            "open-source": 2,
-            "ps_distributionapiclient": 1,
-            "functional-documentation": 1,
-            "ui-testing-library": 12
-        },
-        "categories": {
-            "core": {
-                "total": 38,
-                "repositories": {
-                    "PrestaShop": 38
-                }
-            },
-            "specs": {
-                "total": 0,
-                "repositories": []
-            },
-            "documentation": {
-                "total": 3,
-                "repositories": {
-                    "functional-documentation": 1,
-                    "open-source": 2
-                }
-            },
-            "themes": {
-                "total": 0,
-                "repositories": []
-            },
-            "modules": {
-                "total": 95,
-                "repositories": {
-                    "dashactivity": 2,
-                    "dashgoals": 2,
-                    "dashproducts": 1,
-                    "dashtrends": 1,
-                    "pagesnotfound": 1,
-                    "statsbestcategories": 1,
-                    "statsbestcustomers": 1,
-                    "statsbestmanufacturers": 1,
-                    "statsbestproducts": 1,
-                    "statsbestsuppliers": 1,
-                    "statsbestvouchers": 1,
-                    "statscarrier": 1,
-                    "statscatalog": 1,
-                    "statscheckup": 1,
-                    "statsdata": 1,
-                    "statsforecast": 1,
-                    "statsnewsletter": 1,
-                    "statspersonalinfos": 1,
-                    "statsproduct": 1,
-                    "statsregistrations": 1,
-                    "statssales": 1,
-                    "statssearch": 1,
-                    "statsstock": 1,
-                    "blockwishlist": 2,
-                    "productcomments": 2,
-                    "gsitemap": 2,
-                    "contactform": 2,
-                    "blockreassurance": 1,
-                    "ps_sharebuttons": 2,
-                    "ps_socialfollow": 2,
-                    "ps_linklist": 2,
-                    "ps_customtext": 2,
-                    "ps_contactinfo": 2,
-                    "ps_emailsubscription": 1,
-                    "ps_banner": 2,
-                    "ps_featuredproducts": 1,
-                    "ps_imageslider": 2,
-                    "ps_mainmenu": 2,
-                    "ps_customersignin": 2,
-                    "ps_categorytree": 1,
-                    "ps_wirepayment": 2,
-                    "ps_shoppingcart": 2,
-                    "ps_currencyselector": 2,
-                    "ps_languageselector": 1,
-                    "ps_facetedsearch": 1,
-                    "ps_customeraccountlinks": 2,
-                    "ps_searchbar": 2,
-                    "ps_checkpayment": 2,
-                    "ps_emailalerts": 2,
-                    "ps_bestsellers": 2,
-                    "ps_brandlist": 2,
-                    "ps_categoryproducts": 1,
-                    "ps_newproducts": 2,
-                    "ps_specials": 2,
-                    "ps_supplierlist": 2,
-                    "ps_dataprivacy": 2,
-                    "ps_cashondelivery": 2,
-                    "ps_viewedproduct": 2,
-                    "ps_faviconnotificationbo": 2,
-                    "ps_googleanalytics": 1,
-                    "psgdpr": 3,
-                    "ps_distributionapiclient": 1
-                }
-            },
-            "tools": {
-                "total": 1,
-                "repositories": {
-                    "traces": 1
-                }
-            },
-            "tests": {
-                "total": 12,
-                "repositories": {
-                    "ui-testing-library": 12
-                }
             },
             "blog": {
                 "total": 0,
@@ -10823,6 +10823,78 @@
             }
         }
     },
+    "SD1982": {
+        "login": "SD1982",
+        "id": 40635814,
+        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/40635814?v=4",
+        "html_url": "https:\/\/github.com\/SD1982",
+        "name": "SD1982",
+        "company": null,
+        "blog": "",
+        "location": null,
+        "bio": null,
+        "email_domain": "",
+        "contributions": 128,
+        "repositories": {
+            "PrestaShop": 92,
+            "productcomments": 5,
+            "autoupgrade": 2,
+            "traces": 2,
+            "classic-theme": 5,
+            "ps_fixturescreator": 21,
+            "ui-testing-library": 1
+        },
+        "categories": {
+            "core": {
+                "total": 92,
+                "repositories": {
+                    "PrestaShop": 92
+                }
+            },
+            "specs": {
+                "total": 0,
+                "repositories": []
+            },
+            "documentation": {
+                "total": 0,
+                "repositories": []
+            },
+            "themes": {
+                "total": 5,
+                "repositories": {
+                    "classic-theme": 5
+                }
+            },
+            "modules": {
+                "total": 28,
+                "repositories": {
+                    "productcomments": 5,
+                    "autoupgrade": 2,
+                    "ps_fixturescreator": 21
+                }
+            },
+            "tools": {
+                "total": 2,
+                "repositories": {
+                    "traces": 2
+                }
+            },
+            "tests": {
+                "total": 1,
+                "repositories": {
+                    "ui-testing-library": 1
+                }
+            },
+            "blog": {
+                "total": 0,
+                "repositories": []
+            },
+            "others": {
+                "total": 0,
+                "repositories": []
+            }
+        }
+    },
     "mmoustai": {
         "login": "mmoustai",
         "id": 6247743,
@@ -10869,75 +10941,6 @@
             "tools": {
                 "total": 0,
                 "repositories": []
-            },
-            "tests": {
-                "total": 0,
-                "repositories": []
-            },
-            "blog": {
-                "total": 0,
-                "repositories": []
-            },
-            "others": {
-                "total": 0,
-                "repositories": []
-            }
-        }
-    },
-    "SD1982": {
-        "login": "SD1982",
-        "id": 40635814,
-        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/40635814?v=4",
-        "html_url": "https:\/\/github.com\/SD1982",
-        "name": "SD1982",
-        "company": null,
-        "blog": "",
-        "location": null,
-        "bio": null,
-        "email_domain": "",
-        "contributions": 127,
-        "repositories": {
-            "PrestaShop": 92,
-            "productcomments": 5,
-            "autoupgrade": 2,
-            "traces": 2,
-            "classic-theme": 5,
-            "ps_fixturescreator": 21
-        },
-        "categories": {
-            "core": {
-                "total": 92,
-                "repositories": {
-                    "PrestaShop": 92
-                }
-            },
-            "specs": {
-                "total": 0,
-                "repositories": []
-            },
-            "documentation": {
-                "total": 0,
-                "repositories": []
-            },
-            "themes": {
-                "total": 5,
-                "repositories": {
-                    "classic-theme": 5
-                }
-            },
-            "modules": {
-                "total": 28,
-                "repositories": {
-                    "productcomments": 5,
-                    "autoupgrade": 2,
-                    "ps_fixturescreator": 21
-                }
-            },
-            "tools": {
-                "total": 2,
-                "repositories": {
-                    "traces": 2
-                }
             },
             "tests": {
                 "total": 0,
@@ -49379,5 +49382,5 @@
             }
         }
     },
-    "updatedAt": "2025-11-05 06:08:17"
+    "updatedAt": "2025-11-06 06:10:15"
 }
