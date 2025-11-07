@@ -20,7 +20,6 @@ const close = () => {
 
 const  selectCategory = (category: string) =>{
   selectedCategory.value = category
-  console.log('Selected category:', category)
 }
 </script>
 
