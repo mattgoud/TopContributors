@@ -10,9 +10,9 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 9778,
+        "contributions": 9779,
         "repositories": {
-            "PrestaShop": 1070,
+            "PrestaShop": 1071,
             "PrestaShop-modules": 2,
             "PrestaShop-webservice-lib": 1,
             "dashactivity": 4,
@@ -121,9 +121,9 @@
         },
         "categories": {
             "core": {
-                "total": 1084,
+                "total": 1085,
                 "repositories": {
-                    "PrestaShop": 1070,
+                    "PrestaShop": 1071,
                     "prestashop-ui-kit": 1,
                     "TranslationToolsBundle": 2,
                     "TranslationFiles": 3,
@@ -272,7 +272,7 @@
                 }
             }
         },
-        "mergedPullRequests": 2127
+        "mergedPullRequests": 2128
     },
     "matks": {
         "login": "matks",
@@ -773,9 +773,9 @@
         "location": null,
         "bio": null,
         "email_domain": "",
-        "contributions": 6910,
+        "contributions": 6911,
         "repositories": {
-            "PrestaShop": 666,
+            "PrestaShop": 667,
             "dashproducts": 1,
             "blockwishlist": 3,
             "productcomments": 10,
@@ -824,9 +824,9 @@
         },
         "categories": {
             "core": {
-                "total": 702,
+                "total": 703,
                 "repositories": {
-                    "PrestaShop": 666,
+                    "PrestaShop": 667,
                     "prestashop-ui-kit": 10,
                     "TranslationToolsBundle": 3,
                     "TranslationFiles": 12,
@@ -914,7 +914,7 @@
                 }
             }
         },
-        "mergedPullRequests": 1028
+        "mergedPullRequests": 1029
     },
     "Hlavtox": {
         "login": "Hlavtox",
@@ -927,9 +927,9 @@
         "location": "Pardubice, Czech Republic",
         "bio": null,
         "email_domain": "",
-        "contributions": 2168,
+        "contributions": 2171,
         "repositories": {
-            "PrestaShop": 344,
+            "PrestaShop": 345,
             "dashactivity": 4,
             "dashgoals": 4,
             "dashproducts": 7,
@@ -1011,9 +1011,9 @@
         },
         "categories": {
             "core": {
-                "total": 349,
+                "total": 350,
                 "repositories": {
-                    "PrestaShop": 344,
+                    "PrestaShop": 345,
                     "prestashop-ui-kit": 3,
                     "circuit-breaker": 1,
                     "LocalizationFiles": 1
@@ -1134,7 +1134,7 @@
                 }
             }
         },
-        "mergedPullRequests": 840
+        "mergedPullRequests": 841
     },
     "PierreRambaud": {
         "login": "PierreRambaud",
@@ -2027,7 +2027,7 @@
         "location": "Bydgoszcz, Poland",
         "bio": "I'm a web developer from Poland, specializing in working with PrestaShop e-commerce",
         "email_domain": "",
-        "contributions": 3091,
+        "contributions": 3093,
         "repositories": {
             "PrestaShop": 156,
             "PrestaShop-modules": 3,
@@ -4212,7 +4212,7 @@
         "location": null,
         "bio": "Founder of @wallabag. ",
         "email_domain": "",
-        "contributions": 1392,
+        "contributions": 1394,
         "repositories": {
             "PrestaShop": 122,
             "blockwishlist": 6,
@@ -5785,7 +5785,7 @@
         "location": null,
         "bio": null,
         "email_domain": "",
-        "contributions": 193,
+        "contributions": 194,
         "repositories": {
             "PrestaShop": 85,
             "productcomments": 2,
@@ -6469,7 +6469,7 @@
         "location": "Via Giuseppe Saragat, 19 86170 Isernia - ITALIA",
         "bio": "Siamo un'agenzia di Branding, Comunicazione e Marketing.\r\nRealizziamo progetti di comunicazione visiva brand-oriented, web design e web marketing.",
         "email_domain": "codencode.it",
-        "contributions": 184,
+        "contributions": 185,
         "repositories": {
             "PrestaShop": 74,
             "dashactivity": 1,
@@ -24910,7 +24910,7 @@
         "company": "@coopTilleuls ",
         "blog": "https:\/\/dunglas.dev",
         "location": "Lille, France",
-        "bio": "Founder of @coopTilleuls \/ Creator of @api-platform, Mercure.rocks, FrankenPHP and Vulcain.rocks \/ @symfony Core Team",
+        "bio": "Founder of @coopTilleuls, a dev co-op. Creator of FrankenPHP, @api-platform, Mercure.rocks, and numerous other free\/open-source software. @symfony Core Team. ",
         "email_domain": "dunglas.fr",
         "contributions": 2,
         "repositories": {
