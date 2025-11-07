@@ -90,6 +90,7 @@ const closeModal = () => {
     <template #item-name="{ item }">
       <div class="wof-top-contributors__name">
         <span v-if="item.name" class="puik-body-default">{{ item.name }}</span>
+        <span v-else-if="item.login" class="puik-body-default">{{ item.login }}</span>
         <puik-tag v-if="item.company" :content="item.company" variant="blue" />
       </div>
     </template>

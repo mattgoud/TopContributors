@@ -10,7 +10,18 @@ const emit = defineEmits<{
   (e: 'close'): void
 }>()
 
-const close = () => emit('close')
+const selectedCategory = ref<string | null>(null)
+
+const close = () => {
+  emit('close');
+  selectedCategory.value = null
+}
+
+
+const  selectCategory = (category: string) =>{
+  selectedCategory.value = category
+  console.log('Selected category:', category)
+}
 </script>
 
 <template>
@@ -30,7 +41,11 @@ const close = () => emit('close')
           <img :src="contributor.avatar_url" alt="contributor avatar" />
         </div>
         <div class="wof-top-modal__title">
-          <h3 class="puik-h3">{{ contributor.name }}</h3>
+          <div v-if="contributor.name">
+            <h3  class="puik-h3">{{ contributor.name }}</h3>
+            <span class="puik-body-default-bold">({{ contributor.login }})</span>
+          </div>
+          <h3 v-else class="puik-h3">{{ contributor.login }}</h3>
           <puik-tag v-if="contributor.company" :content="contributor.company" variant="blue" />
         </div>
         <div v-if="contributor.location" class="wof-top-modal__side-content__item">
@@ -84,16 +99,33 @@ const close = () => emit('close')
       </div>
 
       <div class="wof-top-modal__main-content">
-        <p class="puik-body-default-medium">{{ contributor.contributions }} contributions</p>
-        <div class="wof-top-modal__categories">
+        <p class="puik-body-default-medium">{{ contributor.mergedPullRequests }} contributions</p>
+        <puik-button v-if="selectedCategory" class="wof-top-modal__back-button" @click="selectedCategory = null">back</puik-button>
+        <div v-if="!selectedCategory" class="wof-top-modal__categories">
           <puik-card
             class="wof-top-modal__categories__card"
             v-for="(data, category) in contributor.categories"
             :key="category"
+            @click="selectCategory(category)"
           >
             <p class="puik-h2">{{ data.total }}</p>
             <p class="puik-body-default">{{ category }}</p>
           </puik-card>
+        </div>
+        <div v-if="selectedCategory && contributor.categories && contributor.categories[selectedCategory]" class="wof-top-modal__categories">
+          <a
+            v-for="(data, repository) in contributor.categories[selectedCategory]?.repositories || {}"
+            :href="`https://github.com/PrestaShop/${repository}/pulls?q=is%3Apr+is%3Amerged+author%3A${contributor.login}`"
+            target="_blank"
+          >
+          <puik-card
+            class="wof-top-modal__categories__card"
+            :key="repository"
+          >
+            <p class="puik-h2">{{ data }}</p>
+            <p class="puik-body-default">{{ repository }}</p>
+          </puik-card>
+        </a>
         </div>
       </div>
     </div>
@@ -117,9 +149,7 @@ const close = () => emit('close')
   background-color: var(--wof-color-bg-modal);
   padding: 0;
 }
-.wof-top-modal .puik-modal__dialogPanelContainer {
-  padding-top: var(--wof-padding-top-modal);
-}
+
 .wof-top-modal__container {
   display: flex;
   flex-direction: column;
@@ -133,7 +163,7 @@ const close = () => emit('close')
 .wof-top-modal__title {
   display: flex;
   flex-direction: column;
-  gap: 0.25rem;
+  gap: 0.75rem;
 }
 .wof-top-modal__title h3 {
   margin-bottom: 0;
@@ -198,12 +228,16 @@ const close = () => emit('close')
 }
 .wof-top-modal__categories__card {
   padding: 1rem;
-  max-height: fit-content;
   display: flex;
   flex-direction: column;
   gap: 0;
 }
 .wof-top-modal__categories__card p {
   margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.wof-top-modal__back-button {
+  align-self: start;
 }
 </style>

@@ -61,7 +61,7 @@ const carousel_config = {
           </div>
           <h3 class="puik-h3">{{ newContributor.name ?? newContributor.login}}</h3>
           <p class="puik-body-default">{{ newContributor.login }}</p>
-          <p class="puik-body-small">{{ newContributor.contributions }} contribution{{ newContributor.contributions > 1 ? "s" : "" }}</p>
+          <p class="puik-body-small">{{ newContributor.contributions }} commit{{ newContributor.contributions > 1 ? "s" : "" }}</p>
         </puik-card>
       </Slide>
       <template #addons>

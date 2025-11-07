@@ -78,7 +78,8 @@ const fullWidth = ref(true)
 
     <template #item-name="{ item }">
       <div class="wof-top-contributors__name">
-        <span class="puik-body-default">{{ item.name }}</span>
+        <span v-if="item.login" class="puik-body-default">{{ item.login }}</span>
+        <span v-else-if="item.name" class="puik-body-default">{{ item.name }}</span>
       </div>
     </template>
     <template #item-actions="{ item }">

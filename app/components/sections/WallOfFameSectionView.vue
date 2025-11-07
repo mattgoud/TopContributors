@@ -11,8 +11,7 @@ const props = defineProps<{
 // TABLE CONFIG
 const headers: PuikTableHeader[] = [
   { text: 'Rank', value: 'rank', size: 'sm', align: 'center', searchable: true, searchType: 'range', sortable: true },
-  { text: 'Avatar', value: 'avatar', size: 'sm', align: 'center', searchable: false },
-  { text: 'Name', value: 'login', size: 'lg', align: 'left', searchable: true, sortable: true },
+  { text: 'Name', value: 'name', size: 'lg', align: 'left', searchable: true, sortable: true },
   { text: 'Contributions', value: 'mergedPullRequests', size: 'sm', align: 'center', searchable: true, searchType: 'range', sortable: true },
   { value: 'actions', size: 'sm', align: 'center', preventExpand: true, searchSubmit: true },
 ]
@@ -41,9 +40,13 @@ const handleSearchSubmit = (payload: searchOption[]) => {
   payload.forEach(({ searchBy, inputText, inputRange }) => {
     if (inputText) {
       const search = inputText.toLowerCase().trim().replace(/\s+/g, ' ')
-      filtered = filtered.filter((c) =>
-        String(c[searchBy as keyof Contributor]).toLowerCase().includes(search)
-      )
+      filtered = filtered.filter((c) => {
+        const haystack =
+          searchBy === 'name'
+            ? `${c.name ?? ''} ${c.login ?? ''}`.toLowerCase()
+            : String(c[searchBy as keyof Contributor]).toLowerCase()
+        return haystack.includes(search)
+      })
     }
 
     if (inputRange) {
@@ -60,13 +63,19 @@ const handleSearchSubmit = (payload: searchOption[]) => {
   page.value = 1
 }
 
-// SORT
+// SORT (name fallback login)
 const handleSort = (payload: sortOption) => {
   const { sortBy, sortOrder } = payload
 
   contributorsRef.value = [...contributorsRef.value].sort((a, b) => {
-    const valA = a[sortBy as keyof Contributor]
-    const valB = b[sortBy as keyof Contributor]
+    const valA =
+      sortBy === 'name'
+        ? (a.name || a.login || '').toLowerCase()
+        : a[sortBy as keyof Contributor]
+    const valB =
+      sortBy === 'name'
+        ? (b.name || b.login || '').toLowerCase()
+        : b[sortBy as keyof Contributor]
 
     if (typeof valA === 'number' && typeof valB === 'number') {
       return sortOrder === 'ASC' ? valA - valB : valB - valA
@@ -119,15 +128,14 @@ watch(
         </div>
       </template>
 
-      <template #item-avatar="{ item }">
-        <puik-avatar size="large" type="photo" :src="item.avatar_url" />
-      </template>
-
-      <template #item-login="{ item }">
-        <div class="wof-top-contributors__name">
-          <span v-if="item.login" class="puik-body-default">{{ item.login }}</span>
-          <span v-else-if="item.name" class="puik-body-default">{{ item.name }}</span>
-          <puik-tag v-if="item.company" :content="item.company" variant="blue" />
+      <template #item-name="{ item }">
+        <div class="wof-contributors__login__container">
+          <puik-avatar size="large" type="photo" :src="item.avatar_url" />
+          <div class="wof-top-contributors__name">
+            <span class="puik-body-default">{{ item.name || item.login }}</span>
+            <span v-if="item.name" class="puik-body-small-bold">({{ item.login }})</span>
+            <puik-tag v-if="item.company" :content="item.company" variant="blue" />
+          </div>
         </div>
       </template>
 
@@ -174,5 +182,11 @@ watch(
   color: var(--color-primary);
   background-color: var(--color-blue-50);
   border: 1px solid var(--color-blue);
+}
+.wof-contributors__login__container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  min-height: 66px;
 }
 </style>

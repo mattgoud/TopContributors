@@ -126,4 +126,16 @@ a.puik-button:hover {
   flex-direction: column;
   gap: 0.25rem;
 }
+
+.puik-modal__dialogPanelContainer {
+  overflow: auto;
+}
+.puik-modal__dialogPanelContainer__dialogPanel {
+  min-height: max-content;
+  margin: auto;
+}
+.puik-modal__dialogPanelContainer {
+    align-items: flex-start;
+}
+
 </style>
