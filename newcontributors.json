@@ -1,4 +1,12 @@
 {
+    "mjamroz": {
+        "login": "mjamroz",
+        "name": "Michal Jamroz",
+        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/505646?v=4",
+        "html_url": "https:\/\/github.com\/mjamroz",
+        "contributions": 1,
+        "firstContributionAt": "2025-11-07T16:03:41Z"
+    },
     "ChillCode": {
         "login": "ChillCode",
         "name": "Chillcode",
@@ -70,13 +78,5 @@
         "html_url": "https:\/\/github.com\/Mch0",
         "contributions": 13,
         "firstContributionAt": "2025-05-29T14:21:40Z"
-    },
-    "CedricKiwik": {
-        "login": "CedricKiwik",
-        "name": null,
-        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/186560935?v=4",
-        "html_url": "https:\/\/github.com\/CedricKiwik",
-        "contributions": 8,
-        "firstContributionAt": "2025-05-22T08:57:39Z"
     }
 }
