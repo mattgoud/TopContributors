@@ -10,7 +10,7 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 9781,
+        "contributions": 9782,
         "repositories": {
             "PrestaShop": 4283,
             "PrestaShop-modules": 31,
@@ -118,7 +118,7 @@
             "stylelint-config": 7,
             "example-modules": 6,
             "ps_qualityassurance": 1,
-            "test-scenarios": 899,
+            "test-scenarios": 900,
             "user-documentation-it": 2,
             "user-documentation-landing": 3,
             "user-documentation-en": 1,
@@ -160,7 +160,7 @@
                 }
             },
             "documentation": {
-                "total": 1116,
+                "total": 1117,
                 "repositories": {
                     "docs": 144,
                     "user-documentation-landing": 3,
@@ -168,7 +168,7 @@
                     "user-documentation-it": 2,
                     "user-documentation-v8-en": 1,
                     "functional-documentation": 2,
-                    "test-scenarios": 899,
+                    "test-scenarios": 900,
                     "example-modules": 6,
                     "open-source": 31,
                     "example_module_mailtheme": 4,
@@ -1786,7 +1786,7 @@
         "location": "Bydgoszcz, Poland",
         "bio": "I'm a web developer from Poland, specializing in working with PrestaShop e-commerce",
         "email_domain": "",
-        "contributions": 3094,
+        "contributions": 3095,
         "repositories": {
             "PrestaShop": 753,
             "PrestaShop-modules": 4,
@@ -1839,7 +1839,7 @@
             "ps_mainmenu": 2,
             "ps_customersignin": 4,
             "ps_categorytree": 5,
-            "docs": 468,
+            "docs": 469,
             "ps_wirepayment": 1,
             "ps_shoppingcart": 4,
             "ps_currencyselector": 7,
@@ -1916,10 +1916,10 @@
                 }
             },
             "documentation": {
-                "total": 772,
+                "total": 773,
                 "repositories": {
                     "paymentexample": 7,
-                    "docs": 468,
+                    "docs": 469,
                     "user-documentation-en": 1,
                     "ADR": 6,
                     "example-modules": 73,
@@ -16247,6 +16247,68 @@
             }
         }
     },
+    "Kaikina": {
+        "login": "Kaikina",
+        "id": 14168333,
+        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/14168333?v=4",
+        "html_url": "https:\/\/github.com\/Kaikina",
+        "name": "Kaikina",
+        "company": "Evolutive",
+        "blog": "https:\/\/www.linkedin.com\/in\/tgirou\/",
+        "location": "Rive de Gier, France",
+        "bio": "Great dreamer, dedicated to my work, always looking for new experiences.",
+        "email_domain": "",
+        "contributions": 31,
+        "repositories": {
+            "PrestaShop": 14,
+            "autoupgrade": 1,
+            "docs": 16
+        },
+        "categories": {
+            "core": {
+                "total": 14,
+                "repositories": {
+                    "PrestaShop": 14
+                }
+            },
+            "specs": {
+                "total": 0,
+                "repositories": []
+            },
+            "documentation": {
+                "total": 16,
+                "repositories": {
+                    "docs": 16
+                }
+            },
+            "themes": {
+                "total": 0,
+                "repositories": []
+            },
+            "modules": {
+                "total": 1,
+                "repositories": {
+                    "autoupgrade": 1
+                }
+            },
+            "tools": {
+                "total": 0,
+                "repositories": []
+            },
+            "tests": {
+                "total": 0,
+                "repositories": []
+            },
+            "blog": {
+                "total": 0,
+                "repositories": []
+            },
+            "others": {
+                "total": 0,
+                "repositories": []
+            }
+        }
+    },
     "yannicka": {
         "login": "yannicka",
         "id": 22885898,
@@ -16846,68 +16908,6 @@
                 "repositories": {
                     "traces": 4
                 }
-            },
-            "tests": {
-                "total": 0,
-                "repositories": []
-            },
-            "blog": {
-                "total": 0,
-                "repositories": []
-            },
-            "others": {
-                "total": 0,
-                "repositories": []
-            }
-        }
-    },
-    "Kaikina": {
-        "login": "Kaikina",
-        "id": 14168333,
-        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/14168333?v=4",
-        "html_url": "https:\/\/github.com\/Kaikina",
-        "name": "Kaikina",
-        "company": "Evolutive",
-        "blog": "https:\/\/www.linkedin.com\/in\/tgirou\/",
-        "location": "Rive de Gier, France",
-        "bio": "Great dreamer, dedicated to my work, always looking for new experiences.",
-        "email_domain": "",
-        "contributions": 28,
-        "repositories": {
-            "PrestaShop": 14,
-            "autoupgrade": 1,
-            "docs": 13
-        },
-        "categories": {
-            "core": {
-                "total": 14,
-                "repositories": {
-                    "PrestaShop": 14
-                }
-            },
-            "specs": {
-                "total": 0,
-                "repositories": []
-            },
-            "documentation": {
-                "total": 13,
-                "repositories": {
-                    "docs": 13
-                }
-            },
-            "themes": {
-                "total": 0,
-                "repositories": []
-            },
-            "modules": {
-                "total": 1,
-                "repositories": {
-                    "autoupgrade": 1
-                }
-            },
-            "tools": {
-                "total": 0,
-                "repositories": []
             },
             "tests": {
                 "total": 0,
@@ -24761,14 +24761,14 @@
             }
         }
     },
-    "milopot": {
-        "login": "milopot",
+    "xiropot": {
+        "login": "xiropot",
         "id": 18163009,
         "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/18163009?v=4",
-        "html_url": "https:\/\/github.com\/milopot",
-        "name": "milopot.com - PrestaShop specialists",
+        "html_url": "https:\/\/github.com\/xiropot",
+        "name": "Xiropot PrestaShop specialists",
         "company": null,
-        "blog": "milopot.com",
+        "blog": "xiropot.com",
         "location": "Milopotamos, Drama, Greece",
         "bio": "We love coding for our favorite CMS, PrestaShop.",
         "email_domain": "",
@@ -49446,5 +49446,5 @@
             }
         }
     },
-    "updatedAt": "2025-11-08 06:19:16"
+    "updatedAt": "2025-11-09 06:09:47"
 }
