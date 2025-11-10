@@ -159,7 +159,7 @@
             "rank": 2,
             "rank_contributions": 2,
             "rank_pull_requests": 2,
-            "merged_pull_requests": 835,
+            "merged_pull_requests": 836,
             "merged_pull_requests_by_version": {
                 "9.1": 1,
                 "9.0": 154,
@@ -170,7 +170,7 @@
                 "1.7.7": 5
             },
             "merged_pull_requests_by_year": {
-                "2025": 96,
+                "2025": 97,
                 "2024": 192,
                 "2023": 387,
                 "2022": 72,
@@ -179,7 +179,7 @@
                 "2019": 3
             },
             "pull_requests_percent": 3.1,
-            "contributions": 4272,
+            "contributions": 4273,
             "contributions_by_version": {
                 "9.1": 2,
                 "9.0": 309,
@@ -190,7 +190,7 @@
                 "1.7.7": 6
             },
             "contributions_by_year": {
-                "2025": 257,
+                "2025": 258,
                 "2024": 634,
                 "2023": 2222,
                 "2022": 920,
@@ -605,30 +605,30 @@
         {
             "name": "Franck Lef\u00e8vre",
             "rank": 11,
-            "rank_contributions": 14,
+            "rank_contributions": 13,
             "rank_pull_requests": 11,
-            "merged_pull_requests": 41,
+            "merged_pull_requests": 42,
             "merged_pull_requests_by_version": {
-                "9.1": 1,
+                "9.1": 2,
                 "9.0": 25,
                 "8.2": 2,
                 "8.1": 1
             },
             "merged_pull_requests_by_year": {
-                "2025": 39,
+                "2025": 40,
                 "2024": 1,
                 "2023": 1
             },
-            "pull_requests_percent": 0.15,
-            "contributions": 43,
+            "pull_requests_percent": 0.16,
+            "contributions": 44,
             "contributions_by_version": {
-                "9.1": 1,
+                "9.1": 2,
                 "9.0": 25,
                 "8.2": 2,
                 "8.1": 1
             },
             "contributions_by_year": {
-                "2025": 40,
+                "2025": 41,
                 "2024": 1,
                 "2023": 2
             },
@@ -703,7 +703,7 @@
         {
             "name": "Kiwik",
             "rank": 13,
-            "rank_contributions": 13,
+            "rank_contributions": 14,
             "rank_pull_requests": 13,
             "merged_pull_requests": 26,
             "merged_pull_requests_by_version": {

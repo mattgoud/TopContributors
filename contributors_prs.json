@@ -10,9 +10,9 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 9782,
+        "contributions": 9783,
         "repositories": {
-            "PrestaShop": 1071,
+            "PrestaShop": 1072,
             "PrestaShop-modules": 2,
             "PrestaShop-webservice-lib": 1,
             "dashactivity": 4,
@@ -121,9 +121,9 @@
         },
         "categories": {
             "core": {
-                "total": 1085,
+                "total": 1086,
                 "repositories": {
-                    "PrestaShop": 1071,
+                    "PrestaShop": 1072,
                     "prestashop-ui-kit": 1,
                     "TranslationToolsBundle": 2,
                     "TranslationFiles": 3,
@@ -272,7 +272,7 @@
                 }
             }
         },
-        "mergedPullRequests": 2128
+        "mergedPullRequests": 2129
     },
     "matks": {
         "login": "matks",
@@ -954,7 +954,7 @@
             "statsregistrations": 3,
             "statssales": 5,
             "statssearch": 2,
-            "statsstock": 6,
+            "statsstock": 7,
             "blockwishlist": 4,
             "productcomments": 8,
             "autoupgrade": 54,
@@ -1038,7 +1038,7 @@
                 }
             },
             "modules": {
-                "total": 431,
+                "total": 432,
                 "repositories": {
                     "dashactivity": 4,
                     "dashgoals": 4,
@@ -1064,7 +1064,7 @@
                     "statsregistrations": 3,
                     "statssales": 5,
                     "statssearch": 2,
-                    "statsstock": 6,
+                    "statsstock": 7,
                     "blockwishlist": 4,
                     "productcomments": 8,
                     "autoupgrade": 54,
@@ -1134,7 +1134,7 @@
                 }
             }
         },
-        "mergedPullRequests": 847
+        "mergedPullRequests": 848
     },
     "PierreRambaud": {
         "login": "PierreRambaud",
@@ -4212,7 +4212,7 @@
         "location": null,
         "bio": "Founder of @wallabag. ",
         "email_domain": "",
-        "contributions": 1394,
+        "contributions": 1400,
         "repositories": {
             "PrestaShop": 122,
             "blockwishlist": 6,
