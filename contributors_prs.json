@@ -10,9 +10,9 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 9783,
+        "contributions": 9788,
         "repositories": {
-            "PrestaShop": 1072,
+            "PrestaShop": 1074,
             "PrestaShop-modules": 2,
             "PrestaShop-webservice-lib": 1,
             "dashactivity": 4,
@@ -121,9 +121,9 @@
         },
         "categories": {
             "core": {
-                "total": 1086,
+                "total": 1088,
                 "repositories": {
-                    "PrestaShop": 1072,
+                    "PrestaShop": 1074,
                     "prestashop-ui-kit": 1,
                     "TranslationToolsBundle": 2,
                     "TranslationFiles": 3,
@@ -272,7 +272,7 @@
                 }
             }
         },
-        "mergedPullRequests": 2129
+        "mergedPullRequests": 2131
     },
     "matks": {
         "login": "matks",
@@ -927,7 +927,7 @@
         "location": "Pardubice, Czech Republic",
         "bio": null,
         "email_domain": "",
-        "contributions": 2176,
+        "contributions": 2177,
         "repositories": {
             "PrestaShop": 345,
             "dashactivity": 4,
@@ -944,7 +944,7 @@
             "statsbestsuppliers": 3,
             "statsbestvouchers": 3,
             "statscarrier": 1,
-            "statscatalog": 9,
+            "statscatalog": 10,
             "statscheckup": 7,
             "statsdata": 3,
             "statsforecast": 6,
@@ -965,7 +965,7 @@
             "blockreassurance": 4,
             "ps_socialfollow": 6,
             "ps_linklist": 3,
-            "ps_customtext": 2,
+            "ps_customtext": 3,
             "ps_contactinfo": 3,
             "ps_emailsubscription": 16,
             "ps_banner": 1,
@@ -1038,7 +1038,7 @@
                 }
             },
             "modules": {
-                "total": 432,
+                "total": 434,
                 "repositories": {
                     "dashactivity": 4,
                     "dashgoals": 4,
@@ -1054,7 +1054,7 @@
                     "statsbestsuppliers": 3,
                     "statsbestvouchers": 3,
                     "statscarrier": 1,
-                    "statscatalog": 9,
+                    "statscatalog": 10,
                     "statscheckup": 7,
                     "statsdata": 3,
                     "statsforecast": 6,
@@ -1073,7 +1073,7 @@
                     "blockreassurance": 4,
                     "ps_socialfollow": 6,
                     "ps_linklist": 3,
-                    "ps_customtext": 2,
+                    "ps_customtext": 3,
                     "ps_contactinfo": 3,
                     "ps_emailsubscription": 16,
                     "ps_banner": 1,
@@ -1134,7 +1134,7 @@
                 }
             }
         },
-        "mergedPullRequests": 848
+        "mergedPullRequests": 850
     },
     "PierreRambaud": {
         "login": "PierreRambaud",
@@ -4212,7 +4212,7 @@
         "location": null,
         "bio": "Founder of @wallabag. ",
         "email_domain": "",
-        "contributions": 1400,
+        "contributions": 1402,
         "repositories": {
             "PrestaShop": 122,
             "blockwishlist": 6,
@@ -5259,14 +5259,15 @@
         "repositories": {
             "PrestaShop": 3,
             "statscatalog": 1,
-            "statscheckup": 1,
+            "statscheckup": 2,
             "statspersonalinfos": 1,
             "statssearch": 1,
             "productcomments": 2,
             "autoupgrade": 96,
             "prestashop.github.io": 2,
+            "ps_socialfollow": 1,
             "ps_customtext": 1,
-            "ps_categorytree": 2,
+            "ps_categorytree": 3,
             "docs": 5,
             "ps_wirepayment": 1,
             "traces": 1,
@@ -5298,16 +5299,17 @@
                 }
             },
             "modules": {
-                "total": 106,
+                "total": 109,
                 "repositories": {
                     "statscatalog": 1,
-                    "statscheckup": 1,
+                    "statscheckup": 2,
                     "statspersonalinfos": 1,
                     "statssearch": 1,
                     "productcomments": 2,
                     "autoupgrade": 96,
+                    "ps_socialfollow": 1,
                     "ps_customtext": 1,
-                    "ps_categorytree": 2,
+                    "ps_categorytree": 3,
                     "ps_wirepayment": 1
                 }
             },
@@ -5335,7 +5337,7 @@
                 }
             }
         },
-        "mergedPullRequests": 143
+        "mergedPullRequests": 146
     },
     "jnadaud": {
         "login": "jnadaud",
@@ -6469,7 +6471,7 @@
         "location": "Via Giuseppe Saragat, 19 86170 Isernia - ITALIA",
         "bio": "Siamo un'agenzia di Branding, Comunicazione e Marketing.\r\nRealizziamo progetti di comunicazione visiva brand-oriented, web design e web marketing.",
         "email_domain": "codencode.it",
-        "contributions": 188,
+        "contributions": 189,
         "repositories": {
             "PrestaShop": 74,
             "dashactivity": 1,
@@ -6986,6 +6988,78 @@
         },
         "mergedPullRequests": 65
     },
+    "ShaiMagal": {
+        "login": "ShaiMagal",
+        "id": 8518736,
+        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/8518736?v=4",
+        "html_url": "https:\/\/github.com\/ShaiMagal",
+        "name": "Dominik Shaim Ulrich",
+        "company": "OpenServis",
+        "blog": "www.openservis.cz",
+        "location": "Cel\u00e1 \u010cR",
+        "bio": "www.openservis.cz (PrestaShop webhosting) | www.psmoduly.cz  (PrestaShop modules) + EN version www.prestahouse.eu | www.smartmailer.cz (PrestaShop newsletter) |",
+        "email_domain": "gmail.com",
+        "contributions": 143,
+        "repositories": {
+            "PrestaShop": 53,
+            "autoupgrade": 3,
+            "gsitemap": 1,
+            "prestashop.github.io": 3,
+            "LocalizationFiles": 2,
+            "hummingbird": 1,
+            "classic-theme": 1
+        },
+        "categories": {
+            "core": {
+                "total": 55,
+                "repositories": {
+                    "PrestaShop": 53,
+                    "LocalizationFiles": 2
+                }
+            },
+            "specs": {
+                "total": 0,
+                "repositories": []
+            },
+            "documentation": {
+                "total": 0,
+                "repositories": []
+            },
+            "themes": {
+                "total": 2,
+                "repositories": {
+                    "hummingbird": 1,
+                    "classic-theme": 1
+                }
+            },
+            "modules": {
+                "total": 4,
+                "repositories": {
+                    "autoupgrade": 3,
+                    "gsitemap": 1
+                }
+            },
+            "tools": {
+                "total": 0,
+                "repositories": []
+            },
+            "tests": {
+                "total": 0,
+                "repositories": []
+            },
+            "blog": {
+                "total": 3,
+                "repositories": {
+                    "prestashop.github.io": 3
+                }
+            },
+            "others": {
+                "total": 0,
+                "repositories": []
+            }
+        },
+        "mergedPullRequests": 64
+    },
     "JevgenijVisockij": {
         "login": "JevgenijVisockij",
         "id": 47781757,
@@ -7043,78 +7117,6 @@
             "blog": {
                 "total": 0,
                 "repositories": []
-            },
-            "others": {
-                "total": 0,
-                "repositories": []
-            }
-        },
-        "mergedPullRequests": 63
-    },
-    "ShaiMagal": {
-        "login": "ShaiMagal",
-        "id": 8518736,
-        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/8518736?v=4",
-        "html_url": "https:\/\/github.com\/ShaiMagal",
-        "name": "Dominik Shaim Ulrich",
-        "company": "OpenServis",
-        "blog": "www.openservis.cz",
-        "location": "Cel\u00e1 \u010cR",
-        "bio": "www.openservis.cz (PrestaShop webhosting) | www.psmoduly.cz  (PrestaShop modules) + EN version www.prestahouse.eu | www.smartmailer.cz (PrestaShop newsletter) |",
-        "email_domain": "gmail.com",
-        "contributions": 143,
-        "repositories": {
-            "PrestaShop": 52,
-            "autoupgrade": 3,
-            "gsitemap": 1,
-            "prestashop.github.io": 3,
-            "LocalizationFiles": 2,
-            "hummingbird": 1,
-            "classic-theme": 1
-        },
-        "categories": {
-            "core": {
-                "total": 54,
-                "repositories": {
-                    "PrestaShop": 52,
-                    "LocalizationFiles": 2
-                }
-            },
-            "specs": {
-                "total": 0,
-                "repositories": []
-            },
-            "documentation": {
-                "total": 0,
-                "repositories": []
-            },
-            "themes": {
-                "total": 2,
-                "repositories": {
-                    "hummingbird": 1,
-                    "classic-theme": 1
-                }
-            },
-            "modules": {
-                "total": 4,
-                "repositories": {
-                    "autoupgrade": 3,
-                    "gsitemap": 1
-                }
-            },
-            "tools": {
-                "total": 0,
-                "repositories": []
-            },
-            "tests": {
-                "total": 0,
-                "repositories": []
-            },
-            "blog": {
-                "total": 3,
-                "repositories": {
-                    "prestashop.github.io": 3
-                }
             },
             "others": {
                 "total": 0,
