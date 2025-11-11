@@ -1,4 +1,12 @@
 {
+    "novomusica": {
+        "login": "novomusica",
+        "name": null,
+        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/186070655?v=4",
+        "html_url": "https:\/\/github.com\/novomusica",
+        "contributions": 1,
+        "firstContributionAt": "2025-11-10T14:49:31Z"
+    },
     "mjamroz": {
         "login": "mjamroz",
         "name": "Michal Jamroz",
@@ -70,13 +78,5 @@
         "html_url": "https:\/\/github.com\/sessadek",
         "contributions": 1,
         "firstContributionAt": "2025-06-06T12:49:52Z"
-    },
-    "Mch0": {
-        "login": "Mch0",
-        "name": "Arnaud",
-        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/3593331?v=4",
-        "html_url": "https:\/\/github.com\/Mch0",
-        "contributions": 13,
-        "firstContributionAt": "2025-05-29T14:21:40Z"
     }
 }
