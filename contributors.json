@@ -10,9 +10,9 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 9794,
+        "contributions": 9799,
         "repositories": {
-            "PrestaShop": 4285,
+            "PrestaShop": 4287,
             "PrestaShop-modules": 31,
             "PrestaShop-webservice-lib": 4,
             "dashactivity": 14,
@@ -92,7 +92,7 @@
             "ps_carriercomparison": 3,
             "ps_viewedproduct": 15,
             "ps_feeder": 1,
-            "traces": 150,
+            "traces": 152,
             "core-weekly-generator": 6,
             "TopContributors": 94,
             "TranslationFiles": 3,
@@ -135,13 +135,13 @@
             "ps_fixturescreator": 11,
             "ws-client": 25,
             "ps_apiresources": 3,
-            "ui-testing-library": 1037
+            "ui-testing-library": 1038
         },
         "categories": {
             "core": {
-                "total": 4388,
+                "total": 4390,
                 "repositories": {
-                    "PrestaShop": 4285,
+                    "PrestaShop": 4287,
                     "prestashop-ui-kit": 50,
                     "TranslationToolsBundle": 9,
                     "LocalizationFiles": 9,
@@ -269,7 +269,7 @@
                 }
             },
             "tools": {
-                "total": 1157,
+                "total": 1159,
                 "repositories": {
                     "core-weekly-generator": 6,
                     "docker": 41,
@@ -284,14 +284,14 @@
                     "QANightlyResults": 336,
                     "TopContributors": 94,
                     "TopTranslators": 1,
-                    "traces": 150,
+                    "traces": 152,
                     "ps-project-metrics": 4
                 }
             },
             "tests": {
-                "total": 1131,
+                "total": 1132,
                 "repositories": {
-                    "ui-testing-library": 1037,
+                    "ui-testing-library": 1038,
                     "ga.tests.ui.pr": 94
                 }
             },
@@ -3875,7 +3875,7 @@
         "location": null,
         "bio": "Founder of @wallabag. ",
         "email_domain": "",
-        "contributions": 1402,
+        "contributions": 1403,
         "repositories": {
             "PrestaShop": 763,
             "PrestaShop-webservice-lib": 1,
@@ -3933,7 +3933,7 @@
             "php-dev-tools": 2,
             "QANightlyResults": 104,
             "LocalizationFiles": 8,
-            "presthubot": 71,
+            "presthubot": 72,
             "example-modules": 7,
             "ps_qualityassurance": 3,
             "test-scenarios": 1,
@@ -4034,7 +4034,7 @@
                 }
             },
             "tools": {
-                "total": 221,
+                "total": 222,
                 "repositories": {
                     "bootstrap-compatibility-layer": 1,
                     "docker": 6,
@@ -4043,7 +4043,7 @@
                     "mjml-theme-converter": 1,
                     "nightly-board": 1,
                     "PrestaShop-webservice-lib": 1,
-                    "presthubot": 71,
+                    "presthubot": 72,
                     "prestonbot": 1,
                     "QANightlyResults": 104,
                     "TopContributors": 7,
@@ -4447,7 +4447,7 @@
         "location": "74100 Annemasse, France",
         "bio": null,
         "email_domain": "",
-        "contributions": 1051,
+        "contributions": 1052,
         "repositories": {
             "PrestaShop": 56,
             "statscatalog": 2,
@@ -4459,7 +4459,7 @@
             "productcomments": 5,
             "autoupgrade": 830,
             "prestashop.github.io": 5,
-            "ps_socialfollow": 4,
+            "ps_socialfollow": 5,
             "ps_customtext": 1,
             "ps_emailsubscription": 1,
             "ps_imageslider": 2,
@@ -4499,7 +4499,7 @@
                 }
             },
             "modules": {
-                "total": 867,
+                "total": 868,
                 "repositories": {
                     "statscatalog": 2,
                     "statscheckup": 2,
@@ -4509,7 +4509,7 @@
                     "statssearch": 5,
                     "productcomments": 5,
                     "autoupgrade": 830,
-                    "ps_socialfollow": 4,
+                    "ps_socialfollow": 5,
                     "ps_customtext": 1,
                     "ps_emailsubscription": 1,
                     "ps_imageslider": 2,
@@ -9399,7 +9399,7 @@
         "location": "Via Giuseppe Saragat, 19 86170 Isernia - ITALIA",
         "bio": "Siamo un'agenzia di Branding, Comunicazione e Marketing.\r\nRealizziamo progetti di comunicazione visiva brand-oriented, web design e web marketing.",
         "email_domain": "codencode.it",
-        "contributions": 189,
+        "contributions": 190,
         "repositories": {
             "PrestaShop": 122,
             "dashactivity": 2,
@@ -9407,6 +9407,7 @@
             "statsstock": 1,
             "autoupgrade": 4,
             "blockreassurance": 2,
+            "ps_socialfollow": 1,
             "ps_emailsubscription": 21,
             "ps_imageslider": 2,
             "ps_mainmenu": 1,
@@ -9440,13 +9441,14 @@
                 }
             },
             "modules": {
-                "total": 61,
+                "total": 62,
                 "repositories": {
                     "dashactivity": 2,
                     "statsforecast": 1,
                     "statsstock": 1,
                     "autoupgrade": 4,
                     "blockreassurance": 2,
+                    "ps_socialfollow": 1,
                     "ps_emailsubscription": 21,
                     "ps_imageslider": 2,
                     "ps_mainmenu": 1,
@@ -49505,5 +49507,5 @@
             }
         }
     },
-    "updatedAt": "2025-11-12 06:20:31"
+    "updatedAt": "2025-11-12 10:28:30"
 }

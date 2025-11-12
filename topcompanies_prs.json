@@ -73,7 +73,7 @@
             "2013": 1035,
             "2012": 56
         },
-        "contributions_percent": 27.69,
+        "contributions_percent": 27.68,
         "avatar_url": "",
         "html_url": "https:\/\/www.prestashop-project.org"
     },
@@ -83,9 +83,9 @@
             "rank": 1,
             "rank_contributions": 1,
             "rank_pull_requests": 1,
-            "merged_pull_requests": 16460,
+            "merged_pull_requests": 16463,
             "merged_pull_requests_by_version": {
-                "9.1": 114,
+                "9.1": 115,
                 "9.0": 972,
                 "8.2": 32,
                 "8.1": 467,
@@ -102,7 +102,7 @@
                 "1.6.1": 358
             },
             "merged_pull_requests_by_year": {
-                "2025": 1107,
+                "2025": 1110,
                 "2024": 1295,
                 "2023": 1572,
                 "2022": 1576,
@@ -117,9 +117,9 @@
                 "2013": 24
             },
             "pull_requests_percent": 61.06,
-            "contributions": 77767,
+            "contributions": 77776,
             "contributions_by_version": {
-                "9.1": 1927,
+                "9.1": 1928,
                 "9.0": 3938,
                 "8.2": 75,
                 "8.1": 2934,
@@ -136,7 +136,7 @@
                 "1.6.1": 485
             },
             "contributions_by_year": {
-                "2025": 4500,
+                "2025": 4509,
                 "2024": 5080,
                 "2023": 6413,
                 "2022": 10151,
@@ -607,28 +607,28 @@
             "rank": 11,
             "rank_contributions": 13,
             "rank_pull_requests": 11,
-            "merged_pull_requests": 45,
+            "merged_pull_requests": 46,
             "merged_pull_requests_by_version": {
                 "9.1": 2,
-                "9.0": 28,
+                "9.0": 29,
                 "8.2": 2,
                 "8.1": 1
             },
             "merged_pull_requests_by_year": {
-                "2025": 43,
+                "2025": 44,
                 "2024": 1,
                 "2023": 1
             },
             "pull_requests_percent": 0.17,
-            "contributions": 47,
+            "contributions": 48,
             "contributions_by_version": {
                 "9.1": 2,
-                "9.0": 28,
+                "9.0": 29,
                 "8.2": 2,
                 "8.1": 1
             },
             "contributions_by_year": {
-                "2025": 44,
+                "2025": 45,
                 "2024": 1,
                 "2023": 2
             },
@@ -1943,6 +1943,26 @@
             "contributions_percent": 0,
             "avatar_url": "",
             "html_url": ""
+        },
+        {
+            "name": "Presteamshop",
+            "rank": 20,
+            "rank_contributions": 48,
+            "rank_pull_requests": 20,
+            "merged_pull_requests": 1,
+            "merged_pull_requests_by_version": [],
+            "merged_pull_requests_by_year": {
+                "2025": 1
+            },
+            "pull_requests_percent": 0,
+            "contributions": 1,
+            "contributions_by_version": [],
+            "contributions_by_year": {
+                "2025": 1
+            },
+            "contributions_percent": 0,
+            "avatar_url": "",
+            "html_url": "https:\/\/www.presteamshop.com"
         },
         {
             "name": "Rub\u00e9n",
