@@ -10,7 +10,7 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 9793,
+        "contributions": 9794,
         "repositories": {
             "PrestaShop": 1075,
             "PrestaShop-modules": 2,
@@ -565,7 +565,7 @@
         "location": "London",
         "bio": null,
         "email_domain": "",
-        "contributions": 4853,
+        "contributions": 4854,
         "repositories": {
             "PrestaShop": 395,
             "PrestaShop-modules": 14,
@@ -16296,66 +16296,6 @@
         },
         "mergedPullRequests": 8
     },
-    "samberrry": {
-        "login": "samberrry",
-        "id": 20775532,
-        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/20775532?v=4",
-        "html_url": "https:\/\/github.com\/samberrry",
-        "name": "Sam Berry",
-        "company": "@binshops ",
-        "blog": "https:\/\/www.binshops.com",
-        "location": null,
-        "bio": "Founder @ Binshops. \r\nOpen-source enthusiast.",
-        "email_domain": "binshops.com",
-        "contributions": 38,
-        "repositories": {
-            "PrestaShop": 3,
-            "docs": 5
-        },
-        "categories": {
-            "core": {
-                "total": 3,
-                "repositories": {
-                    "PrestaShop": 3
-                }
-            },
-            "specs": {
-                "total": 0,
-                "repositories": []
-            },
-            "documentation": {
-                "total": 5,
-                "repositories": {
-                    "docs": 5
-                }
-            },
-            "themes": {
-                "total": 0,
-                "repositories": []
-            },
-            "modules": {
-                "total": 0,
-                "repositories": []
-            },
-            "tools": {
-                "total": 0,
-                "repositories": []
-            },
-            "tests": {
-                "total": 0,
-                "repositories": []
-            },
-            "blog": {
-                "total": 0,
-                "repositories": []
-            },
-            "others": {
-                "total": 0,
-                "repositories": []
-            }
-        },
-        "mergedPullRequests": 8
-    },
     "rblaurin": {
         "login": "rblaurin",
         "id": 19739263,
@@ -16943,6 +16883,66 @@
                     "autoupgrade": 1,
                     "prestafraud": 1
                 }
+            },
+            "tools": {
+                "total": 0,
+                "repositories": []
+            },
+            "tests": {
+                "total": 0,
+                "repositories": []
+            },
+            "blog": {
+                "total": 0,
+                "repositories": []
+            },
+            "others": {
+                "total": 0,
+                "repositories": []
+            }
+        },
+        "mergedPullRequests": 8
+    },
+    "samberrry": {
+        "login": "samberrry",
+        "id": 20775532,
+        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/20775532?v=4",
+        "html_url": "https:\/\/github.com\/samberrry",
+        "name": "Sam Berry",
+        "company": "@binshops ",
+        "blog": "https:\/\/www.binshops.com",
+        "location": null,
+        "bio": "Founder @ Binshops. \r\nOpen-source enthusiast.",
+        "email_domain": "",
+        "contributions": 5,
+        "repositories": {
+            "PrestaShop": 3,
+            "docs": 5
+        },
+        "categories": {
+            "core": {
+                "total": 3,
+                "repositories": {
+                    "PrestaShop": 3
+                }
+            },
+            "specs": {
+                "total": 0,
+                "repositories": []
+            },
+            "documentation": {
+                "total": 5,
+                "repositories": {
+                    "docs": 5
+                }
+            },
+            "themes": {
+                "total": 0,
+                "repositories": []
+            },
+            "modules": {
+                "total": 0,
+                "repositories": []
             },
             "tools": {
                 "total": 0,
@@ -29879,9 +29879,9 @@
         "html_url": "https:\/\/github.com\/c100k",
         "name": "Chafik",
         "company": null,
-        "blog": "https:\/\/libmodulor.c100k.eu",
+        "blog": "",
         "location": "Paris",
-        "bio": "Freelance - Full stack - Creator of \ud83d\udcf1 RebootX \u2022 \ud83d\ude80 libmodulor \u2022 \ud83d\udd11 ddot \u2022 \ud83d\udcf1 SelfSync \u2022 \ud83c\udfd4\ufe0f TrekStories",
+        "bio": "libmodulor.c100k.eu -- github.com\/c100k\/ddot -- c100k.eu\/p\/rebootx -- c100k.eu\/p\/selfsync -- trekstories.c100k.eu",
         "email_domain": "gmail.com",
         "contributions": 1,
         "repositories": {

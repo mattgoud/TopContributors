@@ -10,7 +10,7 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 9793,
+        "contributions": 9794,
         "repositories": {
             "PrestaShop": 4285,
             "PrestaShop-modules": 31,
@@ -118,7 +118,7 @@
             "stylelint-config": 7,
             "example-modules": 6,
             "ps_qualityassurance": 1,
-            "test-scenarios": 901,
+            "test-scenarios": 902,
             "user-documentation-it": 2,
             "user-documentation-landing": 3,
             "user-documentation-en": 1,
@@ -160,7 +160,7 @@
                 }
             },
             "documentation": {
-                "total": 1118,
+                "total": 1119,
                 "repositories": {
                     "docs": 144,
                     "user-documentation-landing": 3,
@@ -168,7 +168,7 @@
                     "user-documentation-it": 2,
                     "user-documentation-v8-en": 1,
                     "functional-documentation": 2,
-                    "test-scenarios": 901,
+                    "test-scenarios": 902,
                     "example-modules": 6,
                     "open-source": 31,
                     "example_module_mailtheme": 4,
@@ -973,7 +973,7 @@
         "location": "London",
         "bio": null,
         "email_domain": "",
-        "contributions": 4853,
+        "contributions": 4854,
         "repositories": {
             "PrestaShop": 1708,
             "PrestaShop-modules": 349,
@@ -1007,7 +1007,7 @@
             "productcomments": 1,
             "pscleaner": 3,
             "themeinstallator": 3,
-            "autoupgrade": 1266,
+            "autoupgrade": 1267,
             "gsitemap": 6,
             "prestafraud": 1,
             "prestashop.github.io": 17,
@@ -1104,7 +1104,7 @@
                 }
             },
             "modules": {
-                "total": 2140,
+                "total": 2141,
                 "repositories": {
                     "PrestaShop-modules": 349,
                     "dashactivity": 1,
@@ -1135,7 +1135,7 @@
                     "blockwishlist": 38,
                     "productcomments": 1,
                     "pscleaner": 3,
-                    "autoupgrade": 1266,
+                    "autoupgrade": 1267,
                     "gsitemap": 6,
                     "prestafraud": 1,
                     "contactform": 1,
@@ -14788,65 +14788,6 @@
             }
         }
     },
-    "samberrry": {
-        "login": "samberrry",
-        "id": 20775532,
-        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/20775532?v=4",
-        "html_url": "https:\/\/github.com\/samberrry",
-        "name": "Sam Berry",
-        "company": "@binshops ",
-        "blog": "https:\/\/www.binshops.com",
-        "location": null,
-        "bio": "Founder @ Binshops. \r\nOpen-source enthusiast.",
-        "email_domain": "binshops.com",
-        "contributions": 38,
-        "repositories": {
-            "PrestaShop": 33,
-            "docs": 5
-        },
-        "categories": {
-            "core": {
-                "total": 33,
-                "repositories": {
-                    "PrestaShop": 33
-                }
-            },
-            "specs": {
-                "total": 0,
-                "repositories": []
-            },
-            "documentation": {
-                "total": 5,
-                "repositories": {
-                    "docs": 5
-                }
-            },
-            "themes": {
-                "total": 0,
-                "repositories": []
-            },
-            "modules": {
-                "total": 0,
-                "repositories": []
-            },
-            "tools": {
-                "total": 0,
-                "repositories": []
-            },
-            "tests": {
-                "total": 0,
-                "repositories": []
-            },
-            "blog": {
-                "total": 0,
-                "repositories": []
-            },
-            "others": {
-                "total": 0,
-                "repositories": []
-            }
-        }
-    },
     "dkarvounaris": {
         "login": "dkarvounaris",
         "id": 4226932,
@@ -15830,16 +15771,16 @@
             }
         }
     },
-    "creack": {
-        "login": "creack",
-        "id": 521701,
-        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/521701?v=4",
-        "html_url": "https:\/\/github.com\/creack",
-        "name": "Guillaume J. Charmes",
-        "company": "Immertec",
-        "blog": "https:\/\/blog.charmes.net",
-        "location": "Fort Lauderdale, FL",
-        "bio": "@golang @docker\r\n@gofinance @while42-org ",
+    "LucasC": {
+        "login": "LucasC",
+        "id": 679004,
+        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/679004?v=4",
+        "html_url": "https:\/\/github.com\/LucasC",
+        "name": "Lucas CERDAN",
+        "company": null,
+        "blog": "www.lucascerdan.com",
+        "location": "France",
+        "bio": null,
         "email_domain": "",
         "contributions": 32,
         "repositories": {
@@ -15886,16 +15827,16 @@
             }
         }
     },
-    "LucasC": {
-        "login": "LucasC",
-        "id": 679004,
-        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/679004?v=4",
-        "html_url": "https:\/\/github.com\/LucasC",
-        "name": "Lucas CERDAN",
-        "company": null,
-        "blog": "www.lucascerdan.com",
-        "location": "France",
-        "bio": null,
+    "creack": {
+        "login": "creack",
+        "id": 521701,
+        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/521701?v=4",
+        "html_url": "https:\/\/github.com\/creack",
+        "name": "Guillaume J. Charmes",
+        "company": "Immertec",
+        "blog": "https:\/\/blog.charmes.net",
+        "location": "Fort Lauderdale, FL",
+        "bio": "@golang @docker\r\n@gofinance @while42-org ",
         "email_domain": "",
         "contributions": 32,
         "repositories": {
@@ -16929,17 +16870,17 @@
             }
         }
     },
-    "YosraAk": {
-        "login": "YosraAk",
-        "id": 12126707,
-        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/12126707?v=4",
-        "html_url": "https:\/\/github.com\/YosraAk",
-        "name": "YosraAkrout",
-        "company": null,
+    "erouvier29": {
+        "login": "erouvier29",
+        "id": 9985812,
+        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/9985812?v=4",
+        "html_url": "https:\/\/github.com\/erouvier29",
+        "name": "Eric Rouvier",
+        "company": "KerAwen",
         "blog": "",
-        "location": null,
+        "location": "Brest, France",
         "bio": null,
-        "email_domain": "",
+        "email_domain": "gmail.com",
         "contributions": 27,
         "repositories": {
             "PrestaShop": 27
@@ -16985,17 +16926,17 @@
             }
         }
     },
-    "erouvier29": {
-        "login": "erouvier29",
-        "id": 9985812,
-        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/9985812?v=4",
-        "html_url": "https:\/\/github.com\/erouvier29",
-        "name": "Eric Rouvier",
-        "company": "KerAwen",
+    "YosraAk": {
+        "login": "YosraAk",
+        "id": 12126707,
+        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/12126707?v=4",
+        "html_url": "https:\/\/github.com\/YosraAk",
+        "name": "YosraAkrout",
+        "company": null,
         "blog": "",
-        "location": "Brest, France",
+        "location": null,
         "bio": null,
-        "email_domain": "gmail.com",
+        "email_domain": "",
         "contributions": 27,
         "repositories": {
             "PrestaShop": 27
@@ -27010,6 +26951,62 @@
         "blog": "",
         "location": null,
         "bio": null,
+        "email_domain": "",
+        "contributions": 5,
+        "repositories": {
+            "docs": 5
+        },
+        "categories": {
+            "core": {
+                "total": 0,
+                "repositories": []
+            },
+            "specs": {
+                "total": 0,
+                "repositories": []
+            },
+            "documentation": {
+                "total": 5,
+                "repositories": {
+                    "docs": 5
+                }
+            },
+            "themes": {
+                "total": 0,
+                "repositories": []
+            },
+            "modules": {
+                "total": 0,
+                "repositories": []
+            },
+            "tools": {
+                "total": 0,
+                "repositories": []
+            },
+            "tests": {
+                "total": 0,
+                "repositories": []
+            },
+            "blog": {
+                "total": 0,
+                "repositories": []
+            },
+            "others": {
+                "total": 0,
+                "repositories": []
+            }
+        }
+    },
+    "samberrry": {
+        "login": "samberrry",
+        "id": 20775532,
+        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/20775532?v=4",
+        "html_url": "https:\/\/github.com\/samberrry",
+        "name": "Sam Berry",
+        "company": "@binshops ",
+        "blog": "https:\/\/www.binshops.com",
+        "location": null,
+        "bio": "Founder @ Binshops. \r\nOpen-source enthusiast.",
         "email_domain": "",
         "contributions": 5,
         "repositories": {
@@ -39043,9 +39040,9 @@
         "html_url": "https:\/\/github.com\/c100k",
         "name": "Chafik",
         "company": null,
-        "blog": "https:\/\/libmodulor.c100k.eu",
+        "blog": "",
         "location": "Paris",
-        "bio": "Freelance - Full stack - Creator of \ud83d\udcf1 RebootX \u2022 \ud83d\ude80 libmodulor \u2022 \ud83d\udd11 ddot \u2022 \ud83d\udcf1 SelfSync \u2022 \ud83c\udfd4\ufe0f TrekStories",
+        "bio": "libmodulor.c100k.eu -- github.com\/c100k\/ddot -- c100k.eu\/p\/rebootx -- c100k.eu\/p\/selfsync -- trekstories.c100k.eu",
         "email_domain": "gmail.com",
         "contributions": 1,
         "repositories": {
@@ -49508,5 +49505,5 @@
             }
         }
     },
-    "updatedAt": "2025-11-11 06:15:40"
+    "updatedAt": "2025-11-12 06:20:31"
 }
