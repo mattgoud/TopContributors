@@ -137,5 +137,19 @@ a.puik-button:hover {
 .puik-modal__dialogPanelContainer {
     align-items: flex-start;
 }
+.puik-modal--large .puik-modal__dialogPanelContainer__dialogPanel {
+    @media (width >= 40rem) {
+        max-width: 1024px;
+    }
+}
 
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
 </style>

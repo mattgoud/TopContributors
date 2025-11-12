@@ -62,8 +62,8 @@ const closeModal = () => {
   <TopCard
     title="🔥 Top contributors"
     description="These experts spent hours improving PrestaShop's quality."
-    external-link-content="View all"
-    external-link-href="https://contributors.prestashop-project.org/"
+    link-content="View all"
+    link-href="#wof-all-contributors"
     :headers="headers"
     :items="topContributors"
     :stickyLastCol="stickyLastCol"

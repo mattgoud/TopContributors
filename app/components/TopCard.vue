@@ -4,8 +4,8 @@ import { type PuikTableHeader } from '@prestashopcorp/puik-components'
 defineProps<{
   title: string
   description?: string
-  externalLinkHref?: string
-  externalLinkContent?: string
+  linkHref?: string
+  linkContent?: string
   headers: PuikTableHeader[]
   items: any[]
   stickyLastCol?: boolean
@@ -23,17 +23,17 @@ const emit = defineEmits<{
     <div class="wof-top-card__title-container">
       <h3 class="wof-top-card__title puik-h2">{{ title }}</h3>
       <puik-button
-        v-if="externalLinkContent && externalLinkHref"
+        v-if="linkContent && linkHref"
         variant="secondary"
-        :aria-label="externalLinkContent"
+        :aria-label="linkContent"
         class="wof-top-card__external-link"
       >
         <puik-link
-          :href="externalLinkHref"
-          target="_blank"
-          :aria-label="externalLinkContent"
+          :href="linkHref"
+          target="_self"
+          :aria-label="linkContent"
         >
-          {{ externalLinkContent }}
+          {{ linkContent }}
         </puik-link>
       </puik-button>
     </div>

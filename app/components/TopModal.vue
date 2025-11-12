@@ -11,6 +11,7 @@ const emit = defineEmits<{
 }>()
 
 const selectedCategory = ref<string | null>(null)
+const positionTab = ref(1)
 
 const close = () => {
   emit('close');
@@ -98,34 +99,55 @@ const  selectCategory = (category: string) =>{
       </div>
 
       <div class="wof-top-modal__main-content">
-        <p class="puik-body-default-medium">{{ contributor.mergedPullRequests }} contributions</p>
-        <puik-button v-if="selectedCategory" class="wof-top-modal__back-button" @click="selectedCategory = null">back</puik-button>
-        <div v-if="!selectedCategory" class="wof-top-modal__categories">
-          <puik-card
-            class="wof-top-modal__categories__card"
-            v-for="(data, category) in contributor.categories"
-            :key="category"
-            @click="selectCategory(category)"
-          >
-            <p class="puik-h2">{{ data.total }}</p>
-            <p class="puik-body-default">{{ category }}</p>
-          </puik-card>
-        </div>
-        <div v-if="selectedCategory && contributor.categories && contributor.categories[selectedCategory]" class="wof-top-modal__categories">
-          <a
-            v-for="(data, repository) in contributor.categories[selectedCategory]?.repositories || {}"
-            :href="`https://github.com/PrestaShop/${repository}/pulls?q=is%3Apr+is%3Amerged+author%3A${contributor.login}`"
-            target="_blank"
-          >
-          <puik-card
-            class="wof-top-modal__categories__card"
-            :key="repository"
-          >
-            <p class="puik-h2">{{ data }}</p>
-            <p class="puik-body-default">{{ repository }}</p>
-          </puik-card>
-        </a>
-        </div>
+        <puik-tab-navigation :key="positionTab" name="contributor-modal-tab-nav" :default-position="positionTab">
+          <puik-tab-navigation-group-titles aria-label="contributor-modal-tab-nav-titles">
+              <puik-tab-navigation-title :position="1">
+                Contributions ({{ contributor.mergedPullRequests }})
+              </puik-tab-navigation-title>
+              <puik-tab-navigation-title v-if="contributor.bio && contributor.bio !== ''" :position="2">
+                About
+              </puik-tab-navigation-title>
+          </puik-tab-navigation-group-titles>
+          <puik-tab-navigation-group-panels>
+            <puik-tab-navigation-panel :position="1">
+              <puik-button v-if="selectedCategory" class="wof-top-modal__back-button" size="sm" left-icon="arrow_back" @click="selectedCategory = null">
+                back
+              </puik-button>
+              <div v-if="!selectedCategory" class="wof-top-modal__categories">
+                <puik-card
+                  class="wof-top-modal__category__card"
+                  v-for="(data, category) in contributor.categories"
+                  :key="category"
+                  @click="selectCategory(category)"
+                >
+                  <p class="puik-h2">{{ data.total }}</p>
+                  <p class="puik-body-default">{{ category }}</p>
+                </puik-card>
+              </div>
+              <div v-if="selectedCategory && contributor.categories && contributor.categories[selectedCategory]" class="wof-top-modal__categories">
+                <a
+                  v-for="(data, repository) in contributor.categories[selectedCategory]?.repositories || {}"
+                  class="wof-top-modal__repository__link"
+                  :href="`https://github.com/PrestaShop/${repository}/pulls?q=is%3Apr+is%3Amerged+author%3A${contributor.login}`"
+                  target="_blank"
+                >
+                <puik-card
+                  class="wof-top-modal__repository__card"
+                  :key="repository"
+                >
+                  <p class="puik-h2">{{ data }}</p>
+                  <p class="puik-body-default">{{ repository }}</p>
+                </puik-card>
+              </a>
+              </div>
+            </puik-tab-navigation-panel>
+            <puik-tab-navigation-panel v-if="contributor.bio && contributor.bio !== ''" :position="2">
+              <div class="puik-body-default p-4 bg-white">
+                {{ contributor.bio }}
+              </div>
+            </puik-tab-navigation-panel>
+          </puik-tab-navigation-group-panels>
+        </puik-tab-navigation>
       </div>
     </div>
   </puik-modal>
@@ -166,6 +188,10 @@ const  selectCategory = (category: string) =>{
 }
 .wof-top-modal__title h3 {
   margin-bottom: 0;
+}
+
+.wof-top-modal__main-content .puik-tab-navigation__group-panels {
+  padding: 1rem 0;
 }
 .wof-top-modal__side-content {
   padding: 20px;
@@ -222,21 +248,29 @@ const  selectCategory = (category: string) =>{
 }
 .wof-top-modal__categories {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
   gap: 1rem;
 }
-.wof-top-modal__categories__card {
+.wof-top-modal__category__card, .wof-top-modal__repository__card {
   padding: 1rem;
   display: flex;
   flex-direction: column;
   gap: 0;
+  cursor: pointer;
 }
-.wof-top-modal__categories__card p {
+.wof-top-modal__category__card p, .wof-top-modal__repository__card p {
   margin: 0;
   overflow: hidden;
   text-overflow: ellipsis;
 }
+.wof-top-modal__repository__link {
+  display: flex;
+}
+.wof-top-modal__repository__card {
+  flex-grow: 1;
+}
 .wof-top-modal__back-button {
   align-self: start;
+  margin-bottom: 1rem;
 }
 </style>
