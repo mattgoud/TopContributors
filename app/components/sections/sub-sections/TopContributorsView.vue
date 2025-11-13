@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import type { PuikTableHeader } from '@prestashopcorp/puik-components'
-import type { Contributor } from '@/types'
+import type { Contributor, Company } from '@/types'
 
 defineProps<{
   topContributors: Contributor[]
@@ -47,10 +47,10 @@ const headers: PuikTableHeader[] = [
 const stickyLastCol = ref(false)
 const fullWidth = ref(true)
 
-const modalContributorItem = ref()
+const modalContributorItem = ref<Contributor | null>(null)
 const isModalOpen = ref(false)
-const openModal = (contributor: any) => {
-  modalContributorItem.value = contributor
+const openModal = (item: Contributor | Company) => {
+  modalContributorItem.value = item as Contributor
   isModalOpen.value = true
 }
 const closeModal = () => {
@@ -66,7 +66,7 @@ const closeModal = () => {
     link-href="#wof-all-contributors"
     :headers="headers"
     :items="topContributors"
-    :stickyLastCol="stickyLastCol"
+    :sticky-last-col="stickyLastCol"
     :full-width="fullWidth"
     @view="openModal"
   >
@@ -97,11 +97,11 @@ const closeModal = () => {
 
     <template #item-actions="{ item }">
       <puik-button
-        @click="openModal(item)"
         variant="text"
         force-legacy-text-variant
         right-icon="visibility"
         aria-label="view profile"
+        @click="openModal(item)"
       />
     </template>
   </TopCard>
@@ -109,7 +109,7 @@ const closeModal = () => {
   <TopModal
     v-if="modalContributorItem"
     :contributor="modalContributorItem"
-    :isOpen="isModalOpen"
+    :is-open="isModalOpen"
     @close="closeModal"
   />
 </template>

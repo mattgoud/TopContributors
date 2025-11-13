@@ -14,7 +14,7 @@ const newContributors = ref<NewContributor[]>([])
 
 onMounted(async () => {
   try {
-    const response = await fetch('https://contributors.prestashop-project.org/newcontributors.json')
+    const response = await fetch('/newcontributors.json')
     if (!response.ok) throw new Error('Error loading new contributors')
     const data: Record<string, NewContributor> = await response.json()
     newContributors.value = Object.values(data)
@@ -23,7 +23,7 @@ onMounted(async () => {
   }
 
   try {
-    const response = await fetch('https://contributors.prestashop-project.org/topcompanies.json')
+    const response = await fetch('/topcompanies_prs.json')
     if (!response.ok) throw new Error('Error loading top companies')
     const data = await response.json()
     
@@ -42,7 +42,7 @@ onMounted(async () => {
   }
 
   try {
-    const response = await fetch('https://contributors.prestashop-project.org/contributors_prs.json')
+    const response = await fetch('/contributors_prs.json')
     if (!response.ok) throw new Error('Error loading contributors data')
 
     const data = await response.json()
@@ -76,8 +76,8 @@ onMounted(async () => {
       <NewContributorsSectionView :new-contributors="newContributors" />
       <WallOfFameSectionView :contributors-data="contributorsData" :companies-data="companiesData"/>
       <ContributeSectionView
-        contributeLink="https://devdocs.prestashop-project.org/9/contribute/contribute-pull-requests/"
-        slackLink="https://www.prestashop-project.org/slack/"
+        contribute-link="https://devdocs.prestashop-project.org/9/contribute/contribute-pull-requests/"
+        slack-link="https://www.prestashop-project.org/slack/"
       />
     </main>
   </div>

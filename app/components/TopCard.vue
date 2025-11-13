@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import { type PuikTableHeader } from '@prestashopcorp/puik-components'
+import type { PuikTableHeader } from '@prestashopcorp/puik-components'
+import type { Company, Contributor } from '@/types'
 
 defineProps<{
   title: string
@@ -7,14 +8,14 @@ defineProps<{
   linkHref?: string
   linkContent?: string
   headers: PuikTableHeader[]
-  items: any[]
+  items: Company[] | Contributor[]
   stickyLastCol?: boolean
   fullWidth?: boolean
 }>()
 
-const emit = defineEmits<{
-  (e: 'view', item: any): void
-  (e: 'action', payload: any): void
+defineEmits<{
+  (e: 'view', item: Company | Contributor): void
+  (e: 'action', payload: unknown): void
 }>()
 </script>
 
@@ -43,13 +44,13 @@ const emit = defineEmits<{
       v-if="items?.length"
       :headers="headers"
       :items="items"
-      :stickyLastCol="stickyLastCol"
-      :fullWidth="fullWidth"
+      :sticky-last-col="stickyLastCol"
+      :full-width="fullWidth"
     >
       <template
         v-for="header in headers"
         :key="header.value"
-        v-slot:[`item-${header.value}`]="slotProps"
+        #[`item-${header.value}`]="slotProps"
       >
         <slot
           :name="`item-${header.value}`"

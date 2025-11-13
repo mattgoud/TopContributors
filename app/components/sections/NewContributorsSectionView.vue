@@ -57,7 +57,7 @@ const carousel_config = {
               class="wof-new-contributors-section__img"
               :src="newContributor.avatar_url"
               :alt="`${newContributor.name ?? newContributor.login} avatar`"
-            />
+            >
           </div>
           <h3 class="puik-h3">{{ newContributor.name ?? newContributor.login}}</h3>
           <p class="puik-body-default">{{ newContributor.login }}</p>

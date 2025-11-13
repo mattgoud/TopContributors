@@ -55,7 +55,7 @@ const fullWidth = ref(true)
     description="Meet the top companies who are helping us strengthen PrestaShop."
     :headers="headers"
     :items="topCompanies"
-    :stickyLastCol="stickyLastCol"
+    :sticky-last-col="stickyLastCol"
     :full-width="fullWidth"
   >
     <template #item-rank="{ item }">

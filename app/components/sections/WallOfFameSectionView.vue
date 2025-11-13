@@ -30,7 +30,7 @@ const paginatedItems = computed(() =>
 
 const modalContributorItem = ref()
 const isModalOpen = ref(false)
-const openModal = (contributor: any) => { modalContributorItem.value = contributor; isModalOpen.value = true }
+const openModal = (contributor: Contributor) => { modalContributorItem.value = contributor; isModalOpen.value = true }
 const closeModal = () => { isModalOpen.value = false }
 
 // SEARCH
@@ -108,12 +108,12 @@ watch(
       :headers="headers"
       :search-bar="true"
       :items="paginatedItems"
-      :stickyLastCol="stickyLastCol"
-      :fullWidth="fullWidth"
-      :searchFromServer="true"
-      :sortFromServer="true"
-      @searchSubmit="handleSearchSubmit"
-      @sortColumn="handleSort"
+      :sticky-last-col="stickyLastCol"
+      :full-width="fullWidth"
+      :search-from-server="true"
+      :sort-from-server="true"
+      @search-submit="handleSearchSubmit"
+      @sort-column="handleSort"
     >
       <template #item-rank="{ item }">
         <div
@@ -141,16 +141,16 @@ watch(
 
       <template #item-actions="{ item }">
         <puik-button
-          @click="openModal(item)"
           variant="text"
           force-legacy-text-variant
           right-icon="visibility"
           aria-label="view profile"
+          @click="openModal(item)"
         />
       </template>
     </puik-table>
 
-    <div class="wof-no-results" v-if="contributorsRef.length === 0">
+    <div v-if="contributorsRef.length === 0" class="wof-no-results">
        No contributors found with your search.
     </div>
 
@@ -165,7 +165,7 @@ watch(
     <TopModal
       v-if="modalContributorItem"
       :contributor="modalContributorItem"
-      :isOpen="isModalOpen"
+      :is-open="isModalOpen"
       @close="closeModal"
     />
   </section>

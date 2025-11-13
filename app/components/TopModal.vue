@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { Contributor } from '@/types'
 
-const props = defineProps<{
+defineProps<{
   contributor: Contributor
   isOpen: boolean
 }>()
@@ -38,7 +38,7 @@ const  selectCategory = (category: string) =>{
     <div class="wof-top-modal__container">
       <div class="wof-top-modal__side-content">
         <div class="wof-top-modal__avatar">
-          <img :src="contributor.avatar_url" alt="contributor avatar" />
+          <img :src="contributor.avatar_url" alt="contributor avatar" >
         </div>
         <div class="wof-top-modal__title">
           <div v-if="contributor.name">
@@ -100,7 +100,7 @@ const  selectCategory = (category: string) =>{
 
       <div class="wof-top-modal__main-content">
         <puik-tab-navigation :key="positionTab" name="contributor-modal-tab-nav" :default-position="positionTab">
-          <puik-tab-navigation-group-titles aria-label="contributor-modal-tab-nav-titles">
+          <puik-tab-navigation-group-titles ariaLabel="contributor-modal-tab-nav-titles">
               <puik-tab-navigation-title :position="1">
                 Contributions ({{ contributor.mergedPullRequests }})
               </puik-tab-navigation-title>
@@ -115,9 +115,9 @@ const  selectCategory = (category: string) =>{
               </puik-button>
               <div v-if="!selectedCategory" class="wof-top-modal__categories">
                 <puik-card
-                  class="wof-top-modal__category__card"
                   v-for="(data, category) in contributor.categories"
                   :key="category"
+                  class="wof-top-modal__category__card"
                   @click="selectCategory(category)"
                 >
                   <p class="puik-h2">{{ data.total }}</p>
@@ -127,13 +127,14 @@ const  selectCategory = (category: string) =>{
               <div v-if="selectedCategory && contributor.categories && contributor.categories[selectedCategory]" class="wof-top-modal__categories">
                 <a
                   v-for="(data, repository) in contributor.categories[selectedCategory]?.repositories || {}"
+                  :key="repository"
                   class="wof-top-modal__repository__link"
                   :href="`https://github.com/PrestaShop/${repository}/pulls?q=is%3Apr+is%3Amerged+author%3A${contributor.login}`"
                   target="_blank"
                 >
                 <puik-card
-                  class="wof-top-modal__repository__card"
                   :key="repository"
+                  class="wof-top-modal__repository__card"
                 >
                   <p class="puik-h2">{{ data }}</p>
                   <p class="puik-body-default">{{ repository }}</p>
