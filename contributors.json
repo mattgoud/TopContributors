@@ -10,9 +10,9 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 9805,
+        "contributions": 9808,
         "repositories": {
-            "PrestaShop": 4289,
+            "PrestaShop": 4291,
             "PrestaShop-modules": 31,
             "PrestaShop-webservice-lib": 4,
             "dashactivity": 14,
@@ -118,7 +118,7 @@
             "stylelint-config": 7,
             "example-modules": 6,
             "ps_qualityassurance": 1,
-            "test-scenarios": 902,
+            "test-scenarios": 903,
             "user-documentation-it": 2,
             "user-documentation-landing": 3,
             "user-documentation-en": 1,
@@ -139,9 +139,9 @@
         },
         "categories": {
             "core": {
-                "total": 4392,
+                "total": 4394,
                 "repositories": {
-                    "PrestaShop": 4289,
+                    "PrestaShop": 4291,
                     "prestashop-ui-kit": 50,
                     "TranslationToolsBundle": 9,
                     "LocalizationFiles": 9,
@@ -160,7 +160,7 @@
                 }
             },
             "documentation": {
-                "total": 1119,
+                "total": 1120,
                 "repositories": {
                     "docs": 144,
                     "user-documentation-landing": 3,
@@ -168,7 +168,7 @@
                     "user-documentation-it": 2,
                     "user-documentation-v8-en": 1,
                     "functional-documentation": 2,
-                    "test-scenarios": 902,
+                    "test-scenarios": 903,
                     "example-modules": 6,
                     "open-source": 31,
                     "example_module_mailtheme": 4,
@@ -973,7 +973,7 @@
         "location": "London",
         "bio": null,
         "email_domain": "",
-        "contributions": 4857,
+        "contributions": 4860,
         "repositories": {
             "PrestaShop": 1708,
             "PrestaShop-modules": 349,
@@ -1007,7 +1007,7 @@
             "productcomments": 1,
             "pscleaner": 3,
             "themeinstallator": 3,
-            "autoupgrade": 1270,
+            "autoupgrade": 1273,
             "gsitemap": 6,
             "prestafraud": 1,
             "prestashop.github.io": 17,
@@ -1104,7 +1104,7 @@
                 }
             },
             "modules": {
-                "total": 2144,
+                "total": 2147,
                 "repositories": {
                     "PrestaShop-modules": 349,
                     "dashactivity": 1,
@@ -1135,7 +1135,7 @@
                     "blockwishlist": 38,
                     "productcomments": 1,
                     "pscleaner": 3,
-                    "autoupgrade": 1270,
+                    "autoupgrade": 1273,
                     "gsitemap": 6,
                     "prestafraud": 1,
                     "contactform": 1,
@@ -1786,7 +1786,7 @@
         "location": "Bydgoszcz, Poland",
         "bio": "I'm a web developer from Poland, specializing in working with PrestaShop e-commerce",
         "email_domain": "",
-        "contributions": 3099,
+        "contributions": 3100,
         "repositories": {
             "PrestaShop": 753,
             "PrestaShop-modules": 4,
@@ -1839,7 +1839,7 @@
             "ps_mainmenu": 2,
             "ps_customersignin": 4,
             "ps_categorytree": 5,
-            "docs": 469,
+            "docs": 470,
             "ps_wirepayment": 1,
             "ps_shoppingcart": 4,
             "ps_currencyselector": 7,
@@ -1916,10 +1916,10 @@
                 }
             },
             "documentation": {
-                "total": 773,
+                "total": 774,
                 "repositories": {
                     "paymentexample": 7,
-                    "docs": 469,
+                    "docs": 470,
                     "user-documentation-en": 1,
                     "ADR": 6,
                     "example-modules": 73,
@@ -3875,7 +3875,7 @@
         "location": null,
         "bio": "Founder of @wallabag. ",
         "email_domain": "",
-        "contributions": 1403,
+        "contributions": 1404,
         "repositories": {
             "PrestaShop": 763,
             "PrestaShop-webservice-lib": 1,
@@ -3931,7 +3931,7 @@
             "open-source": 23,
             "mjml-theme-converter": 1,
             "php-dev-tools": 2,
-            "QANightlyResults": 104,
+            "QANightlyResults": 105,
             "LocalizationFiles": 8,
             "presthubot": 72,
             "example-modules": 7,
@@ -4034,7 +4034,7 @@
                 }
             },
             "tools": {
-                "total": 222,
+                "total": 223,
                 "repositories": {
                     "bootstrap-compatibility-layer": 1,
                     "docker": 6,
@@ -4045,7 +4045,7 @@
                     "PrestaShop-webservice-lib": 1,
                     "presthubot": 72,
                     "prestonbot": 1,
-                    "QANightlyResults": 104,
+                    "QANightlyResults": 105,
                     "TopContributors": 7,
                     "TopTranslators": 1,
                     "traces": 11,
@@ -6081,7 +6081,7 @@
         "location": null,
         "bio": "Web Integrator",
         "email_domain": "",
-        "contributions": 583,
+        "contributions": 585,
         "repositories": {
             "PrestaShop": 43,
             "productcomments": 5,
@@ -6093,7 +6093,7 @@
             "ps_searchbar": 1,
             "traces": 1,
             "open-source": 1,
-            "hummingbird": 304,
+            "hummingbird": 306,
             "classic-theme": 3,
             "bootstrap-compatibility-layer": 27,
             "Prestashop-BO-themes-package": 3
@@ -6118,10 +6118,10 @@
                 }
             },
             "themes": {
-                "total": 307,
+                "total": 309,
                 "repositories": {
                     "classic-theme": 3,
-                    "hummingbird": 304
+                    "hummingbird": 306
                 }
             },
             "modules": {
@@ -14917,6 +14917,67 @@
             }
         }
     },
+    "MattKelvin": {
+        "login": "MattKelvin",
+        "id": 6407640,
+        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/6407640?v=4",
+        "html_url": "https:\/\/github.com\/MattKelvin",
+        "name": null,
+        "company": "Mademoiselle bio",
+        "blog": "https:\/\/mkdaous.fr",
+        "location": "Paris",
+        "bio": "Web developer ",
+        "email_domain": "",
+        "contributions": 38,
+        "repositories": {
+            "PrestaShop": 18,
+            "docs": 19,
+            "ps-docs-theme": 1
+        },
+        "categories": {
+            "core": {
+                "total": 18,
+                "repositories": {
+                    "PrestaShop": 18
+                }
+            },
+            "specs": {
+                "total": 0,
+                "repositories": []
+            },
+            "documentation": {
+                "total": 20,
+                "repositories": {
+                    "docs": 19,
+                    "ps-docs-theme": 1
+                }
+            },
+            "themes": {
+                "total": 0,
+                "repositories": []
+            },
+            "modules": {
+                "total": 0,
+                "repositories": []
+            },
+            "tools": {
+                "total": 0,
+                "repositories": []
+            },
+            "tests": {
+                "total": 0,
+                "repositories": []
+            },
+            "blog": {
+                "total": 0,
+                "repositories": []
+            },
+            "others": {
+                "total": 0,
+                "repositories": []
+            }
+        }
+    },
     "moncef-essid": {
         "login": "moncef-essid",
         "id": 3179694,
@@ -15053,67 +15114,6 @@
                 "repositories": {
                     "mjml-theme-converter": 1
                 }
-            },
-            "tests": {
-                "total": 0,
-                "repositories": []
-            },
-            "blog": {
-                "total": 0,
-                "repositories": []
-            },
-            "others": {
-                "total": 0,
-                "repositories": []
-            }
-        }
-    },
-    "MattKelvin": {
-        "login": "MattKelvin",
-        "id": 6407640,
-        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/6407640?v=4",
-        "html_url": "https:\/\/github.com\/MattKelvin",
-        "name": null,
-        "company": "Mademoiselle bio",
-        "blog": "https:\/\/mkdaous.fr",
-        "location": "Paris",
-        "bio": "Web developer ",
-        "email_domain": "",
-        "contributions": 36,
-        "repositories": {
-            "PrestaShop": 18,
-            "docs": 17,
-            "ps-docs-theme": 1
-        },
-        "categories": {
-            "core": {
-                "total": 18,
-                "repositories": {
-                    "PrestaShop": 18
-                }
-            },
-            "specs": {
-                "total": 0,
-                "repositories": []
-            },
-            "documentation": {
-                "total": 18,
-                "repositories": {
-                    "docs": 17,
-                    "ps-docs-theme": 1
-                }
-            },
-            "themes": {
-                "total": 0,
-                "repositories": []
-            },
-            "modules": {
-                "total": 0,
-                "repositories": []
-            },
-            "tools": {
-                "total": 0,
-                "repositories": []
             },
             "tests": {
                 "total": 0,
@@ -36123,15 +36123,15 @@
             }
         }
     },
-    "zuzul": {
-        "login": "zuzul",
+    "MAX-IT-Tech": {
+        "login": "MAX-IT-Tech",
         "id": 2854639,
         "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/2854639?v=4",
-        "html_url": "https:\/\/github.com\/zuzul",
+        "html_url": "https:\/\/github.com\/MAX-IT-Tech",
         "name": null,
         "company": null,
         "blog": "",
-        "location": null,
+        "location": "Odesa, Ukraine",
         "bio": null,
         "email_domain": "",
         "contributions": 1,
@@ -49563,5 +49563,5 @@
             }
         }
     },
-    "updatedAt": "2025-11-13 06:08:54"
+    "updatedAt": "2025-11-14 06:07:32"
 }
