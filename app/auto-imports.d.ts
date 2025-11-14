@@ -6,5 +6,5 @@
 // biome-ignore lint: disable
 export {}
 declare global {
-
+  const PuikPaginationVariants: typeof import('@prestashopcorp/puik-components').PuikPaginationVariants
 }

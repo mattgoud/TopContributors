@@ -133,6 +133,7 @@ a.puik-button:hover {
 .puik-modal__dialogPanelContainer__dialogPanel {
   min-height: max-content;
   margin: auto;
+  margin-top: 0.5rem;
 }
 .puik-modal__dialogPanelContainer {
     align-items: flex-start;

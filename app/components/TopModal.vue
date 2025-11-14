@@ -269,6 +269,7 @@ const  selectCategory = (category: string) =>{
 }
 .wof-top-modal__repository__card {
   flex-grow: 1;
+  overflow-x: hidden;
 }
 .wof-top-modal__back-button {
   align-self: start;

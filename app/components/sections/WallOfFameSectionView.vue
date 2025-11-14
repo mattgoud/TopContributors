@@ -1,6 +1,7 @@
 <script setup lang="ts">
-import { ref, watch, computed } from 'vue'
+import { ref, watch, computed, onMounted, onUnmounted } from 'vue'
 import type { PuikTableHeader, searchOption, sortOption } from '@prestashopcorp/puik-components'
+import { PuikPaginationVariants } from '@prestashopcorp/puik-components'
 import type { Company, Contributor } from '@/types'
 
 const props = defineProps<{
@@ -22,7 +23,37 @@ const fullWidth = ref(true)
 // DATA & UI STATE
 const contributorsRef = ref<Contributor[]>([...props.contributorsData])
 const page = ref(1)
+const paginationVariant = ref<PuikPaginationVariants>(PuikPaginationVariants.Large)
 const itemsPerPage = ref(5)
+
+const updatePaginationVariant = () => {
+  const width = window.innerWidth
+  if (width < 768) {
+    paginationVariant.value = PuikPaginationVariants.Mobile
+  } else if (width < 1024) {
+    paginationVariant.value = PuikPaginationVariants.Medium
+  } else {
+    paginationVariant.value = PuikPaginationVariants.Large
+  }
+}
+
+let mobileMediaQuery: MediaQueryList
+let tabletMediaQuery: MediaQueryList
+
+onMounted(() => {
+  updatePaginationVariant()
+  mobileMediaQuery = window.matchMedia('(max-width: 767px)')
+  tabletMediaQuery = window.matchMedia('(min-width: 768px) and (max-width: 1023px)')
+  mobileMediaQuery.addEventListener('change', updatePaginationVariant)
+  tabletMediaQuery.addEventListener('change', updatePaginationVariant)
+  window.addEventListener('resize', updatePaginationVariant)
+})
+
+onUnmounted(() => {
+  mobileMediaQuery?.removeEventListener('change', updatePaginationVariant)
+  tabletMediaQuery?.removeEventListener('change', updatePaginationVariant)
+  window.removeEventListener('resize', updatePaginationVariant)
+})
 
 const paginatedItems = computed(() =>
   contributorsRef.value.slice((page.value - 1) * itemsPerPage.value, page.value * itemsPerPage.value)
@@ -158,7 +189,7 @@ watch(
       id="wof-contributors-pagination"
       v-model:page="page"
       v-model:items-per-page="itemsPerPage"
-      variant="large"
+      :variant="paginationVariant"
       :total-item="contributorsRef.length"
     />
 

@@ -6,6 +6,24 @@ import { PuikResolver } from '@prestashopcorp/puik-resolver'
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
+
+  app: {
+    head: {
+      title: 'PrestaShop Top Contributors',
+      htmlAttrs: {
+        lang: 'en',
+      },
+      meta: [
+        {
+          name: 'description',
+          content: 'A list of PrestaShop contributors'
+        }
+      ],
+      link: [
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      ],
+    },
+  },
   
   components: [
     {
