@@ -10,7 +10,7 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 9810,
+        "contributions": 9811,
         "repositories": {
             "PrestaShop": 4291,
             "PrestaShop-modules": 31,
@@ -118,7 +118,7 @@
             "stylelint-config": 7,
             "example-modules": 6,
             "ps_qualityassurance": 1,
-            "test-scenarios": 904,
+            "test-scenarios": 905,
             "user-documentation-it": 2,
             "user-documentation-landing": 3,
             "user-documentation-en": 1,
@@ -160,7 +160,7 @@
                 }
             },
             "documentation": {
-                "total": 1121,
+                "total": 1122,
                 "repositories": {
                     "docs": 144,
                     "user-documentation-landing": 3,
@@ -168,7 +168,7 @@
                     "user-documentation-it": 2,
                     "user-documentation-v8-en": 1,
                     "functional-documentation": 2,
-                    "test-scenarios": 904,
+                    "test-scenarios": 905,
                     "example-modules": 6,
                     "open-source": 31,
                     "example_module_mailtheme": 4,
@@ -1786,7 +1786,7 @@
         "location": "Bydgoszcz, Poland",
         "bio": "I'm a web developer from Poland, specializing in working with PrestaShop e-commerce",
         "email_domain": "",
-        "contributions": 3100,
+        "contributions": 3104,
         "repositories": {
             "PrestaShop": 753,
             "PrestaShop-modules": 4,
@@ -1822,7 +1822,7 @@
             "gsitemap": 3,
             "prestashop.github.io": 807,
             "StarterTheme": 3,
-            "contactform": 8,
+            "contactform": 10,
             "paymentexample": 7,
             "community-theme-16": 24,
             "prestashop-ui-kit": 4,
@@ -1850,10 +1850,11 @@
             "ps_checkpayment": 3,
             "ps_emailalerts": 25,
             "ps_bestsellers": 3,
-            "ps_brandlist": 2,
+            "ps_brandlist": 3,
             "ps_categoryproducts": 1,
             "ps_newproducts": 1,
             "ps_specials": 1,
+            "ps_supplierlist": 1,
             "ps_crossselling": 2,
             "ps_dataprivacy": 1,
             "ps_cashondelivery": 1,
@@ -1940,7 +1941,7 @@
                 }
             },
             "modules": {
-                "total": 582,
+                "total": 586,
                 "repositories": {
                     "PrestaShop-modules": 4,
                     "dashactivity": 1,
@@ -1972,7 +1973,7 @@
                     "productcomments": 24,
                     "autoupgrade": 45,
                     "gsitemap": 3,
-                    "contactform": 8,
+                    "contactform": 10,
                     "blockreassurance": 66,
                     "ps_sharebuttons": 4,
                     "ps_socialfollow": 5,
@@ -1996,10 +1997,11 @@
                     "ps_checkpayment": 3,
                     "ps_emailalerts": 25,
                     "ps_bestsellers": 3,
-                    "ps_brandlist": 2,
+                    "ps_brandlist": 3,
                     "ps_categoryproducts": 1,
                     "ps_newproducts": 1,
                     "ps_specials": 1,
+                    "ps_supplierlist": 1,
                     "ps_crossselling": 2,
                     "ps_dataprivacy": 1,
                     "ps_cashondelivery": 1,
@@ -2439,7 +2441,7 @@
         "location": "Pardubice, Czech Republic",
         "bio": null,
         "email_domain": "",
-        "contributions": 2194,
+        "contributions": 2198,
         "repositories": {
             "PrestaShop": 949,
             "PrestaShop-webservice-lib": 1,
@@ -2474,7 +2476,7 @@
             "gsitemap": 35,
             "prestashop.github.io": 5,
             "docker": 1,
-            "contactform": 9,
+            "contactform": 11,
             "prestashop-ui-kit": 3,
             "blockreassurance": 11,
             "ps_socialfollow": 7,
@@ -2499,11 +2501,11 @@
             "ps_emailalerts": 29,
             "TopTranslators": 1,
             "ps_bestsellers": 15,
-            "ps_brandlist": 4,
+            "ps_brandlist": 5,
             "ps_categoryproducts": 11,
             "ps_newproducts": 10,
             "ps_specials": 11,
-            "ps_supplierlist": 9,
+            "ps_supplierlist": 10,
             "ps_crossselling": 7,
             "ps_dataprivacy": 9,
             "ps_cashondelivery": 5,
@@ -2555,7 +2557,7 @@
                 }
             },
             "modules": {
-                "total": 983,
+                "total": 987,
                 "repositories": {
                     "dashactivity": 13,
                     "dashgoals": 3,
@@ -2586,7 +2588,7 @@
                     "productcomments": 24,
                     "autoupgrade": 139,
                     "gsitemap": 35,
-                    "contactform": 9,
+                    "contactform": 11,
                     "blockreassurance": 11,
                     "ps_socialfollow": 7,
                     "ps_linklist": 11,
@@ -2608,11 +2610,11 @@
                     "ps_checkpayment": 6,
                     "ps_emailalerts": 29,
                     "ps_bestsellers": 15,
-                    "ps_brandlist": 4,
+                    "ps_brandlist": 5,
                     "ps_categoryproducts": 11,
                     "ps_newproducts": 10,
                     "ps_specials": 11,
-                    "ps_supplierlist": 9,
+                    "ps_supplierlist": 10,
                     "ps_crossselling": 7,
                     "ps_dataprivacy": 9,
                     "ps_cashondelivery": 5,
@@ -5322,9 +5324,9 @@
         "location": "127.0.0.1:666",
         "bio": "Software Engineer & Open source lover | @PrestaShop contributor & maintainer | Lazy hard worker | Simplicity is too complex...\r\n\r\n",
         "email_domain": "hotmail.com",
-        "contributions": 744,
+        "contributions": 746,
         "repositories": {
-            "PrestaShop": 623,
+            "PrestaShop": 625,
             "graphnvd3": 1,
             "statsproduct": 3,
             "blockwishlist": 1,
@@ -5343,9 +5345,9 @@
         },
         "categories": {
             "core": {
-                "total": 625,
+                "total": 627,
                 "repositories": {
-                    "PrestaShop": 623,
+                    "PrestaShop": 625,
                     "prestashop-ui-kit": 1,
                     "php-ps-info": 1
                 }
@@ -9268,9 +9270,9 @@
         "location": "Via Giuseppe Saragat, 19 86170 Isernia - ITALIA",
         "bio": "Codencode \u00e8 un'agenzia di Branding, Comunicazione e Marketing.\r\nRealizziamo progetti di comunicazione visiva brand-oriented, web design e web marketing.",
         "email_domain": "codencode.it",
-        "contributions": 195,
+        "contributions": 196,
         "repositories": {
-            "PrestaShop": 122,
+            "PrestaShop": 123,
             "dashactivity": 2,
             "statsforecast": 1,
             "statsstock": 1,
@@ -9289,9 +9291,9 @@
         },
         "categories": {
             "core": {
-                "total": 123,
+                "total": 124,
                 "repositories": {
-                    "PrestaShop": 122,
+                    "PrestaShop": 123,
                     "LocalizationFiles": 1
                 }
             },
@@ -45038,7 +45040,7 @@
         "company": "joserprieto",
         "blog": "http:\/\/joserprieto.es",
         "location": "Lugo",
-        "bio": "Thinking in doing better IT solutions.\r\n\r\n\u00abBrothers, what we do in life... echoes in eternity.\u00bb",
+        "bio": "Head of Platform & Solutions Architect | 25y technology adoption | 2001 pioneer \u2192 2025 platform\r\n  engineering",
         "email_domain": "joserprieto.es",
         "contributions": 1,
         "repositories": {
@@ -49565,5 +49567,5 @@
             }
         }
     },
-    "updatedAt": "2025-11-15 06:07:07"
+    "updatedAt": "2025-11-16 06:06:37"
 }

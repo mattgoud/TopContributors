@@ -10,7 +10,7 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 9810,
+        "contributions": 9811,
         "repositories": {
             "PrestaShop": 1087,
             "PrestaShop-modules": 2,
@@ -927,7 +927,7 @@
         "location": "Pardubice, Czech Republic",
         "bio": null,
         "email_domain": "",
-        "contributions": 2194,
+        "contributions": 2198,
         "repositories": {
             "PrestaShop": 348,
             "dashactivity": 4,
@@ -960,7 +960,7 @@
             "autoupgrade": 54,
             "gsitemap": 12,
             "prestashop.github.io": 1,
-            "contactform": 3,
+            "contactform": 5,
             "prestashop-ui-kit": 3,
             "blockreassurance": 4,
             "ps_socialfollow": 6,
@@ -984,11 +984,11 @@
             "ps_checkpayment": 3,
             "ps_emailalerts": 14,
             "ps_bestsellers": 10,
-            "ps_brandlist": 2,
+            "ps_brandlist": 3,
             "ps_categoryproducts": 8,
             "ps_newproducts": 7,
             "ps_specials": 5,
-            "ps_supplierlist": 4,
+            "ps_supplierlist": 5,
             "ps_crossselling": 3,
             "ps_dataprivacy": 3,
             "ps_cashondelivery": 1,
@@ -1038,7 +1038,7 @@
                 }
             },
             "modules": {
-                "total": 440,
+                "total": 444,
                 "repositories": {
                     "dashactivity": 4,
                     "dashgoals": 4,
@@ -1069,7 +1069,7 @@
                     "productcomments": 9,
                     "autoupgrade": 54,
                     "gsitemap": 12,
-                    "contactform": 3,
+                    "contactform": 5,
                     "blockreassurance": 4,
                     "ps_socialfollow": 6,
                     "ps_linklist": 3,
@@ -1091,11 +1091,11 @@
                     "ps_checkpayment": 3,
                     "ps_emailalerts": 14,
                     "ps_bestsellers": 10,
-                    "ps_brandlist": 2,
+                    "ps_brandlist": 3,
                     "ps_categoryproducts": 8,
                     "ps_newproducts": 7,
                     "ps_specials": 5,
-                    "ps_supplierlist": 4,
+                    "ps_supplierlist": 5,
                     "ps_crossselling": 3,
                     "ps_dataprivacy": 3,
                     "ps_cashondelivery": 1,
@@ -1134,7 +1134,7 @@
                 }
             }
         },
-        "mergedPullRequests": 859
+        "mergedPullRequests": 863
     },
     "PierreRambaud": {
         "login": "PierreRambaud",
@@ -1922,7 +1922,7 @@
         "location": "Bydgoszcz, Poland",
         "bio": "I'm a web developer from Poland, specializing in working with PrestaShop e-commerce",
         "email_domain": "",
-        "contributions": 3100,
+        "contributions": 3104,
         "repositories": {
             "PrestaShop": 156,
             "PrestaShop-modules": 3,
@@ -4671,9 +4671,9 @@
         "location": "127.0.0.1:666",
         "bio": "Software Engineer & Open source lover | @PrestaShop contributor & maintainer | Lazy hard worker | Simplicity is too complex...\r\n\r\n",
         "email_domain": "hotmail.com",
-        "contributions": 744,
+        "contributions": 746,
         "repositories": {
-            "PrestaShop": 125,
+            "PrestaShop": 126,
             "statsproduct": 1,
             "productcomments": 1,
             "docker": 1,
@@ -4689,9 +4689,9 @@
         },
         "categories": {
             "core": {
-                "total": 126,
+                "total": 127,
                 "repositories": {
-                    "PrestaShop": 125,
+                    "PrestaShop": 126,
                     "php-ps-info": 1
                 }
             },
@@ -4743,7 +4743,7 @@
                 "repositories": []
             }
         },
-        "mergedPullRequests": 165
+        "mergedPullRequests": 166
     },
     "leemyongpakvn": {
         "login": "leemyongpakvn",
@@ -6393,7 +6393,7 @@
         "location": "Via Giuseppe Saragat, 19 86170 Isernia - ITALIA",
         "bio": "Codencode \u00e8 un'agenzia di Branding, Comunicazione e Marketing.\r\nRealizziamo progetti di comunicazione visiva brand-oriented, web design e web marketing.",
         "email_domain": "codencode.it",
-        "contributions": 195,
+        "contributions": 196,
         "repositories": {
             "PrestaShop": 75,
             "dashactivity": 1,
@@ -42478,7 +42478,7 @@
         "company": "joserprieto",
         "blog": "http:\/\/joserprieto.es",
         "location": "Lugo",
-        "bio": "Thinking in doing better IT solutions.\r\n\r\n\u00abBrothers, what we do in life... echoes in eternity.\u00bb",
+        "bio": "Head of Platform & Solutions Architect | 25y technology adoption | 2001 pioneer \u2192 2025 platform\r\n  engineering",
         "email_domain": "joserprieto.es",
         "contributions": 1,
         "repositories": {
