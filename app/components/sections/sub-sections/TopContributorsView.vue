@@ -3,7 +3,7 @@ import { ref } from 'vue'
 import type { PuikTableHeader } from '@prestashopcorp/puik-components'
 import type { Contributor, Company } from '@/types'
 
-defineProps<{
+const props = defineProps<{
   topContributors: Contributor[]
 }>()
 
@@ -44,18 +44,16 @@ const headers: PuikTableHeader[] = [
     searchSubmit: true,
   },
 ]
+
 const stickyLastCol = ref(false)
 const fullWidth = ref(true)
 
-const modalContributorItem = ref<Contributor | null>(null)
-const isModalOpen = ref(false)
-const openModal = (item: Contributor | Company) => {
-  modalContributorItem.value = item as Contributor
-  isModalOpen.value = true
-}
-const closeModal = () => {
-  isModalOpen.value = false
-}
+const {
+  currentContributor,
+  isModalOpen,
+  openModal,
+  closeModal
+} = useContributorModalRouter(props.topContributors)
 </script>
 
 <template>
@@ -107,8 +105,8 @@ const closeModal = () => {
   </TopCard>
 
   <TopModal
-    v-if="modalContributorItem"
-    :contributor="modalContributorItem"
+    v-if="currentContributor"
+    :contributor="currentContributor"
     :is-open="isModalOpen"
     @close="closeModal"
   />

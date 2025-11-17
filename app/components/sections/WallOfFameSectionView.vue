@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, watch, computed, onMounted, onUnmounted } from 'vue'
+import { ref, computed, onMounted, onUnmounted, watch } from 'vue'
 import type { PuikTableHeader, searchOption, sortOption } from '@prestashopcorp/puik-components'
 import { PuikPaginationVariants } from '@prestashopcorp/puik-components'
 import type { Company, Contributor } from '@/types'
@@ -20,11 +20,22 @@ const headers: PuikTableHeader[] = [
 const stickyLastCol = ref(false)
 const fullWidth = ref(true)
 
-// DATA & UI STATE
 const contributorsRef = ref<Contributor[]>([...props.contributorsData])
 const page = ref(1)
-const paginationVariant = ref<PuikPaginationVariants>(PuikPaginationVariants.Large)
 const itemsPerPage = ref(5)
+const paginationVariant = ref<PuikPaginationVariants>(PuikPaginationVariants.Large)
+
+const {
+  currentContributor,
+  isModalOpen,
+  openModal,
+  closeModal,
+} = useContributorModalRouter(contributorsRef)
+
+// PAGINATION
+const paginatedItems = computed(() =>
+  contributorsRef.value.slice((page.value - 1) * itemsPerPage.value, page.value * itemsPerPage.value)
+)
 
 const updatePaginationVariant = () => {
   const width = window.innerWidth
@@ -37,32 +48,23 @@ const updatePaginationVariant = () => {
   }
 }
 
-let mobileMediaQuery: MediaQueryList
-let tabletMediaQuery: MediaQueryList
+let mobileMq: MediaQueryList
+let tabletMq: MediaQueryList
 
 onMounted(() => {
   updatePaginationVariant()
-  mobileMediaQuery = window.matchMedia('(max-width: 767px)')
-  tabletMediaQuery = window.matchMedia('(min-width: 768px) and (max-width: 1023px)')
-  mobileMediaQuery.addEventListener('change', updatePaginationVariant)
-  tabletMediaQuery.addEventListener('change', updatePaginationVariant)
+  mobileMq = window.matchMedia('(max-width: 767px)')
+  tabletMq = window.matchMedia('(min-width: 768px) and (max-width: 1023px)')
+  mobileMq.addEventListener('change', updatePaginationVariant)
+  tabletMq.addEventListener('change', updatePaginationVariant)
   window.addEventListener('resize', updatePaginationVariant)
 })
 
 onUnmounted(() => {
-  mobileMediaQuery?.removeEventListener('change', updatePaginationVariant)
-  tabletMediaQuery?.removeEventListener('change', updatePaginationVariant)
+  mobileMq?.removeEventListener('change', updatePaginationVariant)
+  tabletMq?.removeEventListener('change', updatePaginationVariant)
   window.removeEventListener('resize', updatePaginationVariant)
 })
-
-const paginatedItems = computed(() =>
-  contributorsRef.value.slice((page.value - 1) * itemsPerPage.value, page.value * itemsPerPage.value)
-)
-
-const modalContributorItem = ref()
-const isModalOpen = ref(false)
-const openModal = (contributor: Contributor) => { modalContributorItem.value = contributor; isModalOpen.value = true }
-const closeModal = () => { isModalOpen.value = false }
 
 // SEARCH
 const handleSearchSubmit = (payload: searchOption[]) => {
@@ -71,7 +73,7 @@ const handleSearchSubmit = (payload: searchOption[]) => {
   payload.forEach(({ searchBy, inputText, inputRange }) => {
     if (inputText) {
       const search = inputText.toLowerCase().trim().replace(/\s+/g, ' ')
-      filtered = filtered.filter((c) => {
+      filtered = filtered.filter(c => {
         const haystack =
           searchBy === 'name'
             ? `${c.name ?? ''} ${c.login ?? ''}`.toLowerCase()
@@ -81,10 +83,10 @@ const handleSearchSubmit = (payload: searchOption[]) => {
     }
 
     if (inputRange) {
-      filtered = filtered.filter((c) => {
+      filtered = filtered.filter(c => {
         const value = c[searchBy as keyof Contributor] as number
-        if (typeof inputRange.min === 'number' && value < inputRange.min) return false
-        if (typeof inputRange.max === 'number' && value > inputRange.max) return false
+        if (inputRange.min != null && value < inputRange.min) return false
+        if (inputRange.max != null && value > inputRange.max) return false
         return true
       })
     }
@@ -94,19 +96,15 @@ const handleSearchSubmit = (payload: searchOption[]) => {
   page.value = 1
 }
 
-// SORT (name fallback login)
+// SORT
 const handleSort = (payload: sortOption) => {
   const { sortBy, sortOrder } = payload
 
   contributorsRef.value = [...contributorsRef.value].sort((a, b) => {
     const valA =
-      sortBy === 'name'
-        ? (a.name || a.login || '').toLowerCase()
-        : a[sortBy as keyof Contributor]
+      sortBy === 'name' ? (a.name || a.login || '').toLowerCase() : a[sortBy as keyof Contributor]
     const valB =
-      sortBy === 'name'
-        ? (b.name || b.login || '').toLowerCase()
-        : b[sortBy as keyof Contributor]
+      sortBy === 'name' ? (b.name || b.login || '').toLowerCase() : b[sortBy as keyof Contributor]
 
     if (typeof valA === 'number' && typeof valB === 'number') {
       return sortOrder === 'ASC' ? valA - valB : valB - valA
@@ -121,7 +119,7 @@ const handleSort = (payload: sortOption) => {
 
 watch(
   () => props.contributorsData,
-  (newVal) => {
+  newVal => {
     if (newVal) contributorsRef.value = [...newVal]
   },
   { immediate: true }
@@ -182,7 +180,7 @@ watch(
     </puik-table>
 
     <div v-if="contributorsRef.length === 0" class="wof-no-results">
-       No contributors found with your search.
+      No contributors found with your search.
     </div>
 
     <puik-pagination
@@ -194,8 +192,8 @@ watch(
     />
 
     <TopModal
-      v-if="modalContributorItem"
-      :contributor="modalContributorItem"
+      v-if="currentContributor"
+      :contributor="currentContributor"
       :is-open="isModalOpen"
       @close="closeModal"
     />

@@ -12,6 +12,16 @@ const emit = defineEmits<{
 
 const selectedCategory = ref<string | null>(null)
 const positionTab = ref(1)
+const copyState = ref(false)
+
+const copyContributorLink = (contributor: Contributor) => {
+  const url = `${window.location.origin}/#${contributor.login}`
+  navigator.clipboard.writeText(url)
+  copyState.value = true
+  setTimeout(() => {
+    copyState.value = false
+  }, 500)
+}
 
 const close = () => {
   emit('close');
@@ -99,14 +109,28 @@ const  selectCategory = (category: string) =>{
       </div>
 
       <div class="wof-top-modal__main-content">
+        <puik-button
+          class="wof-top-modal__copy-link-button"
+          variant="secondary"
+          size="sm"
+          left-icon="link"
+          @click="copyContributorLink(contributor)"
+        >
+          <span v-if="copyState">
+            Copied!
+          </span>
+          <span v-else>
+            Copy link
+          </span>
+        </puik-button>
         <puik-tab-navigation :key="positionTab" name="contributor-modal-tab-nav" :default-position="positionTab">
           <puik-tab-navigation-group-titles ariaLabel="contributor-modal-tab-nav-titles">
-              <puik-tab-navigation-title :position="1">
-                Contributions ({{ contributor.mergedPullRequests }})
-              </puik-tab-navigation-title>
-              <puik-tab-navigation-title v-if="contributor.bio && contributor.bio !== ''" :position="2">
-                About
-              </puik-tab-navigation-title>
+            <puik-tab-navigation-title :position="1">
+              Contributions ({{ contributor.mergedPullRequests }})
+            </puik-tab-navigation-title>
+            <puik-tab-navigation-title v-if="contributor.bio && contributor.bio !== ''" :position="2">
+              About
+            </puik-tab-navigation-title>
           </puik-tab-navigation-group-titles>
           <puik-tab-navigation-group-panels>
             <puik-tab-navigation-panel :position="1">
@@ -160,6 +184,13 @@ const  selectCategory = (category: string) =>{
   --wof-color-bg-modal-side-panel: #dddddd;
   --wof-color-side-panel-item-value: #5e5e5e;
   --wof-padding-top-modal: 8.5rem;
+  --wof-padding-modal: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  :root {
+    --wof-padding-modal: 40px;
+  }
 }
 
 .wof-top-modal__close-btn {
@@ -236,16 +267,23 @@ const  selectCategory = (category: string) =>{
   color: var(--wof-color-side-panel-item-value);
 }
 .wof-top-modal__main-content {
-  padding: 20px;
+  padding: var(--wof-padding-modal);
   flex-grow: 1;
   display: flex;
   flex-direction: column;
   min-height: fit-content;
   gap: 1rem;
   overflow: auto;
-  @media screen and (min-width: 768px) {
-    padding: 40px;
-  }
+}
+.wof-top-modal__copy-link-button {
+  position: absolute;
+  right: var(--wof-padding-modal);
+  transform: translateY(50%);
+  z-index: 2;
+  min-width: 92px;
+}
+.wof-top-modal__copy-link-button span{
+  margin-right: auto;
 }
 .wof-top-modal__categories {
   display: grid;
