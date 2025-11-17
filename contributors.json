@@ -10,7 +10,7 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 9811,
+        "contributions": 9812,
         "repositories": {
             "PrestaShop": 4291,
             "PrestaShop-modules": 31,
@@ -118,7 +118,7 @@
             "stylelint-config": 7,
             "example-modules": 6,
             "ps_qualityassurance": 1,
-            "test-scenarios": 905,
+            "test-scenarios": 906,
             "user-documentation-it": 2,
             "user-documentation-landing": 3,
             "user-documentation-en": 1,
@@ -160,7 +160,7 @@
                 }
             },
             "documentation": {
-                "total": 1122,
+                "total": 1123,
                 "repositories": {
                     "docs": 144,
                     "user-documentation-landing": 3,
@@ -168,7 +168,7 @@
                     "user-documentation-it": 2,
                     "user-documentation-v8-en": 1,
                     "functional-documentation": 2,
-                    "test-scenarios": 905,
+                    "test-scenarios": 906,
                     "example-modules": 6,
                     "open-source": 31,
                     "example_module_mailtheme": 4,
@@ -4832,10 +4832,10 @@
         "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/976175?v=4",
         "html_url": "https:\/\/github.com\/Shipow",
         "name": "Kevin Granger",
-        "company": "UX Devsigner @Algolia",
-        "blog": "https:\/\/docsearch.algolia.com\/",
+        "company": "Co-founder @altertable-ai",
+        "blog": "https:\/\/altertable.ai\/",
         "location": "Paris \u2013 SF",
-        "bio": "I design tools for developers @algolia and attack ships on fire off the shoulder of Orion",
+        "bio": "I build tools that help developers move faster and teams think clearer.\r\nCo-founder at @altertable-ai , where we\u2019re waking data up with always-on AI agents.",
         "email_domain": "",
         "contributions": 857,
         "repositories": {
@@ -49567,5 +49567,5 @@
             }
         }
     },
-    "updatedAt": "2025-11-16 06:06:37"
+    "updatedAt": "2025-11-17 07:20:08"
 }
