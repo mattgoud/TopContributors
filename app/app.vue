@@ -26,17 +26,20 @@ onMounted(async () => {
     const response = await fetch('/topcompanies_prs.json')
     if (!response.ok) throw new Error('Error loading top companies')
     const data = await response.json()
-    
+
     companiesData.value = data.companies
     topCompanies.value = data.companies.slice(0, 5)
     const total: number =
-      data.companies.reduce((acc: number, company: Company) => acc + company.merged_pull_requests, 0)
-      + data.community.merged_pull_requests
+      data.companies.reduce(
+        (acc: number, company: Company) => acc + company.merged_pull_requests,
+        0
+      ) + data.community.merged_pull_requests
     totalMergedPr.value = total ?? 0
 
-    const prestashopCompany = data.companies.find((company: Company) => company.name === 'PrestaShop')
+    const prestashopCompany = data.companies.find(
+      (company: Company) => company.name === 'PrestaShop'
+    )
     prestaMergedPrbyPercent.value = prestashopCompany.pull_requests_percent ?? 0
-
   } catch (error) {
     console.error('Error loading top companies:', error)
   }
@@ -50,7 +53,7 @@ onMounted(async () => {
     // Filter out non-contributor entries and nulls (e.g., "updatedAt") from the JSON object
     const contributorsOnly = Object.values(data).filter(
       (item): item is Contributor =>
-        item !== null && typeof item === 'object' && 'contributions' in item,
+        item !== null && typeof item === 'object' && 'contributions' in item
     )
     contributorsOnly.map((contributor, index) => {
       contributor.rank = index + 1
@@ -58,7 +61,6 @@ onMounted(async () => {
     })
     contributorsData.value = contributorsOnly
     topContributors.value = contributorsOnly.slice(0, 5)
-
   } catch (error) {
     console.error('Error loading contributors data:', error)
   }
@@ -74,7 +76,10 @@ onMounted(async () => {
     <main>
       <TopSectionView :top-contributors="topContributors" :top-companies="topCompanies" />
       <NewContributorsSectionView :new-contributors="newContributors" />
-      <WallOfFameSectionView :contributors-data="contributorsData" :companies-data="companiesData"/>
+      <WallOfFameSectionView
+        :contributors-data="contributorsData"
+        :companies-data="companiesData"
+      />
       <ContributeSectionView
         contribute-link="https://devdocs.prestashop-project.org/9/contribute/contribute-pull-requests/"
         slack-link="https://www.prestashop-project.org/slack/"
@@ -136,12 +141,12 @@ a.puik-button:hover {
   margin-top: 0.5rem;
 }
 .puik-modal__dialogPanelContainer {
-    align-items: flex-start;
+  align-items: flex-start;
 }
 .puik-modal--large .puik-modal__dialogPanelContainer__dialogPanel {
-    @media (width >= 40rem) {
-        max-width: 1024px;
-    }
+  @media (width >= 40rem) {
+    max-width: 1024px;
+  }
 }
 
 html {

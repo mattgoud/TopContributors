@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import type { PuikTableHeader } from '@prestashopcorp/puik-components'
-import type { Contributor, Company } from '@/types'
+import type { Contributor } from '@/types'
 
 const props = defineProps<{
   topContributors: Contributor[]
@@ -13,47 +13,44 @@ const headers: PuikTableHeader[] = [
     value: 'rank',
     size: 'sm',
     align: 'center',
-    searchable: false,
+    searchable: false
   },
   {
     text: 'Avatar',
     value: 'avatar',
     size: 'sm',
     align: 'center',
-    searchable: false,
+    searchable: false
   },
   {
     text: 'Name',
     value: 'name',
     size: 'md',
     align: 'left',
-    searchable: true,
+    searchable: true
   },
   {
     text: 'Contributions',
     value: 'mergedPullRequests',
     size: 'sm',
     align: 'center',
-    searchable: false,
+    searchable: false
   },
   {
     value: 'actions',
     size: 'sm',
     align: 'center',
     preventExpand: true,
-    searchSubmit: true,
-  },
+    searchSubmit: true
+  }
 ]
 
 const stickyLastCol = ref(false)
 const fullWidth = ref(true)
 
-const {
-  currentContributor,
-  isModalOpen,
-  openModal,
-  closeModal
-} = useContributorModalRouter(props.topContributors)
+const { currentContributor, isModalOpen, openModal, closeModal } = useContributorModalRouter(
+  props.topContributors
+)
 </script>
 
 <template>
@@ -88,7 +85,9 @@ const {
     <template #item-name="{ item }">
       <div class="wof-top-contributors__name">
         <span v-if="item.name" class="puik-body-default">{{ item.name }}</span>
-        <span v-else-if="item.login" class="puik-body-default">{{ item.login }}</span>
+        <span v-else-if="item.login" class="puik-body-default">
+          {{ item.login }}
+        </span>
         <puik-tag v-if="item.company" :content="item.company" variant="blue" />
       </div>
     </template>

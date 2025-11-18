@@ -21,9 +21,7 @@ defineProps<{
         aria-label="Contribute to PrestaShop"
         rel="noopener noreferrer"
       >
-        <puik-button variant="primary">
-          Contribute
-        </puik-button>
+        <puik-button variant="primary">Contribute</puik-button>
       </a>
       <a
         :href="slackLink"
@@ -31,9 +29,7 @@ defineProps<{
         aria-label="join PrestaShop Slack Open Source"
         rel="noopener noreferrer"
       >
-        <puik-button variant="secondary">
-          Join Slack
-        </puik-button>
+        <puik-button variant="secondary">Join Slack</puik-button>
       </a>
     </div>
   </section>

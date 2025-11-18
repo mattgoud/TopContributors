@@ -11,7 +11,7 @@ export default defineNuxtConfig({
     head: {
       title: 'PrestaShop Top Contributors',
       htmlAttrs: {
-        lang: 'en',
+        lang: 'en'
       },
       meta: [
         {
@@ -19,35 +19,28 @@ export default defineNuxtConfig({
           content: 'A list of PrestaShop contributors'
         }
       ],
-      link: [
-        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      ],
-    },
+      link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+    }
   },
-  
+
   components: [
     {
       path: '~/components',
-      pathPrefix: false,
-    },
+      pathPrefix: false
+    }
   ],
   css: ['~/assets/css/main.css'],
   vite: {
     plugins: [
       tailwindcss(),
       Components({
-        resolvers: [PuikResolver()],
+        resolvers: [PuikResolver()]
       }),
       AutoImport({
-        resolvers: [PuikResolver()],
-      }),
-    ],
+        resolvers: [PuikResolver()]
+      })
+    ]
   },
 
-  modules: [
-    '@nuxt/eslint',
-    '@nuxt/fonts',
-    '@nuxt/image',
-    '@nuxt/test-utils',
-  ],
+  modules: ['@nuxt/eslint', '@nuxt/fonts', '@nuxt/image', '@nuxt/test-utils']
 })

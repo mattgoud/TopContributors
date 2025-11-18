@@ -14,9 +14,20 @@ const selectedCategory = ref<string | null>(null)
 const positionTab = ref(1)
 const copyState = ref(false)
 
-const copyContributorLink = (contributor: Contributor) => {
+const copyContributorLink = async (contributor: Contributor) => {
   const url = `${window.location.origin}/#${contributor.login}`
-  navigator.clipboard.writeText(url)
+
+  try {
+    await navigator.clipboard.writeText(url)
+  } catch (e) {
+    console.info('Clipboard API not supported, falling back to execCommand.', e)
+    const el = document.createElement('textarea')
+    el.value = url
+    document.body.appendChild(el)
+    el.select()
+    document.execCommand('copy')
+    document.body.removeChild(el)
+  }
   copyState.value = true
   setTimeout(() => {
     copyState.value = false
@@ -24,12 +35,11 @@ const copyContributorLink = (contributor: Contributor) => {
 }
 
 const close = () => {
-  emit('close');
+  emit('close')
   selectedCategory.value = null
 }
 
-
-const  selectCategory = (category: string) =>{
+const selectCategory = (category: string) => {
   selectedCategory.value = category
 }
 </script>
@@ -42,17 +52,23 @@ const  selectCategory = (category: string) =>{
     :is-open="isOpen"
     @close="close"
   >
-    <puik-button class="wof-top-modal__close-btn" variant="text" force-legacy-text-variant size="sm" @click="close">
-      <puik-icon icon="close" font-size="1.25rem"/>
+    <puik-button
+      class="wof-top-modal__close-btn"
+      variant="text"
+      force-legacy-text-variant
+      size="sm"
+      @click="close"
+    >
+      <puik-icon icon="close" font-size="1.25rem" />
     </puik-button>
     <div class="wof-top-modal__container">
       <div class="wof-top-modal__side-content">
         <div class="wof-top-modal__avatar">
-          <img :src="contributor.avatar_url" alt="contributor avatar" >
+          <img :src="contributor.avatar_url" alt="contributor avatar" />
         </div>
         <div class="wof-top-modal__title">
           <div v-if="contributor.name">
-            <h3  class="puik-h3">{{ contributor.name }}</h3>
+            <h3 class="puik-h3">{{ contributor.name }}</h3>
             <span class="puik-body-default-bold">({{ contributor.login }})</span>
           </div>
           <h3 v-else class="puik-h3">{{ contributor.login }}</h3>
@@ -74,7 +90,7 @@ const  selectCategory = (category: string) =>{
               Current role(s)
             </span>
             <span class="wof-top-modal__side-content__item-value puik-body-default">
-              {{ contributor.company}}
+              {{ contributor.company }}
             </span>
           </div>
         </div>
@@ -116,25 +132,34 @@ const  selectCategory = (category: string) =>{
           left-icon="link"
           @click="copyContributorLink(contributor)"
         >
-          <span v-if="copyState">
-            Copied!
-          </span>
-          <span v-else>
-            Copy link
-          </span>
+          <span v-if="copyState">Copied!</span>
+          <span v-else>Copy link</span>
         </puik-button>
-        <puik-tab-navigation :key="positionTab" name="contributor-modal-tab-nav" :default-position="positionTab">
-          <puik-tab-navigation-group-titles ariaLabel="contributor-modal-tab-nav-titles">
+        <puik-tab-navigation
+          :key="positionTab"
+          name="contributor-modal-tab-nav"
+          :default-position="positionTab"
+        >
+          <puik-tab-navigation-group-titles aria-label="contributor-modal-tab-nav-titles">
             <puik-tab-navigation-title :position="1">
               Contributions ({{ contributor.mergedPullRequests }})
             </puik-tab-navigation-title>
-            <puik-tab-navigation-title v-if="contributor.bio && contributor.bio !== ''" :position="2">
+            <puik-tab-navigation-title
+              v-if="contributor.bio && contributor.bio !== ''"
+              :position="2"
+            >
               About
             </puik-tab-navigation-title>
           </puik-tab-navigation-group-titles>
           <puik-tab-navigation-group-panels>
             <puik-tab-navigation-panel :position="1">
-              <puik-button v-if="selectedCategory" class="wof-top-modal__back-button" size="sm" left-icon="arrow_back" @click="selectedCategory = null">
+              <puik-button
+                v-if="selectedCategory"
+                class="wof-top-modal__back-button"
+                size="sm"
+                left-icon="arrow_back"
+                @click="selectedCategory = null"
+              >
                 back
               </puik-button>
               <div v-if="!selectedCategory" class="wof-top-modal__categories">
@@ -148,25 +173,33 @@ const  selectCategory = (category: string) =>{
                   <p class="puik-body-default">{{ category }}</p>
                 </puik-card>
               </div>
-              <div v-if="selectedCategory && contributor.categories && contributor.categories[selectedCategory]" class="wof-top-modal__categories">
+              <div
+                v-if="
+                  selectedCategory &&
+                  contributor.categories &&
+                  contributor.categories[selectedCategory]
+                "
+                class="wof-top-modal__categories"
+              >
                 <a
-                  v-for="(data, repository) in contributor.categories[selectedCategory]?.repositories || {}"
+                  v-for="(data, repository) in contributor.categories[selectedCategory]
+                    ?.repositories || {}"
                   :key="repository"
                   class="wof-top-modal__repository__link"
                   :href="`https://github.com/PrestaShop/${repository}/pulls?q=is%3Apr+is%3Amerged+author%3A${contributor.login}`"
                   target="_blank"
                 >
-                <puik-card
-                  :key="repository"
-                  class="wof-top-modal__repository__card"
-                >
-                  <p class="puik-h2">{{ data }}</p>
-                  <p class="puik-body-default">{{ repository }}</p>
-                </puik-card>
-              </a>
+                  <puik-card :key="repository" class="wof-top-modal__repository__card">
+                    <p class="puik-h2">{{ data }}</p>
+                    <p class="puik-body-default">{{ repository }}</p>
+                  </puik-card>
+                </a>
               </div>
             </puik-tab-navigation-panel>
-            <puik-tab-navigation-panel v-if="contributor.bio && contributor.bio !== ''" :position="2">
+            <puik-tab-navigation-panel
+              v-if="contributor.bio && contributor.bio !== ''"
+              :position="2"
+            >
               <div class="puik-body-default p-4 bg-white">
                 {{ contributor.bio }}
               </div>
@@ -235,8 +268,8 @@ const  selectCategory = (category: string) =>{
   gap: 1rem;
   background-color: var(--wof-color-bg-modal);
   overflow-y: auto;
-    @media screen and (min-width: 768px) {
-      padding: 40px;
+  @media screen and (min-width: 768px) {
+    padding: 40px;
   }
 }
 .wof-top-modal__avatar {
@@ -282,7 +315,7 @@ const  selectCategory = (category: string) =>{
   z-index: 2;
   min-width: 92px;
 }
-.wof-top-modal__copy-link-button span{
+.wof-top-modal__copy-link-button span {
   margin-right: auto;
 }
 .wof-top-modal__categories {
@@ -290,14 +323,16 @@ const  selectCategory = (category: string) =>{
   grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
   gap: 1rem;
 }
-.wof-top-modal__category__card, .wof-top-modal__repository__card {
+.wof-top-modal__category__card,
+.wof-top-modal__repository__card {
   padding: 1rem;
   display: flex;
   flex-direction: column;
   gap: 0;
   cursor: pointer;
 }
-.wof-top-modal__category__card p, .wof-top-modal__repository__card p {
+.wof-top-modal__category__card p,
+.wof-top-modal__repository__card p {
   margin: 0;
   overflow: hidden;
   text-overflow: ellipsis;

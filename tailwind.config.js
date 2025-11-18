@@ -8,11 +8,11 @@ export default {
     './layouts/**/*.{vue,js,ts}',
     './pages/**/*.{vue,js,ts}',
     './plugins/**/*.{js,ts}',
-    './nuxt.config.{js,ts}',
+    './nuxt.config.{js,ts}'
   ],
   theme: {
-    extend: {},
+    extend: {}
   },
   darkMode: 'class',
-  plugins: [],
+  plugins: []
 }

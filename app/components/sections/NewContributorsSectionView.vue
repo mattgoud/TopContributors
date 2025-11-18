@@ -15,36 +15,38 @@ const carousel_config = {
   breakpoints: {
     0: {
       itemsToShow: 1,
-      snapAlign: 'center' as const,
+      snapAlign: 'center' as const
     },
     476: {
       itemsToShow: 2,
-      snapAlign: 'start' as const,
+      snapAlign: 'start' as const
     },
     992: {
       itemsToShow: 3,
-      snapAlign: 'start' as const,
+      snapAlign: 'start' as const
     },
     1024: {
       itemsToShow: 4,
-      snapAlign: 'start' as const,
+      snapAlign: 'start' as const
     },
     1200: {
       itemsToShow: 5,
-      snapAlign: 'start' as const,
+      snapAlign: 'start' as const
     },
     1600: {
       itemsToShow: 6,
-      snapAlign: 'start' as const,
-    },
-  },
+      snapAlign: 'start' as const
+    }
+  }
 }
 </script>
 
 <template>
   <section class="wof-section wof-new-contributors-section">
     <div>
-      <h2 class="wof-new-contributors-section__title puik-h2">👋 Say hello to our new contributors</h2>
+      <h2 class="wof-new-contributors-section__title puik-h2">
+        👋 Say hello to our new contributors
+      </h2>
       <p class="wof-new-contributors-section__description puik-body-default">
         Fresh commits, fresh faces. Meet the contributors who just joined!
       </p>
@@ -57,11 +59,15 @@ const carousel_config = {
               class="wof-new-contributors-section__img"
               :src="newContributor.avatar_url"
               :alt="`${newContributor.name ?? newContributor.login} avatar`"
-            >
+            />
           </div>
-          <h3 class="puik-h3">{{ newContributor.name ?? newContributor.login}}</h3>
+          <h3 class="puik-h3">{{ newContributor.name ?? newContributor.login }}</h3>
           <p class="puik-body-default">{{ newContributor.login }}</p>
-          <p class="puik-body-small">{{ newContributor.contributions }} commit{{ newContributor.contributions > 1 ? "s" : "" }}</p>
+          <p class="puik-body-small">
+            {{ newContributor.contributions }} commit{{
+              newContributor.contributions > 1 ? 's' : ''
+            }}
+          </p>
         </puik-card>
       </Slide>
       <template #addons>
@@ -164,27 +170,27 @@ const carousel_config = {
   color: var(--wof-carousel-nav-hover);
 }
 
-.carousel__slide .wof-new-contributors-section__card{
+.carousel__slide .wof-new-contributors-section__card {
   gap: 0.5rem;
   opacity: 0.9;
   border-width: 2px;
   border-color: transparent;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .carousel__slide--active .wof-new-contributors-section__card {
   opacity: 1;
   border-color: #1b8ca6;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
-.carousel__slide .wof-new-contributors-section__card .wof-new-contributors-section__img{
+.carousel__slide .wof-new-contributors-section__card .wof-new-contributors-section__img {
   transform: scale(1);
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
-.carousel__slide--active .wof-new-contributors-section__card .wof-new-contributors-section__img{
+.carousel__slide--active .wof-new-contributors-section__card .wof-new-contributors-section__img {
   transform: scale(1.1);
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 </style>

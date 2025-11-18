@@ -1,4 +1,3 @@
-
 export interface Company {
   rank: number
   name: string
@@ -23,10 +22,13 @@ export interface Contributor {
   contributions: number
   mergedPullRequests: number
   repositories: Record<string, number>
-  categories: Record<string, {
-    total: number
-    repositories: Record<string, number>
-  }>
+  categories: Record<
+    string,
+    {
+      total: number
+      repositories: Record<string, number>
+    }
+  >
 }
 
 export interface NewContributor {

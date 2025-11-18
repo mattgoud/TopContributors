@@ -1,5 +1,5 @@
-@import "@prestashopcorp/puik-theme";
-@import "tailwindcss";
+@import '@prestashopcorp/puik-theme';
+@import 'tailwindcss';
 
 @theme {
   /* Fonts */
@@ -95,8 +95,8 @@
 }
 
 @layer base {
-html {
-  background-color: var(--color-bg);
-  color: var(--color-text);
-}
+  html {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+  }
 }

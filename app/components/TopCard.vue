@@ -29,11 +29,7 @@ defineEmits<{
         :aria-label="linkContent"
         class="wof-top-card__external-link"
       >
-        <puik-link
-          :href="linkHref"
-          target="_self"
-          :aria-label="linkContent"
-        >
+        <puik-link :href="linkHref" target="_self" :aria-label="linkContent">
           {{ linkContent }}
         </puik-link>
       </puik-button>
@@ -47,15 +43,8 @@ defineEmits<{
       :sticky-last-col="stickyLastCol"
       :full-width="fullWidth"
     >
-      <template
-        v-for="header in headers"
-        :key="header.value"
-        #[`item-${header.value}`]="slotProps"
-      >
-        <slot
-          :name="`item-${header.value}`"
-          v-bind="slotProps"
-        >
+      <template v-for="header in headers" :key="header.value" #[`item-${header.value}`]="slotProps">
+        <slot :name="`item-${header.value}`" v-bind="slotProps">
           <span class="puik-body-default">{{ slotProps.item[header.value] }}</span>
         </slot>
       </template>
@@ -88,6 +77,5 @@ defineEmits<{
   .wof-top-card__title {
     font-size: var(--wof-top-card-title-size-sm);
   }
-
 }
 </style>

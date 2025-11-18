@@ -11,10 +11,26 @@ const props = defineProps<{
 
 // TABLE CONFIG
 const headers: PuikTableHeader[] = [
-  { text: 'Rank', value: 'rank', size: 'sm', align: 'center', searchable: true, searchType: 'range', sortable: true },
+  {
+    text: 'Rank',
+    value: 'rank',
+    size: 'sm',
+    align: 'center',
+    searchable: true,
+    searchType: 'range',
+    sortable: true
+  },
   { text: 'Name', value: 'name', size: 'lg', align: 'left', searchable: true, sortable: true },
-  { text: 'Contributions', value: 'mergedPullRequests', size: 'sm', align: 'center', searchable: true, searchType: 'range', sortable: true },
-  { value: 'actions', size: 'sm', align: 'center', preventExpand: true, searchSubmit: true },
+  {
+    text: 'Contributions',
+    value: 'mergedPullRequests',
+    size: 'sm',
+    align: 'center',
+    searchable: true,
+    searchType: 'range',
+    sortable: true
+  },
+  { value: 'actions', size: 'sm', align: 'center', preventExpand: true, searchSubmit: true }
 ]
 
 const stickyLastCol = ref(false)
@@ -25,16 +41,15 @@ const page = ref(1)
 const itemsPerPage = ref(5)
 const paginationVariant = ref<PuikPaginationVariants>(PuikPaginationVariants.Large)
 
-const {
-  currentContributor,
-  isModalOpen,
-  openModal,
-  closeModal,
-} = useContributorModalRouter(contributorsRef)
+const { currentContributor, isModalOpen, openModal, closeModal } =
+  useContributorModalRouter(contributorsRef)
 
 // PAGINATION
 const paginatedItems = computed(() =>
-  contributorsRef.value.slice((page.value - 1) * itemsPerPage.value, page.value * itemsPerPage.value)
+  contributorsRef.value.slice(
+    (page.value - 1) * itemsPerPage.value,
+    page.value * itemsPerPage.value
+  )
 )
 
 const updatePaginationVariant = () => {
@@ -73,7 +88,7 @@ const handleSearchSubmit = (payload: searchOption[]) => {
   payload.forEach(({ searchBy, inputText, inputRange }) => {
     if (inputText) {
       const search = inputText.toLowerCase().trim().replace(/\s+/g, ' ')
-      filtered = filtered.filter(c => {
+      filtered = filtered.filter((c) => {
         const haystack =
           searchBy === 'name'
             ? `${c.name ?? ''} ${c.login ?? ''}`.toLowerCase()
@@ -83,7 +98,7 @@ const handleSearchSubmit = (payload: searchOption[]) => {
     }
 
     if (inputRange) {
-      filtered = filtered.filter(c => {
+      filtered = filtered.filter((c) => {
         const value = c[searchBy as keyof Contributor] as number
         if (inputRange.min != null && value < inputRange.min) return false
         if (inputRange.max != null && value > inputRange.max) return false
@@ -119,7 +134,7 @@ const handleSort = (payload: sortOption) => {
 
 watch(
   () => props.contributorsData,
-  newVal => {
+  (newVal) => {
     if (newVal) contributorsRef.value = [...newVal]
   },
   { immediate: true }

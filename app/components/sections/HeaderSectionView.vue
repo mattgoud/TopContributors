@@ -3,7 +3,6 @@ defineProps<{
   totalMergedPr: number
   prestaMergedPrByPercent: number
 }>()
-
 </script>
 
 <template>
@@ -26,13 +25,17 @@ defineProps<{
         <span class="wof-header-section__kpis-value puik-brand-h1">
           {{ prestaMergedPrByPercent }}%
         </span>
-        <span class="wof-header-section__kpis-label puik-body-default">Contributions by PrestaShop</span>
+        <span class="wof-header-section__kpis-label puik-body-default">
+          Contributions by PrestaShop
+        </span>
       </div>
       <div class="wof-header-section__kpis-item">
         <span class="wof-header-section__kpis-value puik-brand-h1">
-            {{ (100 - prestaMergedPrByPercent).toFixed(2) }}%
+          {{ (100 - prestaMergedPrByPercent).toFixed(2) }}%
         </span>
-        <span class="wof-header-section__kpis-label puik-body-default">Contributions by Community</span>
+        <span class="wof-header-section__kpis-label puik-body-default">
+          Contributions by Community
+        </span>
       </div>
     </div>
   </header>

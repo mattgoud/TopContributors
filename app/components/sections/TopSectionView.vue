@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { Contributor, Company } from '@/types';
+import type { Contributor, Company } from '@/types'
 
 defineProps<{
   topContributors: Contributor[]

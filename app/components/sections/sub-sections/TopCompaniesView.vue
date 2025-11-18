@@ -13,40 +13,39 @@ const headers: PuikTableHeader[] = [
     value: 'rank',
     size: 'sm',
     align: 'center',
-    searchable: false,
+    searchable: false
   },
   {
     text: 'Logo',
     value: 'logo',
     size: 'sm',
     align: 'center',
-    searchable: false,
+    searchable: false
   },
   {
     text: 'Name',
     value: 'name',
     size: 'md',
     align: 'left',
-    searchable: true,
+    searchable: true
   },
   {
     text: 'Contributions',
     value: 'merged_pull_requests',
     size: 'sm',
     align: 'center',
-    searchable: false,
+    searchable: false
   },
   {
     value: 'actions',
     size: 'sm',
     align: 'center',
     preventExpand: true,
-    searchSubmit: true,
-  },
+    searchSubmit: true
+  }
 ]
 const stickyLastCol = ref(false)
 const fullWidth = ref(true)
-
 </script>
 
 <template>
@@ -78,17 +77,16 @@ const fullWidth = ref(true)
 
     <template #item-name="{ item }">
       <div class="wof-top-contributors__name">
-        <span v-if="item.login" class="puik-body-default">{{ item.login }}</span>
-        <span v-else-if="item.name" class="puik-body-default">{{ item.name }}</span>
+        <span v-if="item.login" class="puik-body-default">
+          {{ item.login }}
+        </span>
+        <span v-else-if="item.name" class="puik-body-default">
+          {{ item.name }}
+        </span>
       </div>
     </template>
     <template #item-actions="{ item }">
-      <a
-        :href="item.html_url"
-        target="_blank"
-        aria-label="view profile"
-        rel="noopener noreferrer"
-      >
+      <a :href="item.html_url" target="_blank" aria-label="view profile" rel="noopener noreferrer">
         <puik-button
           variant="text"
           force-legacy-text-variant

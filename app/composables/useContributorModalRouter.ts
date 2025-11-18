@@ -5,8 +5,7 @@ export function useContributorModalRouter(contributors: Contributor[] | Ref<Cont
   const isModalOpen = ref(false)
   const currentContributor = ref<Contributor | null>(null)
 
-  const getContributors = () =>
-    Array.isArray(contributors) ? contributors : contributors.value
+  const getContributors = () => (Array.isArray(contributors) ? contributors : contributors.value)
 
   const parseHash = (): string | null => {
     const hash = window.location.hash.replace('#', '').trim()
@@ -42,6 +41,7 @@ export function useContributorModalRouter(contributors: Contributor[] | Ref<Cont
     try {
       await navigator.clipboard.writeText(url)
     } catch (e) {
+      console.info('Clipboard API not supported, falling back to execCommand.', e)
       const el = document.createElement('textarea')
       el.value = url
       document.body.appendChild(el)
@@ -56,7 +56,7 @@ export function useContributorModalRouter(contributors: Contributor[] | Ref<Cont
     if (!login) return
 
     const list = getContributors()
-    const found = list.find(c => c.login === login)
+    const found = list.find((c) => c.login === login)
     if (found) {
       currentContributor.value = found
       isModalOpen.value = true
@@ -76,9 +76,12 @@ export function useContributorModalRouter(contributors: Contributor[] | Ref<Cont
     window.removeEventListener('hashchange', onHashChange)
   })
 
-  watch(() => (Array.isArray(contributors) ? contributors : contributors.value), () => {
-    if (!currentContributor.value) tryOpenFromHash()
-  })
+  watch(
+    () => (Array.isArray(contributors) ? contributors : contributors.value),
+    () => {
+      if (!currentContributor.value) tryOpenFromHash()
+    }
+  )
 
   return {
     currentContributor,
@@ -86,6 +89,6 @@ export function useContributorModalRouter(contributors: Contributor[] | Ref<Cont
     openModal,
     closeModal,
     navigateTo,
-    copyProfileLink,
+    copyProfileLink
   }
 }
