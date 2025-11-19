@@ -20,7 +20,8 @@ const copyContributorLink = async (contributor: Contributor) => {
 
   try {
     await navigator.clipboard.writeText(url.toString())
-  } catch (e) {
+  }
+  catch (e) {
     console.info('Clipboard API not supported, falling back to execCommand.', e)
     const el = document.createElement('textarea')
     el.value = url.toString()
@@ -60,23 +61,46 @@ const selectCategory = (category: string) => {
       size="sm"
       @click="close"
     >
-      <puik-icon icon="close" font-size="1.25rem" />
+      <puik-icon
+        icon="close"
+        font-size="1.25rem"
+      />
     </puik-button>
     <div class="wof-top-modal__container">
       <div class="wof-top-modal__side-content">
         <div class="wof-top-modal__avatar">
-          <img :src="contributor.avatar_url" alt="contributor avatar" />
+          <img
+            :src="contributor.avatar_url"
+            alt="contributor avatar"
+          >
         </div>
         <div class="wof-top-modal__title">
           <div v-if="contributor.name">
-            <h3 class="puik-h3">{{ contributor.name }}</h3>
+            <h3 class="puik-h3">
+              {{ contributor.name }}
+            </h3>
             <span class="puik-body-default-bold">({{ contributor.login }})</span>
           </div>
-          <h3 v-else class="puik-h3">{{ contributor.login }}</h3>
-          <puik-tag v-if="contributor.company" :content="contributor.company" variant="blue" />
+          <h3
+            v-else
+            class="puik-h3"
+          >
+            {{ contributor.login }}
+          </h3>
+          <puik-tag
+            v-if="contributor.company"
+            :content="contributor.company"
+            variant="blue"
+          />
         </div>
-        <div v-if="contributor.location" class="wof-top-modal__side-content__item">
-          <puik-icon icon="location_on" :fill="0" />
+        <div
+          v-if="contributor.location"
+          class="wof-top-modal__side-content__item"
+        >
+          <puik-icon
+            icon="location_on"
+            :fill="0"
+          />
           <div class="wof-top-modal__side-content__item-infos">
             <span class="wof-top-modal__side-content__item-title puik-body-default">Location</span>
             <span class="wof-top-modal__side-content__item-value puik-body-default">
@@ -84,8 +108,14 @@ const selectCategory = (category: string) => {
             </span>
           </div>
         </div>
-        <div v-if="contributor.company" class="wof-top-modal__side-content__item">
-          <puik-icon icon="work" :fill="0" />
+        <div
+          v-if="contributor.company"
+          class="wof-top-modal__side-content__item"
+        >
+          <puik-icon
+            icon="work"
+            :fill="0"
+          />
           <div class="wof-top-modal__side-content__item-infos">
             <span class="wof-top-modal__side-content__item-title puik-body-default">
               Current role(s)
@@ -95,8 +125,14 @@ const selectCategory = (category: string) => {
             </span>
           </div>
         </div>
-        <div v-if="contributor.html_url" class="wof-top-modal__side-content__item">
-          <puik-icon icon="location_on" :fill="0" />
+        <div
+          v-if="contributor.html_url"
+          class="wof-top-modal__side-content__item"
+        >
+          <puik-icon
+            icon="location_on"
+            :fill="0"
+          />
           <div class="wof-top-modal__side-content__item-infos">
             <span class="wof-top-modal__side-content__item-title puik-body-default">GitHub</span>
             <puik-link
@@ -109,8 +145,14 @@ const selectCategory = (category: string) => {
             </puik-link>
           </div>
         </div>
-        <div v-if="contributor.blog" class="wof-top-modal__side-content__item">
-          <puik-icon icon="desktop_mac" :fill="0" />
+        <div
+          v-if="contributor.blog"
+          class="wof-top-modal__side-content__item"
+        >
+          <puik-icon
+            icon="desktop_mac"
+            :fill="0"
+          />
           <div class="wof-top-modal__side-content__item-infos">
             <span class="wof-top-modal__side-content__item-title puik-body-default">Website</span>
             <puik-link
@@ -141,7 +183,7 @@ const selectCategory = (category: string) => {
           name="contributor-modal-tab-nav"
           :default-position="positionTab"
         >
-          <puik-tab-navigation-group-titles ariaLabel="contributor-modal-tab-nav-titles">
+          <puik-tab-navigation-group-titles aria-label="contributor-modal-tab-nav-titles">
             <puik-tab-navigation-title :position="1">
               Contributions ({{ contributor.mergedPullRequests }})
             </puik-tab-navigation-title>
@@ -163,22 +205,29 @@ const selectCategory = (category: string) => {
               >
                 back
               </puik-button>
-              <div v-if="!selectedCategory" class="wof-top-modal__categories">
+              <div
+                v-if="!selectedCategory"
+                class="wof-top-modal__categories"
+              >
                 <puik-card
                   v-for="(data, category) in contributor.categories"
                   :key="category"
                   class="wof-top-modal__category__card"
                   @click="selectCategory(category)"
                 >
-                  <p class="puik-h2">{{ data.total }}</p>
-                  <p class="puik-body-default">{{ category }}</p>
+                  <p class="puik-h2">
+                    {{ data.total }}
+                  </p>
+                  <p class="puik-body-default">
+                    {{ category }}
+                  </p>
                 </puik-card>
               </div>
               <div
                 v-if="
-                  selectedCategory &&
-                  contributor.categories &&
-                  contributor.categories[selectedCategory]
+                  selectedCategory
+                    && contributor.categories
+                    && contributor.categories[selectedCategory]
                 "
                 class="wof-top-modal__categories"
               >
@@ -190,7 +239,10 @@ const selectCategory = (category: string) => {
                   :href="`https://github.com/PrestaShop/${repository}/pulls?q=is%3Apr+is%3Amerged+author%3A${contributor.login}`"
                   target="_blank"
                 >
-                  <puik-card :key="repository" class="wof-top-modal__repository__card">
+                  <puik-card
+                    :key="repository"
+                    class="wof-top-modal__repository__card"
+                  >
                     <p class="puik-h2">{{ data }}</p>
                     <p class="puik-body-default">{{ repository }}</p>
                   </puik-card>

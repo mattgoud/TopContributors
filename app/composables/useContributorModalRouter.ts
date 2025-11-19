@@ -47,7 +47,8 @@ export function useContributorModalRouter(contributors: Contributor[] | Ref<Cont
 
     try {
       await navigator.clipboard.writeText(url.toString())
-    } catch (e) {
+    }
+    catch (e) {
       console.info('Clipboard API not supported, falling back to execCommand.', e)
       const el = document.createElement('textarea')
       el.value = url.toString()
@@ -63,7 +64,7 @@ export function useContributorModalRouter(contributors: Contributor[] | Ref<Cont
     if (!login) return
 
     const list = getContributors()
-    const found = list.find((c) => c.login === login)
+    const found = list.find(c => c.login === login)
     if (found) {
       currentContributor.value = found
       isModalOpen.value = true
@@ -74,7 +75,8 @@ export function useContributorModalRouter(contributors: Contributor[] | Ref<Cont
     const login = parseContributorParam()
     if (login) {
       tryOpenFromUrl()
-    } else {
+    }
+    else {
       // Si le paramètre contributor n'existe plus, fermer le modal
       if (isModalOpen.value) {
         isModalOpen.value = false
@@ -96,7 +98,7 @@ export function useContributorModalRouter(contributors: Contributor[] | Ref<Cont
     () => (Array.isArray(contributors) ? contributors : contributors.value),
     () => {
       if (!currentContributor.value) tryOpenFromUrl()
-    }
+    },
   )
 
   return {
@@ -105,6 +107,6 @@ export function useContributorModalRouter(contributors: Contributor[] | Ref<Cont
     openModal,
     closeModal,
     navigateTo,
-    copyProfileLink
+    copyProfileLink,
   }
 }

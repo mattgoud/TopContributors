@@ -22,19 +22,30 @@ defineEmits<{
 <template>
   <puik-card class="wof-top-card">
     <div class="wof-top-card__title-container">
-      <h3 class="wof-top-card__title puik-h2">{{ title }}</h3>
+      <h3 class="wof-top-card__title puik-h2">
+        {{ title }}
+      </h3>
       <puik-button
         v-if="linkContent && linkHref"
         variant="secondary"
         :aria-label="linkContent"
         class="wof-top-card__external-link"
       >
-        <puik-link :href="linkHref" target="_self" :aria-label="linkContent">
+        <puik-link
+          :href="linkHref"
+          target="_self"
+          :aria-label="linkContent"
+        >
           {{ linkContent }}
         </puik-link>
       </puik-button>
     </div>
-    <p v-if="description" class="wof-top-card__description puik-body-default">{{ description }}</p>
+    <p
+      v-if="description"
+      class="wof-top-card__description puik-body-default"
+    >
+      {{ description }}
+    </p>
 
     <puik-table
       v-if="items?.length"
@@ -43,8 +54,15 @@ defineEmits<{
       :sticky-last-col="stickyLastCol"
       :full-width="fullWidth"
     >
-      <template v-for="header in headers" :key="header.value" #[`item-${header.value}`]="slotProps">
-        <slot :name="`item-${header.value}`" v-bind="slotProps">
+      <template
+        v-for="header in headers"
+        :key="header.value"
+        #[`item-${header.value}`]="slotProps"
+      >
+        <slot
+          :name="`item-${header.value}`"
+          v-bind="slotProps"
+        >
           <span class="puik-body-default">{{ slotProps.item[header.value] }}</span>
         </slot>
       </template>

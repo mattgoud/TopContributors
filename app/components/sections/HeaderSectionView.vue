@@ -7,7 +7,9 @@ defineProps<{
 
 <template>
   <header class="wof-section wof-header-section">
-    <h1 class="wof-header-section__title puik-brand-jumbotron">MEET our community Heroes</h1>
+    <h1 class="wof-header-section__title puik-brand-jumbotron">
+      MEET our community Heroes
+    </h1>
     <p class="wof-header-section__description puik-body-default">
       From day one, PrestaShop has thrived as an open-source platform powered by a talented
       community of developers, merchants, and contributors. We all work together to improve and

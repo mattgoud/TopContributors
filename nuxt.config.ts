@@ -4,43 +4,48 @@ import AutoImport from 'unplugin-auto-import/vite'
 import { PuikResolver } from '@prestashopcorp/puik-resolver'
 
 export default defineNuxtConfig({
-  compatibilityDate: '2025-07-15',
+
+  modules: ['@nuxt/eslint', '@nuxt/image', '@nuxt/test-utils'],
+
+  components: [
+    {
+      path: '~/components',
+      pathPrefix: false,
+    },
+  ],
   devtools: { enabled: true },
 
   app: {
     head: {
       title: 'PrestaShop Top Contributors',
       htmlAttrs: {
-        lang: 'en'
+        lang: 'en',
       },
       meta: [
         {
           name: 'description',
-          content: 'A list of PrestaShop contributors'
-        }
+          content: 'A list of PrestaShop contributors',
+        },
       ],
-      link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
-    }
+      link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    },
   },
-
-  components: [
-    {
-      path: '~/components',
-      pathPrefix: false
-    }
-  ],
   css: ['~/assets/css/main.css'],
+  compatibilityDate: '2025-07-15',
   vite: {
     plugins: [
       tailwindcss(),
       Components({
-        resolvers: [PuikResolver()]
+        resolvers: [PuikResolver()],
       }),
       AutoImport({
-        resolvers: [PuikResolver()]
-      })
-    ]
+        resolvers: [PuikResolver()],
+      }),
+    ],
   },
-
-  modules: ['@nuxt/eslint', '@nuxt/image', '@nuxt/test-utils']
+  eslint: {
+    config: {
+      stylistic: true,
+    },
+  },
 })

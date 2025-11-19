@@ -8,7 +8,9 @@ defineProps<{
 <template>
   <section class="wof-section wof-contribute-section">
     <div class="wof-contribute-section__content">
-      <h2 class="wof-contribute-section__tite puik-h2">✨ How to contribute?</h2>
+      <h2 class="wof-contribute-section__tite puik-h2">
+        ✨ How to contribute?
+      </h2>
       <p class="wof-contribute-section__description puik-body-default">
         Join the open-source movement by contributing to PrestaShop on GitHub—whether it’s code,
         documentation, or ideas. Every contribution counts!

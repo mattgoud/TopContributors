@@ -18,7 +18,8 @@ onMounted(async () => {
     if (!response.ok) throw new Error('Error loading new contributors')
     const data: Record<string, NewContributor> = await response.json()
     newContributors.value = Object.values(data)
-  } catch (error) {
+  }
+  catch (error) {
     console.error('Error loading new contributors:', error)
   }
 
@@ -29,18 +30,19 @@ onMounted(async () => {
 
     companiesData.value = data.companies
     topCompanies.value = data.companies.slice(0, 5)
-    const total: number =
-      data.companies.reduce(
+    const total: number
+      = data.companies.reduce(
         (acc: number, company: Company) => acc + company.merged_pull_requests,
-        0
+        0,
       ) + data.community.merged_pull_requests
     totalMergedPr.value = total ?? 0
 
     const prestashopCompany = data.companies.find(
-      (company: Company) => company.name === 'PrestaShop'
+      (company: Company) => company.name === 'PrestaShop',
     )
     prestaMergedPrbyPercent.value = prestashopCompany.pull_requests_percent ?? 0
-  } catch (error) {
+  }
+  catch (error) {
     console.error('Error loading top companies:', error)
   }
 
@@ -53,7 +55,7 @@ onMounted(async () => {
     // Filter out non-contributor entries and nulls (e.g., "updatedAt") from the JSON object
     const contributorsOnly = Object.values(data).filter(
       (item): item is Contributor =>
-        item !== null && typeof item === 'object' && 'contributions' in item
+        item !== null && typeof item === 'object' && 'contributions' in item,
     )
     contributorsOnly.map((contributor, index) => {
       contributor.rank = index + 1
@@ -61,7 +63,8 @@ onMounted(async () => {
     })
     contributorsData.value = contributorsOnly
     topContributors.value = contributorsOnly.slice(0, 5)
-  } catch (error) {
+  }
+  catch (error) {
     console.error('Error loading contributors data:', error)
   }
 })
@@ -74,7 +77,10 @@ onMounted(async () => {
       :presta-merged-pr-by-percent="prestaMergedPrbyPercent"
     />
     <main>
-      <TopSectionView :top-contributors="topContributors" :top-companies="topCompanies" />
+      <TopSectionView
+        :top-contributors="topContributors"
+        :top-companies="topCompanies"
+      />
       <NewContributorsSectionView :new-contributors="newContributors" />
       <WallOfFameSectionView
         :contributors-data="contributorsData"

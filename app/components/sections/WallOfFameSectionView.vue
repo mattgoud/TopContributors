@@ -82,6 +82,7 @@ const handleContributorAction = (item: TableItem) => {
     </p>
 
     <puik-tab-navigation name="wall-of-fame-tables" :default-position="1">
+      <!-- eslint-disable-next-line vue/attribute-hyphenation -->
       <puik-tab-navigation-group-titles ariaLabel="Wall of Fame Tables Tabs">
         <puik-tab-navigation-title :position="1"> Contributors </puik-tab-navigation-title>
         <puik-tab-navigation-title :position="2"> Companies </puik-tab-navigation-title>
@@ -113,6 +114,9 @@ const handleContributorAction = (item: TableItem) => {
 .wof-wall-of-fame-section {
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: 1rem;
+}
+#wall-of-fame-tables .puik-tab-navigation__title {
+  border-bottom: none;
 }
 </style>

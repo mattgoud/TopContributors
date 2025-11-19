@@ -27,16 +27,18 @@ const paginationVariant = ref<PuikPaginationVariants>(PuikPaginationVariants.Lar
 
 // PAGINATION
 const paginatedItems = computed(() =>
-  itemsRef.value.slice((page.value - 1) * itemsPerPage.value, page.value * itemsPerPage.value)
+  itemsRef.value.slice((page.value - 1) * itemsPerPage.value, page.value * itemsPerPage.value),
 )
 
 const updatePaginationVariant = () => {
   const width = window.innerWidth
   if (width < 768) {
     paginationVariant.value = PuikPaginationVariants.Mobile
-  } else if (width < 1024) {
+  }
+  else if (width < 1024) {
     paginationVariant.value = PuikPaginationVariants.Medium
-  } else {
+  }
+  else {
     paginationVariant.value = PuikPaginationVariants.Large
   }
 }
@@ -68,8 +70,8 @@ const handleSearchSubmit = (payload: searchOption[]) => {
       const search = inputText.toLowerCase().trim().replace(/\s+/g, ' ')
       filtered = filtered.filter((item) => {
         const typedItem = item as Record<string, unknown>
-        const haystack =
-          searchBy === 'name'
+        const haystack
+          = searchBy === 'name'
             ? `${(typedItem.name as string) ?? ''} ${(typedItem.login as string) ?? ''}`.toLowerCase()
             : String(typedItem[searchBy]).toLowerCase()
         return haystack.includes(search)
@@ -100,12 +102,12 @@ const handleSort = (payload: sortOption) => {
   itemsRef.value = [...itemsRef.value].sort((a, b) => {
     const typedA = a as Record<string, unknown>
     const typedB = b as Record<string, unknown>
-    const valA =
-      sortBy === 'name'
+    const valA
+      = sortBy === 'name'
         ? ((typedA.name as string) || (typedA.login as string) || '').toLowerCase()
         : typedA[sortBy]
-    const valB =
-      sortBy === 'name'
+    const valB
+      = sortBy === 'name'
         ? ((typedB.name as string) || (typedB.login as string) || '').toLowerCase()
         : typedB[sortBy]
 
@@ -125,7 +127,7 @@ watch(
   (newVal) => {
     if (newVal) itemsRef.value = [...newVal]
   },
-  { immediate: true }
+  { immediate: true },
 )
 
 const handleActionClick = (item: TableItem) => {
@@ -160,7 +162,7 @@ const isCompany = (_item: TableItem): _item is Company => {
             'wof-top-section__rank',
             { 'wof-top-section__rank--first': item.rank === 1 },
             { 'wof-top-section__rank--second': item.rank === 2 },
-            { 'wof-top-section__rank--third': item.rank === 3 }
+            { 'wof-top-section__rank--third': item.rank === 3 },
           ]"
         >
           <span class="puik-body-default-bold">{{ item.rank }}</span>
@@ -169,18 +171,40 @@ const isCompany = (_item: TableItem): _item is Company => {
 
       <template #item-name="{ item }">
         <!-- Contributor display -->
-        <div v-if="isContributor(item)" class="wof-contributors__login__container">
-          <puik-avatar size="large" type="photo" :src="item.avatar_url" />
+        <div
+          v-if="isContributor(item)"
+          class="wof-contributors__login__container"
+        >
+          <puik-avatar
+            size="large"
+            type="photo"
+            :src="item.avatar_url"
+          />
           <div class="wof-top-contributors__name">
             <span class="puik-body-default">{{ item.name || item.login }}</span>
-            <span v-if="item.name" class="puik-body-small-bold">({{ item.login }})</span>
-            <puik-tag v-if="item.company" :content="item.company" variant="blue" />
+            <span
+              v-if="item.name"
+              class="puik-body-small-bold"
+            >({{ item.login }})</span>
+            <puik-tag
+              v-if="item.company"
+              :content="item.company"
+              variant="blue"
+            />
           </div>
         </div>
 
         <!-- Company display -->
-        <div v-else-if="isCompany(item)" class="wof-contributors__login__container">
-          <puik-avatar v-if="item.avatar_url" size="large" type="photo" :src="item.avatar_url" />
+        <div
+          v-else-if="isCompany(item)"
+          class="wof-contributors__login__container"
+        >
+          <puik-avatar
+            v-if="item.avatar_url"
+            size="large"
+            type="photo"
+            :src="item.avatar_url"
+          />
           <puik-avatar
             v-else
             size="large"
@@ -188,10 +212,16 @@ const isCompany = (_item: TableItem): _item is Company => {
             :single-initial="false"
           />
           <div class="wof-top-contributors__name">
-            <span v-if="item.login" class="puik-body-default">
+            <span
+              v-if="item.login"
+              class="puik-body-default"
+            >
               {{ item.login }}
             </span>
-            <span v-else-if="item.name" class="puik-body-default">
+            <span
+              v-else-if="item.name"
+              class="puik-body-default"
+            >
               {{ item.name }}
             </span>
           </div>
@@ -227,7 +257,10 @@ const isCompany = (_item: TableItem): _item is Company => {
       </template>
     </puik-table>
 
-    <div v-if="itemsRef.length === 0" class="wof-no-results">
+    <div
+      v-if="itemsRef.length === 0"
+      class="wof-no-results"
+    >
       No {{ type === 'contributor' ? 'contributors' : 'companies' }} found with your search.
     </div>
 

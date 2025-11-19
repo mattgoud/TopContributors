@@ -9,7 +9,9 @@ defineProps<{
 
 <template>
   <section class="wof-section wof-top-section">
-    <h2 class="wof-top-section__title puik-h1">PrestaShop Project’s top contributors</h2>
+    <h2 class="wof-top-section__title puik-h1">
+      PrestaShop Project’s top contributors
+    </h2>
     <div class="wof-top-section__cards">
       <TopCompaniesView :top-companies="topCompanies" />
       <TopContributorsView :top-contributors="topContributors" />

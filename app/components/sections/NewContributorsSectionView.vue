@@ -15,29 +15,29 @@ const carousel_config = {
   breakpoints: {
     0: {
       itemsToShow: 1,
-      snapAlign: 'center' as const
+      snapAlign: 'center' as const,
     },
     476: {
       itemsToShow: 2,
-      snapAlign: 'start' as const
+      snapAlign: 'start' as const,
     },
     992: {
       itemsToShow: 3,
-      snapAlign: 'start' as const
+      snapAlign: 'start' as const,
     },
     1024: {
       itemsToShow: 4,
-      snapAlign: 'start' as const
+      snapAlign: 'start' as const,
     },
     1200: {
       itemsToShow: 5,
-      snapAlign: 'start' as const
+      snapAlign: 'start' as const,
     },
     1600: {
       itemsToShow: 6,
-      snapAlign: 'start' as const
-    }
-  }
+      snapAlign: 'start' as const,
+    },
+  },
 }
 </script>
 
@@ -52,17 +52,24 @@ const carousel_config = {
       </p>
     </div>
     <Carousel v-bind="carousel_config">
-      <Slide v-for="(newContributor, index) in newContributors" :key="index">
+      <Slide
+        v-for="(newContributor, index) in newContributors"
+        :key="index"
+      >
         <puik-card class="wof-new-contributors-section__card">
           <div class="wof-new-contributors-section__img-container">
             <img
               class="wof-new-contributors-section__img"
               :src="newContributor.avatar_url"
               :alt="`${newContributor.name ?? newContributor.login} avatar`"
-            />
+            >
           </div>
-          <h3 class="puik-h3">{{ newContributor.name ?? newContributor.login }}</h3>
-          <p class="puik-body-default">{{ newContributor.login }}</p>
+          <h3 class="puik-h3">
+            {{ newContributor.name ?? newContributor.login }}
+          </h3>
+          <p class="puik-body-default">
+            {{ newContributor.login }}
+          </p>
           <p class="puik-body-small">
             {{ newContributor.contributions }} commit{{
               newContributor.contributions > 1 ? 's' : ''
