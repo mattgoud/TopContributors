@@ -15,7 +15,6 @@
   },
   "dependencies": {
     "@nuxt/eslint": "^1.9.0",
-    "@nuxt/fonts": "^0.11.4",
     "@nuxt/image": "^1.11.0",
     "@nuxt/test-utils": "^3.19.2",
     "@prestashopcorp/puik-components": "^2.7.0",
