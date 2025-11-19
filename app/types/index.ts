@@ -5,6 +5,8 @@ export interface Company {
   pull_requests_percent: number
   avatar_url: string
   html_url: string
+  login?: string
+  [key: string]: unknown
 }
 
 export interface Contributor {
@@ -29,6 +31,7 @@ export interface Contributor {
       repositories: Record<string, number>
     }
   >
+  [key: string]: unknown
 }
 
 export interface NewContributor {

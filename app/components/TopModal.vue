@@ -15,14 +15,15 @@ const positionTab = ref(1)
 const copyState = ref(false)
 
 const copyContributorLink = async (contributor: Contributor) => {
-  const url = `${window.location.origin}/#${contributor.login}`
+  const url = new URL(window.location.href)
+  url.searchParams.set('contributor', contributor.login)
 
   try {
-    await navigator.clipboard.writeText(url)
+    await navigator.clipboard.writeText(url.toString())
   } catch (e) {
     console.info('Clipboard API not supported, falling back to execCommand.', e)
     const el = document.createElement('textarea')
-    el.value = url
+    el.value = url.toString()
     document.body.appendChild(el)
     el.select()
     document.execCommand('copy')
@@ -140,7 +141,7 @@ const selectCategory = (category: string) => {
           name="contributor-modal-tab-nav"
           :default-position="positionTab"
         >
-          <puik-tab-navigation-group-titles aria-label="contributor-modal-tab-nav-titles">
+          <puik-tab-navigation-group-titles ariaLabel="contributor-modal-tab-nav-titles">
             <puik-tab-navigation-title :position="1">
               Contributions ({{ contributor.mergedPullRequests }})
             </puik-tab-navigation-title>

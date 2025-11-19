@@ -7,9 +7,10 @@ export function useContributorModalRouter(contributors: Contributor[] | Ref<Cont
 
   const getContributors = () => (Array.isArray(contributors) ? contributors : contributors.value)
 
-  const parseHash = (): string | null => {
-    const hash = window.location.hash.replace('#', '').trim()
-    return hash.length > 0 ? hash : null
+  const parseContributorParam = (): string | null => {
+    const params = new URLSearchParams(window.location.search)
+    const contributor = params.get('contributor')
+    return contributor && contributor.trim().length > 0 ? contributor.trim() : null
   }
 
   const openModal = (item: Contributor | Company) => {
@@ -26,24 +27,30 @@ export function useContributorModalRouter(contributors: Contributor[] | Ref<Cont
   const closeModal = () => {
     isModalOpen.value = false
     currentContributor.value = null
-    history.replaceState(null, '', window.location.pathname)
+    const url = new URL(window.location.href)
+    url.searchParams.delete('contributor')
+    history.replaceState(null, '', url.toString())
   }
 
   const navigateTo = (login: string) => {
-    if (window.location.hash !== `#${login}`) {
-      history.pushState(null, '', `#${login}`)
+    const url = new URL(window.location.href)
+    const currentParam = url.searchParams.get('contributor')
+    if (currentParam !== login) {
+      url.searchParams.set('contributor', login)
+      history.pushState(null, '', url.toString())
     }
   }
 
   const copyProfileLink = async (contributor: Contributor) => {
-    const url = `${window.location.origin}${window.location.pathname}#${contributor.login}`
+    const url = new URL(window.location.href)
+    url.searchParams.set('contributor', contributor.login)
 
     try {
-      await navigator.clipboard.writeText(url)
+      await navigator.clipboard.writeText(url.toString())
     } catch (e) {
       console.info('Clipboard API not supported, falling back to execCommand.', e)
       const el = document.createElement('textarea')
-      el.value = url
+      el.value = url.toString()
       document.body.appendChild(el)
       el.select()
       document.execCommand('copy')
@@ -51,8 +58,8 @@ export function useContributorModalRouter(contributors: Contributor[] | Ref<Cont
     }
   }
 
-  const tryOpenFromHash = () => {
-    const login = parseHash()
+  const tryOpenFromUrl = () => {
+    const login = parseContributorParam()
     if (!login) return
 
     const list = getContributors()
@@ -63,23 +70,32 @@ export function useContributorModalRouter(contributors: Contributor[] | Ref<Cont
     }
   }
 
-  const onHashChange = () => {
-    tryOpenFromHash()
+  const onPopState = () => {
+    const login = parseContributorParam()
+    if (login) {
+      tryOpenFromUrl()
+    } else {
+      // Si le paramètre contributor n'existe plus, fermer le modal
+      if (isModalOpen.value) {
+        isModalOpen.value = false
+        currentContributor.value = null
+      }
+    }
   }
 
   onMounted(() => {
-    tryOpenFromHash()
-    window.addEventListener('hashchange', onHashChange)
+    tryOpenFromUrl()
+    window.addEventListener('popstate', onPopState)
   })
 
   onUnmounted(() => {
-    window.removeEventListener('hashchange', onHashChange)
+    window.removeEventListener('popstate', onPopState)
   })
 
   watch(
     () => (Array.isArray(contributors) ? contributors : contributors.value),
     () => {
-      if (!currentContributor.value) tryOpenFromHash()
+      if (!currentContributor.value) tryOpenFromUrl()
     }
   )
 
