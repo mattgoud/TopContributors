@@ -10,9 +10,9 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 9823,
+        "contributions": 9828,
         "repositories": {
-            "PrestaShop": 1091,
+            "PrestaShop": 1093,
             "PrestaShop-modules": 2,
             "PrestaShop-webservice-lib": 1,
             "dashactivity": 4,
@@ -121,9 +121,9 @@
         },
         "categories": {
             "core": {
-                "total": 1105,
+                "total": 1107,
                 "repositories": {
-                    "PrestaShop": 1091,
+                    "PrestaShop": 1093,
                     "prestashop-ui-kit": 1,
                     "TranslationToolsBundle": 2,
                     "TranslationFiles": 3,
@@ -272,7 +272,7 @@
                 }
             }
         },
-        "mergedPullRequests": 2151
+        "mergedPullRequests": 2153
     },
     "matks": {
         "login": "matks",
@@ -773,7 +773,7 @@
         "location": null,
         "bio": null,
         "email_domain": "",
-        "contributions": 6915,
+        "contributions": 6918,
         "repositories": {
             "PrestaShop": 669,
             "dashproducts": 1,
@@ -807,7 +807,7 @@
             "LocalizationFiles": 1,
             "example-modules": 22,
             "ps_qualityassurance": 1,
-            ".github": 2,
+            ".github": 3,
             "DocToolsBundle": 1,
             "hummingbird": 4,
             "ps-docs-theme": 1,
@@ -907,14 +907,14 @@
                 }
             },
             "others": {
-                "total": 3,
+                "total": 4,
                 "repositories": {
-                    ".github": 2,
+                    ".github": 3,
                     "distribution-api": 1
                 }
             }
         },
-        "mergedPullRequests": 1032
+        "mergedPullRequests": 1033
     },
     "Hlavtox": {
         "login": "Hlavtox",
@@ -927,9 +927,9 @@
         "location": "Pardubice, Czech Republic",
         "bio": null,
         "email_domain": "",
-        "contributions": 2203,
+        "contributions": 2207,
         "repositories": {
-            "PrestaShop": 348,
+            "PrestaShop": 350,
             "dashactivity": 4,
             "dashgoals": 4,
             "dashproducts": 7,
@@ -958,7 +958,7 @@
             "blockwishlist": 4,
             "productcomments": 9,
             "autoupgrade": 54,
-            "gsitemap": 13,
+            "gsitemap": 15,
             "prestashop.github.io": 1,
             "contactform": 6,
             "prestashop-ui-kit": 3,
@@ -988,7 +988,7 @@
             "ps_categoryproducts": 8,
             "ps_newproducts": 7,
             "ps_specials": 5,
-            "ps_supplierlist": 5,
+            "ps_supplierlist": 6,
             "ps_crossselling": 3,
             "ps_dataprivacy": 3,
             "ps_cashondelivery": 1,
@@ -1011,9 +1011,9 @@
         },
         "categories": {
             "core": {
-                "total": 353,
+                "total": 355,
                 "repositories": {
-                    "PrestaShop": 348,
+                    "PrestaShop": 350,
                     "prestashop-ui-kit": 3,
                     "circuit-breaker": 1,
                     "LocalizationFiles": 1
@@ -1038,7 +1038,7 @@
                 }
             },
             "modules": {
-                "total": 449,
+                "total": 452,
                 "repositories": {
                     "dashactivity": 4,
                     "dashgoals": 4,
@@ -1068,7 +1068,7 @@
                     "blockwishlist": 4,
                     "productcomments": 9,
                     "autoupgrade": 54,
-                    "gsitemap": 13,
+                    "gsitemap": 15,
                     "contactform": 6,
                     "blockreassurance": 4,
                     "ps_socialfollow": 6,
@@ -1095,7 +1095,7 @@
                     "ps_categoryproducts": 8,
                     "ps_newproducts": 7,
                     "ps_specials": 5,
-                    "ps_supplierlist": 5,
+                    "ps_supplierlist": 6,
                     "ps_crossselling": 3,
                     "ps_dataprivacy": 3,
                     "ps_cashondelivery": 1,
@@ -1134,7 +1134,7 @@
                 }
             }
         },
-        "mergedPullRequests": 868
+        "mergedPullRequests": 873
     },
     "PierreRambaud": {
         "login": "PierreRambaud",
@@ -1922,9 +1922,9 @@
         "location": "Bydgoszcz, Poland",
         "bio": "I'm a web developer from Poland, specializing in working with PrestaShop e-commerce",
         "email_domain": "",
-        "contributions": 3109,
+        "contributions": 3113,
         "repositories": {
-            "PrestaShop": 157,
+            "PrestaShop": 158,
             "PrestaShop-modules": 3,
             "pagesnotfound": 1,
             "statsdata": 1,
@@ -1975,9 +1975,9 @@
         },
         "categories": {
             "core": {
-                "total": 157,
+                "total": 158,
                 "repositories": {
-                    "PrestaShop": 157
+                    "PrestaShop": 158
                 }
             },
             "specs": {
@@ -2068,7 +2068,7 @@
                 }
             }
         },
-        "mergedPullRequests": 503
+        "mergedPullRequests": 504
     },
     "mickaelandrieu": {
         "login": "mickaelandrieu",
@@ -5042,7 +5042,7 @@
         "location": null,
         "bio": "Web Integrator",
         "email_domain": "",
-        "contributions": 590,
+        "contributions": 591,
         "repositories": {
             "PrestaShop": 13,
             "productcomments": 2,
@@ -5054,7 +5054,7 @@
             "ps_searchbar": 1,
             "traces": 1,
             "open-source": 1,
-            "hummingbird": 64,
+            "hummingbird": 65,
             "classic-theme": 1,
             "bootstrap-compatibility-layer": 4,
             "Prestashop-BO-themes-package": 3
@@ -5079,9 +5079,9 @@
                 }
             },
             "themes": {
-                "total": 65,
+                "total": 66,
                 "repositories": {
-                    "hummingbird": 64,
+                    "hummingbird": 65,
                     "classic-theme": 1
                 }
             },
@@ -5118,7 +5118,7 @@
                 }
             }
         },
-        "mergedPullRequests": 154
+        "mergedPullRequests": 155
     },
     "jf-viguier": {
         "login": "jf-viguier",
@@ -5986,7 +5986,7 @@
         "email_domain": "presta-module.com",
         "contributions": 124,
         "repositories": {
-            "PrestaShop": 105,
+            "PrestaShop": 106,
             "PrestaShop-modules": 1,
             "pscleaner": 2,
             "autoupgrade": 1,
@@ -5998,9 +5998,9 @@
         },
         "categories": {
             "core": {
-                "total": 105,
+                "total": 106,
                 "repositories": {
-                    "PrestaShop": 105
+                    "PrestaShop": 106
                 }
             },
             "specs": {
@@ -6048,7 +6048,7 @@
                 "repositories": []
             }
         },
-        "mergedPullRequests": 116
+        "mergedPullRequests": 117
     },
     "fatmaBouchekoua": {
         "login": "fatmaBouchekoua",
@@ -6395,7 +6395,7 @@
         "email_domain": "codencode.it",
         "contributions": 196,
         "repositories": {
-            "PrestaShop": 76,
+            "PrestaShop": 79,
             "dashactivity": 1,
             "autoupgrade": 4,
             "blockreassurance": 1,
@@ -6412,9 +6412,9 @@
         },
         "categories": {
             "core": {
-                "total": 77,
+                "total": 80,
                 "repositories": {
-                    "PrestaShop": 76,
+                    "PrestaShop": 79,
                     "LocalizationFiles": 1
                 }
             },
@@ -6465,7 +6465,7 @@
                 "repositories": []
             }
         },
-        "mergedPullRequests": 106
+        "mergedPullRequests": 109
     },
     "FabienPapet": {
         "login": "FabienPapet",
