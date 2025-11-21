@@ -773,9 +773,9 @@
         "location": null,
         "bio": null,
         "email_domain": "",
-        "contributions": 6918,
+        "contributions": 6919,
         "repositories": {
-            "PrestaShop": 669,
+            "PrestaShop": 670,
             "dashproducts": 1,
             "blockwishlist": 3,
             "productcomments": 10,
@@ -824,9 +824,9 @@
         },
         "categories": {
             "core": {
-                "total": 705,
+                "total": 706,
                 "repositories": {
-                    "PrestaShop": 669,
+                    "PrestaShop": 670,
                     "prestashop-ui-kit": 10,
                     "TranslationToolsBundle": 3,
                     "TranslationFiles": 12,
@@ -914,7 +914,7 @@
                 }
             }
         },
-        "mergedPullRequests": 1033
+        "mergedPullRequests": 1034
     },
     "Hlavtox": {
         "login": "Hlavtox",
@@ -1922,9 +1922,9 @@
         "location": "Bydgoszcz, Poland",
         "bio": "I'm a web developer from Poland, specializing in working with PrestaShop e-commerce",
         "email_domain": "",
-        "contributions": 3116,
+        "contributions": 3120,
         "repositories": {
-            "PrestaShop": 158,
+            "PrestaShop": 159,
             "PrestaShop-modules": 3,
             "pagesnotfound": 1,
             "statsdata": 1,
@@ -1975,9 +1975,9 @@
         },
         "categories": {
             "core": {
-                "total": 158,
+                "total": 159,
                 "repositories": {
-                    "PrestaShop": 158
+                    "PrestaShop": 159
                 }
             },
             "specs": {
@@ -2068,7 +2068,7 @@
                 }
             }
         },
-        "mergedPullRequests": 504
+        "mergedPullRequests": 505
     },
     "mickaelandrieu": {
         "login": "mickaelandrieu",
