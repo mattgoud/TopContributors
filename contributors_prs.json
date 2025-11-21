@@ -10,9 +10,9 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 9831,
+        "contributions": 9834,
         "repositories": {
-            "PrestaShop": 1096,
+            "PrestaShop": 1097,
             "PrestaShop-modules": 2,
             "PrestaShop-webservice-lib": 1,
             "dashactivity": 4,
@@ -45,7 +45,7 @@
             "autoupgrade": 25,
             "gsitemap": 8,
             "prestashop.github.io": 14,
-            "docker": 14,
+            "docker": 15,
             "contactform": 3,
             "prestashop-ui-kit": 1,
             "blockreassurance": 31,
@@ -86,7 +86,7 @@
             "ps_dataprivacy": 5,
             "ps_cashondelivery": 17,
             "ps_viewedproduct": 3,
-            "traces": 39,
+            "traces": 40,
             "core-weekly-generator": 1,
             "TopContributors": 41,
             "TranslationFiles": 3,
@@ -121,9 +121,9 @@
         },
         "categories": {
             "core": {
-                "total": 1110,
+                "total": 1111,
                 "repositories": {
-                    "PrestaShop": 1096,
+                    "PrestaShop": 1097,
                     "prestashop-ui-kit": 1,
                     "TranslationToolsBundle": 2,
                     "TranslationFiles": 3,
@@ -234,15 +234,15 @@
                 }
             },
             "tools": {
-                "total": 202,
+                "total": 204,
                 "repositories": {
                     "PrestaShop-webservice-lib": 1,
-                    "docker": 14,
+                    "docker": 15,
                     "docker-ci": 2,
                     "docker-internal-images": 1,
                     "prestonbot": 1,
                     "TopTranslators": 1,
-                    "traces": 39,
+                    "traces": 40,
                     "core-weekly-generator": 1,
                     "TopContributors": 41,
                     "issuebot": 2,
@@ -272,7 +272,7 @@
                 }
             }
         },
-        "mergedPullRequests": 2157
+        "mergedPullRequests": 2160
     },
     "matks": {
         "login": "matks",
@@ -773,7 +773,7 @@
         "location": null,
         "bio": null,
         "email_domain": "",
-        "contributions": 6919,
+        "contributions": 6920,
         "repositories": {
             "PrestaShop": 670,
             "dashproducts": 1,
@@ -1922,9 +1922,9 @@
         "location": "Bydgoszcz, Poland",
         "bio": "I'm a web developer from Poland, specializing in working with PrestaShop e-commerce",
         "email_domain": "",
-        "contributions": 3120,
+        "contributions": 3122,
         "repositories": {
-            "PrestaShop": 159,
+            "PrestaShop": 160,
             "PrestaShop-modules": 3,
             "pagesnotfound": 1,
             "statsdata": 1,
@@ -1975,9 +1975,9 @@
         },
         "categories": {
             "core": {
-                "total": 159,
+                "total": 160,
                 "repositories": {
-                    "PrestaShop": 159
+                    "PrestaShop": 160
                 }
             },
             "specs": {
@@ -2068,7 +2068,7 @@
                 }
             }
         },
-        "mergedPullRequests": 505
+        "mergedPullRequests": 506
     },
     "mickaelandrieu": {
         "login": "mickaelandrieu",
@@ -3815,7 +3815,7 @@
         "location": "France",
         "bio": "Developper from father to son with +13 years experience, commiter and member of @PrestaShop Tech Council!",
         "email_domain": "",
-        "contributions": 596,
+        "contributions": 599,
         "repositories": {
             "PrestaShop": 119,
             "productcomments": 1,
@@ -3831,6 +3831,7 @@
             "circuit-breaker": 3,
             "open-source": 1,
             "example-modules": 13,
+            ".github": 1,
             "hummingbird": 4,
             "classic-theme": 1,
             "ps_distributionapiclient": 1,
@@ -3895,11 +3896,13 @@
                 "repositories": []
             },
             "others": {
-                "total": 0,
-                "repositories": []
+                "total": 1,
+                "repositories": {
+                    ".github": 1
+                }
             }
         },
-        "mergedPullRequests": 201
+        "mergedPullRequests": 202
     },
     "LouiseBonnard": {
         "login": "LouiseBonnard",
@@ -4212,7 +4215,7 @@
         "location": null,
         "bio": "Founder of @wallabag. ",
         "email_domain": "",
-        "contributions": 1411,
+        "contributions": 1412,
         "repositories": {
             "PrestaShop": 122,
             "blockwishlist": 6,
@@ -4948,6 +4951,95 @@
         },
         "mergedPullRequests": 160
     },
+    "tblivet": {
+        "login": "tblivet",
+        "id": 110676325,
+        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/110676325?v=4",
+        "html_url": "https:\/\/github.com\/tblivet",
+        "name": "Blivet Thibault",
+        "company": "@PrestaShopCorp",
+        "blog": "",
+        "location": null,
+        "bio": "Web Integrator",
+        "email_domain": "",
+        "contributions": 594,
+        "repositories": {
+            "PrestaShop": 13,
+            "productcomments": 2,
+            "autoupgrade": 47,
+            "prestashop.github.io": 1,
+            "prestashop-ui-kit": 8,
+            "ps_imageslider": 3,
+            "docs": 5,
+            "ps_searchbar": 1,
+            "traces": 1,
+            "open-source": 1,
+            "hummingbird": 67,
+            "classic-theme": 1,
+            "bootstrap-compatibility-layer": 4,
+            "Prestashop-BO-themes-package": 3
+        },
+        "categories": {
+            "core": {
+                "total": 21,
+                "repositories": {
+                    "PrestaShop": 13,
+                    "prestashop-ui-kit": 8
+                }
+            },
+            "specs": {
+                "total": 0,
+                "repositories": []
+            },
+            "documentation": {
+                "total": 6,
+                "repositories": {
+                    "docs": 5,
+                    "open-source": 1
+                }
+            },
+            "themes": {
+                "total": 68,
+                "repositories": {
+                    "hummingbird": 67,
+                    "classic-theme": 1
+                }
+            },
+            "modules": {
+                "total": 53,
+                "repositories": {
+                    "productcomments": 2,
+                    "autoupgrade": 47,
+                    "ps_imageslider": 3,
+                    "ps_searchbar": 1
+                }
+            },
+            "tools": {
+                "total": 5,
+                "repositories": {
+                    "traces": 1,
+                    "bootstrap-compatibility-layer": 4
+                }
+            },
+            "tests": {
+                "total": 0,
+                "repositories": []
+            },
+            "blog": {
+                "total": 1,
+                "repositories": {
+                    "prestashop.github.io": 1
+                }
+            },
+            "others": {
+                "total": 3,
+                "repositories": {
+                    "Prestashop-BO-themes-package": 3
+                }
+            }
+        },
+        "mergedPullRequests": 157
+    },
     "sowbiba": {
         "login": "sowbiba",
         "id": 7426640,
@@ -5030,95 +5122,6 @@
             }
         },
         "mergedPullRequests": 157
-    },
-    "tblivet": {
-        "login": "tblivet",
-        "id": 110676325,
-        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/110676325?v=4",
-        "html_url": "https:\/\/github.com\/tblivet",
-        "name": "Blivet Thibault",
-        "company": "@PrestaShopCorp",
-        "blog": "",
-        "location": null,
-        "bio": "Web Integrator",
-        "email_domain": "",
-        "contributions": 592,
-        "repositories": {
-            "PrestaShop": 13,
-            "productcomments": 2,
-            "autoupgrade": 47,
-            "prestashop.github.io": 1,
-            "prestashop-ui-kit": 8,
-            "ps_imageslider": 3,
-            "docs": 5,
-            "ps_searchbar": 1,
-            "traces": 1,
-            "open-source": 1,
-            "hummingbird": 66,
-            "classic-theme": 1,
-            "bootstrap-compatibility-layer": 4,
-            "Prestashop-BO-themes-package": 3
-        },
-        "categories": {
-            "core": {
-                "total": 21,
-                "repositories": {
-                    "PrestaShop": 13,
-                    "prestashop-ui-kit": 8
-                }
-            },
-            "specs": {
-                "total": 0,
-                "repositories": []
-            },
-            "documentation": {
-                "total": 6,
-                "repositories": {
-                    "docs": 5,
-                    "open-source": 1
-                }
-            },
-            "themes": {
-                "total": 67,
-                "repositories": {
-                    "hummingbird": 66,
-                    "classic-theme": 1
-                }
-            },
-            "modules": {
-                "total": 53,
-                "repositories": {
-                    "productcomments": 2,
-                    "autoupgrade": 47,
-                    "ps_imageslider": 3,
-                    "ps_searchbar": 1
-                }
-            },
-            "tools": {
-                "total": 5,
-                "repositories": {
-                    "traces": 1,
-                    "bootstrap-compatibility-layer": 4
-                }
-            },
-            "tests": {
-                "total": 0,
-                "repositories": []
-            },
-            "blog": {
-                "total": 1,
-                "repositories": {
-                    "prestashop.github.io": 1
-                }
-            },
-            "others": {
-                "total": 3,
-                "repositories": {
-                    "Prestashop-BO-themes-package": 3
-                }
-            }
-        },
-        "mergedPullRequests": 156
     },
     "jf-viguier": {
         "login": "jf-viguier",
@@ -6393,7 +6396,7 @@
         "location": "Via Giuseppe Saragat, 19 86170 Isernia - ITALIA",
         "bio": "Codencode \u00e8 un'agenzia di Branding, Comunicazione e Marketing.\r\nRealizziamo progetti di comunicazione visiva brand-oriented, web design e web marketing.",
         "email_domain": "codencode.it",
-        "contributions": 196,
+        "contributions": 197,
         "repositories": {
             "PrestaShop": 79,
             "dashactivity": 1,
