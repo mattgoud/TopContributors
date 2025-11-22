@@ -1,4 +1,12 @@
 {
+    "sanctusmob": {
+        "login": "sanctusmob",
+        "name": null,
+        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/13434486?v=4",
+        "html_url": "https:\/\/github.com\/sanctusmob",
+        "contributions": 1,
+        "firstContributionAt": "2025-11-21T15:04:16Z"
+    },
     "novomusica": {
         "login": "novomusica",
         "name": null,
@@ -44,7 +52,7 @@
         "name": "Julien Bonvarlet",
         "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/611035?v=4",
         "html_url": "https:\/\/github.com\/tyloo",
-        "contributions": 19,
+        "contributions": 20,
         "firstContributionAt": "2025-08-15T10:10:33Z"
     },
     "cnavarro-prestashop": {
@@ -70,13 +78,5 @@
         "html_url": "https:\/\/github.com\/ThbPS",
         "contributions": 1,
         "firstContributionAt": "2025-06-17T08:18:54Z"
-    },
-    "sessadek": {
-        "login": "sessadek",
-        "name": "ESSADEK Salim",
-        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/32558259?v=4",
-        "html_url": "https:\/\/github.com\/sessadek",
-        "contributions": 1,
-        "firstContributionAt": "2025-06-06T12:49:52Z"
     }
 }
