@@ -10,7 +10,7 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 9855,
+        "contributions": 9857,
         "repositories": {
             "PrestaShop": 4317,
             "PrestaShop-modules": 31,
@@ -118,14 +118,14 @@
             "stylelint-config": 7,
             "example-modules": 6,
             "ps_qualityassurance": 1,
-            "test-scenarios": 911,
+            "test-scenarios": 912,
             "user-documentation-it": 2,
             "user-documentation-landing": 3,
             "user-documentation-en": 1,
             "hummingbird": 6,
             "ps-docs-theme": 3,
             "contextual-help-api": 1,
-            "ga.tests.ui.pr": 94,
+            "ga.tests.ui.pr": 95,
             "ps-project-metrics": 4,
             "user-documentation-v8-en": 1,
             "classic-theme": 174,
@@ -160,7 +160,7 @@
                 }
             },
             "documentation": {
-                "total": 1128,
+                "total": 1129,
                 "repositories": {
                     "docs": 144,
                     "user-documentation-landing": 3,
@@ -168,7 +168,7 @@
                     "user-documentation-it": 2,
                     "user-documentation-v8-en": 1,
                     "functional-documentation": 2,
-                    "test-scenarios": 911,
+                    "test-scenarios": 912,
                     "example-modules": 6,
                     "open-source": 31,
                     "example_module_mailtheme": 4,
@@ -289,10 +289,10 @@
                 }
             },
             "tests": {
-                "total": 1140,
+                "total": 1141,
                 "repositories": {
                     "ui-testing-library": 1046,
-                    "ga.tests.ui.pr": 94
+                    "ga.tests.ui.pr": 95
                 }
             },
             "blog": {
@@ -49678,5 +49678,5 @@
             }
         }
     },
-    "updatedAt": "2025-11-22 06:10:30"
+    "updatedAt": "2025-11-23 06:08:52"
 }
