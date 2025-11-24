@@ -10,7 +10,7 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 9857,
+        "contributions": 9860,
         "repositories": {
             "PrestaShop": 4317,
             "PrestaShop-modules": 31,
@@ -112,13 +112,13 @@
             "open-source": 31,
             "mjml-theme-converter": 1,
             "php-dev-tools": 4,
-            "QANightlyResults": 336,
+            "QANightlyResults": 337,
             "LocalizationFiles": 9,
-            "presthubot": 451,
+            "presthubot": 452,
             "stylelint-config": 7,
             "example-modules": 6,
             "ps_qualityassurance": 1,
-            "test-scenarios": 912,
+            "test-scenarios": 913,
             "user-documentation-it": 2,
             "user-documentation-landing": 3,
             "user-documentation-en": 1,
@@ -160,7 +160,7 @@
                 }
             },
             "documentation": {
-                "total": 1129,
+                "total": 1130,
                 "repositories": {
                     "docs": 144,
                     "user-documentation-landing": 3,
@@ -168,7 +168,7 @@
                     "user-documentation-it": 2,
                     "user-documentation-v8-en": 1,
                     "functional-documentation": 2,
-                    "test-scenarios": 912,
+                    "test-scenarios": 913,
                     "example-modules": 6,
                     "open-source": 31,
                     "example_module_mailtheme": 4,
@@ -269,7 +269,7 @@
                 }
             },
             "tools": {
-                "total": 1165,
+                "total": 1167,
                 "repositories": {
                     "core-weekly-generator": 6,
                     "docker": 41,
@@ -279,9 +279,9 @@
                     "mjml-theme-converter": 1,
                     "nightly-board": 46,
                     "PrestaShop-webservice-lib": 4,
-                    "presthubot": 451,
+                    "presthubot": 452,
                     "prestonbot": 10,
-                    "QANightlyResults": 336,
+                    "QANightlyResults": 337,
                     "TopContributors": 95,
                     "TopTranslators": 1,
                     "traces": 156,
@@ -49678,5 +49678,5 @@
             }
         }
     },
-    "updatedAt": "2025-11-23 06:08:52"
+    "updatedAt": "2025-11-24 06:56:34"
 }
