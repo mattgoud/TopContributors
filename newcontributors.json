@@ -1,4 +1,12 @@
 {
+    "mgielecinski": {
+        "login": "mgielecinski",
+        "name": null,
+        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/70368592?v=4",
+        "html_url": "https:\/\/github.com\/mgielecinski",
+        "contributions": 5,
+        "firstContributionAt": "2025-11-24T14:48:48Z"
+    },
     "sanctusmob": {
         "login": "sanctusmob",
         "name": null,
@@ -70,13 +78,5 @@
         "html_url": "https:\/\/github.com\/MonsieurRb",
         "contributions": 2,
         "firstContributionAt": "2025-07-02T13:07:55Z"
-    },
-    "ThbPS": {
-        "login": "ThbPS",
-        "name": null,
-        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/109082310?v=4",
-        "html_url": "https:\/\/github.com\/ThbPS",
-        "contributions": 1,
-        "firstContributionAt": "2025-06-17T08:18:54Z"
     }
 }
