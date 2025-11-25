@@ -116,7 +116,7 @@
                 "2014": 391,
                 "2013": 24
             },
-            "pull_requests_percent": 60.97,
+            "pull_requests_percent": 60.96,
             "contributions": 77950,
             "contributions_by_version": {
                 "9.1": 1948,
@@ -609,32 +609,32 @@
             "rank": 11,
             "rank_contributions": 12,
             "rank_pull_requests": 11,
-            "merged_pull_requests": 61,
+            "merged_pull_requests": 62,
             "merged_pull_requests_by_version": {
-                "9.1": 4,
-                "9.0": 38,
-                "8.2": 2,
-                "8.1": 1
-            },
-            "merged_pull_requests_by_year": {
-                "2025": 59,
-                "2024": 1,
-                "2023": 1
-            },
-            "pull_requests_percent": 0.23,
-            "contributions": 64,
-            "contributions_by_version": {
                 "9.1": 5,
                 "9.0": 38,
                 "8.2": 2,
                 "8.1": 1
             },
+            "merged_pull_requests_by_year": {
+                "2025": 60,
+                "2024": 1,
+                "2023": 1
+            },
+            "pull_requests_percent": 0.23,
+            "contributions": 65,
+            "contributions_by_version": {
+                "9.1": 6,
+                "9.0": 38,
+                "8.2": 2,
+                "8.1": 1
+            },
             "contributions_by_year": {
-                "2025": 61,
+                "2025": 62,
                 "2024": 1,
                 "2023": 2
             },
-            "contributions_percent": 0.05,
+            "contributions_percent": 0.06,
             "avatar_url": "https:\/\/lefevre.dev\/progi1984.png",
             "html_url": "https:\/\/lefevre.dev\/"
         },
