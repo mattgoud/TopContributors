@@ -13,22 +13,29 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     env:
       ENV_USER_PASS: ${{ secrets.ENV_USER_PASS }}
 
     steps:
       - name: Checkout 🛎
-        uses: actions/checkout@master
+        uses: actions/checkout@v4
 
       - name: Setup PHP env 🏗
         uses: shivammathur/setup-php@v2
         with:
           php-version: 8.4
 
-      - name: Setup node env 🏗
-        uses: actions/setup-node@v2.1.2
+      - name: Setup Node.js 🏗
+        uses: actions/setup-node@v4
         with:
           node-version: 20
+
+      - name: Setup pnpm 📦
+        uses: pnpm/action-setup@v3
+        with:
+          version: 10
+          run_install: false
 
       - name: Get Composer Cache Directory
         id: composer-cache
@@ -38,49 +45,49 @@ jobs:
         uses: actions/cache@v4
         with:
           path: ${{ steps.composer-cache.outputs.dir }}
-          key: ubuntu-latest-composer-${{ hashFiles('**/composer.lock') }}
+          key: composer-${{ runner.os }}-${{ hashFiles('**/composer.lock') }}
           restore-keys: |
-            ubuntu-latest-composer-
+            composer-${{ runner.os }}-
 
-      - name: Cache node_modules 📦
+      - name: Cache pnpm store 💾
         uses: actions/cache@v4
         with:
-          path: ~/.npm
-          key: ubuntu-latest-node-${{ hashFiles('**/package-lock.json') }}
+          path: ~/.pnpm-store
+          key: pnpm-${{ runner.os }}-${{ hashFiles('**/pnpm-lock.yaml') }}
           restore-keys: |
-            ubuntu-latest-node-
+            pnpm-${{ runner.os }}-
 
       - name: Install Contributors dependencies 💚
-        run: npm install
+        run: pnpm install --frozen-lockfile
 
       - name: Build Contributors Site 👷
-        run: npm run build && npm run generate
+        run: pnpm run build && pnpm run generate
 
       - name: Install Traces project 💚
         if: ${{ github.event_name == 'release' || github.event_name == 'schedule' }}
         run: composer create-project prestashop/traces
 
-      - name: Execute `traces:fetch:repositories` 🔧
+      - name: Fetch repositories 🔧
         if: ${{ github.event_name == 'release' || github.event_name == 'schedule' }}
         working-directory: ./traces
         run: php bin/console traces:fetch:repositories --ghtoken=${ENV_USER_PASS} --config="./config.dist.yml"
 
-      - name: Execute `traces:fetch:contributors` 🔧
+      - name: Fetch contributors 🔧
         if: ${{ github.event_name == 'release' || github.event_name == 'schedule' }}
         working-directory: ./traces
         run: php bin/console traces:fetch:contributors --ghtoken=${ENV_USER_PASS} --config="./config.dist.yml"
 
-      - name: Execute `traces:fetch:pullrequests:merged` 🔧
+      - name: Fetch merged pull requests 🔧
         if: ${{ github.event_name == 'release' || github.event_name == 'schedule' }}
         working-directory: ./traces
         run: php bin/console traces:fetch:pullrequests:merged --ghtoken=${ENV_USER_PASS}
 
-      - name: Execute `traces:generate:newcontributors` 🔧
+      - name: Generate new contributors 🔧
         if: ${{ github.event_name == 'release' || github.event_name == 'schedule' }}
         working-directory: ./traces
         run: php bin/console traces:generate:newcontributors --limitNew=10 --config="./config.dist.yml"
 
-      - name: Execute `traces:generate:topcompanies` 🔧
+      - name: Generate top companies 🔧
         if: ${{ github.event_name == 'release' || github.event_name == 'schedule' }}
         working-directory: ./traces
         run: php bin/console traces:generate:topcompanies --ghtoken=${ENV_USER_PASS} --config="./config.dist.yml"
@@ -89,23 +96,16 @@ jobs:
         if: ${{ github.event_name == 'release' || github.event_name == 'schedule' }}
         run: cat ./traces/gh_loginsWOCompany.json
 
-      - name: Move file (TopContributors) 📁
+      - name: Move JSON files 📁
         if: ${{ github.event_name == 'release' || github.event_name == 'schedule' }}
         run: |
           mv ./traces/contributors.json ./dist
           mv ./traces/contributors_prs.json ./dist
-
-      - name: Move file (TopCompanies) 📁
-        if: ${{ github.event_name == 'release' || github.event_name == 'schedule' }}
-        run: |
           mv ./traces/topcompanies.json ./dist
           mv ./traces/topcompanies_prs.json ./dist
+          mv ./traces/newcontributors.json ./dist
 
-      - name: Move file (NewContributors) 📁
-        if: ${{ github.event_name == 'release' || github.event_name == 'schedule' }}
-        run: mv ./traces/newcontributors.json ./dist
-
-      - name: Write CNAME file
+      - name: Write CNAME file 🌐
         run: echo 'contributors.prestashop-project.org' > ./dist/CNAME
 
       - name: Deploy 🚀
