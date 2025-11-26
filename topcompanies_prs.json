@@ -116,7 +116,7 @@
                 "2014": 391,
                 "2013": 24
             },
-            "pull_requests_percent": 61.12,
+            "pull_requests_percent": 61.11,
             "contributions": 78053,
             "contributions_by_version": {
                 "9.1": 1948,
@@ -555,10 +555,44 @@
             "html_url": "https:\/\/www.openservis.cz\/"
         },
         {
-            "name": "202 ecommerce",
+            "name": "Franck Lef\u00e8vre",
             "rank": 10,
-            "rank_contributions": 7,
+            "rank_contributions": 12,
             "rank_pull_requests": 10,
+            "merged_pull_requests": 64,
+            "merged_pull_requests_by_version": {
+                "9.1": 5,
+                "9.0": 38,
+                "8.2": 2,
+                "8.1": 1
+            },
+            "merged_pull_requests_by_year": {
+                "2025": 62,
+                "2024": 1,
+                "2023": 1
+            },
+            "pull_requests_percent": 0.24,
+            "contributions": 67,
+            "contributions_by_version": {
+                "9.1": 6,
+                "9.0": 38,
+                "8.2": 2,
+                "8.1": 1
+            },
+            "contributions_by_year": {
+                "2025": 64,
+                "2024": 1,
+                "2023": 2
+            },
+            "contributions_percent": 0.06,
+            "avatar_url": "https:\/\/lefevre.dev\/progi1984.png",
+            "html_url": "https:\/\/lefevre.dev\/"
+        },
+        {
+            "name": "202 ecommerce",
+            "rank": 11,
+            "rank_contributions": 7,
+            "rank_pull_requests": 11,
             "merged_pull_requests": 63,
             "merged_pull_requests_by_version": {
                 "9.1": 1,
@@ -603,40 +637,6 @@
             "contributions_percent": 0.13,
             "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/65393221",
             "html_url": "https:\/\/www.202-ecommerce.com"
-        },
-        {
-            "name": "Franck Lef\u00e8vre",
-            "rank": 11,
-            "rank_contributions": 12,
-            "rank_pull_requests": 11,
-            "merged_pull_requests": 62,
-            "merged_pull_requests_by_version": {
-                "9.1": 5,
-                "9.0": 38,
-                "8.2": 2,
-                "8.1": 1
-            },
-            "merged_pull_requests_by_year": {
-                "2025": 60,
-                "2024": 1,
-                "2023": 1
-            },
-            "pull_requests_percent": 0.23,
-            "contributions": 65,
-            "contributions_by_version": {
-                "9.1": 6,
-                "9.0": 38,
-                "8.2": 2,
-                "8.1": 1
-            },
-            "contributions_by_year": {
-                "2025": 62,
-                "2024": 1,
-                "2023": 2
-            },
-            "contributions_percent": 0.06,
-            "avatar_url": "https:\/\/lefevre.dev\/progi1984.png",
-            "html_url": "https:\/\/lefevre.dev\/"
         },
         {
             "name": "Beyonds",

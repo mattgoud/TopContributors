@@ -116,7 +116,7 @@
                 "2014": 391,
                 "2013": 24
             },
-            "pull_requests_percent": 61.12,
+            "pull_requests_percent": 61.11,
             "contributions": 78053,
             "contributions_by_version": {
                 "9.1": 1948,
@@ -432,7 +432,7 @@
             "name": "202 ecommerce",
             "rank": 7,
             "rank_contributions": 7,
-            "rank_pull_requests": 10,
+            "rank_pull_requests": 11,
             "merged_pull_requests": 63,
             "merged_pull_requests_by_version": {
                 "9.1": 1,
@@ -642,8 +642,8 @@
             "name": "Franck Lef\u00e8vre",
             "rank": 12,
             "rank_contributions": 12,
-            "rank_pull_requests": 11,
-            "merged_pull_requests": 62,
+            "rank_pull_requests": 10,
+            "merged_pull_requests": 64,
             "merged_pull_requests_by_version": {
                 "9.1": 5,
                 "9.0": 38,
@@ -651,12 +651,12 @@
                 "8.1": 1
             },
             "merged_pull_requests_by_year": {
-                "2025": 60,
+                "2025": 62,
                 "2024": 1,
                 "2023": 1
             },
-            "pull_requests_percent": 0.23,
-            "contributions": 65,
+            "pull_requests_percent": 0.24,
+            "contributions": 67,
             "contributions_by_version": {
                 "9.1": 6,
                 "9.0": 38,
@@ -664,7 +664,7 @@
                 "8.1": 1
             },
             "contributions_by_year": {
-                "2025": 62,
+                "2025": 64,
                 "2024": 1,
                 "2023": 2
             },

@@ -45,7 +45,7 @@
             "autoupgrade": 25,
             "gsitemap": 8,
             "prestashop.github.io": 14,
-            "docker": 17,
+            "docker": 18,
             "contactform": 3,
             "prestashop-ui-kit": 1,
             "blockreassurance": 31,
@@ -116,7 +116,7 @@
             "keycloak_connector_demo": 2,
             "ps_fixturescreator": 4,
             "ws-client": 3,
-            "ps_apiresources": 8,
+            "ps_apiresources": 9,
             "ui-testing-library": 325
         },
         "categories": {
@@ -157,7 +157,7 @@
                 }
             },
             "modules": {
-                "total": 395,
+                "total": 396,
                 "repositories": {
                     "PrestaShop-modules": 2,
                     "dashactivity": 4,
@@ -230,14 +230,14 @@
                     "ps_faviconnotificationbo": 1,
                     "ps_qualityassurance": 1,
                     "ps_fixturescreator": 4,
-                    "ps_apiresources": 8
+                    "ps_apiresources": 9
                 }
             },
             "tools": {
-                "total": 207,
+                "total": 208,
                 "repositories": {
                     "PrestaShop-webservice-lib": 1,
-                    "docker": 17,
+                    "docker": 18,
                     "docker-ci": 2,
                     "docker-internal-images": 1,
                     "prestonbot": 1,
@@ -272,7 +272,7 @@
                 }
             }
         },
-        "mergedPullRequests": 2170
+        "mergedPullRequests": 2172
     },
     "matks": {
         "login": "matks",
@@ -41972,6 +41972,63 @@
         "location": "Williamsburg, VA",
         "bio": null,
         "email_domain": "",
+        "contributions": 1,
+        "repositories": {
+            "docs": 1
+        },
+        "categories": {
+            "core": {
+                "total": 0,
+                "repositories": []
+            },
+            "specs": {
+                "total": 0,
+                "repositories": []
+            },
+            "documentation": {
+                "total": 1,
+                "repositories": {
+                    "docs": 1
+                }
+            },
+            "themes": {
+                "total": 0,
+                "repositories": []
+            },
+            "modules": {
+                "total": 0,
+                "repositories": []
+            },
+            "tools": {
+                "total": 0,
+                "repositories": []
+            },
+            "tests": {
+                "total": 0,
+                "repositories": []
+            },
+            "blog": {
+                "total": 0,
+                "repositories": []
+            },
+            "others": {
+                "total": 0,
+                "repositories": []
+            }
+        },
+        "mergedPullRequests": 1
+    },
+    "mohaelmrabet": {
+        "login": "mohaelmrabet",
+        "id": 3817628,
+        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/3817628?v=4",
+        "html_url": "https:\/\/github.com\/mohaelmrabet",
+        "name": "Mohamed El Mrabet",
+        "company": "CleatSquad",
+        "blog": "",
+        "location": "Rabat",
+        "bio": null,
+        "email_domain": "gmail.com",
         "contributions": 1,
         "repositories": {
             "docs": 1
