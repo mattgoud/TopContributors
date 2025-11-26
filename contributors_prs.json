@@ -10,7 +10,7 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 9876,
+        "contributions": 9879,
         "repositories": {
             "PrestaShop": 1101,
             "PrestaShop-modules": 2,
@@ -86,7 +86,7 @@
             "ps_dataprivacy": 5,
             "ps_cashondelivery": 17,
             "ps_viewedproduct": 3,
-            "traces": 40,
+            "traces": 41,
             "core-weekly-generator": 1,
             "TopContributors": 41,
             "TranslationFiles": 3,
@@ -234,7 +234,7 @@
                 }
             },
             "tools": {
-                "total": 206,
+                "total": 207,
                 "repositories": {
                     "PrestaShop-webservice-lib": 1,
                     "docker": 17,
@@ -242,7 +242,7 @@
                     "docker-internal-images": 1,
                     "prestonbot": 1,
                     "TopTranslators": 1,
-                    "traces": 40,
+                    "traces": 41,
                     "core-weekly-generator": 1,
                     "TopContributors": 41,
                     "issuebot": 2,
@@ -272,7 +272,7 @@
                 }
             }
         },
-        "mergedPullRequests": 2169
+        "mergedPullRequests": 2170
     },
     "matks": {
         "login": "matks",
@@ -41972,63 +41972,6 @@
         "location": "Williamsburg, VA",
         "bio": null,
         "email_domain": "",
-        "contributions": 1,
-        "repositories": {
-            "docs": 1
-        },
-        "categories": {
-            "core": {
-                "total": 0,
-                "repositories": []
-            },
-            "specs": {
-                "total": 0,
-                "repositories": []
-            },
-            "documentation": {
-                "total": 1,
-                "repositories": {
-                    "docs": 1
-                }
-            },
-            "themes": {
-                "total": 0,
-                "repositories": []
-            },
-            "modules": {
-                "total": 0,
-                "repositories": []
-            },
-            "tools": {
-                "total": 0,
-                "repositories": []
-            },
-            "tests": {
-                "total": 0,
-                "repositories": []
-            },
-            "blog": {
-                "total": 0,
-                "repositories": []
-            },
-            "others": {
-                "total": 0,
-                "repositories": []
-            }
-        },
-        "mergedPullRequests": 1
-    },
-    "mimou78": {
-        "login": "mimou78",
-        "id": 3817628,
-        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/3817628?v=4",
-        "html_url": "https:\/\/github.com\/mimou78",
-        "name": "Mohamed El Mrabet",
-        "company": "CleatSquad",
-        "blog": "",
-        "location": "Rabat",
-        "bio": null,
-        "email_domain": "gmail.com",
         "contributions": 1,
         "repositories": {
             "docs": 1

@@ -10,7 +10,7 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 9876,
+        "contributions": 9879,
         "repositories": {
             "PrestaShop": 4319,
             "PrestaShop-modules": 31,
@@ -92,7 +92,7 @@
             "ps_carriercomparison": 3,
             "ps_viewedproduct": 15,
             "ps_feeder": 1,
-            "traces": 157,
+            "traces": 159,
             "core-weekly-generator": 6,
             "TopContributors": 95,
             "TranslationFiles": 3,
@@ -118,7 +118,7 @@
             "stylelint-config": 7,
             "example-modules": 6,
             "ps_qualityassurance": 1,
-            "test-scenarios": 914,
+            "test-scenarios": 915,
             "user-documentation-it": 2,
             "user-documentation-landing": 3,
             "user-documentation-en": 1,
@@ -160,7 +160,7 @@
                 }
             },
             "documentation": {
-                "total": 1131,
+                "total": 1132,
                 "repositories": {
                     "docs": 144,
                     "user-documentation-landing": 3,
@@ -168,7 +168,7 @@
                     "user-documentation-it": 2,
                     "user-documentation-v8-en": 1,
                     "functional-documentation": 2,
-                    "test-scenarios": 914,
+                    "test-scenarios": 915,
                     "example-modules": 6,
                     "open-source": 31,
                     "example_module_mailtheme": 4,
@@ -269,7 +269,7 @@
                 }
             },
             "tools": {
-                "total": 1169,
+                "total": 1171,
                 "repositories": {
                     "core-weekly-generator": 6,
                     "docker": 42,
@@ -284,7 +284,7 @@
                     "QANightlyResults": 337,
                     "TopContributors": 95,
                     "TopTranslators": 1,
-                    "traces": 157,
+                    "traces": 159,
                     "ps-project-metrics": 4
                 }
             },
@@ -49734,5 +49734,5 @@
             }
         }
     },
-    "updatedAt": "2025-11-26 06:18:49"
+    "updatedAt": "2025-11-26 07:54:37"
 }
