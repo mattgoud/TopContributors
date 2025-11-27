@@ -47,9 +47,17 @@
         "contributions": 1,
         "firstContributionAt": "2025-10-16T10:20:36Z"
     },
+    "yebor974": {
+        "login": "yebor974",
+        "name": "Julien BOYER",
+        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/48555577?v=4",
+        "html_url": "https:\/\/github.com\/yebor974",
+        "contributions": 1,
+        "firstContributionAt": "2025-10-09T11:33:53Z"
+    },
     "MattKelvin": {
         "login": "MattKelvin",
-        "name": null,
+        "name": "Matthias",
         "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/6407640?v=4",
         "html_url": "https:\/\/github.com\/MattKelvin",
         "contributions": 38,
@@ -70,13 +78,5 @@
         "html_url": "https:\/\/github.com\/cnavarro-prestashop",
         "contributions": 26,
         "firstContributionAt": "2025-07-04T11:30:58Z"
-    },
-    "MonsieurRb": {
-        "login": "MonsieurRb",
-        "name": null,
-        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/7203876?v=4",
-        "html_url": "https:\/\/github.com\/MonsieurRb",
-        "contributions": 2,
-        "firstContributionAt": "2025-07-02T13:07:55Z"
     }
 }
