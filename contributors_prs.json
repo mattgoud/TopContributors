@@ -10,7 +10,7 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 9917,
+        "contributions": 9919,
         "repositories": {
             "PrestaShop": 1104,
             "PrestaShop-modules": 2,
@@ -773,9 +773,9 @@
         "location": null,
         "bio": null,
         "email_domain": "",
-        "contributions": 6985,
+        "contributions": 6987,
         "repositories": {
-            "PrestaShop": 678,
+            "PrestaShop": 679,
             "dashproducts": 1,
             "blockwishlist": 3,
             "productcomments": 10,
@@ -824,9 +824,9 @@
         },
         "categories": {
             "core": {
-                "total": 714,
+                "total": 715,
                 "repositories": {
-                    "PrestaShop": 678,
+                    "PrestaShop": 679,
                     "prestashop-ui-kit": 10,
                     "TranslationToolsBundle": 3,
                     "TranslationFiles": 12,
@@ -914,7 +914,7 @@
                 }
             }
         },
-        "mergedPullRequests": 1048
+        "mergedPullRequests": 1049
     },
     "Hlavtox": {
         "login": "Hlavtox",
@@ -4759,7 +4759,7 @@
         "location": null,
         "bio": "Web Integrator",
         "email_domain": "",
-        "contributions": 643,
+        "contributions": 645,
         "repositories": {
             "PrestaShop": 13,
             "productcomments": 2,
@@ -4771,7 +4771,7 @@
             "ps_searchbar": 1,
             "traces": 1,
             "open-source": 1,
-            "hummingbird": 69,
+            "hummingbird": 70,
             "classic-theme": 1,
             "bootstrap-compatibility-layer": 4,
             "Prestashop-BO-themes-package": 3
@@ -4796,9 +4796,9 @@
                 }
             },
             "themes": {
-                "total": 70,
+                "total": 71,
                 "repositories": {
-                    "hummingbird": 69,
+                    "hummingbird": 70,
                     "classic-theme": 1
                 }
             },
@@ -4835,7 +4835,7 @@
                 }
             }
         },
-        "mergedPullRequests": 163
+        "mergedPullRequests": 164
     },
     "leemyongpakvn": {
         "login": "leemyongpakvn",
