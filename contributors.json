@@ -39329,9 +39329,9 @@
         "html_url": "https:\/\/github.com\/c100k",
         "name": "Chafik",
         "company": null,
-        "blog": "",
+        "blog": "https:\/\/c100k.eu",
         "location": "Paris",
-        "bio": "libmodulor.c100k.eu -- github.com\/c100k\/ddot -- c100k.eu\/p\/rebootx -- c100k.eu\/p\/selfsync -- trekstories.c100k.eu",
+        "bio": "Software Engineer (libmodulor.c100k.eu, github.com\/c100k) - Road & Trail Runner (21k: 1h17, 42k: 2h46, UTMB idx: 657)",
         "email_domain": "gmail.com",
         "contributions": 1,
         "repositories": {
@@ -49794,5 +49794,5 @@
             }
         }
     },
-    "updatedAt": "2025-12-07 06:06:58"
+    "updatedAt": "2025-12-08 06:08:54"
 }
