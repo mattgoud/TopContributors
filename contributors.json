@@ -10,7 +10,7 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 9939,
+        "contributions": 9940,
         "repositories": {
             "PrestaShop": 4334,
             "PrestaShop-modules": 31,
@@ -118,7 +118,7 @@
             "stylelint-config": 7,
             "example-modules": 6,
             "ps_qualityassurance": 1,
-            "test-scenarios": 921,
+            "test-scenarios": 922,
             "user-documentation-it": 2,
             "user-documentation-landing": 3,
             "user-documentation-en": 1,
@@ -160,7 +160,7 @@
                 }
             },
             "documentation": {
-                "total": 1138,
+                "total": 1139,
                 "repositories": {
                     "docs": 144,
                     "user-documentation-landing": 3,
@@ -168,7 +168,7 @@
                     "user-documentation-it": 2,
                     "user-documentation-v8-en": 1,
                     "functional-documentation": 2,
-                    "test-scenarios": 921,
+                    "test-scenarios": 922,
                     "example-modules": 6,
                     "open-source": 31,
                     "example_module_mailtheme": 4,
@@ -320,7 +320,7 @@
         "location": null,
         "bio": null,
         "email_domain": "",
-        "contributions": 7016,
+        "contributions": 7022,
         "repositories": {
             "PrestaShop": 5697,
             "dashgoals": 1,
@@ -391,7 +391,7 @@
             "kanbanbot": 1,
             "zip-archives": 1,
             "bootstrap-compatibility-layer": 1,
-            "ps_apiresources": 127,
+            "ps_apiresources": 133,
             "CoreUpgradeBundle": 1,
             "CLIUpgrade": 1,
             "ui-testing-library": 38,
@@ -435,7 +435,7 @@
                 }
             },
             "modules": {
-                "total": 490,
+                "total": 496,
                 "repositories": {
                     "dashgoals": 1,
                     "dashproducts": 3,
@@ -467,7 +467,7 @@
                     "ps_googleanalytics": 5,
                     "ps_themecusto": 9,
                     "psgdpr": 5,
-                    "ps_apiresources": 127,
+                    "ps_apiresources": 133,
                     "ps_distributionapiclient": 17,
                     "ps_fixturescreator": 13
                 }
@@ -973,7 +973,7 @@
         "location": "London",
         "bio": null,
         "email_domain": "",
-        "contributions": 4900,
+        "contributions": 4902,
         "repositories": {
             "PrestaShop": 1709,
             "PrestaShop-modules": 349,
@@ -1067,6 +1067,7 @@
             "eslint-config": 1,
             "open-source": 6,
             "php-dev-tools": 66,
+            ".github": 2,
             "distribution-api": 27,
             "classic-theme": 61,
             "SeamlessUpgradeToolbox": 5
@@ -1203,8 +1204,9 @@
                 }
             },
             "others": {
-                "total": 56,
+                "total": 58,
                 "repositories": {
+                    ".github": 2,
                     "themeinstallator": 3,
                     "InstallUnpacker": 3,
                     "firebaseauthenticator": 23,
@@ -1611,7 +1613,7 @@
         "location": "Paris, France",
         "bio": "QA Automation Engineer",
         "email_domain": "gmail.com",
-        "contributions": 3315,
+        "contributions": 3317,
         "repositories": {
             "PrestaShop": 2798,
             "blockwishlist": 1,
@@ -1620,7 +1622,7 @@
             "QANightlyResults": 2,
             "ga.tests.ui.pr": 1,
             "classic-theme": 8,
-            "ui-testing-library": 281
+            "ui-testing-library": 283
         },
         "categories": {
             "core": {
@@ -1658,9 +1660,9 @@
                 }
             },
             "tests": {
-                "total": 282,
+                "total": 284,
                 "repositories": {
-                    "ui-testing-library": 281,
+                    "ui-testing-library": 283,
                     "ga.tests.ui.pr": 1
                 }
             },
@@ -1786,9 +1788,9 @@
         "location": "Bydgoszcz, Poland",
         "bio": "I'm a web developer from Poland, specializing in working with PrestaShop e-commerce",
         "email_domain": "",
-        "contributions": 3151,
+        "contributions": 3153,
         "repositories": {
-            "PrestaShop": 774,
+            "PrestaShop": 776,
             "PrestaShop-modules": 4,
             "PrestaShop-webservice-lib": 1,
             "dashactivity": 1,
@@ -1900,9 +1902,9 @@
         },
         "categories": {
             "core": {
-                "total": 800,
+                "total": 802,
                 "repositories": {
-                    "PrestaShop": 774,
+                    "PrestaShop": 776,
                     "prestashop-ui-kit": 4,
                     "LocalizationFiles": 19,
                     "stylelint-browser-compatibility": 1,
@@ -3754,7 +3756,7 @@
         "location": null,
         "bio": "Founder of @wallabag. ",
         "email_domain": "",
-        "contributions": 1442,
+        "contributions": 1443,
         "repositories": {
             "PrestaShop": 784,
             "PrestaShop-webservice-lib": 1,
@@ -3812,7 +3814,7 @@
             "php-dev-tools": 2,
             "QANightlyResults": 115,
             "LocalizationFiles": 8,
-            "presthubot": 75,
+            "presthubot": 76,
             "example-modules": 7,
             "ps_qualityassurance": 3,
             "test-scenarios": 1,
@@ -3913,7 +3915,7 @@
                 }
             },
             "tools": {
-                "total": 239,
+                "total": 240,
                 "repositories": {
                     "bootstrap-compatibility-layer": 1,
                     "docker": 6,
@@ -3922,7 +3924,7 @@
                     "mjml-theme-converter": 1,
                     "nightly-board": 1,
                     "PrestaShop-webservice-lib": 1,
-                    "presthubot": 75,
+                    "presthubot": 76,
                     "prestonbot": 1,
                     "QANightlyResults": 115,
                     "TopContributors": 7,
@@ -49742,5 +49744,5 @@
             }
         }
     },
-    "updatedAt": "2025-12-11 06:20:42"
+    "updatedAt": "2025-12-12 06:07:17"
 }
