@@ -10,7 +10,7 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 9942,
+        "contributions": 9943,
         "repositories": {
             "PrestaShop": 4334,
             "PrestaShop-modules": 31,
@@ -118,7 +118,7 @@
             "stylelint-config": 7,
             "example-modules": 6,
             "ps_qualityassurance": 1,
-            "test-scenarios": 923,
+            "test-scenarios": 924,
             "user-documentation-it": 2,
             "user-documentation-landing": 3,
             "user-documentation-en": 1,
@@ -160,7 +160,7 @@
                 }
             },
             "documentation": {
-                "total": 1140,
+                "total": 1141,
                 "repositories": {
                     "docs": 144,
                     "user-documentation-landing": 3,
@@ -168,7 +168,7 @@
                     "user-documentation-it": 2,
                     "user-documentation-v8-en": 1,
                     "functional-documentation": 2,
-                    "test-scenarios": 923,
+                    "test-scenarios": 924,
                     "example-modules": 6,
                     "open-source": 31,
                     "example_module_mailtheme": 4,
@@ -3756,9 +3756,9 @@
         "location": null,
         "bio": "Founder of @wallabag. ",
         "email_domain": "",
-        "contributions": 1443,
+        "contributions": 1444,
         "repositories": {
-            "PrestaShop": 784,
+            "PrestaShop": 785,
             "PrestaShop-webservice-lib": 1,
             "dashactivity": 3,
             "dashgoals": 1,
@@ -3836,9 +3836,9 @@
         },
         "categories": {
             "core": {
-                "total": 795,
+                "total": 796,
                 "repositories": {
-                    "PrestaShop": 784,
+                    "PrestaShop": 785,
                     "prestashop-ui-kit": 1,
                     "LocalizationFiles": 8,
                     "php-dev-tools": 2
@@ -6447,9 +6447,9 @@
         "location": null,
         "bio": null,
         "email_domain": "",
-        "contributions": 511,
+        "contributions": 513,
         "repositories": {
-            "PrestaShop": 162,
+            "PrestaShop": 164,
             "blockwishlist": 1,
             "productcomments": 4,
             "autoupgrade": 218,
@@ -6477,9 +6477,9 @@
         },
         "categories": {
             "core": {
-                "total": 165,
+                "total": 167,
                 "repositories": {
-                    "PrestaShop": 162,
+                    "PrestaShop": 164,
                     "php-dev-tools": 3
                 }
             },
@@ -49744,5 +49744,5 @@
             }
         }
     },
-    "updatedAt": "2025-12-13 06:08:00"
+    "updatedAt": "2025-12-14 06:09:43"
 }

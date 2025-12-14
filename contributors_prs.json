@@ -10,7 +10,7 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 9942,
+        "contributions": 9943,
         "repositories": {
             "PrestaShop": 1105,
             "PrestaShop-modules": 2,
@@ -2959,9 +2959,9 @@
         "location": null,
         "bio": null,
         "email_domain": "",
-        "contributions": 511,
+        "contributions": 513,
         "repositories": {
-            "PrestaShop": 101,
+            "PrestaShop": 102,
             "blockwishlist": 1,
             "productcomments": 5,
             "autoupgrade": 134,
@@ -2989,9 +2989,9 @@
         },
         "categories": {
             "core": {
-                "total": 102,
+                "total": 103,
                 "repositories": {
-                    "PrestaShop": 101,
+                    "PrestaShop": 102,
                     "TranslationToolsBundle": 1
                 }
             },
@@ -3056,7 +3056,7 @@
                 }
             }
         },
-        "mergedPullRequests": 337
+        "mergedPullRequests": 338
     },
     "zuk3975": {
         "login": "zuk3975",
@@ -3997,7 +3997,7 @@
         "location": null,
         "bio": "Founder of @wallabag. ",
         "email_domain": "",
-        "contributions": 1443,
+        "contributions": 1444,
         "repositories": {
             "PrestaShop": 125,
             "blockwishlist": 6,
