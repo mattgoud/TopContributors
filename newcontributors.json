@@ -1,4 +1,12 @@
 {
+    "cap340": {
+        "login": "cap340",
+        "name": null,
+        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/42498660?v=4",
+        "html_url": "https:\/\/github.com\/cap340",
+        "contributions": 1,
+        "firstContributionAt": "2025-12-16T13:56:08Z"
+    },
     "soniiix": {
         "login": "soniiix",
         "name": null,
@@ -63,20 +71,12 @@
         "contributions": 1,
         "firstContributionAt": "2025-10-09T11:33:53Z"
     },
-    "MattKelvin": {
-        "login": "MattKelvin",
-        "name": "Matthias",
-        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/6407640?v=4",
-        "html_url": "https:\/\/github.com\/MattKelvin",
-        "contributions": 40,
-        "firstContributionAt": "2025-08-21T20:16:50Z"
-    },
-    "tyloo": {
-        "login": "tyloo",
-        "name": "Julien Bonvarlet",
-        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/611035?v=4",
-        "html_url": "https:\/\/github.com\/tyloo",
-        "contributions": 21,
-        "firstContributionAt": "2025-08-15T10:10:33Z"
+    "nicohery": {
+        "login": "nicohery",
+        "name": "Nico H",
+        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/881477?v=4",
+        "html_url": "https:\/\/github.com\/nicohery",
+        "contributions": 1,
+        "firstContributionAt": "2025-08-22T08:00:16Z"
     }
 }
