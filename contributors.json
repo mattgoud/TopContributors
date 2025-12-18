@@ -1788,7 +1788,7 @@
         "location": "Bydgoszcz, Poland",
         "bio": "I'm a web developer from Poland, specializing in working with PrestaShop e-commerce",
         "email_domain": "",
-        "contributions": 3165,
+        "contributions": 3170,
         "repositories": {
             "PrestaShop": 780,
             "PrestaShop-modules": 4,
@@ -1822,7 +1822,7 @@
             "productcomments": 24,
             "autoupgrade": 45,
             "gsitemap": 8,
-            "prestashop.github.io": 817,
+            "prestashop.github.io": 821,
             "StarterTheme": 3,
             "contactform": 10,
             "paymentexample": 7,
@@ -1846,7 +1846,7 @@
             "ps_shoppingcart": 4,
             "ps_currencyselector": 7,
             "ps_languageselector": 4,
-            "ps_facetedsearch": 121,
+            "ps_facetedsearch": 122,
             "ps_customeraccountlinks": 1,
             "ps_searchbar": 2,
             "ps_checkpayment": 3,
@@ -1943,7 +1943,7 @@
                 }
             },
             "modules": {
-                "total": 599,
+                "total": 600,
                 "repositories": {
                     "PrestaShop-modules": 4,
                     "dashactivity": 1,
@@ -1993,7 +1993,7 @@
                     "ps_shoppingcart": 4,
                     "ps_currencyselector": 7,
                     "ps_languageselector": 4,
-                    "ps_facetedsearch": 121,
+                    "ps_facetedsearch": 122,
                     "ps_customeraccountlinks": 1,
                     "ps_searchbar": 2,
                     "ps_checkpayment": 3,
@@ -2041,9 +2041,9 @@
                 }
             },
             "blog": {
-                "total": 817,
+                "total": 821,
                 "repositories": {
-                    "prestashop.github.io": 817
+                    "prestashop.github.io": 821
                 }
             },
             "others": {
@@ -2443,7 +2443,7 @@
         "location": "Pardubice, Czech Republic",
         "bio": null,
         "email_domain": "",
-        "contributions": 2266,
+        "contributions": 2268,
         "repositories": {
             "PrestaShop": 991,
             "PrestaShop-webservice-lib": 1,
@@ -2497,7 +2497,7 @@
             "ps_shoppingcart": 12,
             "ps_currencyselector": 5,
             "ps_languageselector": 5,
-            "ps_facetedsearch": 130,
+            "ps_facetedsearch": 132,
             "ps_customeraccountlinks": 2,
             "ps_checkpayment": 6,
             "ps_emailalerts": 29,
@@ -2559,7 +2559,7 @@
                 }
             },
             "modules": {
-                "total": 1013,
+                "total": 1015,
                 "repositories": {
                     "dashactivity": 13,
                     "dashgoals": 3,
@@ -2607,7 +2607,7 @@
                     "ps_shoppingcart": 12,
                     "ps_currencyselector": 5,
                     "ps_languageselector": 5,
-                    "ps_facetedsearch": 130,
+                    "ps_facetedsearch": 132,
                     "ps_customeraccountlinks": 2,
                     "ps_checkpayment": 6,
                     "ps_emailalerts": 29,
@@ -3756,7 +3756,7 @@
         "location": null,
         "bio": "Founder of @wallabag. ",
         "email_domain": "",
-        "contributions": 1446,
+        "contributions": 1448,
         "repositories": {
             "PrestaShop": 785,
             "PrestaShop-webservice-lib": 1,
@@ -3773,7 +3773,7 @@
             "productcomments": 5,
             "autoupgrade": 33,
             "gsitemap": 2,
-            "prestashop.github.io": 7,
+            "prestashop.github.io": 9,
             "docker": 6,
             "contactform": 2,
             "prestashop-ui-kit": 1,
@@ -3941,9 +3941,9 @@
                 }
             },
             "blog": {
-                "total": 7,
+                "total": 9,
                 "repositories": {
-                    "prestashop.github.io": 7
+                    "prestashop.github.io": 9
                 }
             },
             "others": {
@@ -22825,6 +22825,72 @@
             }
         }
     },
+    "bibips": {
+        "login": "bibips",
+        "id": 6272184,
+        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/6272184?v=4",
+        "html_url": "https:\/\/github.com\/bibips",
+        "name": null,
+        "company": "Eurofins",
+        "blog": "",
+        "location": "Alsace",
+        "bio": null,
+        "email_domain": "",
+        "contributions": 9,
+        "repositories": {
+            "autoupgrade": 1,
+            "prestashop.github.io": 2,
+            "ps_mainmenu": 1,
+            "ps_facetedsearch": 3,
+            "hummingbird": 2
+        },
+        "categories": {
+            "core": {
+                "total": 0,
+                "repositories": []
+            },
+            "specs": {
+                "total": 0,
+                "repositories": []
+            },
+            "documentation": {
+                "total": 0,
+                "repositories": []
+            },
+            "themes": {
+                "total": 2,
+                "repositories": {
+                    "hummingbird": 2
+                }
+            },
+            "modules": {
+                "total": 5,
+                "repositories": {
+                    "autoupgrade": 1,
+                    "ps_mainmenu": 1,
+                    "ps_facetedsearch": 3
+                }
+            },
+            "tools": {
+                "total": 0,
+                "repositories": []
+            },
+            "tests": {
+                "total": 0,
+                "repositories": []
+            },
+            "blog": {
+                "total": 2,
+                "repositories": {
+                    "prestashop.github.io": 2
+                }
+            },
+            "others": {
+                "total": 0,
+                "repositories": []
+            }
+        }
+    },
     "d-roduit": {
         "login": "d-roduit",
         "id": 37080343,
@@ -23746,72 +23812,6 @@
             "blog": {
                 "total": 0,
                 "repositories": []
-            },
-            "others": {
-                "total": 0,
-                "repositories": []
-            }
-        }
-    },
-    "bibips": {
-        "login": "bibips",
-        "id": 6272184,
-        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/6272184?v=4",
-        "html_url": "https:\/\/github.com\/bibips",
-        "name": null,
-        "company": "Eurofins",
-        "blog": "",
-        "location": "Alsace",
-        "bio": null,
-        "email_domain": "",
-        "contributions": 8,
-        "repositories": {
-            "autoupgrade": 1,
-            "prestashop.github.io": 1,
-            "ps_mainmenu": 1,
-            "ps_facetedsearch": 3,
-            "hummingbird": 2
-        },
-        "categories": {
-            "core": {
-                "total": 0,
-                "repositories": []
-            },
-            "specs": {
-                "total": 0,
-                "repositories": []
-            },
-            "documentation": {
-                "total": 0,
-                "repositories": []
-            },
-            "themes": {
-                "total": 2,
-                "repositories": {
-                    "hummingbird": 2
-                }
-            },
-            "modules": {
-                "total": 5,
-                "repositories": {
-                    "autoupgrade": 1,
-                    "ps_mainmenu": 1,
-                    "ps_facetedsearch": 3
-                }
-            },
-            "tools": {
-                "total": 0,
-                "repositories": []
-            },
-            "tests": {
-                "total": 0,
-                "repositories": []
-            },
-            "blog": {
-                "total": 1,
-                "repositories": {
-                    "prestashop.github.io": 1
-                }
             },
             "others": {
                 "total": 0,
@@ -49868,5 +49868,5 @@
             }
         }
     },
-    "updatedAt": "2025-12-17 06:42:31"
+    "updatedAt": "2025-12-18 06:10:46"
 }
