@@ -973,7 +973,7 @@
         "location": "London",
         "bio": null,
         "email_domain": "",
-        "contributions": 4902,
+        "contributions": 4905,
         "repositories": {
             "PrestaShop": 1709,
             "PrestaShop-modules": 349,
@@ -1007,7 +1007,7 @@
             "productcomments": 1,
             "pscleaner": 3,
             "themeinstallator": 3,
-            "autoupgrade": 1307,
+            "autoupgrade": 1308,
             "gsitemap": 6,
             "prestafraud": 1,
             "prestashop.github.io": 17,
@@ -1036,7 +1036,7 @@
             "azure-template-performance": 13,
             "azure-template-high-performance": 10,
             "azure-template-basic": 6,
-            "docker-internal-images": 110,
+            "docker-internal-images": 112,
             "ps_wirepayment": 8,
             "ps_shoppingcart": 4,
             "ps_currencyselector": 4,
@@ -1105,7 +1105,7 @@
                 }
             },
             "modules": {
-                "total": 2181,
+                "total": 2182,
                 "repositories": {
                     "PrestaShop-modules": 349,
                     "dashactivity": 1,
@@ -1136,7 +1136,7 @@
                     "blockwishlist": 38,
                     "productcomments": 1,
                     "pscleaner": 3,
-                    "autoupgrade": 1307,
+                    "autoupgrade": 1308,
                     "gsitemap": 6,
                     "prestafraud": 1,
                     "contactform": 1,
@@ -1174,14 +1174,14 @@
                 }
             },
             "tools": {
-                "total": 571,
+                "total": 573,
                 "repositories": {
                     "azure-template-basic": 6,
                     "azure-template-high-performance": 10,
                     "azure-template-performance": 13,
                     "docker": 358,
                     "docker-ci": 47,
-                    "docker-internal-images": 110,
+                    "docker-internal-images": 112,
                     "docker-templates": 15,
                     "PrestaShop-webservice-lib": 1,
                     "prestashop-shop-creator": 1,
@@ -5558,7 +5558,7 @@
         "location": null,
         "bio": "Web Integrator",
         "email_domain": "",
-        "contributions": 677,
+        "contributions": 681,
         "repositories": {
             "PrestaShop": 45,
             "productcomments": 5,
@@ -5570,7 +5570,7 @@
             "ps_searchbar": 1,
             "traces": 1,
             "open-source": 1,
-            "hummingbird": 355,
+            "hummingbird": 359,
             "classic-theme": 4,
             "bootstrap-compatibility-layer": 27,
             "Prestashop-BO-themes-package": 3
@@ -5595,10 +5595,10 @@
                 }
             },
             "themes": {
-                "total": 359,
+                "total": 363,
                 "repositories": {
                     "classic-theme": 4,
-                    "hummingbird": 355
+                    "hummingbird": 359
                 }
             },
             "modules": {
@@ -6456,12 +6456,12 @@
         "location": null,
         "bio": null,
         "email_domain": "",
-        "contributions": 513,
+        "contributions": 515,
         "repositories": {
             "PrestaShop": 164,
             "blockwishlist": 1,
             "productcomments": 4,
-            "autoupgrade": 218,
+            "autoupgrade": 220,
             "blockreassurance": 1,
             "ps_linklist": 3,
             "ps_banner": 1,
@@ -6515,11 +6515,11 @@
                 }
             },
             "modules": {
-                "total": 233,
+                "total": 235,
                 "repositories": {
                     "blockwishlist": 1,
                     "productcomments": 4,
-                    "autoupgrade": 218,
+                    "autoupgrade": 220,
                     "blockreassurance": 1,
                     "ps_linklist": 3,
                     "ps_banner": 1,
@@ -8886,7 +8886,7 @@
         "location": "Via Giuseppe Saragat, 19 86170 Isernia - ITALIA",
         "bio": "Codencode \u00e8 un'agenzia di Branding, Comunicazione e Marketing.\r\nRealizziamo progetti di comunicazione visiva brand-oriented, web design e web marketing.",
         "email_domain": "codencode.it",
-        "contributions": 224,
+        "contributions": 226,
         "repositories": {
             "PrestaShop": 148,
             "dashactivity": 2,
@@ -8896,7 +8896,7 @@
             "blockreassurance": 2,
             "ps_socialfollow": 1,
             "ps_linklist": 2,
-            "ps_emailsubscription": 21,
+            "ps_emailsubscription": 23,
             "ps_imageslider": 2,
             "ps_mainmenu": 1,
             "ps_facetedsearch": 8,
@@ -8929,7 +8929,7 @@
                 }
             },
             "modules": {
-                "total": 70,
+                "total": 72,
                 "repositories": {
                     "dashactivity": 2,
                     "statsforecast": 1,
@@ -8938,7 +8938,7 @@
                     "blockreassurance": 2,
                     "ps_socialfollow": 1,
                     "ps_linklist": 2,
-                    "ps_emailsubscription": 21,
+                    "ps_emailsubscription": 23,
                     "ps_imageslider": 2,
                     "ps_mainmenu": 1,
                     "ps_facetedsearch": 8,
@@ -49868,5 +49868,5 @@
             }
         }
     },
-    "updatedAt": "2025-12-18 06:10:46"
+    "updatedAt": "2025-12-19 06:14:20"
 }
