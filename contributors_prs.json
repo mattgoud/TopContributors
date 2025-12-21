@@ -10,9 +10,9 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 9962,
+        "contributions": 9965,
         "repositories": {
-            "PrestaShop": 1105,
+            "PrestaShop": 1107,
             "PrestaShop-modules": 2,
             "PrestaShop-webservice-lib": 1,
             "dashactivity": 4,
@@ -117,13 +117,13 @@
             "ps_fixturescreator": 4,
             "ws-client": 3,
             "ps_apiresources": 9,
-            "ui-testing-library": 326
+            "ui-testing-library": 327
         },
         "categories": {
             "core": {
-                "total": 1119,
+                "total": 1121,
                 "repositories": {
-                    "PrestaShop": 1105,
+                    "PrestaShop": 1107,
                     "prestashop-ui-kit": 1,
                     "TranslationToolsBundle": 2,
                     "TranslationFiles": 3,
@@ -253,10 +253,10 @@
                 }
             },
             "tests": {
-                "total": 360,
+                "total": 361,
                 "repositories": {
                     "ga.tests.ui.pr": 34,
-                    "ui-testing-library": 326
+                    "ui-testing-library": 327
                 }
             },
             "blog": {
@@ -272,7 +272,7 @@
                 }
             }
         },
-        "mergedPullRequests": 2179
+        "mergedPullRequests": 2182
     },
     "matks": {
         "login": "matks",
