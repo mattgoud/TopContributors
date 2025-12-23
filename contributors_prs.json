@@ -10,7 +10,7 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 9966,
+        "contributions": 9973,
         "repositories": {
             "PrestaShop": 1107,
             "PrestaShop-modules": 2,
@@ -775,7 +775,7 @@
         "location": null,
         "bio": null,
         "email_domain": "",
-        "contributions": 7042,
+        "contributions": 7043,
         "repositories": {
             "PrestaShop": 691,
             "dashproducts": 1,
@@ -787,7 +787,7 @@
             "prestashop-ui-kit": 10,
             "ps_linklist": 33,
             "ps_contactinfo": 3,
-            "docs": 52,
+            "docs": 53,
             "ps_currencyselector": 4,
             "ps_facetedsearch": 9,
             "ps_searchbar": 1,
@@ -841,9 +841,9 @@
                 "repositories": []
             },
             "documentation": {
-                "total": 97,
+                "total": 98,
                 "repositories": {
-                    "docs": 52,
+                    "docs": 53,
                     "example_module_mailtheme": 3,
                     "ADR": 7,
                     "open-source": 1,
@@ -916,7 +916,7 @@
                 }
             }
         },
-        "mergedPullRequests": 1065
+        "mergedPullRequests": 1066
     },
     "Hlavtox": {
         "login": "Hlavtox",
@@ -931,7 +931,7 @@
         "email_domain": "",
         "contributions": 2268,
         "repositories": {
-            "PrestaShop": 357,
+            "PrestaShop": 358,
             "dashactivity": 4,
             "dashgoals": 4,
             "dashproducts": 7,
@@ -1013,9 +1013,9 @@
         },
         "categories": {
             "core": {
-                "total": 362,
+                "total": 363,
                 "repositories": {
-                    "PrestaShop": 357,
+                    "PrestaShop": 358,
                     "prestashop-ui-kit": 3,
                     "circuit-breaker": 1,
                     "LocalizationFiles": 1
@@ -1136,7 +1136,7 @@
                 }
             }
         },
-        "mergedPullRequests": 888
+        "mergedPullRequests": 889
     },
     "PierreRambaud": {
         "login": "PierreRambaud",
@@ -1782,7 +1782,7 @@
         "location": "Bydgoszcz, Poland",
         "bio": "I'm a web developer from Poland, specializing in working with PrestaShop e-commerce",
         "email_domain": "",
-        "contributions": 3170,
+        "contributions": 3172,
         "repositories": {
             "PrestaShop": 162,
             "PrestaShop-modules": 3,
@@ -2493,11 +2493,11 @@
         "html_url": "https:\/\/github.com\/PrestaEdit",
         "name": "Jonathan Danse",
         "company": null,
-        "blog": "https:\/\/prestaedit.github.io",
+        "blog": "https:\/\/prestaedit.com",
         "location": "Belgium",
         "bio": "D\u00e9veloppeur #PrestaShop",
         "email_domain": "prestaedit.com",
-        "contributions": 649,
+        "contributions": 650,
         "repositories": {
             "PrestaShop": 222,
             "PrestaShop-modules": 4,
@@ -2540,7 +2540,7 @@
             "ps_imageslider": 1,
             "ps_customersignin": 1,
             "ps_legalcompliance": 1,
-            "docs": 72,
+            "docs": 75,
             "ps_currencyselector": 1,
             "ps_languageselector": 1,
             "ps_customeraccountlinks": 1,
@@ -2584,9 +2584,9 @@
                 }
             },
             "documentation": {
-                "total": 76,
+                "total": 79,
                 "repositories": {
-                    "docs": 72,
+                    "docs": 75,
                     "open-source": 1,
                     "example-modules": 2,
                     "ps-docs-theme": 1
@@ -2685,7 +2685,7 @@
                 "repositories": []
             }
         },
-        "mergedPullRequests": 427
+        "mergedPullRequests": 430
     },
     "aleeks": {
         "login": "aleeks",
@@ -3923,7 +3923,7 @@
         "location": null,
         "bio": "Founder of @wallabag. ",
         "email_domain": "",
-        "contributions": 1448,
+        "contributions": 1452,
         "repositories": {
             "PrestaShop": 126,
             "blockwishlist": 6,
@@ -9876,7 +9876,7 @@
         "company": "@clauzier-dev ",
         "blog": "https:\/\/clauzier.dev\/",
         "location": "Saint-Denis, Reunion Island",
-        "bio": "lvl 27 hacker, Lead Dev @ Drapo Solutions, opensource & web3 enthusiast",
+        "bio": "lvl 27 hacker, Lead Dev @ https:\/\/opx.co, opensource & web3 enthusiast",
         "email_domain": "clauzier.dev",
         "contributions": 81,
         "repositories": {
