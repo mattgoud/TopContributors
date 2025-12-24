@@ -929,7 +929,7 @@
         "location": "Pardubice, Czech Republic",
         "bio": null,
         "email_domain": "",
-        "contributions": 2268,
+        "contributions": 2269,
         "repositories": {
             "PrestaShop": 358,
             "dashactivity": 4,
@@ -6001,7 +6001,7 @@
         "location": "Via Giuseppe Saragat, 19 86170 Isernia - ITALIA",
         "bio": "Codencode \u00e8 un'agenzia di Branding, Comunicazione e Marketing.\r\nRealizziamo progetti di comunicazione visiva brand-oriented, web design e web marketing.",
         "email_domain": "codencode.it",
-        "contributions": 226,
+        "contributions": 228,
         "repositories": {
             "PrestaShop": 87,
             "dashactivity": 1,
@@ -6012,6 +6012,7 @@
             "ps_emailsubscription": 4,
             "ps_imageslider": 2,
             "ps_mainmenu": 1,
+            "docs": 1,
             "ps_facetedsearch": 4,
             "LocalizationFiles": 1,
             "hummingbird": 1,
@@ -6031,8 +6032,10 @@
                 "repositories": []
             },
             "documentation": {
-                "total": 0,
-                "repositories": []
+                "total": 1,
+                "repositories": {
+                    "docs": 1
+                }
             },
             "themes": {
                 "total": 3,
@@ -6073,7 +6076,7 @@
                 "repositories": []
             }
         },
-        "mergedPullRequests": 120
+        "mergedPullRequests": 121
     },
     "prestamodule": {
         "login": "prestamodule",
