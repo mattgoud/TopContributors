@@ -931,7 +931,7 @@
         "email_domain": "",
         "contributions": 2269,
         "repositories": {
-            "PrestaShop": 358,
+            "PrestaShop": 360,
             "dashactivity": 4,
             "dashgoals": 4,
             "dashproducts": 7,
@@ -1013,9 +1013,9 @@
         },
         "categories": {
             "core": {
-                "total": 363,
+                "total": 365,
                 "repositories": {
-                    "PrestaShop": 358,
+                    "PrestaShop": 360,
                     "prestashop-ui-kit": 3,
                     "circuit-breaker": 1,
                     "LocalizationFiles": 1
@@ -1136,7 +1136,7 @@
                 }
             }
         },
-        "mergedPullRequests": 889
+        "mergedPullRequests": 891
     },
     "PierreRambaud": {
         "login": "PierreRambaud",

@@ -39,7 +39,7 @@
             "2013": 527,
             "2012": 32
         },
-        "pull_requests_percent": 29.84,
+        "pull_requests_percent": 29.83,
         "contributions": 32868,
         "contributions_by_version": {
             "9.2": 7,
@@ -163,10 +163,10 @@
             "rank": 2,
             "rank_contributions": 2,
             "rank_pull_requests": 2,
-            "merged_pull_requests": 877,
+            "merged_pull_requests": 879,
             "merged_pull_requests_by_version": {
                 "9.1": 1,
-                "9.0": 167,
+                "9.0": 169,
                 "8.2": 9,
                 "8.1": 121,
                 "8.0": 38,
@@ -174,7 +174,7 @@
                 "1.7.7": 5
             },
             "merged_pull_requests_by_year": {
-                "2025": 138,
+                "2025": 140,
                 "2024": 192,
                 "2023": 387,
                 "2022": 72,
@@ -183,10 +183,10 @@
                 "2019": 3
             },
             "pull_requests_percent": 3.22,
-            "contributions": 4533,
+            "contributions": 4537,
             "contributions_by_version": {
                 "9.1": 2,
-                "9.0": 333,
+                "9.0": 337,
                 "8.2": 13,
                 "8.1": 213,
                 "8.0": 88,
@@ -194,7 +194,7 @@
                 "1.7.7": 6
             },
             "contributions_by_year": {
-                "2025": 518,
+                "2025": 522,
                 "2024": 634,
                 "2023": 2222,
                 "2022": 920,
@@ -202,7 +202,7 @@
                 "2020": 35,
                 "2019": 4
             },
-            "contributions_percent": 3.82,
+            "contributions_percent": 3.83,
             "avatar_url": "https:\/\/www.trendo.cz\/img\/logos\/logo_square_400_inverted.png",
             "html_url": "https:\/\/www.trendo.cz"
         },
