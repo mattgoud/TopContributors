@@ -10,7 +10,7 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 9973,
+        "contributions": 9974,
         "repositories": {
             "PrestaShop": 4339,
             "PrestaShop-modules": 31,
@@ -118,7 +118,7 @@
             "stylelint-config": 7,
             "example-modules": 6,
             "ps_qualityassurance": 1,
-            "test-scenarios": 929,
+            "test-scenarios": 930,
             "user-documentation-it": 2,
             "user-documentation-landing": 3,
             "user-documentation-en": 1,
@@ -160,7 +160,7 @@
                 }
             },
             "documentation": {
-                "total": 1146,
+                "total": 1147,
                 "repositories": {
                     "docs": 144,
                     "user-documentation-landing": 3,
@@ -168,7 +168,7 @@
                     "user-documentation-it": 2,
                     "user-documentation-v8-en": 1,
                     "functional-documentation": 2,
-                    "test-scenarios": 929,
+                    "test-scenarios": 930,
                     "example-modules": 6,
                     "open-source": 31,
                     "example_module_mailtheme": 4,
@@ -34692,62 +34692,6 @@
             }
         }
     },
-    "GuilhemN": {
-        "login": "GuilhemN",
-        "id": 6871899,
-        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/6871899?v=4",
-        "html_url": "https:\/\/github.com\/GuilhemN",
-        "name": "Guilhem Niot",
-        "company": "PQShield",
-        "blog": "https:\/\/gniot.fr",
-        "location": "Paris, France",
-        "bio": "PhD student at PQShield and University Rennes 1.\r\nI love post-quantum cryptography, software security, and privacy projects!",
-        "email_domain": "",
-        "contributions": 2,
-        "repositories": {
-            "prestonbot": 2
-        },
-        "categories": {
-            "core": {
-                "total": 0,
-                "repositories": []
-            },
-            "specs": {
-                "total": 0,
-                "repositories": []
-            },
-            "documentation": {
-                "total": 0,
-                "repositories": []
-            },
-            "themes": {
-                "total": 0,
-                "repositories": []
-            },
-            "modules": {
-                "total": 0,
-                "repositories": []
-            },
-            "tools": {
-                "total": 2,
-                "repositories": {
-                    "prestonbot": 2
-                }
-            },
-            "tests": {
-                "total": 0,
-                "repositories": []
-            },
-            "blog": {
-                "total": 0,
-                "repositories": []
-            },
-            "others": {
-                "total": 0,
-                "repositories": []
-            }
-        }
-    },
     "wouterj": {
         "login": "wouterj",
         "id": 749025,
@@ -49871,5 +49815,5 @@
             }
         }
     },
-    "updatedAt": "2025-12-27 06:07:56"
+    "updatedAt": "2025-12-28 06:08:10"
 }
