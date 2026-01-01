@@ -10,7 +10,7 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 9992,
+        "contributions": 9995,
         "repositories": {
             "PrestaShop": 4349,
             "PrestaShop-modules": 31,
@@ -94,7 +94,7 @@
             "ps_feeder": 1,
             "traces": 164,
             "core-weekly-generator": 6,
-            "TopContributors": 95,
+            "TopContributors": 96,
             "TranslationFiles": 3,
             "ps_livetranslation": 13,
             "ps_googleanalytics": 20,
@@ -135,7 +135,7 @@
             "ps_fixturescreator": 11,
             "ws-client": 25,
             "ps_apiresources": 3,
-            "ui-testing-library": 1068
+            "ui-testing-library": 1070
         },
         "categories": {
             "core": {
@@ -269,7 +269,7 @@
                 }
             },
             "tools": {
-                "total": 1211,
+                "total": 1212,
                 "repositories": {
                     "core-weekly-generator": 6,
                     "docker": 44,
@@ -282,16 +282,16 @@
                     "presthubot": 470,
                     "prestonbot": 10,
                     "QANightlyResults": 352,
-                    "TopContributors": 95,
+                    "TopContributors": 96,
                     "TopTranslators": 1,
                     "traces": 164,
                     "ps-project-metrics": 4
                 }
             },
             "tests": {
-                "total": 1164,
+                "total": 1166,
                 "repositories": {
-                    "ui-testing-library": 1068,
+                    "ui-testing-library": 1070,
                     "ga.tests.ui.pr": 96
                 }
             },
@@ -1788,7 +1788,7 @@
         "location": "Bydgoszcz, Poland",
         "bio": "I'm a web developer from Poland, specializing in working with PrestaShop e-commerce",
         "email_domain": "",
-        "contributions": 3177,
+        "contributions": 3182,
         "repositories": {
             "PrestaShop": 780,
             "PrestaShop-modules": 4,
@@ -1822,7 +1822,7 @@
             "productcomments": 24,
             "autoupgrade": 45,
             "gsitemap": 8,
-            "prestashop.github.io": 823,
+            "prestashop.github.io": 828,
             "StarterTheme": 3,
             "contactform": 10,
             "paymentexample": 7,
@@ -2041,9 +2041,9 @@
                 }
             },
             "blog": {
-                "total": 823,
+                "total": 828,
                 "repositories": {
-                    "prestashop.github.io": 823
+                    "prestashop.github.io": 828
                 }
             },
             "others": {
@@ -44787,7 +44787,7 @@
         "blog": "",
         "location": "Rabat",
         "bio": null,
-        "email_domain": "gmail.com",
+        "email_domain": "sqli.com",
         "contributions": 1,
         "repositories": {
             "docs": 1
@@ -49929,5 +49929,5 @@
             }
         }
     },
-    "updatedAt": "2025-12-31 08:06:10"
+    "updatedAt": "2026-01-01 07:08:11"
 }

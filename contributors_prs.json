@@ -10,9 +10,9 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 9992,
+        "contributions": 9995,
         "repositories": {
-            "PrestaShop": 1110,
+            "PrestaShop": 1112,
             "PrestaShop-modules": 2,
             "PrestaShop-webservice-lib": 1,
             "dashactivity": 4,
@@ -117,13 +117,13 @@
             "ps_fixturescreator": 4,
             "ws-client": 3,
             "ps_apiresources": 9,
-            "ui-testing-library": 327
+            "ui-testing-library": 328
         },
         "categories": {
             "core": {
-                "total": 1124,
+                "total": 1126,
                 "repositories": {
-                    "PrestaShop": 1110,
+                    "PrestaShop": 1112,
                     "prestashop-ui-kit": 1,
                     "TranslationToolsBundle": 2,
                     "TranslationFiles": 3,
@@ -253,10 +253,10 @@
                 }
             },
             "tests": {
-                "total": 361,
+                "total": 362,
                 "repositories": {
                     "ga.tests.ui.pr": 34,
-                    "ui-testing-library": 327
+                    "ui-testing-library": 328
                 }
             },
             "blog": {
@@ -272,7 +272,7 @@
                 }
             }
         },
-        "mergedPullRequests": 2186
+        "mergedPullRequests": 2189
     },
     "matks": {
         "login": "matks",
@@ -931,7 +931,7 @@
         "email_domain": "",
         "contributions": 2281,
         "repositories": {
-            "PrestaShop": 360,
+            "PrestaShop": 361,
             "dashactivity": 4,
             "dashgoals": 4,
             "dashproducts": 7,
@@ -981,7 +981,7 @@
             "ps_shoppingcart": 7,
             "ps_currencyselector": 4,
             "ps_languageselector": 5,
-            "ps_facetedsearch": 58,
+            "ps_facetedsearch": 59,
             "ps_customeraccountlinks": 1,
             "ps_checkpayment": 3,
             "ps_emailalerts": 14,
@@ -1013,9 +1013,9 @@
         },
         "categories": {
             "core": {
-                "total": 365,
+                "total": 366,
                 "repositories": {
-                    "PrestaShop": 360,
+                    "PrestaShop": 361,
                     "prestashop-ui-kit": 3,
                     "circuit-breaker": 1,
                     "LocalizationFiles": 1
@@ -1040,7 +1040,7 @@
                 }
             },
             "modules": {
-                "total": 460,
+                "total": 461,
                 "repositories": {
                     "dashactivity": 4,
                     "dashgoals": 4,
@@ -1088,7 +1088,7 @@
                     "ps_shoppingcart": 7,
                     "ps_currencyselector": 4,
                     "ps_languageselector": 5,
-                    "ps_facetedsearch": 58,
+                    "ps_facetedsearch": 59,
                     "ps_customeraccountlinks": 1,
                     "ps_checkpayment": 3,
                     "ps_emailalerts": 14,
@@ -1136,7 +1136,7 @@
                 }
             }
         },
-        "mergedPullRequests": 891
+        "mergedPullRequests": 893
     },
     "PierreRambaud": {
         "login": "PierreRambaud",
@@ -1782,7 +1782,7 @@
         "location": "Bydgoszcz, Poland",
         "bio": "I'm a web developer from Poland, specializing in working with PrestaShop e-commerce",
         "email_domain": "",
-        "contributions": 3177,
+        "contributions": 3182,
         "repositories": {
             "PrestaShop": 162,
             "PrestaShop-modules": 3,
@@ -1792,7 +1792,7 @@
             "blockwishlist": 4,
             "productcomments": 4,
             "autoupgrade": 6,
-            "prestashop.github.io": 152,
+            "prestashop.github.io": 153,
             "StarterTheme": 3,
             "contactform": 3,
             "paymentexample": 1,
@@ -1916,9 +1916,9 @@
                 }
             },
             "blog": {
-                "total": 152,
+                "total": 153,
                 "repositories": {
-                    "prestashop.github.io": 152
+                    "prestashop.github.io": 153
                 }
             },
             "others": {
@@ -1928,7 +1928,7 @@
                 }
             }
         },
-        "mergedPullRequests": 512
+        "mergedPullRequests": 513
     },
     "eternoendless": {
         "login": "eternoendless",
@@ -42239,7 +42239,7 @@
         "blog": "",
         "location": "Rabat",
         "bio": null,
-        "email_domain": "gmail.com",
+        "email_domain": "sqli.com",
         "contributions": 1,
         "repositories": {
             "docs": 1
