@@ -10,7 +10,7 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 9996,
+        "contributions": 9997,
         "repositories": {
             "PrestaShop": 4349,
             "PrestaShop-modules": 31,
@@ -118,7 +118,7 @@
             "stylelint-config": 7,
             "example-modules": 6,
             "ps_qualityassurance": 1,
-            "test-scenarios": 934,
+            "test-scenarios": 935,
             "user-documentation-it": 2,
             "user-documentation-landing": 3,
             "user-documentation-en": 1,
@@ -160,7 +160,7 @@
                 }
             },
             "documentation": {
-                "total": 1151,
+                "total": 1152,
                 "repositories": {
                     "docs": 144,
                     "user-documentation-landing": 3,
@@ -168,7 +168,7 @@
                     "user-documentation-it": 2,
                     "user-documentation-v8-en": 1,
                     "functional-documentation": 2,
-                    "test-scenarios": 934,
+                    "test-scenarios": 935,
                     "example-modules": 6,
                     "open-source": 31,
                     "example_module_mailtheme": 4,
@@ -8641,7 +8641,7 @@
         "company": "@topology-gg, @drp-tech",
         "blog": "https:\/\/sacha42.com",
         "location": null,
-        "bio": "Magician @topology-gg Prev @adevinta, @berty, @ortto, @united-drivers, @PrestaShop",
+        "bio": "Magician @1sixtech  Prev @adevinta, @berty, @ortto, @united-drivers, @PrestaShop",
         "email_domain": "gmail.com",
         "contributions": 263,
         "repositories": {
@@ -49929,5 +49929,5 @@
             }
         }
     },
-    "updatedAt": "2026-01-04 06:09:08"
+    "updatedAt": "2026-01-05 08:25:51"
 }
