@@ -10,7 +10,7 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 9997,
+        "contributions": 10008,
         "repositories": {
             "PrestaShop": 4349,
             "PrestaShop-modules": 31,
@@ -92,7 +92,7 @@
             "ps_carriercomparison": 3,
             "ps_viewedproduct": 15,
             "ps_feeder": 1,
-            "traces": 164,
+            "traces": 167,
             "core-weekly-generator": 6,
             "TopContributors": 96,
             "TranslationFiles": 3,
@@ -112,9 +112,9 @@
             "open-source": 31,
             "mjml-theme-converter": 1,
             "php-dev-tools": 4,
-            "QANightlyResults": 352,
+            "QANightlyResults": 357,
             "LocalizationFiles": 9,
-            "presthubot": 470,
+            "presthubot": 472,
             "stylelint-config": 7,
             "example-modules": 6,
             "ps_qualityassurance": 1,
@@ -135,7 +135,7 @@
             "ps_fixturescreator": 11,
             "ws-client": 25,
             "ps_apiresources": 3,
-            "ui-testing-library": 1070
+            "ui-testing-library": 1071
         },
         "categories": {
             "core": {
@@ -269,7 +269,7 @@
                 }
             },
             "tools": {
-                "total": 1212,
+                "total": 1222,
                 "repositories": {
                     "core-weekly-generator": 6,
                     "docker": 44,
@@ -279,19 +279,19 @@
                     "mjml-theme-converter": 1,
                     "nightly-board": 46,
                     "PrestaShop-webservice-lib": 4,
-                    "presthubot": 470,
+                    "presthubot": 472,
                     "prestonbot": 10,
-                    "QANightlyResults": 352,
+                    "QANightlyResults": 357,
                     "TopContributors": 96,
                     "TopTranslators": 1,
-                    "traces": 164,
+                    "traces": 167,
                     "ps-project-metrics": 4
                 }
             },
             "tests": {
-                "total": 1166,
+                "total": 1167,
                 "repositories": {
-                    "ui-testing-library": 1070,
+                    "ui-testing-library": 1071,
                     "ga.tests.ui.pr": 96
                 }
             },
@@ -320,9 +320,9 @@
         "location": null,
         "bio": null,
         "email_domain": "",
-        "contributions": 7060,
+        "contributions": 7061,
         "repositories": {
-            "PrestaShop": 5725,
+            "PrestaShop": 5726,
             "dashgoals": 1,
             "dashproducts": 3,
             "dashtrends": 2,
@@ -399,9 +399,9 @@
         },
         "categories": {
             "core": {
-                "total": 5817,
+                "total": 5818,
                 "repositories": {
-                    "PrestaShop": 5725,
+                    "PrestaShop": 5726,
                     "prestashop-ui-kit": 16,
                     "TranslationToolsBundle": 14,
                     "LocalizationFiles": 3,
@@ -4387,9 +4387,9 @@
         "location": "74100 Annemasse, France",
         "bio": null,
         "email_domain": "",
-        "contributions": 1080,
+        "contributions": 1083,
         "repositories": {
-            "PrestaShop": 56,
+            "PrestaShop": 59,
             "statscatalog": 2,
             "statscheckup": 2,
             "statsforecast": 2,
@@ -4418,9 +4418,9 @@
         },
         "categories": {
             "core": {
-                "total": 56,
+                "total": 59,
                 "repositories": {
-                    "PrestaShop": 56
+                    "PrestaShop": 59
                 }
             },
             "specs": {
@@ -5479,7 +5479,7 @@
         "location": null,
         "bio": "Web Integrator",
         "email_domain": "",
-        "contributions": 686,
+        "contributions": 688,
         "repositories": {
             "PrestaShop": 45,
             "productcomments": 5,
@@ -5491,7 +5491,7 @@
             "ps_searchbar": 1,
             "traces": 1,
             "open-source": 1,
-            "hummingbird": 364,
+            "hummingbird": 366,
             "classic-theme": 4,
             "bootstrap-compatibility-layer": 27,
             "Prestashop-BO-themes-package": 3
@@ -5516,10 +5516,10 @@
                 }
             },
             "themes": {
-                "total": 368,
+                "total": 370,
                 "repositories": {
                     "classic-theme": 4,
-                    "hummingbird": 364
+                    "hummingbird": 366
                 }
             },
             "modules": {
@@ -49929,5 +49929,5 @@
             }
         }
     },
-    "updatedAt": "2026-01-05 08:25:51"
+    "updatedAt": "2026-01-06 06:29:27"
 }

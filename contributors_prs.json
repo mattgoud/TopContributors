@@ -10,7 +10,7 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 9997,
+        "contributions": 10008,
         "repositories": {
             "PrestaShop": 1112,
             "PrestaShop-modules": 2,
@@ -775,7 +775,7 @@
         "location": null,
         "bio": null,
         "email_domain": "",
-        "contributions": 7060,
+        "contributions": 7061,
         "repositories": {
             "PrestaShop": 691,
             "dashproducts": 1,
@@ -4427,7 +4427,7 @@
         "location": null,
         "bio": "Web Integrator",
         "email_domain": "",
-        "contributions": 686,
+        "contributions": 688,
         "repositories": {
             "PrestaShop": 13,
             "productcomments": 2,
@@ -4439,7 +4439,7 @@
             "ps_searchbar": 1,
             "traces": 1,
             "open-source": 1,
-            "hummingbird": 84,
+            "hummingbird": 85,
             "classic-theme": 1,
             "bootstrap-compatibility-layer": 4,
             "Prestashop-BO-themes-package": 3
@@ -4464,9 +4464,9 @@
                 }
             },
             "themes": {
-                "total": 85,
+                "total": 86,
                 "repositories": {
-                    "hummingbird": 84,
+                    "hummingbird": 85,
                     "classic-theme": 1
                 }
             },
@@ -4503,7 +4503,7 @@
                 }
             }
         },
-        "mergedPullRequests": 178
+        "mergedPullRequests": 179
     },
     "thomasnares": {
         "login": "thomasnares",
@@ -5059,9 +5059,9 @@
         "location": "74100 Annemasse, France",
         "bio": null,
         "email_domain": "",
-        "contributions": 1080,
+        "contributions": 1083,
         "repositories": {
-            "PrestaShop": 3,
+            "PrestaShop": 4,
             "statscatalog": 1,
             "statscheckup": 2,
             "statsforecast": 1,
@@ -5085,9 +5085,9 @@
         },
         "categories": {
             "core": {
-                "total": 3,
+                "total": 4,
                 "repositories": {
-                    "PrestaShop": 3
+                    "PrestaShop": 4
                 }
             },
             "specs": {
@@ -5149,7 +5149,7 @@
                 }
             }
         },
-        "mergedPullRequests": 157
+        "mergedPullRequests": 158
     },
     "sowbiba": {
         "login": "sowbiba",
