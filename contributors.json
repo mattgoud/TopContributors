@@ -10,7 +10,7 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 10015,
+        "contributions": 10016,
         "repositories": {
             "PrestaShop": 4349,
             "PrestaShop-modules": 31,
@@ -118,7 +118,7 @@
             "stylelint-config": 7,
             "example-modules": 6,
             "ps_qualityassurance": 1,
-            "test-scenarios": 938,
+            "test-scenarios": 939,
             "user-documentation-it": 2,
             "user-documentation-landing": 3,
             "user-documentation-en": 1,
@@ -160,7 +160,7 @@
                 }
             },
             "documentation": {
-                "total": 1155,
+                "total": 1156,
                 "repositories": {
                     "docs": 144,
                     "user-documentation-landing": 3,
@@ -168,7 +168,7 @@
                     "user-documentation-it": 2,
                     "user-documentation-v8-en": 1,
                     "functional-documentation": 2,
-                    "test-scenarios": 938,
+                    "test-scenarios": 939,
                     "example-modules": 6,
                     "open-source": 31,
                     "example_module_mailtheme": 4,
@@ -1689,9 +1689,9 @@
         "location": "Bydgoszcz, Poland",
         "bio": "I'm a web developer from Poland, specializing in working with PrestaShop e-commerce",
         "email_domain": "",
-        "contributions": 3218,
+        "contributions": 3223,
         "repositories": {
-            "PrestaShop": 780,
+            "PrestaShop": 782,
             "PrestaShop-modules": 4,
             "PrestaShop-webservice-lib": 1,
             "dashactivity": 1,
@@ -1742,7 +1742,7 @@
             "ps_mainmenu": 2,
             "ps_customersignin": 4,
             "ps_categorytree": 5,
-            "docs": 487,
+            "docs": 490,
             "ps_wirepayment": 1,
             "ps_shoppingcart": 4,
             "ps_currencyselector": 7,
@@ -1803,9 +1803,9 @@
         },
         "categories": {
             "core": {
-                "total": 806,
+                "total": 808,
                 "repositories": {
-                    "PrestaShop": 780,
+                    "PrestaShop": 782,
                     "prestashop-ui-kit": 4,
                     "LocalizationFiles": 19,
                     "stylelint-browser-compatibility": 1,
@@ -1820,10 +1820,10 @@
                 }
             },
             "documentation": {
-                "total": 797,
+                "total": 800,
                 "repositories": {
                     "paymentexample": 7,
-                    "docs": 487,
+                    "docs": 490,
                     "user-documentation-en": 1,
                     "ADR": 7,
                     "example-modules": 75,
@@ -2445,7 +2445,7 @@
         "location": "Pardubice, Czech Republic",
         "bio": null,
         "email_domain": "",
-        "contributions": 2284,
+        "contributions": 2287,
         "repositories": {
             "PrestaShop": 1005,
             "PrestaShop-webservice-lib": 1,
@@ -2494,7 +2494,7 @@
             "ps_mainmenu": 21,
             "ps_customersignin": 4,
             "ps_categorytree": 13,
-            "docs": 11,
+            "docs": 14,
             "ps_wirepayment": 17,
             "ps_shoppingcart": 12,
             "ps_currencyselector": 5,
@@ -2546,9 +2546,9 @@
                 "repositories": []
             },
             "documentation": {
-                "total": 18,
+                "total": 21,
                 "repositories": {
-                    "docs": 11,
+                    "docs": 14,
                     "example-modules": 2,
                     "open-source": 5
                 }
@@ -34366,7 +34366,7 @@
         "company": null,
         "blog": "",
         "location": "Qu\u00e9bec, Canada",
-        "bio": "\r\n    CEO&CTO SysAdmin  \r\n                      \r\n\r\n",
+        "bio": "\r\n    CEO&CTO                                \r\nDevOps but sysadmin in heart  \r\n                      \r\n\r\n",
         "email_domain": "",
         "contributions": 2,
         "repositories": {
@@ -39300,9 +39300,9 @@
         "html_url": "https:\/\/github.com\/c100k",
         "name": "Chafik",
         "company": null,
-        "blog": "https:\/\/c100k.eu",
-        "location": "Paris",
-        "bio": "Software Engineer (libmodulor.c100k.eu, github.com\/c100k) - Road & Trail Runner (21k: 1h17, 42k: 2h46, UTMB idx: 657)",
+        "blog": "https:\/\/libmodulor.c100k.eu",
+        "location": null,
+        "bio": "Senior Software Engineer (libmodulor.c100k.eu, github.com\/c100k) - Road & Trail Runner (21k: 1h17, 42k: 2h46, UTMB idx: 657)",
         "email_domain": "gmail.com",
         "contributions": 1,
         "repositories": {
@@ -49933,5 +49933,5 @@
             }
         }
     },
-    "updatedAt": "2026-01-10 06:57:59"
+    "updatedAt": "2026-01-11 06:07:37"
 }
