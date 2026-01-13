@@ -10,7 +10,7 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 10016,
+        "contributions": 10018,
         "repositories": {
             "PrestaShop": 1114,
             "PrestaShop-modules": 2,
@@ -565,7 +565,7 @@
         "location": "London",
         "bio": null,
         "email_domain": "",
-        "contributions": 4931,
+        "contributions": 4939,
         "repositories": {
             "PrestaShop": 396,
             "PrestaShop-modules": 14,
@@ -590,7 +590,7 @@
             "statssearch": 2,
             "statsstock": 3,
             "blockwishlist": 17,
-            "autoupgrade": 261,
+            "autoupgrade": 263,
             "gsitemap": 2,
             "prestashop.github.io": 6,
             "docker": 89,
@@ -673,7 +673,7 @@
                 }
             },
             "modules": {
-                "total": 424,
+                "total": 426,
                 "repositories": {
                     "PrestaShop-modules": 14,
                     "dashproducts": 2,
@@ -697,7 +697,7 @@
                     "statssearch": 2,
                     "statsstock": 3,
                     "blockwishlist": 17,
-                    "autoupgrade": 261,
+                    "autoupgrade": 263,
                     "gsitemap": 2,
                     "contactform": 1,
                     "pstagger": 1,
@@ -764,7 +764,7 @@
                 }
             }
         },
-        "mergedPullRequests": 1127
+        "mergedPullRequests": 1129
     },
     "jolelievre": {
         "login": "jolelievre",
@@ -1784,7 +1784,7 @@
         "location": "Bydgoszcz, Poland",
         "bio": "I'm a web developer from Poland, specializing in working with PrestaShop e-commerce",
         "email_domain": "",
-        "contributions": 3223,
+        "contributions": 3232,
         "repositories": {
             "PrestaShop": 163,
             "PrestaShop-modules": 3,
@@ -1808,7 +1808,7 @@
             "ps_imageslider": 2,
             "ps_customersignin": 2,
             "ps_categorytree": 1,
-            "docs": 51,
+            "docs": 54,
             "ps_shoppingcart": 1,
             "ps_currencyselector": 1,
             "ps_searchbar": 1,
@@ -1827,7 +1827,7 @@
             "ps-org-theme": 4,
             "hummingbird": 3,
             "ps-docs-theme": 13,
-            "devdocs-site": 5,
+            "devdocs-site": 6,
             "ga.tests.ui.pr": 1,
             "ps-project-metrics": 1,
             "classic-theme": 4,
@@ -1849,15 +1849,15 @@
                 }
             },
             "documentation": {
-                "total": 97,
+                "total": 101,
                 "repositories": {
                     "paymentexample": 1,
-                    "docs": 51,
+                    "docs": 54,
                     "ADR": 2,
                     "open-source": 20,
                     "example-modules": 5,
                     "ps-docs-theme": 13,
-                    "devdocs-site": 5
+                    "devdocs-site": 6
                 }
             },
             "themes": {
@@ -1930,7 +1930,7 @@
                 }
             }
         },
-        "mergedPullRequests": 521
+        "mergedPullRequests": 525
     },
     "eternoendless": {
         "login": "eternoendless",
@@ -3925,7 +3925,7 @@
         "location": null,
         "bio": "Founder of @wallabag. ",
         "email_domain": "",
-        "contributions": 1464,
+        "contributions": 1466,
         "repositories": {
             "PrestaShop": 128,
             "blockwishlist": 6,
@@ -4345,7 +4345,7 @@
         "location": null,
         "bio": "Web Integrator",
         "email_domain": "",
-        "contributions": 699,
+        "contributions": 701,
         "repositories": {
             "PrestaShop": 13,
             "productcomments": 2,
@@ -4357,7 +4357,7 @@
             "ps_searchbar": 1,
             "traces": 1,
             "open-source": 1,
-            "hummingbird": 90,
+            "hummingbird": 91,
             "classic-theme": 1,
             "bootstrap-compatibility-layer": 4,
             "Prestashop-BO-themes-package": 3
@@ -4382,9 +4382,9 @@
                 }
             },
             "themes": {
-                "total": 91,
+                "total": 92,
                 "repositories": {
-                    "hummingbird": 90,
+                    "hummingbird": 91,
                     "classic-theme": 1
                 }
             },
@@ -4421,7 +4421,7 @@
                 }
             }
         },
-        "mergedPullRequests": 184
+        "mergedPullRequests": 185
     },
     "thierrymarianne": {
         "login": "thierrymarianne",
