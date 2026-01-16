@@ -1,4 +1,12 @@
 {
+    "MrBaiame": {
+        "login": "MrBaiame",
+        "name": null,
+        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/10231293?v=4",
+        "html_url": "https:\/\/github.com\/MrBaiame",
+        "contributions": 1,
+        "firstContributionAt": "2026-01-15T11:40:13Z"
+    },
     "nguyenhy": {
         "login": "nguyenhy",
         "name": "nguyen",
@@ -70,13 +78,5 @@
         "html_url": "https:\/\/github.com\/ChillCode",
         "contributions": 15,
         "firstContributionAt": "2025-10-23T06:34:18Z"
-    },
-    "Giulio-Cappelli": {
-        "login": "Giulio-Cappelli",
-        "name": "Giulio Cappelli",
-        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/45797428?v=4",
-        "html_url": "https:\/\/github.com\/Giulio-Cappelli",
-        "contributions": 1,
-        "firstContributionAt": "2025-10-16T10:20:36Z"
     }
 }
