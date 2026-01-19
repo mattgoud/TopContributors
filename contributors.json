@@ -10,7 +10,7 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 10052,
+        "contributions": 10055,
         "repositories": {
             "PrestaShop": 4366,
             "PrestaShop-modules": 31,
@@ -88,7 +88,7 @@
             "ps_crossselling": 21,
             "ps_productinfo": 1,
             "ps_dataprivacy": 14,
-            "ps_cashondelivery": 123,
+            "ps_cashondelivery": 124,
             "ps_carriercomparison": 3,
             "ps_viewedproduct": 15,
             "ps_feeder": 1,
@@ -114,7 +114,7 @@
             "php-dev-tools": 4,
             "QANightlyResults": 357,
             "LocalizationFiles": 9,
-            "presthubot": 474,
+            "presthubot": 475,
             "stylelint-config": 7,
             "example-modules": 6,
             "ps_qualityassurance": 1,
@@ -135,7 +135,7 @@
             "ps_fixturescreator": 11,
             "ws-client": 25,
             "ps_apiresources": 3,
-            "ui-testing-library": 1083
+            "ui-testing-library": 1084
         },
         "categories": {
             "core": {
@@ -185,7 +185,7 @@
                 }
             },
             "modules": {
-                "total": 1727,
+                "total": 1728,
                 "repositories": {
                     "PrestaShop-modules": 31,
                     "dashactivity": 14,
@@ -252,7 +252,7 @@
                     "ps_crossselling": 21,
                     "ps_productinfo": 1,
                     "ps_dataprivacy": 14,
-                    "ps_cashondelivery": 123,
+                    "ps_cashondelivery": 124,
                     "ps_carriercomparison": 3,
                     "ps_viewedproduct": 15,
                     "ps_feeder": 1,
@@ -269,7 +269,7 @@
                 }
             },
             "tools": {
-                "total": 1224,
+                "total": 1225,
                 "repositories": {
                     "core-weekly-generator": 6,
                     "docker": 44,
@@ -279,7 +279,7 @@
                     "mjml-theme-converter": 1,
                     "nightly-board": 46,
                     "PrestaShop-webservice-lib": 4,
-                    "presthubot": 474,
+                    "presthubot": 475,
                     "prestonbot": 10,
                     "QANightlyResults": 357,
                     "TopContributors": 96,
@@ -289,9 +289,9 @@
                 }
             },
             "tests": {
-                "total": 1179,
+                "total": 1180,
                 "repositories": {
-                    "ui-testing-library": 1083,
+                    "ui-testing-library": 1084,
                     "ga.tests.ui.pr": 96
                 }
             },
@@ -3487,7 +3487,7 @@
         "location": null,
         "bio": "Founder of @wallabag. ",
         "email_domain": "",
-        "contributions": 1475,
+        "contributions": 1476,
         "repositories": {
             "PrestaShop": 803,
             "PrestaShop-webservice-lib": 1,
@@ -3543,7 +3543,7 @@
             "open-source": 23,
             "mjml-theme-converter": 1,
             "php-dev-tools": 2,
-            "QANightlyResults": 123,
+            "QANightlyResults": 124,
             "LocalizationFiles": 8,
             "presthubot": 76,
             "example-modules": 7,
@@ -3646,7 +3646,7 @@
                 }
             },
             "tools": {
-                "total": 249,
+                "total": 250,
                 "repositories": {
                     "bootstrap-compatibility-layer": 1,
                     "docker": 7,
@@ -3657,7 +3657,7 @@
                     "PrestaShop-webservice-lib": 1,
                     "presthubot": 76,
                     "prestonbot": 1,
-                    "QANightlyResults": 123,
+                    "QANightlyResults": 124,
                     "TopContributors": 7,
                     "TopTranslators": 1,
                     "traces": 14,
@@ -49993,5 +49993,5 @@
             }
         }
     },
-    "updatedAt": "2026-01-18 06:07:04"
+    "updatedAt": "2026-01-19 08:47:39"
 }
