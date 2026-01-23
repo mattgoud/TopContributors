@@ -10,7 +10,7 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 10075,
+        "contributions": 10077,
         "repositories": {
             "PrestaShop": 4369,
             "PrestaShop-modules": 31,
@@ -92,7 +92,7 @@
             "ps_carriercomparison": 3,
             "ps_viewedproduct": 15,
             "ps_feeder": 1,
-            "traces": 171,
+            "traces": 173,
             "core-weekly-generator": 6,
             "TopContributors": 98,
             "TranslationFiles": 3,
@@ -269,7 +269,7 @@
                 }
             },
             "tools": {
-                "total": 1234,
+                "total": 1236,
                 "repositories": {
                     "core-weekly-generator": 6,
                     "docker": 44,
@@ -284,7 +284,7 @@
                     "QANightlyResults": 357,
                     "TopContributors": 98,
                     "TopTranslators": 1,
-                    "traces": 171,
+                    "traces": 173,
                     "ps-project-metrics": 4
                 }
             },
@@ -973,7 +973,7 @@
         "location": "London",
         "bio": null,
         "email_domain": "",
-        "contributions": 4961,
+        "contributions": 4962,
         "repositories": {
             "PrestaShop": 1709,
             "PrestaShop-modules": 349,
@@ -1007,7 +1007,7 @@
             "productcomments": 1,
             "pscleaner": 3,
             "themeinstallator": 3,
-            "autoupgrade": 1354,
+            "autoupgrade": 1355,
             "gsitemap": 6,
             "prestafraud": 1,
             "prestashop.github.io": 17,
@@ -1106,7 +1106,7 @@
                 }
             },
             "modules": {
-                "total": 2232,
+                "total": 2233,
                 "repositories": {
                     "PrestaShop-modules": 349,
                     "dashactivity": 1,
@@ -1137,7 +1137,7 @@
                     "blockwishlist": 38,
                     "productcomments": 1,
                     "pscleaner": 3,
-                    "autoupgrade": 1354,
+                    "autoupgrade": 1355,
                     "gsitemap": 6,
                     "prestafraud": 1,
                     "contactform": 1,
@@ -5650,12 +5650,12 @@
         "location": "France",
         "bio": "Developper from father to son with +13 years experience, commiter and member of @PrestaShop Tech Council!",
         "email_domain": "",
-        "contributions": 657,
+        "contributions": 658,
         "repositories": {
             "PrestaShop": 423,
             "PrestaShop-webservice-lib": 1,
             "dashtrends": 2,
-            "autoupgrade": 12,
+            "autoupgrade": 13,
             "prestashop.github.io": 1,
             "docker": 1,
             "ps_emailsubscription": 3,
@@ -5720,10 +5720,10 @@
                 }
             },
             "modules": {
-                "total": 38,
+                "total": 39,
                 "repositories": {
                     "dashtrends": 2,
-                    "autoupgrade": 12,
+                    "autoupgrade": 13,
                     "ps_emailsubscription": 3,
                     "ps_imageslider": 1,
                     "ps_mainmenu": 1,
@@ -49999,5 +49999,5 @@
             }
         }
     },
-    "updatedAt": "2026-01-23 07:16:02"
+    "updatedAt": "2026-01-23 10:56:10"
 }

@@ -10,7 +10,7 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 10075,
+        "contributions": 10077,
         "repositories": {
             "PrestaShop": 1120,
             "PrestaShop-modules": 2,
@@ -86,7 +86,7 @@
             "ps_dataprivacy": 5,
             "ps_cashondelivery": 18,
             "ps_viewedproduct": 3,
-            "traces": 42,
+            "traces": 43,
             "core-weekly-generator": 1,
             "TopContributors": 41,
             "TranslationFiles": 3,
@@ -234,7 +234,7 @@
                 }
             },
             "tools": {
-                "total": 211,
+                "total": 212,
                 "repositories": {
                     "PrestaShop-webservice-lib": 1,
                     "docker": 19,
@@ -242,7 +242,7 @@
                     "docker-internal-images": 1,
                     "prestonbot": 1,
                     "TopTranslators": 1,
-                    "traces": 42,
+                    "traces": 43,
                     "core-weekly-generator": 1,
                     "TopContributors": 41,
                     "issuebot": 2,
@@ -272,7 +272,7 @@
                 }
             }
         },
-        "mergedPullRequests": 2202
+        "mergedPullRequests": 2203
     },
     "matks": {
         "login": "matks",
@@ -565,7 +565,7 @@
         "location": "London",
         "bio": null,
         "email_domain": "",
-        "contributions": 4961,
+        "contributions": 4962,
         "repositories": {
             "PrestaShop": 396,
             "PrestaShop-modules": 14,
@@ -3517,11 +3517,11 @@
         "location": "France",
         "bio": "Developper from father to son with +13 years experience, commiter and member of @PrestaShop Tech Council!",
         "email_domain": "",
-        "contributions": 657,
+        "contributions": 658,
         "repositories": {
             "PrestaShop": 128,
             "productcomments": 1,
-            "autoupgrade": 6,
+            "autoupgrade": 7,
             "ps_emailsubscription": 1,
             "docs": 2,
             "ps_emailalerts": 1,
@@ -3572,10 +3572,10 @@
                 }
             },
             "modules": {
-                "total": 18,
+                "total": 19,
                 "repositories": {
                     "productcomments": 1,
-                    "autoupgrade": 6,
+                    "autoupgrade": 7,
                     "ps_emailsubscription": 1,
                     "ps_emailalerts": 1,
                     "ps_themecusto": 2,
@@ -3608,7 +3608,7 @@
                 }
             }
         },
-        "mergedPullRequests": 220
+        "mergedPullRequests": 221
     },
     "gskema": {
         "login": "gskema",
