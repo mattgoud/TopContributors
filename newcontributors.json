@@ -1,4 +1,12 @@
 {
+    "Peter-Liska": {
+        "login": "Peter-Liska",
+        "name": "Peter Liska",
+        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/3206208?v=4",
+        "html_url": "https:\/\/github.com\/Peter-Liska",
+        "contributions": 1,
+        "firstContributionAt": "2026-01-23T21:39:53Z"
+    },
     "MrBaiame": {
         "login": "MrBaiame",
         "name": null,
@@ -70,13 +78,5 @@
         "html_url": "https:\/\/github.com\/mjamroz",
         "contributions": 1,
         "firstContributionAt": "2025-11-07T16:03:41Z"
-    },
-    "ChillCode": {
-        "login": "ChillCode",
-        "name": "Chillcode",
-        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/9787055?v=4",
-        "html_url": "https:\/\/github.com\/ChillCode",
-        "contributions": 15,
-        "firstContributionAt": "2025-10-23T06:34:18Z"
     }
 }
