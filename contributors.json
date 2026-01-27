@@ -10,7 +10,7 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 10097,
+        "contributions": 10098,
         "repositories": {
             "PrestaShop": 4372,
             "PrestaShop-modules": 31,
@@ -135,7 +135,7 @@
             "ps_fixturescreator": 11,
             "ws-client": 25,
             "ps_apiresources": 3,
-            "ui-testing-library": 1093
+            "ui-testing-library": 1094
         },
         "categories": {
             "core": {
@@ -289,9 +289,9 @@
                 }
             },
             "tests": {
-                "total": 1189,
+                "total": 1190,
                 "repositories": {
-                    "ui-testing-library": 1093,
+                    "ui-testing-library": 1094,
                     "ga.tests.ui.pr": 96
                 }
             },
@@ -1689,7 +1689,7 @@
         "location": "Bydgoszcz, Poland",
         "bio": "I'm a web developer from Poland, specializing in working with PrestaShop e-commerce",
         "email_domain": "",
-        "contributions": 3264,
+        "contributions": 3266,
         "repositories": {
             "PrestaShop": 790,
             "PrestaShop-modules": 4,
@@ -1773,7 +1773,7 @@
             "circuit-breaker": 1,
             "ADR": 7,
             "nightly-board": 1,
-            "open-source": 128,
+            "open-source": 130,
             "mjml-theme-converter": 1,
             "php-dev-tools": 1,
             "LocalizationFiles": 19,
@@ -1820,14 +1820,14 @@
                 }
             },
             "documentation": {
-                "total": 820,
+                "total": 822,
                 "repositories": {
                     "paymentexample": 7,
                     "docs": 507,
                     "user-documentation-en": 1,
                     "ADR": 7,
                     "example-modules": 75,
-                    "open-source": 128,
+                    "open-source": 130,
                     "ps-docs-theme": 64,
                     "devdocs-site": 24,
                     "contextual-help-api": 1,
@@ -2445,7 +2445,7 @@
         "location": "Pardubice, Czech Republic",
         "bio": null,
         "email_domain": "",
-        "contributions": 2309,
+        "contributions": 2311,
         "repositories": {
             "PrestaShop": 1018,
             "PrestaShop-webservice-lib": 1,
@@ -2524,7 +2524,7 @@
             "open-source": 5,
             "LocalizationFiles": 2,
             "example-modules": 2,
-            "hummingbird": 154,
+            "hummingbird": 156,
             "distribution-api": 2,
             "ga.tests.ui.pr": 1,
             "classic-theme": 64,
@@ -2554,10 +2554,10 @@
                 }
             },
             "themes": {
-                "total": 218,
+                "total": 220,
                 "repositories": {
                     "classic-theme": 64,
-                    "hummingbird": 154
+                    "hummingbird": 156
                 }
             },
             "modules": {
@@ -23254,7 +23254,7 @@
         "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/9914734?v=4",
         "html_url": "https:\/\/github.com\/NMAC427",
         "name": "Nicolas Camenisch",
-        "company": "Capslock AG",
+        "company": null,
         "blog": "",
         "location": "AG, Switzerland",
         "bio": "CS Student @ MIT '25  |  iOS & Android Developer",
@@ -50055,5 +50055,5 @@
             }
         }
     },
-    "updatedAt": "2026-01-26 16:13:07"
+    "updatedAt": "2026-01-27 06:13:57"
 }

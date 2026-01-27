@@ -10,7 +10,7 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 10097,
+        "contributions": 10098,
         "repositories": {
             "PrestaShop": 1120,
             "PrestaShop-modules": 2,
@@ -931,7 +931,7 @@
         "location": "Pardubice, Czech Republic",
         "bio": null,
         "email_domain": "",
-        "contributions": 2309,
+        "contributions": 2311,
         "repositories": {
             "PrestaShop": 368,
             "dashactivity": 4,
@@ -1784,7 +1784,7 @@
         "location": "Bydgoszcz, Poland",
         "bio": "I'm a web developer from Poland, specializing in working with PrestaShop e-commerce",
         "email_domain": "",
-        "contributions": 3264,
+        "contributions": 3266,
         "repositories": {
             "PrestaShop": 168,
             "PrestaShop-modules": 3,
@@ -1820,7 +1820,7 @@
             "prestashop-specs": 1,
             "ADR": 2,
             "nightly-board": 1,
-            "open-source": 20,
+            "open-source": 21,
             "presthubot": 5,
             "example-modules": 5,
             "ps_qualityassurance": 1,
@@ -1849,12 +1849,12 @@
                 }
             },
             "documentation": {
-                "total": 104,
+                "total": 105,
                 "repositories": {
                     "paymentexample": 1,
                     "docs": 57,
                     "ADR": 2,
-                    "open-source": 20,
+                    "open-source": 21,
                     "example-modules": 5,
                     "ps-docs-theme": 13,
                     "devdocs-site": 6
@@ -1930,7 +1930,7 @@
                 }
             }
         },
-        "mergedPullRequests": 534
+        "mergedPullRequests": 535
     },
     "eternoendless": {
         "login": "eternoendless",
@@ -32440,7 +32440,7 @@
         "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/9914734?v=4",
         "html_url": "https:\/\/github.com\/NMAC427",
         "name": "Nicolas Camenisch",
-        "company": "Capslock AG",
+        "company": null,
         "blog": "",
         "location": "AG, Switzerland",
         "bio": "CS Student @ MIT '25  |  iOS & Android Developer",
