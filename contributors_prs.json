@@ -10,9 +10,9 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 10098,
+        "contributions": 10109,
         "repositories": {
-            "PrestaShop": 1120,
+            "PrestaShop": 1121,
             "PrestaShop-modules": 2,
             "PrestaShop-webservice-lib": 1,
             "dashactivity": 4,
@@ -121,9 +121,9 @@
         },
         "categories": {
             "core": {
-                "total": 1134,
+                "total": 1135,
                 "repositories": {
-                    "PrestaShop": 1120,
+                    "PrestaShop": 1121,
                     "prestashop-ui-kit": 1,
                     "TranslationToolsBundle": 2,
                     "TranslationFiles": 3,
@@ -272,7 +272,7 @@
                 }
             }
         },
-        "mergedPullRequests": 2203
+        "mergedPullRequests": 2204
     },
     "matks": {
         "login": "matks",
@@ -565,7 +565,7 @@
         "location": "London",
         "bio": null,
         "email_domain": "",
-        "contributions": 4976,
+        "contributions": 4978,
         "repositories": {
             "PrestaShop": 396,
             "PrestaShop-modules": 14,
@@ -590,7 +590,7 @@
             "statssearch": 2,
             "statsstock": 3,
             "blockwishlist": 17,
-            "autoupgrade": 271,
+            "autoupgrade": 272,
             "gsitemap": 2,
             "prestashop.github.io": 6,
             "docker": 89,
@@ -673,7 +673,7 @@
                 }
             },
             "modules": {
-                "total": 434,
+                "total": 435,
                 "repositories": {
                     "PrestaShop-modules": 14,
                     "dashproducts": 2,
@@ -697,7 +697,7 @@
                     "statssearch": 2,
                     "statsstock": 3,
                     "blockwishlist": 17,
-                    "autoupgrade": 271,
+                    "autoupgrade": 272,
                     "gsitemap": 2,
                     "contactform": 1,
                     "pstagger": 1,
@@ -764,7 +764,7 @@
                 }
             }
         },
-        "mergedPullRequests": 1137
+        "mergedPullRequests": 1138
     },
     "jolelievre": {
         "login": "jolelievre",
@@ -777,7 +777,7 @@
         "location": null,
         "bio": null,
         "email_domain": "",
-        "contributions": 7149,
+        "contributions": 7168,
         "repositories": {
             "PrestaShop": 708,
             "dashproducts": 2,
@@ -931,7 +931,7 @@
         "location": "Pardubice, Czech Republic",
         "bio": null,
         "email_domain": "",
-        "contributions": 2311,
+        "contributions": 2319,
         "repositories": {
             "PrestaShop": 368,
             "dashactivity": 4,
@@ -1784,7 +1784,7 @@
         "location": "Bydgoszcz, Poland",
         "bio": "I'm a web developer from Poland, specializing in working with PrestaShop e-commerce",
         "email_domain": "",
-        "contributions": 3266,
+        "contributions": 3270,
         "repositories": {
             "PrestaShop": 168,
             "PrestaShop-modules": 3,
@@ -3925,7 +3925,7 @@
         "location": null,
         "bio": "Founder of @wallabag. ",
         "email_domain": "",
-        "contributions": 1480,
+        "contributions": 1483,
         "repositories": {
             "PrestaShop": 129,
             "blockwishlist": 6,
@@ -4428,7 +4428,7 @@
         "id": 1053622,
         "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/1053622?v=4",
         "html_url": "https:\/\/github.com\/thierrymarianne",
-        "name": "Th\u00b7Ma ",
+        "name": "Thierry M.",
         "company": null,
         "blog": "",
         "location": "Greater Paris Metropolitan Area",
@@ -5679,7 +5679,7 @@
         "location": "Via Giuseppe Saragat, 19 86170 Isernia - ITALIA",
         "bio": "Codencode \u00e8 un'agenzia di Branding, Comunicazione e Marketing.\r\nRealizziamo progetti di comunicazione visiva brand-oriented, web design e web marketing.",
         "email_domain": "codencode.it",
-        "contributions": 239,
+        "contributions": 248,
         "repositories": {
             "PrestaShop": 96,
             "dashactivity": 1,
@@ -7350,7 +7350,7 @@
         "location": null,
         "bio": null,
         "email_domain": "",
-        "contributions": 566,
+        "contributions": 568,
         "repositories": {
             "PrestaShop": 8,
             "dashactivity": 1,
@@ -27353,6 +27353,63 @@
         "company": null,
         "blog": "https:\/\/fabienvernieres.com",
         "location": "Chamb\u00e9ry (France)",
+        "bio": null,
+        "email_domain": "",
+        "contributions": 4,
+        "repositories": {
+            "docs": 2
+        },
+        "categories": {
+            "core": {
+                "total": 0,
+                "repositories": []
+            },
+            "specs": {
+                "total": 0,
+                "repositories": []
+            },
+            "documentation": {
+                "total": 2,
+                "repositories": {
+                    "docs": 2
+                }
+            },
+            "themes": {
+                "total": 0,
+                "repositories": []
+            },
+            "modules": {
+                "total": 0,
+                "repositories": []
+            },
+            "tools": {
+                "total": 0,
+                "repositories": []
+            },
+            "tests": {
+                "total": 0,
+                "repositories": []
+            },
+            "blog": {
+                "total": 0,
+                "repositories": []
+            },
+            "others": {
+                "total": 0,
+                "repositories": []
+            }
+        },
+        "mergedPullRequests": 2
+    },
+    "nekoprog": {
+        "login": "nekoprog",
+        "id": 2550618,
+        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/2550618?v=4",
+        "html_url": "https:\/\/github.com\/nekoprog",
+        "name": "Neko Prog",
+        "company": "@fytz-my ",
+        "blog": "https:\/\/nekoprog.github.io\/",
+        "location": "Mersing, Johor, Malaysia",
         "bio": null,
         "email_domain": "",
         "contributions": 4,

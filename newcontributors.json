@@ -1,4 +1,12 @@
 {
+    "nekoprog": {
+        "login": "nekoprog",
+        "name": "Neko Prog",
+        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/2550618?v=4",
+        "html_url": "https:\/\/github.com\/nekoprog",
+        "contributions": 4,
+        "firstContributionAt": "2026-01-27T15:10:32Z"
+    },
     "Peter-Liska": {
         "login": "Peter-Liska",
         "name": "Peter Liska",
@@ -70,13 +78,5 @@
         "html_url": "https:\/\/github.com\/novomusica",
         "contributions": 1,
         "firstContributionAt": "2025-11-10T14:49:31Z"
-    },
-    "mjamroz": {
-        "login": "mjamroz",
-        "name": "Michal Jamroz",
-        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/505646?v=4",
-        "html_url": "https:\/\/github.com\/mjamroz",
-        "contributions": 1,
-        "firstContributionAt": "2025-11-07T16:03:41Z"
     }
 }
