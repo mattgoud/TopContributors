@@ -779,7 +779,7 @@
         "email_domain": "",
         "contributions": 7171,
         "repositories": {
-            "PrestaShop": 708,
+            "PrestaShop": 709,
             "dashproducts": 2,
             "blockwishlist": 3,
             "productcomments": 10,
@@ -829,9 +829,9 @@
         },
         "categories": {
             "core": {
-                "total": 744,
+                "total": 745,
                 "repositories": {
-                    "PrestaShop": 708,
+                    "PrestaShop": 709,
                     "prestashop-ui-kit": 10,
                     "TranslationToolsBundle": 3,
                     "TranslationFiles": 12,
@@ -920,7 +920,7 @@
                 }
             }
         },
-        "mergedPullRequests": 1096
+        "mergedPullRequests": 1097
     },
     "Hlavtox": {
         "login": "Hlavtox",
@@ -1389,10 +1389,10 @@
         "location": "Paris, France",
         "bio": "QA Automation Engineer",
         "email_domain": "gmail.com",
-        "contributions": 3347,
+        "contributions": 3350,
         "repositories": {
             "PrestaShop": 661,
-            "autoupgrade": 37,
+            "autoupgrade": 38,
             "PSFunctionalTests": 5,
             "traces": 2,
             "QANightlyResults": 1,
@@ -1418,9 +1418,9 @@
                 "repositories": []
             },
             "modules": {
-                "total": 37,
+                "total": 38,
                 "repositories": {
-                    "autoupgrade": 37
+                    "autoupgrade": 38
                 }
             },
             "tools": {
@@ -1446,7 +1446,7 @@
                 "repositories": []
             }
         },
-        "mergedPullRequests": 796
+        "mergedPullRequests": 797
     },
     "NeOMakinG": {
         "login": "NeOMakinG",
@@ -1786,7 +1786,7 @@
         "location": "Bydgoszcz, Poland",
         "bio": "I'm a web developer from Poland, specializing in working with PrestaShop e-commerce",
         "email_domain": "",
-        "contributions": 3276,
+        "contributions": 3279,
         "repositories": {
             "PrestaShop": 169,
             "PrestaShop-modules": 3,
@@ -1796,7 +1796,7 @@
             "blockwishlist": 4,
             "productcomments": 4,
             "autoupgrade": 6,
-            "prestashop.github.io": 156,
+            "prestashop.github.io": 157,
             "StarterTheme": 3,
             "contactform": 3,
             "paymentexample": 1,
@@ -1920,9 +1920,9 @@
                 }
             },
             "blog": {
-                "total": 156,
+                "total": 157,
                 "repositories": {
-                    "prestashop.github.io": 156
+                    "prestashop.github.io": 157
                 }
             },
             "others": {
@@ -1932,7 +1932,7 @@
                 }
             }
         },
-        "mergedPullRequests": 537
+        "mergedPullRequests": 538
     },
     "eternoendless": {
         "login": "eternoendless",
@@ -2963,7 +2963,7 @@
         "location": null,
         "bio": null,
         "email_domain": "",
-        "contributions": 539,
+        "contributions": 541,
         "repositories": {
             "PrestaShop": 106,
             "blockwishlist": 1,
@@ -2981,11 +2981,11 @@
             ".github": 1,
             "DocToolsBundle": 1,
             "ps-org-theme": 1,
-            "hummingbird": 2,
+            "hummingbird": 3,
             "ps-docs-theme": 2,
             "devdocs-site": 2,
             "distribution-api": 6,
-            "classic-theme": 2,
+            "classic-theme": 3,
             "ps_distributionapiclient": 2,
             "autoload": 1,
             "ps_apiresources": 5,
@@ -3015,10 +3015,10 @@
                 }
             },
             "themes": {
-                "total": 4,
+                "total": 6,
                 "repositories": {
-                    "hummingbird": 2,
-                    "classic-theme": 2
+                    "hummingbird": 3,
+                    "classic-theme": 3
                 }
             },
             "modules": {
@@ -3060,7 +3060,7 @@
                 }
             }
         },
-        "mergedPullRequests": 346
+        "mergedPullRequests": 348
     },
     "zuk3975": {
         "login": "zuk3975",
@@ -4188,7 +4188,7 @@
         "location": null,
         "bio": "Web Integrator",
         "email_domain": "",
-        "contributions": 739,
+        "contributions": 740,
         "repositories": {
             "PrestaShop": 13,
             "productcomments": 2,
@@ -7354,7 +7354,7 @@
         "location": null,
         "bio": null,
         "email_domain": "",
-        "contributions": 569,
+        "contributions": 570,
         "repositories": {
             "PrestaShop": 9,
             "dashactivity": 1,
