@@ -5685,7 +5685,7 @@
         "email_domain": "codencode.it",
         "contributions": 248,
         "repositories": {
-            "PrestaShop": 96,
+            "PrestaShop": 97,
             "dashactivity": 1,
             "autoupgrade": 5,
             "blockreassurance": 1,
@@ -5703,9 +5703,9 @@
         },
         "categories": {
             "core": {
-                "total": 97,
+                "total": 98,
                 "repositories": {
-                    "PrestaShop": 96,
+                    "PrestaShop": 97,
                     "LocalizationFiles": 1
                 }
             },
@@ -5758,7 +5758,7 @@
                 "repositories": []
             }
         },
-        "mergedPullRequests": 130
+        "mergedPullRequests": 131
     },
     "Julievrz": {
         "login": "Julievrz",
