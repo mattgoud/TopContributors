@@ -10,7 +10,7 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 10138,
+        "contributions": 10142,
         "repositories": {
             "PrestaShop": 1125,
             "PrestaShop-modules": 2,
@@ -117,7 +117,7 @@
             "ps_fixturescreator": 4,
             "ws-client": 3,
             "ps_apiresources": 9,
-            "ui-testing-library": 334
+            "ui-testing-library": 335
         },
         "categories": {
             "core": {
@@ -253,10 +253,10 @@
                 }
             },
             "tests": {
-                "total": 368,
+                "total": 369,
                 "repositories": {
                     "ga.tests.ui.pr": 34,
-                    "ui-testing-library": 334
+                    "ui-testing-library": 335
                 }
             },
             "blog": {
@@ -272,7 +272,7 @@
                 }
             }
         },
-        "mergedPullRequests": 2213
+        "mergedPullRequests": 2214
     },
     "matks": {
         "login": "matks",
@@ -777,7 +777,7 @@
         "location": null,
         "bio": null,
         "email_domain": "",
-        "contributions": 7172,
+        "contributions": 7179,
         "repositories": {
             "PrestaShop": 710,
             "dashproducts": 2,
@@ -811,7 +811,7 @@
             "LocalizationFiles": 1,
             "example-modules": 22,
             "ps_qualityassurance": 1,
-            ".github": 3,
+            ".github": 4,
             "DocToolsBundle": 1,
             "hummingbird": 5,
             "ps-docs-theme": 1,
@@ -823,7 +823,7 @@
             "native-modules": 1,
             "keycloak_connector_demo": 8,
             "ps_fixturescreator": 3,
-            "ps_apiresources": 38,
+            "ps_apiresources": 40,
             "ui-testing-library": 23,
             "SeamlessUpgradeToolbox": 1
         },
@@ -865,7 +865,7 @@
                 }
             },
             "modules": {
-                "total": 152,
+                "total": 154,
                 "repositories": {
                     "dashproducts": 2,
                     "blockwishlist": 3,
@@ -883,7 +883,7 @@
                     "ps_qualityassurance": 1,
                     "ps_distributionapiclient": 10,
                     "ps_fixturescreator": 3,
-                    "ps_apiresources": 38
+                    "ps_apiresources": 40
                 }
             },
             "tools": {
@@ -912,15 +912,15 @@
                 }
             },
             "others": {
-                "total": 6,
+                "total": 7,
                 "repositories": {
-                    ".github": 3,
+                    ".github": 4,
                     "distribution-api": 2,
                     "native-modules": 1
                 }
             }
         },
-        "mergedPullRequests": 1098
+        "mergedPullRequests": 1101
     },
     "Hlavtox": {
         "login": "Hlavtox",

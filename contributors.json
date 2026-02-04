@@ -10,7 +10,7 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 10138,
+        "contributions": 10142,
         "repositories": {
             "PrestaShop": 4380,
             "PrestaShop-modules": 31,
@@ -135,7 +135,7 @@
             "ps_fixturescreator": 11,
             "ws-client": 25,
             "ps_apiresources": 3,
-            "ui-testing-library": 1104
+            "ui-testing-library": 1108
         },
         "categories": {
             "core": {
@@ -289,9 +289,9 @@
                 }
             },
             "tests": {
-                "total": 1200,
+                "total": 1204,
                 "repositories": {
-                    "ui-testing-library": 1104,
+                    "ui-testing-library": 1108,
                     "ga.tests.ui.pr": 96
                 }
             },
@@ -320,7 +320,7 @@
         "location": null,
         "bio": null,
         "email_domain": "",
-        "contributions": 7172,
+        "contributions": 7179,
         "repositories": {
             "PrestaShop": 5799,
             "dashgoals": 1,
@@ -376,7 +376,7 @@
             "presthubot": 2,
             "example-modules": 89,
             "ps_qualityassurance": 2,
-            ".github": 9,
+            ".github": 11,
             "DocToolsBundle": 34,
             "hummingbird": 12,
             "ps-docs-theme": 3,
@@ -392,7 +392,7 @@
             "kanbanbot": 1,
             "zip-archives": 1,
             "bootstrap-compatibility-layer": 1,
-            "ps_apiresources": 150,
+            "ps_apiresources": 155,
             "CoreUpgradeBundle": 1,
             "CLIUpgrade": 1,
             "ui-testing-library": 40,
@@ -436,7 +436,7 @@
                 }
             },
             "modules": {
-                "total": 518,
+                "total": 523,
                 "repositories": {
                     "dashgoals": 1,
                     "dashproducts": 4,
@@ -468,7 +468,7 @@
                     "ps_googleanalytics": 5,
                     "ps_themecusto": 9,
                     "psgdpr": 5,
-                    "ps_apiresources": 150,
+                    "ps_apiresources": 155,
                     "ps_distributionapiclient": 17,
                     "ps_fixturescreator": 13
                 }
@@ -508,9 +508,9 @@
                 }
             },
             "others": {
-                "total": 20,
+                "total": 22,
                 "repositories": {
-                    ".github": 9,
+                    ".github": 11,
                     "distribution-api": 6,
                     "native-modules": 2,
                     "zip-archives": 1,
@@ -50120,5 +50120,5 @@
             }
         }
     },
-    "updatedAt": "2026-02-04 09:24:48"
+    "updatedAt": "2026-02-04 13:33:05"
 }
