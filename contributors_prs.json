@@ -10,7 +10,7 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 10142,
+        "contributions": 10145,
         "repositories": {
             "PrestaShop": 1125,
             "PrestaShop-modules": 2,
@@ -116,7 +116,7 @@
             "keycloak_connector_demo": 2,
             "ps_fixturescreator": 4,
             "ws-client": 3,
-            "ps_apiresources": 9,
+            "ps_apiresources": 10,
             "ui-testing-library": 335
         },
         "categories": {
@@ -157,7 +157,7 @@
                 }
             },
             "modules": {
-                "total": 399,
+                "total": 400,
                 "repositories": {
                     "PrestaShop-modules": 2,
                     "dashactivity": 4,
@@ -230,7 +230,7 @@
                     "ps_faviconnotificationbo": 1,
                     "ps_qualityassurance": 1,
                     "ps_fixturescreator": 4,
-                    "ps_apiresources": 9
+                    "ps_apiresources": 10
                 }
             },
             "tools": {
@@ -272,7 +272,7 @@
                 }
             }
         },
-        "mergedPullRequests": 2214
+        "mergedPullRequests": 2215
     },
     "matks": {
         "login": "matks",
@@ -823,7 +823,7 @@
             "native-modules": 1,
             "keycloak_connector_demo": 8,
             "ps_fixturescreator": 3,
-            "ps_apiresources": 40,
+            "ps_apiresources": 41,
             "ui-testing-library": 23,
             "SeamlessUpgradeToolbox": 1
         },
@@ -865,7 +865,7 @@
                 }
             },
             "modules": {
-                "total": 154,
+                "total": 155,
                 "repositories": {
                     "dashproducts": 2,
                     "blockwishlist": 3,
@@ -883,7 +883,7 @@
                     "ps_qualityassurance": 1,
                     "ps_distributionapiclient": 10,
                     "ps_fixturescreator": 3,
-                    "ps_apiresources": 40
+                    "ps_apiresources": 41
                 }
             },
             "tools": {
@@ -920,7 +920,7 @@
                 }
             }
         },
-        "mergedPullRequests": 1101
+        "mergedPullRequests": 1102
     },
     "Hlavtox": {
         "login": "Hlavtox",
@@ -3521,7 +3521,7 @@
         "email_domain": "",
         "contributions": 658,
         "repositories": {
-            "PrestaShop": 128,
+            "PrestaShop": 129,
             "productcomments": 1,
             "autoupgrade": 7,
             "ps_emailsubscription": 1,
@@ -3546,9 +3546,9 @@
         },
         "categories": {
             "core": {
-                "total": 132,
+                "total": 133,
                 "repositories": {
-                    "PrestaShop": 128,
+                    "PrestaShop": 129,
                     "TranslationFiles": 1,
                     "circuit-breaker": 3
                 }
@@ -3610,7 +3610,7 @@
                 }
             }
         },
-        "mergedPullRequests": 221
+        "mergedPullRequests": 222
     },
     "gskema": {
         "login": "gskema",
@@ -5166,7 +5166,7 @@
         "location": "Toulouse \/ France",
         "bio": "e-commerce, dev, founder of Creabilis Agency",
         "email_domain": "",
-        "contributions": 327,
+        "contributions": 328,
         "repositories": {
             "PrestaShop": 62,
             "PrestaShop-webservice-lib": 1,
@@ -14337,7 +14337,7 @@
         "name": "Kaikina",
         "company": "Evolutive",
         "blog": "https:\/\/www.linkedin.com\/in\/tgirou\/",
-        "location": "Rive de Gier, France",
+        "location": "La valla-en-gier, France",
         "bio": "Great dreamer, dedicated to my work, always looking for new experiences.",
         "email_domain": "",
         "contributions": 31,

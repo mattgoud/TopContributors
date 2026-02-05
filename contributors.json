@@ -10,7 +10,7 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 10142,
+        "contributions": 10145,
         "repositories": {
             "PrestaShop": 4380,
             "PrestaShop-modules": 31,
@@ -135,7 +135,7 @@
             "ps_fixturescreator": 11,
             "ws-client": 25,
             "ps_apiresources": 3,
-            "ui-testing-library": 1108
+            "ui-testing-library": 1111
         },
         "categories": {
             "core": {
@@ -289,9 +289,9 @@
                 }
             },
             "tests": {
-                "total": 1204,
+                "total": 1207,
                 "repositories": {
-                    "ui-testing-library": 1108,
+                    "ui-testing-library": 1111,
                     "ga.tests.ui.pr": 96
                 }
             },
@@ -8278,6 +8278,131 @@
             }
         }
     },
+    "jf-viguier": {
+        "login": "jf-viguier",
+        "id": 16720275,
+        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/16720275?v=4",
+        "html_url": "https:\/\/github.com\/jf-viguier",
+        "name": "Jean-Fran\u00e7ois Viguier",
+        "company": "@Creabilis",
+        "blog": "https:\/\/www.linkedin.com\/in\/jfviguier\/",
+        "location": "Toulouse \/ France",
+        "bio": "e-commerce, dev, founder of Creabilis Agency",
+        "email_domain": "",
+        "contributions": 328,
+        "repositories": {
+            "PrestaShop": 177,
+            "PrestaShop-webservice-lib": 1,
+            "dashproducts": 4,
+            "statsbestcustomers": 2,
+            "statscatalog": 1,
+            "statssales": 2,
+            "productcomments": 7,
+            "autoupgrade": 9,
+            "ps_customtext": 1,
+            "ps_emailsubscription": 13,
+            "ps_featuredproducts": 1,
+            "ps_customersignin": 1,
+            "ps_categorytree": 2,
+            "docs": 60,
+            "ps_shoppingcart": 3,
+            "ps_facetedsearch": 2,
+            "ps_customeraccountlinks": 1,
+            "ps_searchbar": 1,
+            "ps_checkpayment": 1,
+            "ps_emailalerts": 1,
+            "ps_specials": 1,
+            "ps_crossselling": 3,
+            "ps_dataprivacy": 1,
+            "traces": 3,
+            "ps_googleanalytics": 2,
+            "psgdpr": 1,
+            "php-ps-info": 2,
+            "ps_faviconnotificationbo": 1,
+            "prestashop-specs": 5,
+            "open-source": 3,
+            "hummingbird": 9,
+            "classic-theme": 6,
+            "ps_apiresources": 1
+        },
+        "categories": {
+            "core": {
+                "total": 179,
+                "repositories": {
+                    "PrestaShop": 177,
+                    "php-ps-info": 2
+                }
+            },
+            "specs": {
+                "total": 5,
+                "repositories": {
+                    "prestashop-specs": 5
+                }
+            },
+            "documentation": {
+                "total": 63,
+                "repositories": {
+                    "docs": 60,
+                    "open-source": 3
+                }
+            },
+            "themes": {
+                "total": 15,
+                "repositories": {
+                    "classic-theme": 6,
+                    "hummingbird": 9
+                }
+            },
+            "modules": {
+                "total": 62,
+                "repositories": {
+                    "dashproducts": 4,
+                    "statsbestcustomers": 2,
+                    "statscatalog": 1,
+                    "statssales": 2,
+                    "productcomments": 7,
+                    "autoupgrade": 9,
+                    "ps_customtext": 1,
+                    "ps_emailsubscription": 13,
+                    "ps_featuredproducts": 1,
+                    "ps_customersignin": 1,
+                    "ps_categorytree": 2,
+                    "ps_shoppingcart": 3,
+                    "ps_facetedsearch": 2,
+                    "ps_customeraccountlinks": 1,
+                    "ps_searchbar": 1,
+                    "ps_checkpayment": 1,
+                    "ps_emailalerts": 1,
+                    "ps_specials": 1,
+                    "ps_crossselling": 3,
+                    "ps_dataprivacy": 1,
+                    "ps_faviconnotificationbo": 1,
+                    "ps_googleanalytics": 2,
+                    "psgdpr": 1,
+                    "ps_apiresources": 1
+                }
+            },
+            "tools": {
+                "total": 4,
+                "repositories": {
+                    "PrestaShop-webservice-lib": 1,
+                    "traces": 3
+                }
+            },
+            "tests": {
+                "total": 0,
+                "repositories": []
+            },
+            "blog": {
+                "total": 0,
+                "repositories": []
+            },
+            "others": {
+                "total": 0,
+                "repositories": []
+            }
+        }
+    },
     "ks129": {
         "login": "ks129",
         "id": 45097959,
@@ -8322,129 +8447,6 @@
             "tools": {
                 "total": 0,
                 "repositories": []
-            },
-            "tests": {
-                "total": 0,
-                "repositories": []
-            },
-            "blog": {
-                "total": 0,
-                "repositories": []
-            },
-            "others": {
-                "total": 0,
-                "repositories": []
-            }
-        }
-    },
-    "jf-viguier": {
-        "login": "jf-viguier",
-        "id": 16720275,
-        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/16720275?v=4",
-        "html_url": "https:\/\/github.com\/jf-viguier",
-        "name": "Jean-Fran\u00e7ois Viguier",
-        "company": "@Creabilis",
-        "blog": "https:\/\/www.linkedin.com\/in\/jfviguier\/",
-        "location": "Toulouse \/ France",
-        "bio": "e-commerce, dev, founder of Creabilis Agency",
-        "email_domain": "",
-        "contributions": 327,
-        "repositories": {
-            "PrestaShop": 177,
-            "PrestaShop-webservice-lib": 1,
-            "dashproducts": 4,
-            "statsbestcustomers": 2,
-            "statscatalog": 1,
-            "statssales": 2,
-            "productcomments": 7,
-            "autoupgrade": 9,
-            "ps_customtext": 1,
-            "ps_emailsubscription": 13,
-            "ps_featuredproducts": 1,
-            "ps_customersignin": 1,
-            "ps_categorytree": 2,
-            "docs": 60,
-            "ps_shoppingcart": 3,
-            "ps_facetedsearch": 2,
-            "ps_customeraccountlinks": 1,
-            "ps_searchbar": 1,
-            "ps_checkpayment": 1,
-            "ps_emailalerts": 1,
-            "ps_specials": 1,
-            "ps_crossselling": 3,
-            "ps_dataprivacy": 1,
-            "traces": 3,
-            "ps_googleanalytics": 2,
-            "psgdpr": 1,
-            "php-ps-info": 2,
-            "ps_faviconnotificationbo": 1,
-            "prestashop-specs": 5,
-            "open-source": 3,
-            "hummingbird": 9,
-            "classic-theme": 6
-        },
-        "categories": {
-            "core": {
-                "total": 179,
-                "repositories": {
-                    "PrestaShop": 177,
-                    "php-ps-info": 2
-                }
-            },
-            "specs": {
-                "total": 5,
-                "repositories": {
-                    "prestashop-specs": 5
-                }
-            },
-            "documentation": {
-                "total": 63,
-                "repositories": {
-                    "docs": 60,
-                    "open-source": 3
-                }
-            },
-            "themes": {
-                "total": 15,
-                "repositories": {
-                    "classic-theme": 6,
-                    "hummingbird": 9
-                }
-            },
-            "modules": {
-                "total": 61,
-                "repositories": {
-                    "dashproducts": 4,
-                    "statsbestcustomers": 2,
-                    "statscatalog": 1,
-                    "statssales": 2,
-                    "productcomments": 7,
-                    "autoupgrade": 9,
-                    "ps_customtext": 1,
-                    "ps_emailsubscription": 13,
-                    "ps_featuredproducts": 1,
-                    "ps_customersignin": 1,
-                    "ps_categorytree": 2,
-                    "ps_shoppingcart": 3,
-                    "ps_facetedsearch": 2,
-                    "ps_customeraccountlinks": 1,
-                    "ps_searchbar": 1,
-                    "ps_checkpayment": 1,
-                    "ps_emailalerts": 1,
-                    "ps_specials": 1,
-                    "ps_crossselling": 3,
-                    "ps_dataprivacy": 1,
-                    "ps_faviconnotificationbo": 1,
-                    "ps_googleanalytics": 2,
-                    "psgdpr": 1
-                }
-            },
-            "tools": {
-                "total": 4,
-                "repositories": {
-                    "PrestaShop-webservice-lib": 1,
-                    "traces": 3
-                }
             },
             "tests": {
                 "total": 0,
@@ -16315,7 +16317,7 @@
         "name": "Kaikina",
         "company": "Evolutive",
         "blog": "https:\/\/www.linkedin.com\/in\/tgirou\/",
-        "location": "Rive de Gier, France",
+        "location": "La valla-en-gier, France",
         "bio": "Great dreamer, dedicated to my work, always looking for new experiences.",
         "email_domain": "",
         "contributions": 31,
@@ -50120,5 +50122,5 @@
             }
         }
     },
-    "updatedAt": "2026-02-04 13:33:05"
+    "updatedAt": "2026-02-05 10:03:11"
 }
