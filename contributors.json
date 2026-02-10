@@ -10,9 +10,9 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 10164,
+        "contributions": 10170,
         "repositories": {
-            "PrestaShop": 4396,
+            "PrestaShop": 4398,
             "PrestaShop-modules": 31,
             "PrestaShop-webservice-lib": 4,
             "dashactivity": 14,
@@ -40,7 +40,7 @@
             "statssales": 17,
             "statssearch": 10,
             "statsstock": 9,
-            "blockwishlist": 188,
+            "blockwishlist": 190,
             "productcomments": 45,
             "pscleaner": 13,
             "autoupgrade": 110,
@@ -88,7 +88,7 @@
             "ps_crossselling": 21,
             "ps_productinfo": 1,
             "ps_dataprivacy": 14,
-            "ps_cashondelivery": 128,
+            "ps_cashondelivery": 130,
             "ps_carriercomparison": 3,
             "ps_viewedproduct": 15,
             "ps_feeder": 1,
@@ -139,9 +139,9 @@
         },
         "categories": {
             "core": {
-                "total": 4499,
+                "total": 4501,
                 "repositories": {
-                    "PrestaShop": 4396,
+                    "PrestaShop": 4398,
                     "prestashop-ui-kit": 50,
                     "TranslationToolsBundle": 9,
                     "LocalizationFiles": 9,
@@ -185,7 +185,7 @@
                 }
             },
             "modules": {
-                "total": 1735,
+                "total": 1739,
                 "repositories": {
                     "PrestaShop-modules": 31,
                     "dashactivity": 14,
@@ -213,7 +213,7 @@
                     "statssales": 17,
                     "statssearch": 10,
                     "statsstock": 9,
-                    "blockwishlist": 188,
+                    "blockwishlist": 190,
                     "productcomments": 45,
                     "pscleaner": 13,
                     "autoupgrade": 110,
@@ -252,7 +252,7 @@
                     "ps_crossselling": 21,
                     "ps_productinfo": 1,
                     "ps_dataprivacy": 14,
-                    "ps_cashondelivery": 128,
+                    "ps_cashondelivery": 130,
                     "ps_carriercomparison": 3,
                     "ps_viewedproduct": 15,
                     "ps_feeder": 1,
@@ -975,7 +975,7 @@
         "location": "London",
         "bio": null,
         "email_domain": "",
-        "contributions": 4999,
+        "contributions": 5000,
         "repositories": {
             "PrestaShop": 1709,
             "PrestaShop-modules": 349,
@@ -1009,7 +1009,7 @@
             "productcomments": 1,
             "pscleaner": 3,
             "themeinstallator": 3,
-            "autoupgrade": 1388,
+            "autoupgrade": 1389,
             "gsitemap": 6,
             "prestafraud": 1,
             "prestashop.github.io": 17,
@@ -1108,7 +1108,7 @@
                 }
             },
             "modules": {
-                "total": 2266,
+                "total": 2267,
                 "repositories": {
                     "PrestaShop-modules": 349,
                     "dashactivity": 1,
@@ -1139,7 +1139,7 @@
                     "blockwishlist": 38,
                     "productcomments": 1,
                     "pscleaner": 3,
-                    "autoupgrade": 1388,
+                    "autoupgrade": 1389,
                     "gsitemap": 6,
                     "prestafraud": 1,
                     "contactform": 1,
@@ -1691,7 +1691,7 @@
         "location": "Bydgoszcz, Poland",
         "bio": "I'm a web developer from Poland, specializing in working with PrestaShop e-commerce",
         "email_domain": "",
-        "contributions": 3300,
+        "contributions": 3304,
         "repositories": {
             "PrestaShop": 802,
             "PrestaShop-modules": 4,
@@ -1725,7 +1725,7 @@
             "productcomments": 24,
             "autoupgrade": 46,
             "gsitemap": 8,
-            "prestashop.github.io": 872,
+            "prestashop.github.io": 876,
             "StarterTheme": 3,
             "contactform": 10,
             "paymentexample": 7,
@@ -1944,9 +1944,9 @@
                 }
             },
             "blog": {
-                "total": 872,
+                "total": 876,
                 "repositories": {
-                    "prestashop.github.io": 872
+                    "prestashop.github.io": 876
                 }
             },
             "others": {
@@ -4266,7 +4266,7 @@
         "location": "74100 Annemasse, France",
         "bio": null,
         "email_domain": "",
-        "contributions": 1144,
+        "contributions": 1149,
         "repositories": {
             "PrestaShop": 59,
             "statscatalog": 2,
@@ -4276,7 +4276,7 @@
             "statspersonalinfos": 4,
             "statssearch": 5,
             "productcomments": 5,
-            "autoupgrade": 873,
+            "autoupgrade": 878,
             "prestashop.github.io": 15,
             "ps_socialfollow": 5,
             "ps_customtext": 1,
@@ -4321,7 +4321,7 @@
                 }
             },
             "modules": {
-                "total": 911,
+                "total": 916,
                 "repositories": {
                     "statscatalog": 2,
                     "statscheckup": 2,
@@ -4330,7 +4330,7 @@
                     "statspersonalinfos": 4,
                     "statssearch": 5,
                     "productcomments": 5,
-                    "autoupgrade": 873,
+                    "autoupgrade": 878,
                     "ps_socialfollow": 5,
                     "ps_customtext": 1,
                     "ps_emailsubscription": 1,
@@ -5336,7 +5336,7 @@
         "location": null,
         "bio": "Web Integrator",
         "email_domain": "",
-        "contributions": 749,
+        "contributions": 757,
         "repositories": {
             "PrestaShop": 45,
             "productcomments": 5,
@@ -5348,7 +5348,7 @@
             "ps_searchbar": 1,
             "traces": 1,
             "open-source": 1,
-            "hummingbird": 427,
+            "hummingbird": 435,
             "classic-theme": 4,
             "bootstrap-compatibility-layer": 27,
             "Prestashop-BO-themes-package": 3
@@ -5373,10 +5373,10 @@
                 }
             },
             "themes": {
-                "total": 431,
+                "total": 439,
                 "repositories": {
                     "classic-theme": 4,
-                    "hummingbird": 427
+                    "hummingbird": 435
                 }
             },
             "modules": {
@@ -8289,7 +8289,7 @@
         "location": "Toulouse \/ France",
         "bio": "e-commerce, dev, founder of Creabilis Agency",
         "email_domain": "",
-        "contributions": 328,
+        "contributions": 329,
         "repositories": {
             "PrestaShop": 177,
             "PrestaShop-webservice-lib": 1,
@@ -8323,7 +8323,7 @@
             "open-source": 3,
             "hummingbird": 9,
             "classic-theme": 6,
-            "ps_apiresources": 1
+            "ps_apiresources": 2
         },
         "categories": {
             "core": {
@@ -8354,7 +8354,7 @@
                 }
             },
             "modules": {
-                "total": 62,
+                "total": 63,
                 "repositories": {
                     "dashproducts": 4,
                     "statsbestcustomers": 2,
@@ -8379,7 +8379,7 @@
                     "ps_faviconnotificationbo": 1,
                     "ps_googleanalytics": 2,
                     "psgdpr": 1,
-                    "ps_apiresources": 1
+                    "ps_apiresources": 2
                 }
             },
             "tools": {
@@ -30425,7 +30425,7 @@
         "blog": "https:\/\/phor.net",
         "location": "Philadelphia USA",
         "bio": "EN\/\u4e2d\u6587\r\n\r\ngithub.com@phor.net\r\n\r\nLead author of ERC-721",
-        "email_domain": "phor.net",
+        "email_domain": "",
         "contributions": 3,
         "repositories": {
             "docs": 1,
@@ -50122,5 +50122,5 @@
             }
         }
     },
-    "updatedAt": "2026-02-09 07:24:55"
+    "updatedAt": "2026-02-10 06:47:55"
 }
