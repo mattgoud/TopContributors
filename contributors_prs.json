@@ -10,7 +10,7 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 10189,
+        "contributions": 10190,
         "repositories": {
             "PrestaShop": 1133,
             "PrestaShop-modules": 2,
@@ -5109,7 +5109,7 @@
         "email_domain": "",
         "contributions": 334,
         "repositories": {
-            "PrestaShop": 63,
+            "PrestaShop": 64,
             "PrestaShop-webservice-lib": 1,
             "dashproducts": 1,
             "statsbestcustomers": 2,
@@ -5144,9 +5144,9 @@
         },
         "categories": {
             "core": {
-                "total": 65,
+                "total": 66,
                 "repositories": {
-                    "PrestaShop": 63,
+                    "PrestaShop": 64,
                     "php-ps-info": 2
                 }
             },
@@ -5218,7 +5218,7 @@
                 "repositories": []
             }
         },
-        "mergedPullRequests": 161
+        "mergedPullRequests": 162
     },
     "kelu95": {
         "login": "kelu95",
