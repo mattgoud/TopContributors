@@ -10,7 +10,7 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 10190,
+        "contributions": 10195,
         "repositories": {
             "PrestaShop": 4402,
             "PrestaShop-modules": 31,
@@ -92,9 +92,9 @@
             "ps_carriercomparison": 3,
             "ps_viewedproduct": 15,
             "ps_feeder": 1,
-            "traces": 181,
+            "traces": 183,
             "core-weekly-generator": 6,
-            "TopContributors": 98,
+            "TopContributors": 99,
             "TranslationFiles": 3,
             "ps_livetranslation": 13,
             "ps_googleanalytics": 20,
@@ -108,7 +108,7 @@
             "circuit-breaker": 7,
             "example_module_mailtheme": 4,
             "eslint-config": 3,
-            "nightly-board": 46,
+            "nightly-board": 47,
             "open-source": 31,
             "mjml-theme-converter": 1,
             "php-dev-tools": 4,
@@ -118,7 +118,7 @@
             "stylelint-config": 7,
             "example-modules": 6,
             "ps_qualityassurance": 1,
-            "test-scenarios": 959,
+            "test-scenarios": 960,
             "user-documentation-it": 2,
             "user-documentation-landing": 3,
             "user-documentation-en": 1,
@@ -160,7 +160,7 @@
                 }
             },
             "documentation": {
-                "total": 1176,
+                "total": 1177,
                 "repositories": {
                     "docs": 144,
                     "user-documentation-landing": 3,
@@ -168,7 +168,7 @@
                     "user-documentation-it": 2,
                     "user-documentation-v8-en": 1,
                     "functional-documentation": 2,
-                    "test-scenarios": 959,
+                    "test-scenarios": 960,
                     "example-modules": 6,
                     "open-source": 31,
                     "example_module_mailtheme": 4,
@@ -269,7 +269,7 @@
                 }
             },
             "tools": {
-                "total": 1259,
+                "total": 1263,
                 "repositories": {
                     "core-weekly-generator": 6,
                     "docker": 44,
@@ -277,14 +277,14 @@
                     "docker-internal-images": 1,
                     "issuebot": 9,
                     "mjml-theme-converter": 1,
-                    "nightly-board": 46,
+                    "nightly-board": 47,
                     "PrestaShop-webservice-lib": 4,
                     "presthubot": 484,
                     "prestonbot": 10,
                     "QANightlyResults": 366,
-                    "TopContributors": 98,
+                    "TopContributors": 99,
                     "TopTranslators": 1,
-                    "traces": 181,
+                    "traces": 183,
                     "ps-project-metrics": 4
                 }
             },
@@ -6192,7 +6192,7 @@
         "location": null,
         "bio": null,
         "email_domain": "",
-        "contributions": 576,
+        "contributions": 581,
         "repositories": {
             "PrestaShop": 287,
             "dashactivity": 4,
@@ -6231,14 +6231,14 @@
             "ps_specials": 2,
             "ps_supplierlist": 2,
             "ps_cashondelivery": 1,
-            "traces": 10,
+            "traces": 13,
             "TopContributors": 9,
             "ps_googleanalytics": 3,
             "ps_themecusto": 3,
             "psgdpr": 6,
             "issuebot": 1,
             "prestashop-specs": 7,
-            "nightly-board": 2,
+            "nightly-board": 4,
             "open-source": 13,
             "mjml-theme-converter": 3,
             "php-dev-tools": 1,
@@ -6328,15 +6328,15 @@
                 }
             },
             "tools": {
-                "total": 40,
+                "total": 45,
                 "repositories": {
                     "docker": 2,
                     "issuebot": 1,
                     "mjml-theme-converter": 3,
-                    "nightly-board": 2,
+                    "nightly-board": 4,
                     "ps-monitor-module-releases": 13,
                     "TopContributors": 9,
-                    "traces": 10
+                    "traces": 13
                 }
             },
             "tests": {
@@ -14880,6 +14880,65 @@
                 "repositories": {
                     "autoupgrade": 2
                 }
+            },
+            "tools": {
+                "total": 0,
+                "repositories": []
+            },
+            "tests": {
+                "total": 0,
+                "repositories": []
+            },
+            "blog": {
+                "total": 0,
+                "repositories": []
+            },
+            "others": {
+                "total": 0,
+                "repositories": []
+            }
+        }
+    },
+    "samberrry": {
+        "login": "samberrry",
+        "id": 20775532,
+        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/20775532?v=4",
+        "html_url": "https:\/\/github.com\/samberrry",
+        "name": "Sam Berry",
+        "company": "@binshops ",
+        "blog": "https:\/\/www.binshops.com",
+        "location": null,
+        "bio": "Founder @ Binshops. \r\nOpen-source enthusiast.",
+        "email_domain": "",
+        "contributions": 38,
+        "repositories": {
+            "PrestaShop": 33,
+            "docs": 5
+        },
+        "categories": {
+            "core": {
+                "total": 33,
+                "repositories": {
+                    "PrestaShop": 33
+                }
+            },
+            "specs": {
+                "total": 0,
+                "repositories": []
+            },
+            "documentation": {
+                "total": 5,
+                "repositories": {
+                    "docs": 5
+                }
+            },
+            "themes": {
+                "total": 0,
+                "repositories": []
+            },
+            "modules": {
+                "total": 0,
+                "repositories": []
             },
             "tools": {
                 "total": 0,
@@ -27124,62 +27183,6 @@
         "blog": "",
         "location": null,
         "bio": null,
-        "email_domain": "",
-        "contributions": 5,
-        "repositories": {
-            "docs": 5
-        },
-        "categories": {
-            "core": {
-                "total": 0,
-                "repositories": []
-            },
-            "specs": {
-                "total": 0,
-                "repositories": []
-            },
-            "documentation": {
-                "total": 5,
-                "repositories": {
-                    "docs": 5
-                }
-            },
-            "themes": {
-                "total": 0,
-                "repositories": []
-            },
-            "modules": {
-                "total": 0,
-                "repositories": []
-            },
-            "tools": {
-                "total": 0,
-                "repositories": []
-            },
-            "tests": {
-                "total": 0,
-                "repositories": []
-            },
-            "blog": {
-                "total": 0,
-                "repositories": []
-            },
-            "others": {
-                "total": 0,
-                "repositories": []
-            }
-        }
-    },
-    "samberrry": {
-        "login": "samberrry",
-        "id": 20775532,
-        "avatar_url": "https:\/\/avatars.githubusercontent.com\/u\/20775532?v=4",
-        "html_url": "https:\/\/github.com\/samberrry",
-        "name": "Sam Berry",
-        "company": "@binshops ",
-        "blog": "https:\/\/www.binshops.com",
-        "location": null,
-        "bio": "Founder @ Binshops. \r\nOpen-source enthusiast.",
         "email_domain": "",
         "contributions": 5,
         "repositories": {
@@ -50126,5 +50129,5 @@
             }
         }
     },
-    "updatedAt": "2026-02-15 06:20:43"
+    "updatedAt": "2026-02-16 06:25:12"
 }
