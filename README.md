@@ -30,6 +30,9 @@ This Nuxt 4 application showcasing PrestaShop's top contributors, companies, and
 ```bash
 # Install dependencies
 pnpm install
+
+# Setup environment variables
+cp .env.example .env
 ```
 
 ## Data Sources
@@ -59,11 +62,11 @@ pnpm dev
 ## Preview
 
 ```bash
-# Generate static site
-pnpm generate
+# Build the application
+pnpm build
 
-# preview
-npx serve .output/public
+# Preview the production build at http://localhost:3000
+pnpm preview
 ```
 
 ## Code Quality
