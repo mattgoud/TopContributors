@@ -136,6 +136,6 @@ Contributions are welcome! Please ensure your code:
 
 ## Links
 
-- [PrestaShop](https://www.prestashop.com/)
+- [PrestaShop](https://www.prestashop-project.org/)
 - [PrestaShop GitHub](https://github.com/PrestaShop/PrestaShop)
 - [Traces](https://github.com/PrestaShop/traces)
