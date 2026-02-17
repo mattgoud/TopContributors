@@ -10,9 +10,9 @@
         "location": "Rennes, France",
         "bio": null,
         "email_domain": "gmail.com",
-        "contributions": 10195,
+        "contributions": 10220,
         "repositories": {
-            "PrestaShop": 1133,
+            "PrestaShop": 1134,
             "PrestaShop-modules": 2,
             "PrestaShop-webservice-lib": 1,
             "dashactivity": 4,
@@ -39,7 +39,7 @@
             "statssales": 7,
             "statssearch": 2,
             "statsstock": 1,
-            "blockwishlist": 36,
+            "blockwishlist": 37,
             "productcomments": 17,
             "pscleaner": 4,
             "autoupgrade": 26,
@@ -116,14 +116,14 @@
             "keycloak_connector_demo": 2,
             "ps_fixturescreator": 4,
             "ws-client": 3,
-            "ps_apiresources": 11,
-            "ui-testing-library": 337
+            "ps_apiresources": 12,
+            "ui-testing-library": 338
         },
         "categories": {
             "core": {
-                "total": 1147,
+                "total": 1148,
                 "repositories": {
-                    "PrestaShop": 1133,
+                    "PrestaShop": 1134,
                     "prestashop-ui-kit": 1,
                     "TranslationToolsBundle": 2,
                     "TranslationFiles": 3,
@@ -157,7 +157,7 @@
                 }
             },
             "modules": {
-                "total": 401,
+                "total": 403,
                 "repositories": {
                     "PrestaShop-modules": 2,
                     "dashactivity": 4,
@@ -184,7 +184,7 @@
                     "statssales": 7,
                     "statssearch": 2,
                     "statsstock": 1,
-                    "blockwishlist": 36,
+                    "blockwishlist": 37,
                     "productcomments": 17,
                     "pscleaner": 4,
                     "autoupgrade": 26,
@@ -230,7 +230,7 @@
                     "ps_faviconnotificationbo": 1,
                     "ps_qualityassurance": 1,
                     "ps_fixturescreator": 4,
-                    "ps_apiresources": 11
+                    "ps_apiresources": 12
                 }
             },
             "tools": {
@@ -253,10 +253,10 @@
                 }
             },
             "tests": {
-                "total": 371,
+                "total": 372,
                 "repositories": {
                     "ga.tests.ui.pr": 34,
-                    "ui-testing-library": 337
+                    "ui-testing-library": 338
                 }
             },
             "blog": {
@@ -272,7 +272,7 @@
                 }
             }
         },
-        "mergedPullRequests": 2227
+        "mergedPullRequests": 2231
     },
     "matks": {
         "login": "matks",
@@ -777,9 +777,9 @@
         "location": null,
         "bio": null,
         "email_domain": "",
-        "contributions": 7217,
+        "contributions": 7233,
         "repositories": {
-            "PrestaShop": 719,
+            "PrestaShop": 725,
             "dashproducts": 2,
             "blockwishlist": 3,
             "productcomments": 10,
@@ -829,9 +829,9 @@
         },
         "categories": {
             "core": {
-                "total": 755,
+                "total": 761,
                 "repositories": {
-                    "PrestaShop": 719,
+                    "PrestaShop": 725,
                     "prestashop-ui-kit": 10,
                     "TranslationToolsBundle": 3,
                     "TranslationFiles": 12,
@@ -920,7 +920,7 @@
                 }
             }
         },
-        "mergedPullRequests": 1111
+        "mergedPullRequests": 1117
     },
     "Hlavtox": {
         "login": "Hlavtox",
@@ -933,7 +933,7 @@
         "location": "Pardubice, Czech Republic",
         "bio": null,
         "email_domain": "",
-        "contributions": 2335,
+        "contributions": 2343,
         "repositories": {
             "PrestaShop": 375,
             "dashactivity": 4,
@@ -1389,10 +1389,10 @@
         "location": "Paris, France",
         "bio": "QA Automation Engineer",
         "email_domain": "gmail.com",
-        "contributions": 3373,
+        "contributions": 3395,
         "repositories": {
-            "PrestaShop": 661,
-            "autoupgrade": 41,
+            "PrestaShop": 662,
+            "autoupgrade": 42,
             "PSFunctionalTests": 5,
             "traces": 2,
             "QANightlyResults": 1,
@@ -1400,9 +1400,9 @@
         },
         "categories": {
             "core": {
-                "total": 661,
+                "total": 662,
                 "repositories": {
-                    "PrestaShop": 661
+                    "PrestaShop": 662
                 }
             },
             "specs": {
@@ -1418,9 +1418,9 @@
                 "repositories": []
             },
             "modules": {
-                "total": 41,
+                "total": 42,
                 "repositories": {
-                    "autoupgrade": 41
+                    "autoupgrade": 42
                 }
             },
             "tools": {
@@ -1446,7 +1446,7 @@
                 "repositories": []
             }
         },
-        "mergedPullRequests": 805
+        "mergedPullRequests": 807
     },
     "NeOMakinG": {
         "login": "NeOMakinG",
@@ -1786,7 +1786,7 @@
         "location": "Bydgoszcz, Poland",
         "bio": "I'm a web developer from Poland, specializing in working with PrestaShop e-commerce",
         "email_domain": "",
-        "contributions": 3311,
+        "contributions": 3316,
         "repositories": {
             "PrestaShop": 171,
             "PrestaShop-modules": 3,
@@ -3519,7 +3519,7 @@
         "location": "France",
         "bio": "Developper from father to son with +13 years experience, commiter and member of @PrestaShop Tech Council!",
         "email_domain": "",
-        "contributions": 662,
+        "contributions": 663,
         "repositories": {
             "PrestaShop": 129,
             "productcomments": 1,
@@ -3537,7 +3537,7 @@
             "open-source": 1,
             "presthubot": 1,
             "example-modules": 13,
-            ".github": 1,
+            ".github": 2,
             "hummingbird": 4,
             "classic-theme": 2,
             "ps_distributionapiclient": 1,
@@ -3604,13 +3604,13 @@
                 "repositories": []
             },
             "others": {
-                "total": 1,
+                "total": 2,
                 "repositories": {
-                    ".github": 1
+                    ".github": 2
                 }
             }
         },
-        "mergedPullRequests": 222
+        "mergedPullRequests": 223
     },
     "gskema": {
         "login": "gskema",
@@ -4047,7 +4047,7 @@
         "location": null,
         "bio": "Web Integrator",
         "email_domain": "",
-        "contributions": 757,
+        "contributions": 762,
         "repositories": {
             "PrestaShop": 13,
             "productcomments": 2,
@@ -5107,7 +5107,7 @@
         "location": "Toulouse \/ France",
         "bio": "e-commerce, dev, founder of Creabilis Agency",
         "email_domain": "",
-        "contributions": 334,
+        "contributions": 336,
         "repositories": {
             "PrestaShop": 64,
             "PrestaShop-webservice-lib": 1,
@@ -5373,9 +5373,9 @@
         "location": null,
         "bio": null,
         "email_domain": "",
-        "contributions": 226,
+        "contributions": 228,
         "repositories": {
-            "PrestaShop": 98,
+            "PrestaShop": 99,
             "productcomments": 2,
             "autoupgrade": 5,
             "docker": 3,
@@ -5397,9 +5397,9 @@
         },
         "categories": {
             "core": {
-                "total": 98,
+                "total": 99,
                 "repositories": {
-                    "PrestaShop": 98
+                    "PrestaShop": 99
                 }
             },
             "specs": {
@@ -5458,7 +5458,7 @@
                 }
             }
         },
-        "mergedPullRequests": 143
+        "mergedPullRequests": 144
     },
     "Codencode": {
         "login": "Codencode",
@@ -5471,7 +5471,7 @@
         "location": "Via Giuseppe Saragat, 19 86170 Isernia - ITALIA",
         "bio": "Codencode \u00e8 un'agenzia di Branding, Comunicazione e Marketing.\r\nRealizziamo progetti di comunicazione visiva brand-oriented, web design e web marketing.",
         "email_domain": "codencode.it",
-        "contributions": 260,
+        "contributions": 271,
         "repositories": {
             "PrestaShop": 103,
             "dashactivity": 1,
@@ -7168,9 +7168,9 @@
         "location": null,
         "bio": null,
         "email_domain": "",
-        "contributions": 581,
+        "contributions": 590,
         "repositories": {
-            "PrestaShop": 12,
+            "PrestaShop": 13,
             "dashactivity": 1,
             "dashgoals": 1,
             "dashtrends": 1,
@@ -7206,9 +7206,9 @@
         },
         "categories": {
             "core": {
-                "total": 12,
+                "total": 13,
                 "repositories": {
-                    "PrestaShop": 12
+                    "PrestaShop": 13
                 }
             },
             "specs": {
@@ -7283,7 +7283,7 @@
                 }
             }
         },
-        "mergedPullRequests": 62
+        "mergedPullRequests": 63
     },
     "tomlev": {
         "login": "tomlev",
